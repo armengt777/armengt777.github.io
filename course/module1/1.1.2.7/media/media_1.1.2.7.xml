@@ -1,0 +1,100 @@
+﻿<textcomponents>
+
+
+<!--Slide 1-->
+<component id="ID_s1_title">
+<text><![CDATA[<b>Адаптерные платы</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[<b>Звуковой адаптер</b>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+	<text><![CDATA[<b>Сетевой адаптер</b>]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+	<text><![CDATA[<b>Адаптер RAID</b>]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[<b>Видеоадаптер</b>]]></text>
+</component>
+
+<!--Slide 2-->
+<component id="ID_s2_table">
+	<text><![CDATA[<table header='none' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#918F90'><tr><td>тестирование</td></tr></table>]]></text>
+</component>
+
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Гнезда расширения</b>]]></text>
+</component>
+
+<component id="ID_s2_btn01">
+	<text><![CDATA[<b>PCI</b>]]></text>
+</component>
+
+<component id="ID_s2_btn02">
+	<text><![CDATA[<b>AGP</b>]]></text>
+</component>
+
+<component id="ID_s2_btn03">
+	<text><![CDATA[<b>PCIe</b>]]></text>
+</component>
+
+<component id="ID_s2_btn04">
+	<text><![CDATA[<b>ISA</b>]]></text>
+</component>
+
+<component id="ID_s2_btn05">
+	<text><![CDATA[<b>EISA</b>]]></text>
+</component>
+
+<component id="ID_s2_btn06">
+	<text><![CDATA[<b>MCA</b>]]></text>
+</component>
+
+<component id="ID_s2_btn07">
+	<text><![CDATA[<b>PCI-X</b>]]></text>
+</component>
+
+<component id="ID_s2_btn08">
+	<text><![CDATA[<b>Мини-PCI</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+	<text><![CDATA[Разъем взаимодействия периферийных компонентов (PCI) — это 32- или 64-разрядное гнездо расширения. PCI — стандартное гнездо, который сейчас используется в большинстве компьютеров.]]></text>
+</component>
+
+<component id="ID_s2_txt02">
+	<text><![CDATA[Порт AGP предназначен для видеоадаптеров. Улучшения в спецификации AGP делают возможным увеличение пропускной способности. Пропускная способность порта может быть увеличена в два, четыре или восемь раз.]]></text>
+</component>
+
+<component id="ID_s2_txt03">
+	<text><![CDATA[PCI Express — это гнездо расширения последовательной шины. PCIe имеет разъемы типа х1, х4, х8 и х16. PCIe заменяет AGP в качестве гнезда расширения для видеоадаптеров. Его также можно использовать для других типов адаптеров.]]></text>
+</component>
+
+<component id="ID_s2_txt04">
+	<text><![CDATA[ISA — это 8- или 16-разрядное гнездо расширения. Это устаревшая технология, которая редко используется.]]></text>
+</component>
+
+<component id="ID_s2_txt05">
+	<text><![CDATA[EISA — это 32-разрядное гнездо расширения. Это устаревшая технология, которая редко используется.]]></text>
+</component>
+
+<component id="ID_s2_txt06">
+	<text><![CDATA[Архитектура MCA, являющаяся собственностью компании IBM, представляет собой 32-разрядное гнездо расширения. Это устаревшая технология, которая редко используется.]]></text>
+</component>
+
+<component id="ID_s2_txt07">
+	<text><![CDATA[PCI-Extended — это 32-разрядная шина с большей пропускной способностью по сравнению с шиной PCI. PCI-X может работать в четыре раза быстрее, чем PCI.]]></text>
+</component>
+
+<component id="ID_s2_txt08">
+	<text><![CDATA[Мини-PCI — это 32-разрядная шина, используемая в ноутбуках. Мини-PCI имеет три форм-фактора: тип I, тип II и тип III.]]></text>
+</component>
+
+
+
+</textcomponents>

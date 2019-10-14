@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Параметры папок</b>]]></text>
+	</component>
+</textcomponents>

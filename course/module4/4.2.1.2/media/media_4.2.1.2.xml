@@ -1,0 +1,177 @@
+﻿<textcomponents>
+
+
+
+<!--Slide 1-->
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 1. Определение проблемы</b></font></td>
+	</tr>  
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>  
+	 
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>Информация от заказчика</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<li>Название компании</li>
+			<li>Имя контактного лица</li>
+			<li>Адрес</li>
+			<li>Номер телефона</li></textformat>
+		</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Комплектация компьютера</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<li>Производитель и модель</li>
+			<li>Операционная система</li>
+			<li>Сетевое окружение</li>
+			<li>Тип подключения</li></textformat>
+		</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>Описание неполадки</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<li>«Открытые» вопросы</li>
+			<li>«Закрытые» вопросы</li> </textformat>
+		</font></td> 	
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' colspan='2' valign="top"><font color='#393536'>Сообщения об ошибках</font></td>
+	</tr>							
+	<tr>
+		<td bgcolor='#F3F5E7' colspan='2'><font  color='#393536'>Последовательности звуковых сигналов</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' colspan='2' valign="top"><font  color='#393536'>Светодиодные индикаторы</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' colspan='2'><font  color='#393536'>POST</font></td>
+	</tr>
+</table>]]></text>
+</component>
+
+<!--Slide 2-->
+
+<!--Drag and Drop Activity-->
+<component id="ID_continue_btn">
+	<text><![CDATA[Продолжить]]></text>
+</component>
+<component id="ID_DnD_inst_title">
+	<text><![CDATA[<b>Перетащите действие</b>]]></text>
+</component>
+
+<component id="ID_DnD_inst_body">
+	<text><![CDATA[<p>С этим действием связаны вопросы, которые инженер может задать заказчику, чтобы получить помощь в выявлении неполадки. Определите, какие вопросы являются «открытыми», а какие — «закрытыми».</p><br /><p>Перетащите плитки с пометками <b>Открытый</b> и <b>Закрытый</b> в поля слева от вопросов. После того, как все поля заполнены, щелкните <b>Проверить</b>.</p><br /><p>Чтобы начать, щелкните <b>Продолжить</b>. Щелкните <b>?</b>, чтобы снова прочитать эти инструкции.</p>]]></text>
+</component>
+
+<component id="ID_DnD_inst_body1">
+	<text><![CDATA[<p>С этим действием связаны вопросы, которые инженер может задать заказчику, чтобы получить помощь в выявлении неполадки. Определите, какие вопросы являются «открытыми», а какие — «закрытыми».</p><p>Перетащите плитки с пометками <b>Открытый</b> и <b>Закрытый</b> в поля слева от вопросов. После того, как все поля заполнены, щелкните <b>Проверить</b>.</p><p>Чтобы начать, щелкните <b>Продолжить</b>. Щелкните <b>?</b>, чтобы снова прочитать эти инструкции.</p>]]></text>
+</component>
+
+
+<!--Drag Sources-->
+<component id="ID_ds_open">
+	<text><![CDATA[Открытый]]></text> 
+</component>
+<component id="ID_ds_closed">
+	<text><![CDATA[Закрытый]]></text> 
+</component>
+
+<!--Drop Targets-->
+<component id="ID_dt_01">
+	<text><![CDATA[Тип вопроса]]></text> 
+</component>
+
+<component id="ID_dt_02">
+	<text><![CDATA[Тип вопроса]]></text> 
+</component>
+
+<component id="ID_dt_03">
+	<text><![CDATA[Тип вопроса]]></text> 
+</component>
+
+<component id="ID_dt_04">
+	<text><![CDATA[Тип вопроса]]></text> 
+</component>
+
+<component id="ID_dt_05">
+	<text><![CDATA[Тип вопроса]]></text> 
+</component>
+
+<component id="ID_dt_06">
+	<text><![CDATA[Тип вопроса]]></text> 
+</component>
+
+<component id="ID_dt_07">
+	<text><![CDATA[Тип вопроса]]></text> 
+</component>
+
+<component id="ID_dt_08">
+	<text><![CDATA[Тип вопроса]]></text> 
+</component>
+
+<component id="ID_dt_09">
+	<text><![CDATA[Тип вопроса]]></text> 
+</component>
+
+<!--questions-->
+<component id="ID_q01">
+	<text><![CDATA[Использовал ли ваш компьютер недавно кто-то еще?]]></text>
+</component>
+
+<component id="ID_q02">
+	<text><![CDATA[Выдавал ли компьютер какие-либо сообщения об ошибках?]]></text>
+</component>
+
+<component id="ID_q03">
+	<text><![CDATA[Какие у вас проблемы с компьютером или сетью?]]></text>
+</component>
+
+<component id="ID_q04">
+	<text><![CDATA[Можете ли вы воспроизвести проблему?]]></text>
+</component>
+
+<component id="ID_q05">
+	<text><![CDATA[Какое программное обеспечение вы недавно установили на свой компьютер?]]></text>
+</component>
+
+<component id="ID_q06">
+	<text><![CDATA[Что вы делали, когда обнаружилась неполадка?]]></text>
+</component>
+
+<component id="ID_q07">
+	<text><![CDATA[Меняли ли вы свой пароль в последнее время?]]></text>
+</component>
+
+<component id="ID_q08">
+	<text><![CDATA[Какие изменения в оборудовании вашего компьютера производились недавно?]]></text>
+</component>
+
+<component id="ID_q09">
+	<text><![CDATA[Вы сейчас в сети?]]></text>
+</component>
+
+<!--Feedback-->
+<component id="ID_CORRECT_TITLE">
+	<text><![CDATA[Верно]]></text> 
+</component>
+<component id="ID_CORRECT_BODY">
+	<text><![CDATA[Правильно.]]></text> 
+</component>
+<component id="ID_INCORRECT_TITLE">
+	<text><![CDATA[Неверно]]></text> 
+</component>
+<component id="ID_INCORRECT_BODY">
+	<text><![CDATA[Неправильно.]]></text> 
+</component>
+<!--Buttons-->
+<component id="ID_CHECK">
+	<text><![CDATA[Проверить]]></text> 
+</component>
+<component id="ID_RESET">
+	<text><![CDATA[Сброс]]></text> 
+</component>
+
+</textcomponents>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.7.1.1 Протокол TCP/IP</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.7.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Модели данных OSI и TCP/IP</h1>
+        <h2>Эталонные модели</h2>
+      </div>
+      <div id="content">
+          <p>Архитектурная модель &mdash; это распространенная система ориентиров для объяснения обмена данными через Интернет и разработки протоколов связи. Она разделяет функции протоколов на управляемые уровни. Каждый уровень выполняет определенную функцию в процессе связи через сеть. </p>
+          <p></p>
+          <p>Модель TCP/IP была создана исследователями Министерства обороны США. Набор протоколов TCP/IP &mdash; ведущий стандарт передачи данных по сетям и через Интернет. Он состоит из уровней, выполняющих необходимые функции по подготовке данных для передачи по сети. В таблице показаны четыре уровня модели TCP/IP.</p>
+          <p></p>
+          <p>Сообщение формируется на верхнем прикладном уровне и переходит по уровням TCP/IP к нижнему уровню сетевого доступа. Информация о заголовке добавляется к сообщению при его перемещении по слоям и последующей передаче. Достигнув места назначения, сообщение перемещается обратно по всем уровням. Информация о заголовке, добавленная к сообщению, удаляется при перемещении сообщения вверх по уровням в место назначения.</p>
+          <p></p>
+          <p>
+            <b>Протоколы прикладного уровня </b>
+          </p>
+          <p>Протоколы прикладного уровня предоставляют сетевые службы пользовательским приложениям, таким как веб-браузеры и почтовые программы. В число распространенных протоколов, работающих на прикладном уровне, входят HTTP, Telnet, FTP, SMTP, DNS и HTML.</p>
+          <p></p>
+          <p>
+            <b>Протоколы транспортного уровня</b>
+          </p>
+          <p>Протоколы транспортного уровня обеспечивают сквозное управление данными. Одна из функций этих протоколов &mdash; разделение данных на управляемые сегменты для упрощения транспортировки через сеть. Распространенные протоколы, работающие на транспортном уровне, &mdash; это TCP и UDP.</p>
+          <p></p>
+          <p>
+            <b>Протоколы уровня Интернета </b>
+          </p>
+          <p>Протоколы уровня Интернета обеспечивают связь между узлами в сети. Распространенные протоколы, работающие на уровне Интернета, &mdash; это IP и ICMP.</p>
+          <p></p>
+          <p>
+            <b>Протоколы уровня сетевого доступа</b>
+          </p>
+          <p>Протоколы уровня сетевого доступа описывают стандарты, используемые узлами для доступа к физической среде передачи данных. На этом уровне определены стандарты и технологии IEEE 802.3 Ethernet, такие как CSMA/CD и 10BASE-T.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide>
+			<element type="IMAGE" src="6_4_2_6_A.jpg" x="0" y="0" width="470" height="400" />
+			<element type="IMAGE" subType="STD" src="6_4_2_6_B.jpg" x="89" y="263.15" width="299" height="128" />
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+			<element type="TEXT" compId="ID_image01_txt01" x="211.85" y="39" width="256" expand="up" align="left" size="12" bold="1" />
+			<element type="TEXT" compId="ID_image01_txt02" x="211.85" y="55.35" width="256" expand="right" align="left" size="12" bold="1"  />
+			<element type="TEXT" compId="ID_image01_txt04" x="211.85" y="95.35" width="256" expand="right" align="left" size="12" bold="1" />
+			<element type="TEXT" compId="ID_image01_txt05" x="211.85" y="115.35" width="256" expand="right" align="left" size="12" bold="1"  />
+			<element type="TEXT" compId="ID_image01_txt03" x="211.85" y="75.35" width="256" expand="right" align="left" size="12" bold="1" />
+			<element type="TEXT" compId="ID_image02_txt01" x="211.85" y="149.65" width="256" expand="right" align="left" size="12" bold="1" />
+			<element type="TEXT" compId="ID_image02_txt02" x="211.85" y="169.65" width="256" expand="right" align="left" size="12" bold="1" />
+			<element type="TEXT" compId="ID_image02_txt04" x="211.85" y="209.65" width="256" expand="right" align="left" size="12" bold="1" />
+			<element type="TEXT" compId="ID_image02_txt05" x="211.85" y="229.65" width="256" expand="right" align="left" size="12" bold="1" />
+			<element type="TEXT" compId="ID_image02_txt03" x="211.85" y="189.65" width="256" expand="right" align="left" size="12" bold="1" />
+		</slide>
+	</data>
+
+

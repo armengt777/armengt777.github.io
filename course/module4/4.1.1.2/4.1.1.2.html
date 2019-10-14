@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>4.1.1.2 Задачи профилактического обслуживания</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_4.1.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Профилактическое обслуживание</h1>
+        <h2>Обзор процедур профилактического обслуживания ПК</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Оборудование</b>
+          </p>
+          <p>Проверьте состояние кабелей, компонентов и периферийных устройств. Очистите компоненты, чтобы снизить вероятность перегрева. Почините или замените все компоненты со следами повреждений или чрезмерного износа. </p>
+          <p>В программу обслуживания оборудования рекомендуется включить следующие задачи:</p>
+          <p>
+            <ul>
+              <li>Удаление пыли из входных отверстий вентиляторов.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Удаление пыли с источника питания.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Удаление пыли с компонентов внутри компьютера и периферийного оборудования, такого как принтеры.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Очистка мыши, клавиатуры и экрана монитора.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Поиск и закрепление плохо подключенных кабелей.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Программное обеспечение</b>
+          </p>
+          <p>Убедитесь, что установлены последние версии используемого программного обеспечения. Следуйте политикам, принятых в организации, в отношении установки обновлений безопасности, операционных систем и программ. Многие организации не разрешают выполнять обновление без тщательного предварительного тестирования. Это тестирование выполняется для того, чтобы подтвердить, что обновление не вызовет проблем с ОС и ПО. На рисунке показан экран обновления Windows 7. </p>
+          <p>Используйте эти задачи в качестве руководства по формированию графика профилактического обслуживания программного обеспечения, соответствующего потребностям компьютера:</p>
+          <p>
+            <ul>
+              <li>Просмотр и установка соответствующих обновлений безопасности.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Просмотр и установка соответствующих обновлений ПО.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Просмотр и установка соответствующих обновлений драйверов.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Обновление файлов определений вирусов.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Сканирование на наличие вирусов и шпионского ПО.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Удаление неиспользуемых или ненужных программ.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Сканирование жестких дисков на наличие ошибок.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Дефрагментация жестких дисков (кроме дисков SSD).</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

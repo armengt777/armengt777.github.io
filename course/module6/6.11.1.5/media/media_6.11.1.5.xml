@@ -1,0 +1,25 @@
+﻿<textcomponents>
+	<component id="ID_table">
+		<text><![CDATA[
+				<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				<tr>
+					<td colspan='2' bgcolor='#DAE17A'><font size='14' color='#393536'><b>Этап 5. Полная проверка функционального состояния системы и принятие профилактических мер в случае необходимости.</b></font></td>
+				</tr>
+				<tr>
+					<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+				</tr>
+				<tr>
+					<td width="100px" bgcolor='#F3F5E7' valign="top" style="padding-left:3px;"><font size='12'color='#393536'>Проверка всех функций системы</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>
+						<textformat blockindent='-18'><li>С помощью команды "ipconfig /all" отобразите сведения об IP-адресах всех сетевых адаптеров.</li>
+						<li>С помощью команды "Ping" проверьте сетевую связь. На указанный адрес будет отправлен пакет, и отобразится ответная информация.</li>
+						<li>С помощью команды "NSLookup" запросите сервер доменных имен в Интернете. Отобразится перечень узлов в домене или информация об одном узле.</li>
+						<li>С помощью команды "Tracert" определите маршрут, по которому пакеты передаются по сети. Так вы сможете определить, на каких участках возникают трудности при обмене информацией между вашим компьютером и компьютером другого пользователя.</li>
+						<li>С помощью команды "Net View" выведите перечень компьютеров в рабочей группе. Отобразятся доступные общие ресурсы в сети.</li></textformat></font>
+					</td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+	
+</textcomponents>

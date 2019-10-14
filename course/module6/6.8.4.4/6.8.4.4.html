@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.8.4.4 Совместное использование ресурсов в системе Windows Vista</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.8.4.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Подключение компьютера к сети</h1>
+        <h2>Настройка операционных систем</h2>
+      </div>
+      <div id="content">
+          <p>Контроль над составом совместно используемых ресурсов и способом их использования в операционной системе Windows Vista осуществляется путем включения и отключения конкретных функций совместного использования. Раздел &laquo;Общий доступ и сетевое обнаружение&raquo;, расположенный в &laquo;Центре управления сетями и общим доступом&raquo;, управляет настройками домашней сети. Можно управлять следующими элементами:</p>
+          <p>
+            <ul>
+              <li>Сетевое обнаружение</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Общий доступ к файлам</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Общий доступ к общим папкам</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Использование общих принтеров</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Общий доступ с парольной защитой</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Общий доступ к медиафайлам</li>
+            </ul>
+          </p>
+          <p></p>
+          <p></p>
+          <p>Перейти к разделу &laquo;Общий доступ и сетевое обнаружение&raquo; можно следующим образом:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр управления сетями и общим доступом</b>
+          </p>
+          <p></p>
+          <p>Чтобы разрешить совместное использование ресурсов компьютерами, входящими в одну рабочую группу, необходимо включить пункты &laquo;Сетевое обнаружение&raquo; и &laquo;Общий доступ к файлам&raquo;, как показано на рисунке. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

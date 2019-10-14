@@ -1,0 +1,224 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text>
+<![CDATA[<b> </b>]]>
+</text>
+</component>
+
+<component id="ID_table_01">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 1. Определение проблемы</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>«Открытые» вопросы</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Какие проблемы <span id="spacer">возникли?</span></li>
+<li>Когда началась неполадка?</li>
+<li>Как вы подключены к <span id="spacer">Интернету?</span></li>
+<li>Какой тип межсетевого экрана вы <span id="spacer">используете?</span></li>
+<li>Какое ПО безопасности установлено <span id="spacer"> на вашем компьютере?</span></li>
+<li>К каким сетевым ресурсам у вас есть <span id="spacer"> беспроводной доступ?</span></li>
+<li>Какие разрешения на доступ к ресурсам <span id="spacer">у вас есть?</span></li>
+</font></textformat>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#FFFFFF'>
+<font color='#393536'>«Закрытые» вопросы</font>
+</td>
+<td  valign="top" bgcolor='#FFFFFF'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Есть ли у вас межсетевой экран?</li>
+<li>Использовал ли компьютер <span id="spacer">кто-либо другой?</span></li>
+<li>Обновлено ли ваше <span id="spacer">ПО безопасности?</span></li>
+<li>Проводили ли вы недавно сканирование компьютера <span id="spacer">на наличие вирусов?</span></li>
+<li>Сталкивались ли вы с этой неполадкой <span id="spacer">ранее?</span></li>
+<li>Меняли ли вы <span id="spacer">свой пароль в последнее время?</span></li>
+<li>Получали ли вы какие-либо сообщения <span id="spacer">об ошибках на своем компьютере?</span></li>
+<li>Сообщали ли вы свой пароль <span id="spacer">кому-либо еще?</span></li>
+<li>Имеете ли вы разрешение на доступ к этому <span id="spacer"> ресурсу?</span></li>
+</font></textformat>
+</td>
+</tr>		
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_02">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 2. Формирование предположений о возможных причинах неполадки</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Распространенные причины неполадок с обеспечением безопасности</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Учетная запись пользователя отключена.</li>
+<li>Пользователь вводит неверное <span id="spacer">имя пользователя или пароль.</span></li>
+<li>У пользователя нет разрешения на доступ <span id="spacer">к файлу или папке.</span></li>
+<li>Неправильные настройки <span id="spacer">межсетевого экрана.</span></li>
+<li>Компьютер пользователя <span id="spacer">заражен вирусом.</span></li>
+<li>Настройки беспроводной безопасности <span id="spacer">неправильны для этого </span><span id="spacer">клиента.</span></li>
+<li>Настройки безопасности <span id="spacer">неправильны на беспроводной </span><span id="spacer1">точке доступа.</span></li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_03">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 3. Проверка выводов, сделанных о причине неполадки</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Стандартные действия для определения причины</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Проверьте параметры учетной записи пользователя.</li>
+<li>Сбросьте пароль пользователя.</li>
+<li>Проверьте права пользователя <span id="spacer">для папок и файлов.</span></li>
+<li>Проверьте журналы межсетевого экрана на наличие ошибок.</li>
+<li>Проверьте параметры межсетевого экрана.</li>
+<li>Выполните поиск вирусов и удалите их с <span id="spacer">компьютера.</span></li>
+<li>Проверьте настройки беспроводной безопасности <span id="spacer">клиента.</span></li>
+<li>Проверьте настройки безопасности <span id="spacer">беспроводной точки доступа.</span></li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_04">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 4. Разработка плана действий по устранению неполадки и его выполнение</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Если на предыдущем этапе проблема не была устранена, то для ее решения необходим дальнейший анализ ситуации.</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Журналы учета ремонтных работ службы поддержки</li>
+<li>Другие инженеры</li>
+<li>Сборники часто задаваемых вопросов производителей</li>
+<li>Технические веб-сайты</li>
+<li>Новостные группы</li>
+<li>Руководства к компьютеру</li>
+<li>Руководства к устройствам</li>
+<li>Форумы в Интернете</li>
+<li>Поиск в Интернете</li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_05">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 5. Полная проверка функционального состояния системы и принятие профилактических мер в случае необходимости</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Проверьте, помогло ли решение устранить проблему, и убедитесь в полной функциональности системы</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Перезагрузите компьютер.</li>
+<li>Начните сеанс на компьютере.</li>
+<li>Выполните беспроводное подключение <span id="spacer">к сети.</span></li>
+<li>Проверьте доступ к файлам и папкам.</li>
+<li>Убедитесь, что при сканировании вирусы <span id="spacer">не обнаруживаются.</span></li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_06">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 6. Документирование полученных данных, принятых мер и результатов</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Задокументируйте результаты</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Обсудите примененное решение <span id="spacer">с заказчиком.</span></li>
+<li>Попросите заказчика убедиться, что неполадка <span id="spacer">устранена.</span></li>
+<li>Предоставьте заказчику все <span id="spacer">документы.</span></li>
+<li>Задокументируйте действия, предпринятые для устранения <span id="spacer">неполадки в заказе на обслуживание </span> <span id="spacer1">и в журнале инженера.</span></li>
+<li>Задокументируйте все компоненты, использованные <span id="spacer">при ремонте.</span></li>
+<li>Задокументируйте время, ушедшее на разрешение <span id="spacer">проблемы.</span></li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+</textcomponents>

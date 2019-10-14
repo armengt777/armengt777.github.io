@@ -1,0 +1,56 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Передача заказа на обслуживание на уровень выше</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<i>Cisco Systems, Inc.</i>]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[<i>Офис-менеджер</i>]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[<i>170 West Tasman Drive, San Jose, CA 95134</i>]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[<i>408-526-4000</i>]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[<i>Оборудование</i>]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[<i>Сеть</i>]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[<i>ВЫПОЛНЕНО</i>]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[<i>Ноутбук</i>]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[<i>Ноутбук</i>]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[<i>Не загружается</i>]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[<i>Cisco001</i>]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[<i>Подключение к беспроводной сети</i>]]></text>
+	</component>
+	<component id="ID_txt13">
+		<text><![CDATA[<i>Носитель</i>]]></text>
+	</component>
+	<component id="ID_txt14">
+		<text><![CDATA[<i>Мобильное устройство</i>]]></text>
+	</component>
+	<component id="ID_txt15">
+		<text><![CDATA[<i>Windows XP</i>]]></text>
+	</component>
+	<component id="ID_txt16">
+		<text><![CDATA[<i>У заказчика не загружается ноутбук.<br/>В недавнее время не было добавлено новых программ.<br/>Никаких изменений операционной системы не проводилось. <br/>Периферийных устройств не добавлялось.</i>]]></text>
+	</component>
+	<component id="ID_txt17">
+		<text><![CDATA[<i>Инженер первого уровня не смог решить проблему в течение 10 минут.<br/>Заказ на обслуживание передается инженеру второго уровня.</i>]]></text>
+	</component>
+</textcomponents>

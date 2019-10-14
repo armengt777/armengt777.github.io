@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.5.1.1 Платы расширения</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.5.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка и настройка оборудования и компонентов ноутбука</h1>
+        <h2>Возможности расширения</h2>
+      </div>
+      <div id="content">
+          <p>Одним из недостатков ноутбуков по сравнению с настольными компьютерами является то, что их компактность ограничивает доступность некоторых функций. Чтобы решить эту проблему, на некоторых ноутбуках есть гнезда PC Card и ExpressCard, которые позволяют добавить новые функциональные возможности, например установить дополнительную память, модем или сетевое подключение.</p>
+          <p></p>
+          <p>Платы соответствуют стандарту PCMCIA. Существует три типа плат: Type I, Type II и Type III. Эти типы различаются по размеру и могут быть подключены к различным устройствам. </p>
+          <p></p>
+          <p>В гнезде PC Card используется интерфейс открытого стандарта для подключения периферийных устройств, соответствующих стандарту CardBus. ExpressCard &mdash; это более новая модель плат расширения, которая имеет наиболее широкое распространение. На рисунке 1 приведено сравнение PC Card и PC ExpressCard. PC ExpressCard выпускается в двух вариантах: ExpressCard/34 и ExpressCard/54. Ширина этих моделей составляет 34 мм и 54 мм соответственно. На рисунке 2 приведен пример PC Card и PC ExpressCard.</p>
+          <p></p>
+          <p>Ниже приведены примеры функций, которые могут быть добавлены с помощью PC Card и ExpressCard:</p>
+          <p>
+            <ul>
+              <li>Связь по беспроводной сети</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Доступ к Ethernet</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Порты USB и FireWire</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Доступ ко внешнему жесткому диску</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Дополнительная память</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Для вставки и извлечения всех плат расширения PC необходимо выполнить следующие действия. Чтобы установить плату, вставьте ее в гнездо. Чтобы вынуть плату, нажмите кнопку извлечения.</p>
+          <p></p>
+          <p>Если плата PC Card поддерживает горячую замену, для ее безопасного извлечения выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Щелкните левой кнопкой мыши значок &laquo;Безопасное извлечение устройства&raquo; в области уведомлений Windows, чтобы остановить использование устройства.</p>
+          <p>
+            <b>Этап 2. </b>Щелкните левой кнопкой мыши устройство, которое требуется извлечь. Появится всплывающее сообщение о том, что можно безопасно извлечь устройство.</p>
+          <p>
+            <b>Этап 3. </b>Извлеките устройство из ноутбука.</p>
+          <p></p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Платы PC Card и устройства USB, как правило, поддерживают горячую замену. В ряде случаев привод оптических дисков и аккумулятор также поддерживают горячую замену. Тем не менее, внутренний жесткий диск и ОЗУ ее не поддерживают. Извлечение устройства, не поддерживающего горячую замену, во время работы компьютера может привести к повреждению данных или устройства.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

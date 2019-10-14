@@ -1,0 +1,62 @@
+﻿<textcomponents>
+
+
+
+<!--Slide 1-->
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Сравнение материнских плат</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[<b>Материнская плата для ноутбука</b>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+	<text><![CDATA[<b>Материнская плата для настольного компьютера</b>]]></text>
+</component>
+
+<!--Slide 2-->
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Сравнение конструкций настольного компьютера и ноутбука</b>]]></text>
+</component>
+
+<component id="ID_s2_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Сравнение конструкций настольного компьютера и ноутбука</b></font></td>
+	</tr>  
+	<tr>
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	 
+	<tr>
+		<td bgcolor='#A2AA23' width='140'><font color='#FFFFFF'><b>Компонент</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#FFFFFF'><b>Ноутбук</b></font></td>
+		<td bgcolor='#A2AA23' width='150'><font color='#FFFFFF'><b>Настольный компьютер </b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Форм-фактор материнской платы</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Проприетарный (Патентованный)</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>AT, LPX, NLX, ATX, BTX</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Гнездо расширения</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Mini-PCI</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>PCI, PCIe, ISA, AGP</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Тип гнезда ОЗУ</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>SODIMM</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>SIMM, DIMM, RIMM</font></td>
+	</tr>
+</table>]]></text>
+</component>
+
+
+<!--Slide 3-->
+<component id="ID_s3_title">
+	<text><![CDATA[<b>SODIMM</b>]]></text>
+</component>
+
+</textcomponents>

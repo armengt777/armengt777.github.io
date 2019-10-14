@@ -1,0 +1,49 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Компоненты твердотельного накопителя</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Верхняя крышка]]></text> 
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Интерфейсный разъем]]></text> 
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Блок кэш-памяти]]></text> 
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Микросхема контроллера]]></text> 
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Схемы памяти NAND на<br />обеих сторонах логической платы]]></text> 
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Логическая плата]]></text> 
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Нижняя крышка]]></text> 
+	</component>
+	 
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Распространенные карты памяти</b>]]></text> 
+	 </component>
+
+	 <component id="ID_s2_txt01">
+		<text><![CDATA[<b>SD</b>]]></text> 
+	 </component>
+
+	 <component id="ID_s2_txt02">
+		<text><![CDATA[<b>microSD</b>]]></text> 
+	 </component>
+
+	 <component id="ID_s2_txt03">
+		<text><![CDATA[<b>CompactFlash</b>]]></text> 
+	 </component>
+
+	 <component id="ID_s2_txt04">
+		<text><![CDATA[<b>Memory Stick</b>]]></text> 
+	 </component>
+
+	
+</textcomponents>

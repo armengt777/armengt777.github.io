@@ -1,0 +1,500 @@
+﻿<textcomponents>
+  <!--<component id="ID_title">     <text>       <![CDATA[<b>Common Problems and Solutions for Operating Systems</b>]]>     </text>   </component>-->
+  <component id="ID_table">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки операционных систем и способы их устранения</b></font></td></tr> 
+        <tr class="liner">
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>По окончании процедуры POST отображается сообщение об ошибке "Invalid Boot Disk" (Недопустимый загрузочный диск).</font>
+          </td> 
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>В приводе находится диск, который не содержит операционной системы.</li>
+	      <li>В BIOS неправильно настроен порядок загрузки.</li>
+              <li>Не определяется жесткий диск или неправильно установлены перемычки жесткого диска.</li>
+              <li>На жестком диске не установлена ОС.</li>
+              <li>Повреждена главная загрузочная запись (MBR).</li>
+              <li>Компьютер заражен загрузочным вирусом.</li>
+              <li>Сбой жесткого диска.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Удалите все носители из приводов.</li>
+              <li>Измените порядок загрузки в параметрах BIOS, чтобы он начинался с загрузочного привода.</li>
+              <li>Повторно подключите кабели жесткого диска или повторно установите перемычки жесткого диска.</li>
+              <li>Установите операционную систему.</li>
+              <li>Используйте команду bootrec /fixmbr в вариантах восстановления системы для Windows 7 или Vista.</li>
+              <li>Для Windows XP запустите fdisk /mbr в интерфейсе командной строки.</li>
+              <li>Запустите антивирусное ПО.</li>
+              <li>Замените жесткий диск.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>По окончании процедуры POST отображается сообщение "Inaccessible Boot Disk" (Загрузочный диск недоступен).</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Недавно установленный драйвер устройства несовместим с загрузочным контроллером.</li>
+			  <li>В Windows 7 или Windows Vista поврежден BOOTMGR.</li>
+              <li>В Windows XP поврежден NTLDR.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Используйте параметр «Последняя удачная конфигурация» для загрузки компьютера.</li>
+              <li>Загрузите компьютер в безопасном режиме и вернитесь к точке восстановления, созданной перед установкой нового оборудования.</li>
+              <li>Восстановите файл BOOTMGR с установочного носителя Windows 7 или Windows Vista.</li>
+              <li>Восстановите файл NTLDR с установочного носителя Windows XP.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>На экране компьютера  после процедуры POST отображается сообщение "BOOTMGR is missing" (BOOTMGR отсутствует) (для Windows 7 и Windows Vista)</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Поврежден или отсутствует файл BOOTMGR.</li>
+			  <li> Данные настройки загрузки отсутствуют или повреждены.</li>
+              <li>В BIOS неправильно настроен порядок загрузки.</li>
+			  <li>Повреждена главная загрузочная запись (MBR).</li>
+              <li>Сбой жесткого диска.</li>
+              <li>Перемычки на жестком диске не установлены надлежащим образом.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li> Восстановите файл BOOTMGR с установочного носителя.</li>
+              <li>Восстановите данные настройки загрузки с установочного носителя.</li>
+              <li>Измените порядок загрузки в параметрах BIOS, чтобы он начинался с загрузочного привода.</li>
+              <li>Запустите chkdsk /F /R из консоли восстановления.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>По окончании процедуры POST отображается сообщение об ошибке "Missing NTLDR" (Отсутствует NTLDR) (для Windows XP)</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Поврежден или отсутствует загрузчик NTLDR.</li>
+              <li>Поврежден или отсутствует файл ntdetect.com.</li>
+              <li>Поврежден или отсутствует файл Boot.ini.</li>
+              <li>В BIOS неправильно настроен порядок загрузки.</li>
+              <li>Повреждена главная загрузочная запись (MBR).</li>
+              <li>Сбой жесткого диска.</li>
+              <li>Перемычки на жестком диске не установлены надлежащим образом.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Восстановите файл NTLDR с установочного носителя.</li>
+              <li>Восстановите файл ntdetect.com с установочного носителя.</li>
+              <li>Восстановите файл boot.ini с установочного носителя.</li>
+              <li>Измените порядок загрузки в параметрах BIOS, чтобы он начинался с загрузочного привода.</li>
+              <li>Запустите команду fdisk /mbr из командной строки.</li>
+              <li>Запустите chkdsk /F /R из консоли восстановления.</li>
+              <li>Повторно установите перемычки на жестком диске.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>При загрузке компьютера не запускается служба.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Служба не включена. </li>
+              <li>Служба настроена для запуска вручную.</li>
+              <li>Для запуска этой службы требуется, чтобы была включена другая служба.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Включите службу.</li>
+              <li>Настройте службу для автоматического запуска.</li>
+              <li>Еще раз включите или повторно установите нужную службу.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>При загрузке компьютера не запускается какое-либо устройство.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li> Питание внешнего устройства не подключено.</li>
+              <li>К устройству не подключен кабель данных или кабель питания.</li>
+              <li>Устройство отключено в параметрах BIOS.</li>
+              <li>Отказ устройства.</li>
+              <li>Конфликт с недавно установленным устройством.</li>
+              <li>Поврежден драйвер.</li>
+              <li>Драйвер находится в процессе установки.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Подключите питание внешнего устройства.</li>
+			  <li>Закрепите кабель данных и кабель питания на устройстве.</li>
+              <li>Включите устройство в параметрах BIOS.</li>
+              <li>Замените устройство.</li>
+              <li>Удалите недавно установленное устройство.</li>
+              <li>Повторно установите или откатите драйвер.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Программа из списка реестра не найдена.
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Удален один или несколько файлов программы.</li>
+              <li>Удаление программы выполнено некорректно.</li>
+              <li>Удален установочный каталог.</li>
+              <li>Поврежден жесткий диск.</li>
+              <li>Компьютер заражен вирусом.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Повторно установите программу.</li>
+              <li>Повторно установите программу и еще раз выполните ее удаление.</li>
+              <li>Для исправления ошибок на жестком диске запустите chkdsk /F /R.</li>
+              <li>Выполните поиск вируса и удалите его.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Компьютер постоянно перезапускается, не отображая Рабочий стол.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Компьютер настроен на перезагрузку в случае сбоя.</li>
+              <li>Файл загрузки поврежден.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Нажмите F8, чтобы открыть меню «Дополнительные параметры», и выберите «Отключить автоматическую перезагрузку при отказе системы».</li>
+              <li>Запустите chkdsk /F /R из консоли восстановления.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Компьютер отображает черный или синий «экран смерти» (BSOD).</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Драйвер не совместим с оборудованием.</li>
+              <li>Сбой ОЗУ.</li>
+              <li>Сбой блока питания.</li>
+              <li>Сбой ЦП.</li>
+              <li>Сбой материнской платы.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Изучите фатальную ошибку и имя модуля, приведшего к ошибке.</li>
+              <li>Замените проблемные устройства заведомо исправными.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Компьютер блокируется без отображения сообщений об ошибке.</font></td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Неправильные параметры ЦП или внешней шины на материнской плате или в BIOS.</li>
+              <li>Компьютер перегревается.</li>
+              <li>Обновление вызвало повреждение операционной системы.</li>
+              <li>Сбой ОЗУ.</li>
+              <li>Сбой жесткого диска.</li>
+              <li>Сбой блока питания.</li>
+              <li>Компьютер заражен вирусом.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Проверьте и сбросьте параметры ЦП и внешней шины. </li>
+              <li>Проверьте и при необходимости замените вентиляторы.</li>
+	      <li>Удалите обновление ПО или выполните восстановление системы.</li>
+              <li>Запустите chkdsk /F /R из консоли восстановления.</li>
+              <li>Замените проблемные устройства заведомо исправными.</li>
+              <li>Выполните поиск вируса и удалите его.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Приложение не устанавливается.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Программа установки загруженного приложения содержит вирус, поэтому установка прекращена антивирусным ПО.</li>
+              <li>Установочный диск или файл поврежден.</li>
+              <li>Приложение для установки не совместимо с ОС.</li>
+              <li>Выполняется слишком много программ, поэтому для установки недостаточно свободной памяти.</li>
+              <li>Оборудование не соответствует минимальным требованиям.</li>
+              <li>Предупреждение об опасности было проигнорировано или отменено.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Приобретите новый установочный диск или удалите и еще раз загрузите установочный файл.</li>
+              <li>Запустите приложение для установки в режиме совместимости.</li>
+              <li>Закройте приложения перед установкой новой программы.</li>
+              <li>Установите оборудование, отвечающее минимальным требованиям.</li>
+              <li>Перезапустите установку и примите предупреждение об опасности.</li>
+            </textformat></font>
+          </td>
+        </tr>
+      
+     	   <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>На компьютере с установленной ОС Windows 7 не запускается Aero.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>
+Компьютер не удовлетворяет минимальным требованиям для запуска Aero.</font></td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Обновите процессор, ОЗУ и видеокарту, чтобы они удовлетворяли минимальным требованиям для Aero.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Функция поиска работает слишком медленно.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Служба индексирования не работает.</li>
+              <li>Служба индексирования выполняет индексирование в неверных местоположениях.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Запустите службы индексирования с помощью services.msc.</li>
+              <li>Измените параметры службы индексирования на панели «Дополнительные параметры».</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Контроль учетных записей больше не выдает запрос на разрешение доступа пользователю.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Контроль учетных записей отключен.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Включите контроль учетных записей на панели управления.</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>На Рабочем столе не отображаются гаджеты.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Гаджеты либо никогда не устанавливались, либо удалены.</li>
+              <li>Код XML, необходимый для работы гаджета, неправилен, поврежден или не установлен.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li> Щелкните Рабочий стол правой кнопкой мыши > Гаджеты > щелкните нужный гаджет правой кнопкой мыши > нажмите «Добавить».</li>
+              <li>Зарегистрируйте файл msxml3.dll, для чего введите regsvr32 msxml3.dll в командной строке и нажмите «Ввод».</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Компьютер работает медленно и отвечает с запаздыванием.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Процесс потребляет большую часть ресурсов ЦП.</li>
+			<li>Оборудование не соответствует минимальным требованиям для темы Aero.</li>
+    </textformat></font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Повторно запустите процесс через services.msc.</li>
+              <li>Если процесс не нужен, завершите его через диспетчер задач.</li>
+              <li>Повторно включите компьютер</li>
+              <li>Отключите тему Aero.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Отсутствует ОС.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Не установлен флаг активности раздела.</li>
+              <li>Отсутствуют загрузочные файлы для Windows.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Сделайте раздел активным с помощью служебной программы «Управление дисками».</li>
+              <li>Запустите восстановление при загрузке Windows.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>При запуске программы отображается сообщение об отсутствующем или поврежденном файле DLL.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Была удалена одна или несколько программ, использующих файл DLL. Вместе с ней удалился файл DLL, нужный для другой программы.</li>
+              <li>Файл DLL не внесен в реестр.</li>
+              <li>Файл DLL был поврежден во время неудачной установки.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Повторно установите программу, в которой отсутствует или поврежден файл DLL.</li>
+              <li>Повторно установите приложение, удалившее файл DLL.</li>
+              <li>Внесите файл DLL в реестр с помощью команды Regsvr32.</li>
+              <li>Запустите sfc /scannow в безопасном режиме.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Во время установки не обнаружен массив RAID.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>В Windows 7 отсутствует нужный драйвер для определения массива RAID.</li>
+              <li>Неправильные параметры RAID в BIOS.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Установите соответствующие драйверы.</li>
+              <li>Измените параметры BIOS, чтобы включить RAID.</li>
+            </textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Системный файл поврежден.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Работа компьютера была завершена неправильно.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+              <li>Восстановите компьютер через меню «Дополнительные параметры загрузки».</li>
+              <li>Загрузите компьютер в безопасном режиме и запустите sfc /scannow.</li>
+              </textformat></font>
+          </td>
+        </tr>
+
+<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Отсутствует или не загружается графический интерфейс пользователя для всех пользователей.
+</font>
+</td>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'><textformat blockindent='-18'>
+  <li>Отсутствуют загрузочные файлы для Windows.</li>
+  <li>Обновления Windows повредили ОС.</li>
+</textformat></font>
+</td>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'><textformat blockindent='-18'>
+  <li>Восстановите компьютер через меню «Дополнительные параметры загрузки».</li>
+  <li>Запустите восстановление при загрузке Windows.</li>
+  <li>Повторно установите ОС.</li>
+</textformat></font>
+</td>
+</tr>
+
+
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Компьютер выключается без предупреждения.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Неожиданное выключение ОС Windows вызвано какой-то программой.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Загрузите компьютер в безопасном режиме и настройте автоматически загружаемые приложения с помощью служебной программы командной строки msconfig.</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Компьютер загружается в безопасном режиме.
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'> <textformat blockindent='-18'>
+              <li>Установлена программа, вызывающая загрузку компьютера в безопасном режиме.</li>
+              <li>Компьютер настроен на загрузку в безопасном режиме.</li>
+            </textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'> <textformat blockindent='-18'>
+              <li>Используйте служебную программу msconfig для настройки параметров запуска для программы.</li>
+              <li>Используйте служебную программу msconfig для настройки запуска компьютера в обычном режиме.</li>
+            </textformat></font>
+          </td>
+        </tr>
+
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Компьютер загружается только в режиме VGA.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Поврежден драйвер видео.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Повторно установите драйвер видео.</font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>   
+</textcomponents>
+

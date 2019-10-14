@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_s1_txt04, #ID_s1_txt05, #ID_s1_txt07, #ID_s1_txt09, #ID_s1_txt08, #ID_s1_txt02{line-height:11px;}
+#ID_s2_txt04,#ID_s2_txt06{line-height:9.5px;}
+#ID_s3_txt04,#ID_s3_txt06{line-height:9.5px;}

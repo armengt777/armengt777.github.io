@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.2.1.6 Одноранговые сети</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.2.1.6_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Идентификация сетей</h1>
+        <h2>Типы сетей</h2>
+      </div>
+      <div id="content">
+          <p>В одноранговой сети отсутствует иерархия компьютеров и нет выделенных серверов. Все устройства, которые также называются клиентами, обладают равными возможностями и обязанностями. Отдельные пользователи несут ответственность за свои ресурсы и могут самостоятельно решать, какие данные и устройства устанавливать и к каким данным и устройствам предоставлять общий доступ. Поскольку отдельные пользователи отвечают за ресурсы на своих компьютерах, в сети отсутствует центральная точка управления или администрирования. </p>
+          <p>Одноранговые сети являются оптимальным вариантом для сред, насчитывающих не более десяти компьютеров. Одноранговые сети также могут существовать внутри более крупных сетей. Даже в больших клиентских сетях пользователи могут обмениваться ресурсами напрямую с другими пользователями без помощи сетевого сервера. Если в домашней сети несколько компьютеров, можно настроить одноранговую сеть. Можно будет совместно использовать файлы с другими компьютерами, отправлять и получать сообщения, а также печатать документы с помощью общего принтера.</p>
+          <p>Одноранговые сети имеют ряд недостатков.</p>
+          <p>
+            <ul>
+              <li>Отсутствует централизованное администрирование сети. Это затрудняет определение пользователей, контролирующих ресурсы в этой сети. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Отсутствует централизованная система обеспечения безопасности. Каждый компьютер использует отдельные средства обеспечения безопасности для защиты данных. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Сеть становится все более сложной и трудноуправляемой по мере увеличения числа подключенных к ней компьютеров. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Скорее всего, в такой сети не будет централизованной системы хранения данных. Операции резервного копирования придется выполнять отдельно для каждого компьютера. Эта задача входит в обязанности каждого пользователя.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

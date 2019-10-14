@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE" >
+	<slide type="MBAR">
+	<!-- slide 01 -->
+		<slide>
+			<element type="IMAGE" x="123" y="40.35" width="194.9" height="346.5" subType="STD" src="8_3_1_3_A.jpg" />
+			<element type="IMAGE" x="125" y="82" width="188" height="300" src="8_3_1_3.png" />
+			<element type="TEXT" compId="ID_label01" x="5" y="2" width="432.1" expand="down" align="center" size="16" />
+		</slide>
+
+	<!-- slide 02 -->
+		<slide>
+			<element type="IMAGE" x="105.4" y="40.2" width="231.25" height="346.9" subType="STD" src="8_3_1_3_B.jpg" />
+			<element type="IMAGE" x="108" y="88" width="230" height="390" src="8_3_1_3.png" />
+			<element type="TEXT" compId="ID_label02" x="5" y="2" width="432.1" expand="down" align="center" size="16" />
+		</slide>
+		
+	</slide>
+
+</data>
+
+

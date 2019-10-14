@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.5.2.11 Системная плата</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.5.2.11_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка и настройка оборудования и компонентов ноутбука</h1>
+        <h2>Замена оборудования</h2>
+      </div>
+      <div id="content">
+          <p>Для замены системной платы ноутбука инженеру, как правило, необходимо снять прочие компоненты. Перед заменой материнской платы ноутбука убедитесь в том, что новая плата отвечает проектной спецификации его модели.</p>
+          <p></p>
+          <p>Чтобы извлечь и заменить системную плату, выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Выключите компьютер и отсоедините от него адаптер переменного тока.</p>
+          <p>
+            <b>Этап 2. </b>Снимите аккумулятор и другие компоненты в соответствии с рекомендациями производителя.</p>
+          <p>
+            <b>Этап 3. </b>Снимите гнездо для подключения источника внешнего питания с корпуса ноутбука. Расстегните защелки крепления кабеля питания на корпусе и отключите его от системной платы.</p>
+          <p>
+            <b>Этап 4. </b>Открутите оставшиеся винты, с помощью которых системная плата прикреплена к корпусу.</p>
+          <p>
+            <b>Этап 5. </b>Снимите системную плату.</p>
+          <p>
+            <b>Этап 6. </b>Прикрепите системную плату к корпусу ноутбука. Затяните винты.</p>
+          <p>
+            <b>Этап 7. </b>Прикрепите гнездо для подключения источника внешнего питания к корпусу ноутбука, подсоедините к корпусу кабель питания и подключите его к системной плате.</p>
+          <p>
+            <b>Этап 8. </b>Установите все снятые компоненты на их места.</p>
+          <p>
+            <b>Этап 9. </b>Установите аккумулятор, подключите адаптер переменного тока и включите компьютер, чтобы проверить правильность работы системы.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

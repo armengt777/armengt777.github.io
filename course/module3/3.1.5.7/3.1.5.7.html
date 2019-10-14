@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.1.5.7 Установка внешних кабелей</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.1.5.7_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сборка компьютера</h1>
+        <h2>Установка кабелей</h2>
+      </div>
+      <div id="content">
+          <p>Установив на место панели корпуса, подключите кабели к задней стороне компьютера. Ниже перечислены некоторые внешние кабельные подключения:</p>
+          <p>
+            <ul>
+              <li>Для монитора</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Для клавиатуры</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Для мыши</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Для USB</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Для Ethernet</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Для питания</li>
+            </ul>
+          </p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Кабель питания нужно подключать после всех остальных кабелей.</p>
+          <p>Присоединяя кабели, следите за их соответствием разъемам на компьютере. Например, в старых системах для кабелей мыши и клавиатуры используются одинаковые разъемы PS/2, но чтобы избежать неправильного подключения, они помечены разным цветами. Часто на разъеме можно увидеть изображение устройства, для которого он предназначен, например символ клавиатуры, мыши, монитора или USB.</p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Никогда не давите на разъем слишком сильно, когда подключаете кабели.</p>
+          <p>Для установки различных внешних кабелей выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Подключите кабель монитора к видеопорту (см. рис. 1). Зафиксируйте кабель на разъеме с помощью винтов.</p>
+          <p>
+            <b>Этап 2. </b>Подключите кабель клавиатуры к соответствующему порту PS/2 (см. рис. 2).</p>
+          <p>
+            <b>Этап 3. </b>Подключите кабель мыши к соответствующему порту PS/2 (см. рис. 3).</p>
+          <p>
+            <b>Этап 4. </b>Подключите кабель USB к порту USB (см. рис. 4).</p>
+          <p>
+            <b>Этап 5. </b>Подключите сетевой кабель к сетевому порту (см. рис. 5).</p>
+          <p>
+            <b>Этап 6. </b>Подключите беспроводную антенну к разъему антенны (см. рис. 6).</p>
+          <p>
+            <b>Этап 7. </b>Подключите кабель питания к блоку питания (см. рис. 7).</p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. На некоторых материнских платах отсутствуют порты PS/2 для подключения клавиатуры и мыши. К таким материнским платам следует подключать USB-клавиатуры и USB-мыши.</p>
+          <p>На рисунке 8 показаны все внешние кабели, подключенные к задней панели компьютера.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.1.4.1 ՕՀ-ի թարմացման ստուգումը</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.1.4.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Ժամանակակից օպերացիոն համակարգեր</h1>
+        <h2>ՕՀ-ների թարմացում</h2>
+      </div>
+      <div id="content">
+          <p>ՕՀ-ն պարբերաբար պետք է թարմացվի, որպեսզի համատեղելի մնա նորագույն ապարատային և ծրագրային ապահովումների հետ: Անհրաժեշտ է թարմացնել ՕՀ-ն, երբ արտադրողը կդադարեցնի ՕՀ-ին աջակցել: ՕՀ-ի նորացումը  բերում է արտադրողականության բարձրացման: Նոր ապարատային սարքավուրումները հաճախ պահանջում են, որ ճիշտ գորրծելու  համար տեղադրված լինի ՕՀ-ի վերջին տարբերակը: ՕՀ-ի նորացումը կարող է թանկ նստել, բայց դուք կարող եք ձեռք բերել ֆունկցիոնալ հնարավորություններ նոր ֆունկցիաների շնորհիվ և նոր սարքավորումների աջակցություն:</p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. При выпуске новых версий ОС поддержка предыдущих версий в конечном итоге прекращается.</p>
+          <p>Թարմացնելուց առաջ հարկավոր է նոր ՕՀ-ի համար  ստուգել նվազագույն պահանջները ապարատային ապահովումից, որպեզի համոզված լինենք, որ այն հաջողությամբ կտեղադրվի համակարգչի վրա:</p>
+          <p>
+            <b>Upgrade խորհրդատու</b>
+          </p>
+          <p>Microsoft-ը տրամադրում է անվճար սպասարկող ծրագիր(utilit), որը կոչվում է խորհրդատու(Upgrade Advisor): Խորհրդատուն ստուգում է համակարգի  ծրագրային և ապարատային ապահովումների անհամատեղելիության խնդիրները, հիմնականում ապարատային ապահովման, նախքան Օհ-ի ավելի նոր տարբերակի նորացումը: Խորհրդատուն ցանկացած խնդրի համար ստեղծում է հաշվետվություն և տալիս է խնդիրները քայլ առ քայլ լուծելու հաջորդականությունը: Դուք կարող եք խորհրդատուն բեռնել Microsoft-ի կայքից:</p>
+          <p></p>
+          <p>Windows 7-ի խորհրդատուն օգտագործելու համար հարկավոր է կատարել հետևյալ քայլերը.</p>
+          <p></p>
+          <p>
+            <b>Քայլ 1. </b>Բեռնեք և տեղադրեք Windows 7-ի խորհրդատուն Microsoft-ի կայքից </p>
+          <p>
+            <b>Քայլ 2. </b>Սեղմեք <b>«Начать проверку»(սկսել ստուգումը)</b>. Ծրագիրը կսկանավորի համակարգչային ապահովումը և տեղադրված ծրագրային ապահովումը: Այնուհետև կներկայացվի համատեղելիության հաշվետվություն:</p>
+          <p>
+            <b>Քայլ 3. </b>Սեղմեք <b>«Сохранить отчет»(պահպանել հաշվետվությունը)</b>, եթե ցանկանում եք պահել այն  կամ տպել այն ավելի ուշ:</p>
+          <p>
+            <b>Քայլ 4.</b> 4.	Ուսումնասիրեք հաշվետվությունը: Գրանցեք բոլոր հայտնաբերված խնդիրների համար  առաջարկվող լուծումները:</p>
+          <p>
+            <b>Քայլ 5. </b>Սեղմեք <b>«Закрыть»(փակել)</b>.</p>
+          <p>Ապարատային ապահովումը և ծրագրային ապահովումը փոփոխելուց հետո Microsoft-ը խորհուրդ է տալիս նախքան ՕՀ-ն տեղադրելը ևս մեկ անգամ  աշխատեցնել խորհրդատուն:</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>

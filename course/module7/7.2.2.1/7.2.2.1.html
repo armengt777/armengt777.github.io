@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.2.2.1 Задняя подсветка и инверторы</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.2.2.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Компоненты монитора ноутбука</h1>
+        <h2>Внутренние компоненты</h2>
+      </div>
+      <div id="content">
+          <p>Инвертор и задняя подсветка &mdash; важные компоненты монитора. Инвертор преобразует постоянный ток в переменный более высокого напряжения, необходимый для задней подсветки. Свет задней подсветки проходит сквозь экран и освещает монитор. Существует два распространенных типа задней подсветки: люминесцентные лампы с холодным катодом и светодиодная. В светодиодных экранах установлена задняя подсветка на основе светодиодов, в которой не используются люминесцентные трубки или инверторы.</p>
+          <p></p>
+          <p>В ЖК-мониторах для подсветки используются люминесцентные лампы с холодным катодом. Люминесцентная трубка подключена к инвертору. В большинстве ноутбуков, как показано на рисунке 1, инвертор находится за панелью экрана рядом с ЖК-панелью. Задняя подсветка, как показано на рисунке 2, находится за ЖК-экраном. Для замены задней подсветки необходимо полностью разобрать экран.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

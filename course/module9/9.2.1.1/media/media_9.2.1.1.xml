@@ -1,0 +1,30 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+	  <text><![CDATA[<b>Струйное многофункциональное устройство</b>]]></text> 
+	 </component>
+	<component id="ID_s2_title">
+	  <text><![CDATA[<b>Компоненты струйного принтера</b>]]></text> 
+	 </component>
+	 <component id="ID_s2_txt01">
+	 	<text><![CDATA[<b>Чернильный картридж</b>]]></text> 
+	 </component>	 
+	 <component id="ID_s2_txt02">
+	 	<text><![CDATA[<b>Печатающая головка</b>]]></text> 
+	 </component>
+	 <component id="ID_s2_txt03">
+	 	<text><![CDATA[<b>Вал</b>]]></text> 
+	 </component>
+	 <component id="ID_s2_txt04">
+	 	<text><![CDATA[<b>Лоток</b>]]></text> 
+	 </component>
+	 <component id="ID_s2_txt05">
+	 	<text><![CDATA[<b>Дуплексное устройство</b>]]></text> 
+	 </component>	 
+	 <component id="ID_s2_txt06">
+	 	<text><![CDATA[<b>Каретка</b>]]></text> 
+	 </component>	 
+	 <component id="ID_s2_txt07">
+	 	<text><![CDATA[<b>Ремень</b>]]></text> 
+	 </component>
+	
+</textcomponents>

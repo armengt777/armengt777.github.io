@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.3.1.2 Передача данных</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.3.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Основные понятия и технологии организации сетей</h1>
+        <h2>Поток данных</h2>
+      </div>
+      <div id="content">
+          <p>Данные могут передаваться по сети с помощью одного из трех режимов: симплексного, полудуплексного и полнодуплексного.</p>
+          <p></p>
+          <p>
+            <b>Симплексный</b>
+          </p>
+          <p>Симплексный режим, который также называют однонаправленным, обозначает передачу данных единым потоком в одном направлении. Примером симплексной передачи является сигнал, отправляемый с телевизионной станции на домашний телевизор.</p>
+          <p></p>
+          <p>
+            <b>Полудуплексный</b>
+          </p>
+          <p>Передача данных в одном направлении за один раз называется полудуплексной, как показано на рисунке. При полудуплексной передаче канал связи позволяет выполнять передачу в двух направлениях, но не одновременно. Двусторонние радиоканалы, например полицейская или аварийная мобильная радиосвязь, работают в полудуплексном режиме. Если нажата кнопка на микрофоне для передачи данных, невозможно услышать собеседника на другом конце. Если пользователи на обоих концах попытаются говорить одновременно, передать данные не удастся.</p>
+          <p></p>
+          <p>
+            <b>Полнодуплексный</b>
+          </p>
+          <p>Передача данных в обоих направлениях одновременно называется полнодуплексной, как показано на рисунке. Несмотря на то, что данные передаются в обоих направлениях, пропускная способность измеряется только в одном. Сетевой кабель со 100&nbsp;Мбит/с в полнодуплексном режиме имеет пропускную способность 100&nbsp;Мбит/с.</p>
+          <p></p>
+          <p>Примером полнодуплексной связи является телефонная связь. Оба собеседника могут говорить и слушать одновременно.</p>
+          <p></p>
+          <p>Полнодуплексная сетевая технология повышает производительность сети, поскольку позволяет получать и отправлять данные одновременно. Широкополосные технологии, такие как цифровая абонентская линия (DSL) и кабельное подключение, функционируют в полнодуплексном режиме.  Широкополосные технологии позволяют одновременно передавать несколько сигналов по одному проводу.  Например, при использовании подключения DSL пользователи могут одновременно загружать данные на компьютер и говорить по телефону.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

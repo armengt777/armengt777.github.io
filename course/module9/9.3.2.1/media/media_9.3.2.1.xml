@@ -1,0 +1,5 @@
+﻿<textcomponents> 
+<component id="ID_title">
+  <text><![CDATA[<b>Параметры настройки принтера</b>]]></text>
+</component> 
+</textcomponents>

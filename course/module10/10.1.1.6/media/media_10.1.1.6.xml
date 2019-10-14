@@ -1,0 +1,160 @@
+﻿<textcomponents>
+
+<!--SLIDE 1-->
+
+
+<component id="ID_s1_txt01">
+<text><![CDATA[Интернет]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[WWW.XXYZCORP.COM<br/>Веб-сервер]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+<text><![CDATA[Злоумышленник, использующий DoS-атаку]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+<text><![CDATA[Этот сайт сегодня работает очень медленно!]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+<text><![CDATA[Я отправлю столько запросов, что сервер не сможет обрабатывать никакие другие обращения.]]></text>
+</component>
+
+<component id="ID_s1_txt06">
+<text><![CDATA[Помогите, я не могу выполнить никакую работу!]]></text>
+</component>
+
+
+<!--SLIDE 2-->
+
+<component id="ID_s2_txt02">
+<text><![CDATA[Активизируется код DDos-атаки.]]></text> 
+</component>
+
+<component id="ID_s2_txt03">
+<text><![CDATA[WWW.QZXBANK.COM]]></text> 
+</component>
+
+<component id="ID_s2_txt04">
+<text><![CDATA[Злоумышленник, использующий DDoS-атаку]]></text> 
+</component>
+
+<component id="ID_s2_txt05">
+<text><![CDATA[Интернет]]></text> 
+</component>
+
+<component id="ID_s2_txt06">
+<text><![CDATA[Я инфицировал компьютеры в Интернете кодом DDos-атаки. Теперь я их все активизирую.]]></text> 
+
+</component>
+<component id="ID_s2_txt07">
+<text><![CDATA[У меня очень перегружен трафик.]]></text> 
+</component>
+
+<component id="ID_s2_txt08">
+<text><![CDATA[Активизируется код DDos-атаки.]]></text> 
+</component>
+
+<!--SLIDE 3-->
+<component id="ID_s3_txt01">
+	<text><![CDATA[Злоумышленник отправляет веб-серверу несколько запросов SYN.]]></text>
+</component>
+<component id="ID_s3_txt02">
+	<text><![CDATA[Веб-сервер отправляет ответы SYN-ACK.]]></text> 
+</component>
+<component id="ID_s3_txt03">
+	<text><![CDATA[Веб-сервер ожидает полного трехстороннего подтверждения установления связи.]]></text> 
+</component>
+<component id="ID_s3_txt04">
+	<text><![CDATA[Допустимый пользователь отправляет запрос SYN.]]></text> 
+</component>
+<component id="ID_s3_txt05">
+	<text><![CDATA[Веб-сервер недоступен.]]></text> 
+</component>
+<component id="ID_s3_txt06">
+	<text><![CDATA[Веб-сервер]]></text> 
+</component>
+<component id="ID_s3_txt07">
+	<text><![CDATA[Веб-сервер]]></text> 
+</component>
+<component id="ID_s3_txt08">
+	<text><![CDATA[Веб-сервер]]></text> 
+</component>
+  
+  
+<!--SLIDE 4-->
+<component id="ID_s4_txt01">
+	<text><![CDATA[1. Когда жертва запрашивает веб-страницу, запрос направляется на компьютер злоумышленника.]]></text>
+</component>
+<component id="ID_s4_txt02">
+	<text><![CDATA[2. Компьютер злоумышленника получает запрос и загружает действительную страницу с подлинного веб-сайта.]]></text>
+</component>
+<component id="ID_s4_txt03">
+	<text><![CDATA[3. Злоумышленник может изменить действительную веб-страницу и применить преобразование данных.]]></text>
+</component>
+<component id="ID_s4_txt04">
+	<text><![CDATA[4. Злоумышленник пересылает запрошенную страницу жертве.]]></text>
+</component>
+<component id="ID_s4_txt05">
+	<text><![CDATA[Жертва]]></text>
+</component>
+<component id="ID_s4_txt06">
+	<text><![CDATA[Веб-сервер]]></text>
+</component>
+
+
+<!-- controller -->
+
+<component id="end">
+<text><![CDATA[Конец]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Перемотка вперед]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Пауза]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Воспроизведение]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Перемотка назад]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Пуск]]></text>
+</component>
+
+<component id="end2">
+<text><![CDATA[Конец]]></text>
+</component>
+
+<component id="fforward2">
+<text><![CDATA[Перемотка вперед]]></text>
+</component>
+
+<component id="pause2">
+<text><![CDATA[Пауза]]></text>
+</component>
+
+<component id="play2">
+<text><![CDATA[Воспроизведение]]></text>
+</component>
+
+<component id="rewind2">
+<text><![CDATA[Перемотка назад]]></text>
+</component>
+
+<component id="start2">
+<text><![CDATA[Пуск]]></text>
+</component>
+
+
+</textcomponents>

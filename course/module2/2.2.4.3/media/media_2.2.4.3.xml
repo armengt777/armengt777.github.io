@@ -1,0 +1,180 @@
+﻿<textcomponents>
+
+
+<!--Slide 1-->
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Правильное использование отвертки</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[<b>По часовой стрелке</b>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+	<text><![CDATA[<b>Против часовой стрелки</b>]]></text>
+</component>
+
+<!--Slide 2-->
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Сорванный винт</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+	<text><![CDATA[<b>Повреждение</b>]]></text>
+</component>
+
+<!--Slide 3-->
+<component id="ID_s3_title">
+	<text><![CDATA[<b>Отвертка с плоским шлицем</b>]]></text>
+</component>
+
+
+<!--Slide 4-->
+<component id="ID_s4_title">
+	<text><![CDATA[<b>Крестовая отвертка</b>]]></text>
+</component>
+
+
+<!--Slide 5-->
+<component id="ID_s5_title">
+	<text><![CDATA[<b>Шестигранная отвертка</b>]]></text>
+</component>
+
+
+<!--Slide 6-->
+<component id="ID_s6_title">
+	<text><![CDATA[<b>Инструменты для извлечения компонентов</b>]]></text>
+</component>
+
+
+<!--Slide 7-->
+<component id="ID_s7_title">
+	<text><![CDATA[<b>Мультиметр</b>]]></text>
+</component>
+
+<component id="ID_s7_inst">
+	<text><![CDATA[<b><p>Чтобы изучить различные функции мультиметра, попробуйте нажимать его кнопки, изучите шкалу и щупы.</p></b>]]></text>
+</component>
+
+<component id="ID_s7_titleTxt">
+	<text><![CDATA[<b>Мультиметр Fluke Networks 110</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt">
+	<text><![CDATA[<p>Мультиметр Fluke Networks 110 является примером оборудования, которое применяется для проверки напряжения. Чтобы изучить различные функции мультиметра, попробуйте нажимать разные кнопки, использовать разные режимы.</p>]]></text>
+</component>
+
+<component id="ID_s7_titleTxt01">
+	<text><![CDATA[<b>Дисплей</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt01">
+	<text><![CDATA[Для просмотра выводимой информации.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt02">
+	<text><![CDATA[<b>Режим Hold</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt02">
+	<text><![CDATA[Включен режим дисплея HOLD. На дисплее отображаются снятые данные. В режиме MIN MAX AVG фиксируются минимальный, максимальный и средний показатели.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt03">
+	<text><![CDATA[<b>MIN MAX AVG</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt03">
+	<text><![CDATA[Включен режим MIN MAX AVG. Выводятся минимальный, максимальный или средний показатели.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt04">
+	<text><![CDATA[<b>Диапазон</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt04">
+	<text><![CDATA[Прибор выбирает диапазон с оптимальным разрешением. В ручном режиме диапазон задается пользователем.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt05">
+	<text><![CDATA[<b>Гц</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt05">
+	<text><![CDATA[Частота от 50 Гц до 5 кГц. Примечания. Переменное напряжение и связь по переменному току, истинное среднеквадратичное значение, до 500 Гц.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt06">
+	<text><![CDATA[<b>COM</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt06">
+	<text><![CDATA[Общий (возвратный) терминал для всех измерений. При измерении напряжения часто используется в качестве заземления.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt07">
+	<text><![CDATA[<b>Терминал ввода</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt07">
+	<text><![CDATA[Терминал ввода для измерений напряжения, длительности, сопротивления, проверки диодов, емкости и частоты напряжения.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt08">
+	<text><![CDATA[<b>Power Off</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt08">
+	<text><![CDATA[Выключение.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt09">
+	<text><![CDATA[<b>AC</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt09">
+	<text><![CDATA[Переменный ток, от 300 мВ до 600 В.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt10">
+	<text><![CDATA[<b>DC</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt10">
+	<text><![CDATA[Постоянный ток, от 1 мВ до 600 В.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt11">
+	<text><![CDATA[<b>Звуковой сигнал</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt11">
+	<text><![CDATA[Звуковой сигнал включается при показателях менее 20 Ом и выключается при показателях свыше 250 Ом.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt12">
+	<text><![CDATA[<b>Ohms</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt12">
+	<text><![CDATA[Омы от 0,1 Ом до 40 МОм.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt13">
+	<text><![CDATA[<b>Diodes</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt13">
+	<text><![CDATA[Тестирует диоды. Результат "OL" означает, что имеется открытый диод.]]></text>
+</component>
+
+<component id="ID_s7_titleTxt14">
+	<text><![CDATA[<b>Capacitance</b>]]></text>
+</component>
+
+<component id="ID_s7_bodyTxt14">
+	<text><![CDATA[Емкость, от 1 нФ до 9999 мкФ.]]></text>
+</component>
+
+
+</textcomponents>

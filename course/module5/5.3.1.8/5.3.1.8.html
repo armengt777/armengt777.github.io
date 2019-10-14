@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.1.8 Компьютер и Проводник Windows</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.1.8_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Рабочий стол, инструменты и приложения Windows</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Компьютер</b>
+          </p>
+          <p>Пункт главного меню «Компьютер» обеспечивает доступ к жестким дискам и приводам, установленным на компьютере. В Windows 7 и Windows Vista нажмите <b>Пуск</b> и выберите пункт <b>Компьютер</b>. В Windows XP этот пункт называется «Мой компьютер». Доступ к нему можно получить, дважды щелкнув значок <b>Мой компьютер</b> на Рабочем столе.</p>
+          <p>
+            <b>Проводник Windows</b>
+          </p>
+          <p>Проводник Windows обеспечивает навигацию по файловой системе. На рисунке изображена область переходов для Windows 7. Вверху отображается путь к доступным папкам и файлам, вверху справа — панель поиска, панель инструментов расположена непосредственно под панелью пути и поиска, область переходов — слева, а панель просмотра — справа от области перехода. Панель поиска используется для поиска конкретного приложения, файла или папки. Панель инструментов позволяет упорядочивать файлы, добавлять новые папки, изменять расположение файлов в Проводнике Windows, отображать панель просмотра для файлов и папок и открывать справку Windows. Область переходов содержит список папок по умолчанию, в числе которых «Избранное», «Библиотеки», «Компьютер» и «Сеть». Панель просмотра используется для доступа к приложениям, файлам и папкам и управления ими.</p>
+          <p>В Windows 7 Проводник Windows поддерживает следующие новые функции:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Окно поиска</b> — доступ к прежним результатам поиска. Результаты поиска можно также фильтровать.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Кнопка «Новая папка» </b> — создание новых папок одним щелчком мыши.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Упорядочить </b>— упорядочение элементов по различным критериям.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Кнопка «Область просмотра»</b> —  включение или отключение области просмотра при необходимости.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Запуск приложений и открытие файлов</b>
+          </p>
+          <p>Существует несколько способов запуска приложений:</p>
+          <p>
+            <ul>
+              <li>Щелкните значок приложения в меню «Пуск» или на панели задач. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Дважды щелкните запускаемое приложение или его ярлык на Рабочем столе или в Проводнике Windows. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Запустите приложение с помощью окна запуска или командной строки.</li>
+            </ul>
+          </p>
+          <p>Этот же способ можно использовать для открытия файлов. При открытии файла Windows определяет приложение, связанное с этим файлом. Windows сопоставляет расширение файла с установленными на компьютере приложениями, с помощью которых можно открыть этот файл. Например, при открытии файла .docx Windows запускает приложение Microsoft Word.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

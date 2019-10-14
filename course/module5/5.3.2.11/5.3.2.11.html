@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.2.11 Параметры папок</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.2.11_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Служебные программы панели управления</h2>
+      </div>
+      <div id="content">
+          <p>Для обеспечения надлежащего доступа к файлам требуется управление параметрами каталогов и папок. Для настройки параметров папок в Windows используется служебная программа «Параметры папок».</p>
+          <p>Для получения доступа к служебной программе «Параметры папок» в Windows 7 используйте следующие пункты меню:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Параметры папок</b>
+          </p>
+          <p>На рисунке показано, что в программе «Параметры папок» есть три вкладки.</p>
+          <p>
+            <b>Общие</b>
+          </p>
+          <p>Вкладка «Общие» используется для настройки базовых параметров отображения и доступа.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Обзор папок </b>— настройка отображения папки при ее открытии.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Щелчки мышью</b> — количество щелчков мыши для открытия файла.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Область переходов</b> — указывает, все ли папки отображаются и происходит ли автоматическое развертывание папки при ее выборе в области переходов.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>Вид</b>
+          </p>
+          <p>Вкладка «Вид» используется для настройки параметров и атрибутов просмотра папок, включая возможность просмотра скрытых папок.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Представление папок</b> — применение параметров просмотра последней папки ко всем однотипным папкам.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Дополнительные параметры </b>— настройка дополнительных параметров просмотра.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>Поиск</b>
+          </p>
+          <p>Вкладка «Поиск» используется для настройки поиска папок.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Что искать</b> — настройка поиска на основе индексированных или неиндексированных местоположений для облегчения поиска файлов и папок.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Как искать </b>— определение критериев, принимаемых во внимание при поиске.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>При поиске в неиндексированных расположениях </b>— указывается, включаются ли системные папки и сжатые файлы при поиске в неиндексированных расположениях. </li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

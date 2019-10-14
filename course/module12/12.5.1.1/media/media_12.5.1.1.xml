@@ -1,0 +1,233 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text>
+<![CDATA[<b> </b>]]>
+</text>
+</component>
+
+<component id="ID_table_01">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 1. Определение проблемы</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>«Открытые» вопросы</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Какого типа ваш принтер?</li>
+<li>Какой марки и модели ваш принтер?</li>
+<li>Какой тип бумаги вы используете?</li>
+<li>В чем заключаются неполадки с вашим принтером?</li>
+<li>Какое оборудование и ПО недавно менялось на вашем компьютере?</li>
+<li>Что вы делали, когда обнаружилась неполадка?</li>
+<li>Какие сообщения об ошибках вы получили?</li>
+</font>
+</textformat></td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#FFFFFF'>
+<font color='#393536'>«Закрытые» вопросы</font>
+</td>
+<td  valign="top" bgcolor='#FFFFFF'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Действует ли гарантия на принтер?</li>
+<li>Удается ли напечатать тестовую страницу?</li>
+<li>Это новый принтер?</li>
+<li>Включено ли питание принтера?</li>
+<li>Эта неполадка появляется на каждой странице?</li>
+<li>Менялась ли в последнее время бумага?</li>
+<li>Неполадка возникла только на этом принтере?</li>
+<li>Возникает ли проблема при использовании других приложений?</li>
+<li>Подключен ли ваш принтер к сети беспроводным способом?</li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_02">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 2. Формирование предположений о возможной причине неполадки</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Распространенные причины неполадок принтеров</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li> Ненадежные кабельные соединения</li>
+<li>Замятие бумаги</li>
+<li>Питание оборудования</li>
+<li>Предупреждение о низком уровне чернил</li>
+<li>Нехватка бумаги</li>
+<li>Ошибки на дисплее оборудования</li>
+<li>Ошибки на экране компьютера</li>
+<li>Пустой картридж с тонером</li>
+<li>Не работает сервер печати</li>
+<li>Принтеру не удается установить подключение к беспроводной сети</li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_03">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 3. Проверка выводов, сделанных о причине неполадки</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Стандартные действия для определения причины</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Повторно включите принтер</li>
+<li>Отсоедините и повторно подсоедините кабели</li>
+<li>Повторно включите компьютер</li>
+<li>Проверьте принтер на предмет замятия бумаги</li>
+<li>Извлеките бумагу и снова вставьте ее в лотки</li>
+<li>Откройте и закройте лотки для бумаги	</li>
+<li>Убедитесь, что дверцы принтера закрыты</li>
+<li>Отмените задания в очереди печати</li>
+<li>Перезагрузите диспетчер очереди печати</li>
+<li>Повторно установите ПО принтера</li>
+<li>Снимите упаковочную ленту с сопл струйного принтера</li>
+<li>Перезагрузите сервер печати</li>
+<li>Измените параметры беспроводной связи принтера</li>
+</font>
+</textformat></td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_04">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr>
+<td bgcolor='#DAE17A' colspan='2'><font size='14' color='#393536'><b>Этап 4. Разработка плана действий по устранению неполадки<br/> и его выполнение</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Если на предыдущем этапе проблема не была устранена, то для ее решения необходим дальнейший анализ ситуации</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Журналы учета ремонтных работ службы поддержки</li>
+<li>Другие инженеры</li>
+<li>Сборники часто задаваемых вопросов производителей</li>
+<li>Технические веб-сайты</li>
+<li>Новостные группы</li>
+<li>Руководства к компьютеру</li>
+<li>Руководства к устройствам</li>
+<li>Форумы в Интернете</li>
+<li>Поиск в Интернете</li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_05">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr>
+<td bgcolor='#DAE17A' colspan='2'><font size='14' color='#393536'><b>Этап 5. Полная проверка функционального состояния системы и принятие профилактических мер в случае необходимости</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Проверьте, помогло ли решение устранить проблему, и убедитесь в полной функциональности системы
+</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Перезагрузите компьютер.</li>
+<li>Перезагрузите принтер.</li>
+<li>Напечатайте тестовую страницу из панели управления принтера.</li>
+<li>Напечатайте документ из приложения.</li>
+<li>Напечатайте документ, при печати которого возникла неполадка.</li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_06">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 6. Документирование полученных данных, принятых мер и результатов</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Задокументируйте результаты</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7' class="width">
+<textformat blockindent='-18'><font color='#393536'>
+<li>Обсудите примененное решение <span id="spacer">с заказчиком</span></li>
+<li>Попросите заказчика убедиться, что неполадка <span id="spacer">устранена</span></li>
+<li>Предоставьте заказчику все <span id="spacer">документы</span></li>
+<li>Задокументируйте действия, предпринятые для устранения <span id="spacer">неполадки в заказе на обслуживание </span> <span id="spacer">и в журнале инженера</span></li>
+<li>Задокументируйте все компоненты, использованные <span id="spacer">при ремонте</span></li>
+<li>Задокументируйте время, ушедшее на разрешение <span id="spacer">проблемы</span></li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+</textcomponents>

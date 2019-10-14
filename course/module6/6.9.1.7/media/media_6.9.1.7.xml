@@ -1,0 +1,59 @@
+﻿<textcomponents>
+ 
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr>
+		     <td colspan='4' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b class="font_forteen">Подробнее о подключении к поставщику услуг доступа к Интернету</b></font></td>				
+	   </tr>
+	   <tr>
+		<td class="liner_top" colspan='4' bgcolor='#434321' class="mtable_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23' width='90' valign="top"><font size='12' color='#ffffff'><b>Тип</b></font></td>
+		<td bgcolor='#A2AA23' valign="top"><font size='12' color='#ffffff'><b>Преимущества</b></font></td>
+		<td bgcolor='#A2AA23' valign="top"><font size='12' color='#ffffff'><b>Недостатки</b></font></td>
+		<td bgcolor='#A2AA23' valign="top"><font size='12' color='#ffffff'><b>скорость,</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>POTS</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Широкая распространенность</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Очень низкая скорость<br/>Невозможно принимать телефонные звонки при подключении к Интернету</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Макс.<br/>56 Кбит/сек</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>ISDN</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Скорость выше, чем у POTS</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Тем не менее, эта технология работает гораздо медленнее, чем другие технологии широкополосной связи</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Интерфейс базового уровня (BRI) — до <br/> 128 кбит/с <br/> Интерфейс основного доступа — до <br/> 2,048 Мбит, Мбит/с</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>DSL</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Низкая стоимость</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>На скорость влияет расстояние до АТС</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>24 Кбит/с–<br/>100 Мбит/с</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Кабельная сеть</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Очень высокая скорость</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Низкая скорость отправки</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>27 Кбит/с–<br/>160 Мбит/с</font></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Спутниковая передача</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Доступна там, где недоступны DSL и кабельные сети</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Дороже, чем другие технологии широкополосной связи, зависит от погодных условий</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>9 Кбит/с–<br/>24 Мбит/с</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Сотовые технологии</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Доступны для мобильных пользователей</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Доступны не везде</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>20 Кбит/с и выше<br/> в зависимости от используемой технологии</font></td>
+	</tr>
+	
+</table>]]></text>
+</component>
+
+</textcomponents>

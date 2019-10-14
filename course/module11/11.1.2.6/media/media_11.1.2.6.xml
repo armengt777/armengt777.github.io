@@ -1,0 +1,14 @@
+﻿<textcomponents> 
+<component id="ID_title_01">
+<text><![CDATA[<b>Основы сетевого этикета</b>]]></text>
+</component>
+<component id="ID_body01">
+  <text><![CDATA[<textformat blockindent='-16'><li><textformat blockindent='-18'>Будьте любезны и вежливы.</textformat></li><li><textformat blockindent='-18'>Каждое сообщение электронной почты, даже в цепочке переписки, начинайте с соответствующего приветствия.</textformat></li><li><textformat blockindent='-18'>Никогда не рассылайте по электронной почте «письма счастья».</textformat></li><li><textformat blockindent='-18'>Не отправляйте оскорбительные сообщения и не отвечайте на них.</textformat></li><li><textformat blockindent='-18'>Используйте буквы разного регистра. ИСПОЛЬЗОВАНИЕ ПРОПИСНЫХ БУКВ ВОСПРИНИМАЕТСЯ КАК КРИК.</textformat></li><li><textformat blockindent='-18'>Перед отправкой сообщения проверяйте грамматику и правописание.</textformat></li><li><textformat blockindent='-18'>Будьте этичны.</textformat></li><li><textformat blockindent='-18'>Никогда не пишите в письме того, чего вы не стали бы говорить собеседнику при личной встрече.</textformat></li></textformat>]]></text> 
+ 
+  </component>
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>
+
+ 

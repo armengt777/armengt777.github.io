@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.1.3.2 Установка оптического привода</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.1.3.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сборка компьютера</h1>
+        <h2>Установка приводов</h2>
+      </div>
+      <div id="content">
+          <p>Оптические приводы  позволяют сохранять данные на сменных носителях, например компакт-диски, диски DVD и Blu-ray. Оптические приводы устанавливаются в отсеки, к которым есть доступ с передней панели компьютерного корпуса. Внешние отсеки обеспечивают доступ к носителям данных без открытия корпуса.</p>
+          <p>Разъем питания Molex или SATA снабжает оптический привод энергией от блока питания. Для подключения оптического привода к материнской плате используется кабель данных PATA или SATA.</p>
+          <p>Для установки оптического привода выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Разместите оптический привод так, чтобы он совпадал с 5,25-дюймовым (13,34 см) проемом в отсеке для привода.</p>
+          <p>
+            <b>Этап 2. </b>Вставьте оптический привод в отсек для привода таким образом, чтобы отверстия для винтов в приводе совпадали с отверстиями в корпусе.</p>
+          <p>
+            <b>Этап 3. </b>Зафиксируйте оптический привод в корпусе с помощью подходящих винтов.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

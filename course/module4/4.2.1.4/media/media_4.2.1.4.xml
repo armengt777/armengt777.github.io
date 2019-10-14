@@ -1,0 +1,88 @@
+﻿<textcomponents>
+
+
+
+
+ <component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='12' color='#393536'><b>Этап 3. Проверка предположений для определения причины неполадки</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#434321' colspan='2' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	 
+	<tr> 
+		<td width='125' bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Стандартные действия для определения причины</font></td>	
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>
+			<textformat blockindent='-18'><li>Убедитесь в том, что устройство включено. </li>
+			<li>Убедитесь, что переключатель питания для розетки находится в положении «включено».</li>
+			<li>Убедитесь, что сетевой фильтр включен.</li>
+			<li>Убедитесь, что внешние кабели подсоединены надежно.</li>
+			<li>Убедитесь, что привод гибких дисков пуст. </li>
+			<li>Проверьте порядок загрузки в настройках BIOS.</li></textformat></font></td>		 
+	</tr>
+	 
+</table>]]></text>
+</component>
+<component id="ID_txt01">
+  <text><![CDATA[Cisco Systems, Inc.]]></text>
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[Руководитель отделения]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[170 West Tasman Drive, San Jose, CA 95134]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[408-526-4000]]></text>
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[ОБОРУДОВАНИЕ]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[РАЗРЕШЕНА]]></text> 
+  </component>
+
+
+<component id="ID_txt07">
+  <text><![CDATA[Ноутбук]]></text>
+  </component>
+<component id="ID_txt08">
+  <text><![CDATA[N]]></text> 
+  </component>
+<component id="ID_txt09">
+  <text><![CDATA[Ноутбук]]></text> 
+  </component>
+<component id="ID_txt10">
+  <text><![CDATA[Не загружается]]></text>
+  </component>
+<component id="ID_txt11">
+  <text><![CDATA[Cisco001]]></text> 
+  </component>
+<component id="ID_txt12">
+  <text><![CDATA[Беспроводное подключение к сети ]]></text> 
+  </component>
+
+<component id="ID_txt13">
+  <text><![CDATA[Средние]]></text>
+  </component>
+<component id="ID_txt14">
+  <text><![CDATA[Мобильные]]></text> 
+  </component>
+<component id="ID_txt15">
+  <text><![CDATA[Windows 7]]></text> 
+  </component>
+
+<component id="ID_txt16">
+  <text><![CDATA[<div class="clear">Пользователь жалуется, что ноутбук не загружается.</div>
+<div class="clear">За последнее время пользователь не устанавливал новые программы. Пользователь не вносил изменения в ОС.</div>
+<div class="clear">Периферийных устройств не добавлялось.</div>]]></text>
+  </component>
+<component id="ID_txt17">
+  <text><![CDATA[<div>Предпринятые действия по ремонту:<br/><br/><li>заменен адаптер переменного тока;</li><br/><li>заново закреплена батарея.</li></div>
+<div class="clear"></div>
+ <div class="clear"></div>]]></text>
+  </component> 
+
+</textcomponents>

@@ -1,0 +1,38 @@
+﻿<textcomponents>
+  
+  <component id="ID_table">
+    <text>
+      <![CDATA[
+	  
+	  <table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			 
+			<tr class="title">
+			 	<td colspan='2' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Этап 1. Определение проблемы</b></font></td>
+			</tr>
+			<tr>
+         		 <td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+       		</tr>
+			<tr>
+				<td valign="top" bgcolor='#F3F5E7'><font size='12' color='#393536'>«Открытые» вопросы</font></td>
+				<td valign="top" bgcolor='#F3F5E7'><font  color='#393536'>
+					<textformat blockindent='-18'><li>Перечислите неполадки, <span id="spacer">возникающие <span id="spacer">на вашем </span></span><span id="spacer">ноутбуке.</span></li>
+					<li>Какое программное обеспечение <span id="spacer">вы недавно установили?</span></li>
+					<li>Что вы делали, когда <span id="spacer">возникла неполадка?</span></li>
+					<li>Какие сообщения об ошибках <span id="spacer">вы получили?</span></li></textformat></font>
+				</td>
+			</tr>
+			 
+			<tr>
+				
+				<td valign="top" bgcolor='#FFFFFF'><font size='12' color='#393536'>«Закрытые» вопросы</font></td> 
+				<td valign="top" bgcolor='#FFFFFF'><font  color='#393536'>
+					<textformat blockindent='-18'><li>Находится ли ноутбук на гарантии?</li>
+					<li>Работает ли в данный момент ноутбук от <span id="spacer">аккумулятора?</span></li>
+					<li>Может ли ноутбук работать от <span id="spacer">адаптера переменного тока?</span></li>
+					<li>Можно ли загрузить компьютер, чтобы увидеть <span id="spacer">Рабочий стол операционной системы?</span></li></textformat></font>
+				</td> 
+			</tr>
+		</table>]]>
+    </text>
+  </component>
+</textcomponents>

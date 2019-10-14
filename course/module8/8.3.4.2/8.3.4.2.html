@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.3.4.2 Требования к программному обеспечению для установки приложений</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.3.4.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сетевая связь и электронная почта</h1>
+        <h2>Синхронизация мобильных устройств</h2>
+      </div>
+      <div id="content">
+          <p>Чтобы синхронизировать данные на устройстве iOS, нужно установить программу iTunes, как показано на рисунке. iTunes &mdash; это проигрыватель мультимедиа, который позволяет загружать, воспроизводить и упорядочивать содержимое для устройств iOS и компьютеров. iTunes также управляет устройствами iOS, активируя их в Apple и восстанавливая параметры в случае сбоя. Кроме того, iTunes применяется для обновления iOS. Ниже указаны требования к программному обеспечению для установки приложений в Windows:</p>
+          <p>
+            <ul>
+              <li>компьютер с процессором Intel или AMD тактовой частотой 1 ГГц; </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ОЗУ объемом 512 МБ;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ОС Windows XP с пакетом обновления 2 или новее, 32-разрядные версии Windows Vista или 32-разрядные версии Windows 7;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>для 64-разрядных версий Windows Vista или Windows 7 нужна 64-разрядная программа установки iTunes.</li>
+            </ul>
+          </p>
+          <p>Требования зависят от версии, а для поддержки особых возможностей аудио и видео установлены дополнительные требования. Дополнительные сведения приведены на веб-сайте Apple.</p>
+          <p>Для синхронизации содержимого на устройствах Android никакие приложения не нужны. Для автоматической синхронизации различных типов данных и содержимого с Google выберите <b>Настройки &gt; Личные &gt; Учетные записи и синхронизация</b>.</p>
+          <p>При использовании устройства Motorola с ОС Android синхронизируйте данные и содержимое с помощью Motocast USB. Ниже указаны требования к программному обеспечению для установки приложений в Windows:</p>
+          <p>
+            <ul>
+              <li>компьютер с одноядерным процессором Intel Pentium IV либо AMD Athlon XP 2600+ или с более высокой производительностью тактовой частотой 3,0 ГГц либо компьютер с двухъядерным процессором Pentium Core Duo или с многоядерным процессором Athlon/Phenom или с более высокой производительностью тактовой частотой 1,8 ГГц;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>1 ГБ ОЗУ;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ОС Windows XP с пакетом обновления 3 или новее, Windows Vista или Windows 7.</li>
+            </ul>
+          </p>
+          <p>Для поддержки особых возможностей аудио и видео могут устанавливаться дополнительные требования к оборудованию. Дополнительные сведения приведены на веб-сайте Motorola.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

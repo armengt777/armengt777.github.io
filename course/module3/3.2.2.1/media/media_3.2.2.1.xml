@@ -1,0 +1,7 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Информация BIOS о компонентах</b>]]></text>
+</component>
+
+</textcomponents>

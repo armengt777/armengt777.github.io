@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.1.1.5 Сравнение док-станции с репликатором портов</title>
+    <!--  -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.1.1.5_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Компоненты ноутбуков</h1>
+        <h2>Компоненты ноутбуков</h2>
+      </div>
+      <div id="content">
+          <p>Базовая станция подключается к источнику переменного тока и периферийным устройствам настольного компьютера. При подключении к базовой станции ноутбук получает доступ к питанию, периферийным устройствам, а также большему количеству портов.</p>
+          <p></p>
+          <p>Существует два типа базовых станций с одинаковым назначением: док-станции и репликаторы портов. В репликаторе портов могут присутствовать порт SCSI, сетевой порт, порты PS/2, порты USB и игровой порт. В док-станции имеются те же порты, что и в репликаторе портов, однако есть еще и возможность подключения карт PCI, дополнительных жестких дисков, приводов оптических и гибких дисков. Ноутбук, подключенный к док-станции, имеет ту же функциональность, что и настольный компьютер. </p>
+          <p></p>
+          <p>В док-станциях и репликаторах портов используются различные типы подключения:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Зависящие от производителя и модели ноутбука</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>USB и FireWire</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>PC-Card или ExpressCard</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Одни базовые станции подключаются к ноутбуку через порт, расположенный в верхней части док-станции, как показано на рис. 1. Другие базовые станции могут подключаться непосредственно к USB-порту ноутбука. Док-станции можно подключать к большинству ноутбуков, когда они работают или отключены. Можно управлять подключением устройств с помощью технологии Plug-and-play или через отдельный профиль оборудования при подключении к док-станции или отключении от нее.</p>
+          <p></p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Многие базовые станции являются фирменными и совместимы только с ноутбуками определенных производителей. Перед тем как приобрести базовую станцию, ознакомьтесь с документацией к ноутбуку или веб-сайтом его производителя, чтобы определить подходящую марку и модель.</p>
+          <p></p>
+          <p>Для получения дополнительных сведений о компонентах верхней части док-станции щелкните выделенные области на рисунке 1.</p>
+          <p></p>
+          <p>Для получения дополнительных сведений о компонентах задней части док-станции щелкните выделенные области на рисунке 2.</p>
+          <p></p>
+          <p>Для получения дополнительных сведений о компонентах правой части док-станции щелкните выделенные области на рисунке 3.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

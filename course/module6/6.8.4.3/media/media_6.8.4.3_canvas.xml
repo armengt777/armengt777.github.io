@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide type="MBAR">
+
+		<!--Slide 01-->
+			<slide>
+				<element type="IMAGE" subType="STD" src="6_8_4_3_A.jpg" x="18.5" y="68.9" width="402.95" height="258.25"/>
+				<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+			</slide>
+
+		<!--Slide 02-->
+			<slide>
+				<element type="IMAGE" subType="STD" src="6_8_4_3_B.jpg" x="15.45" y="89.15" width="409" height="217.75"/>
+				<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+			</slide>
+
+		<!--Slide 03-->
+			<slide>
+				<element type="IMAGE" subType="STD" src="6_8_4_3_C.jpg" x="15.45" y="82.45" width="409.05" height="231.1"/>
+				<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+			</slide>
+
+				<element type="TEXT" compId="ID_inst" x="5" y="380" width="432.1" expand="up" align="left" size="12" />
+		</slide>
+	</data>
+
+

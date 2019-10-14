@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>2.1.2.3 Устройства для защиты электропитания</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_2.1.2.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедуры безопасной работы в лаборатории</h1>
+        <h2>Процедуры защиты оборудования и данных</h2>
+      </div>
+      <div id="content">
+          <p>Чтобы избежать проблем с колебаниями напряжения электропитания, используйте устройства для защиты данных и компьютерного оборудования:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Сетевой фильтр</b> защищает от повреждений, наносимых скачками и всплесками напряжения. Сетевой фильтр отводит излишнее электрическое напряжение с линии в заземление. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Источник бесперебойного питания (ИБП)</b> защищает от возможных проблем с электропитанием, предоставляя нужный уровень электропитания для компьютера или другого устройства. Аккумулятор ИБП постоянно заряжается, когда устройство находится в работе. ИБП обеспечивает необходимое качество электропитания во время понижений и отключений электропитания. Многие устройства ИБП могут напрямую взаимодействовать с операционной системой компьютера. Эта связь позволяет ИБП безопасно выключить компьютер и сохранить данные до того, как истощится аккумулятор ИБП. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Резервный источник питания (РИП)</b> помогает защитить от возможных проблем с электропитанием. Резервный аккумулятор РИП обеспечивает питание, если поступающее напряжение падает ниже нормального уровня. В нормальном режиме работы аккумулятор неактивен. Когда напряжение падает, аккумулятор подает постоянный ток на инвертор питания, который преобразует его в переменный ток для питания компьютера. Это устройство не так надежно, как ИБП, поскольку требуется время, чтобы переключиться на питание от аккумулятора. Если переключающее устройство выходит из строя, аккумулятор не может подавать питание на компьютер. </li>
+            </ul>
+          </p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Производители ИБП не рекомендуют подключать к ним лазерные принтеры, так как принтер может вызвать перегрузку ИБП.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

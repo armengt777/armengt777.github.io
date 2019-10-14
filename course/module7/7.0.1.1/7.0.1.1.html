@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.0.1.1 Введение</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.0.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Ноутбуки</h1>
+        <h2>Введение</h2>
+      </div>
+      <div id="content">
+          <p>Первые ноутбуки использовались в основном бизнесменами, которым требовалась получать доступ к данным и их вводу за пределами офиса. Ноутбуки не были широко распространены из-за их высокой стоимости, веса и ограниченных возможностей по сравнению с более дешевыми настольными компьютерами.</p>
+          <p></p>
+          <p>Наиболее значительной особенностью ноутбуков является их компактный размер. Клавиатура, экран и внутренние компоненты ноутбука размещены в компактном портативном корпусе. Как следствие, ноутбуки можно использовать для того, чтобы вести конспекты в образовательных учреждениях, делать презентации на деловых встречах или работать в Интернете, сидя в кафе. Перезаряжаемая аккумуляторная батарея позволяет ноутбуку работать, будучи отключенным от внешнего источника питания. Ноутбуки обрели популярность благодаря своей компактности, удобству работы и передовым технологиям.</p>
+          <p>Ниже перечислены популярные области использования портативных компьютеров:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Ведение конспектов в образовательных учреждениях</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Написание научных статей</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Демонстрация презентаций на деловых встречах</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Доступ к информации вне дома или офиса</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Игры во время путешествий</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Просмотр фильмов во время путешествий</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Доступ к Интернету в общественных местах</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Отправка и получение сообщений электронной почты в общественных местах</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

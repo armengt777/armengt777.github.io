@@ -1,0 +1,18 @@
+﻿<textcomponents>
+    <component id="ID_title">
+    <text><![CDATA[<b>Внутренние кабели ПК</b>]]></text>
+    </component>
+	
+	<component id="ID_txt01">
+    <text><![CDATA[<b>Кабель данных SATA</b>]]></text>
+    </component>
+	
+	<component id="ID_txt02">
+    <text><![CDATA[<b>Кабель данных FDD</b>]]></text>
+    </component>
+	
+	<component id="ID_txt03">
+    <text><![CDATA[<b>80-жильный кабель данных PATA</b>]]></text>
+    </component>
+	
+</textcomponents>

@@ -1,0 +1,88 @@
+﻿<textcomponents> 
+<component id="ID_s1_title">
+  <text><![CDATA[<b>Кабель «витая пара»</b>]]></text> 
+ </component>
+
+ <component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr>
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Характеристики кабеля «витая пара»</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#434321' colspan='3' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	<tr>
+		<td bgcolor='#A2AA23' valign="top" class="subtit"><font size='12' color='#ffffff'><b></b></font></td>
+		<td bgcolor='#A2AA23' valign="top" class="subtit"><font size='12' color='#ffffff'><b>Скорость</b></font></td>
+		<td bgcolor='#A2AA23' valign="top" class="subtit"><font size='12' color='#ffffff'><b>Характеристики</b></font></td>
+	</tr> 
+	<tr>  
+		<td bgcolor='#F3F5E7' valign="top" ><font size='12' color='#393536'>UTP категории 3</font></td>
+		<td bgcolor='#F3F5E7' valign="top" ><font size='12' color='#393536'>10 Мбит/с при частоте <br/>16 МГц</font></td>
+		<td bgcolor='#F3F5E7' valign="top" ><font size='12' color='#393536'>
+			<li>Подходит для ЛВС Ethernet.</li>
+			<li>Наиболее часто используется для телефонных линий.</li>
+		</font></td>
+	</tr>
+	<tr>  
+		<td bgcolor='#FFFFFF' width='80px' valign="top"><font size='12' color='#393536'>UTP категории 5</font></td>
+		<td bgcolor='#FFFFFF' width='90px' valign="top"><font size='12' color='#393536'>100 Мбит/с при частоте <br/>100 МГц</font></td>
+		<td bgcolor='#FFFFFF'  valign="top"><font size='12' color='#393536'>
+			Изготовляется по более высоким стандартам, чем категория 5, для обеспечения более высоких скоростей передачи данных.
+		</font></td>
+	</tr>
+	<tr>  
+		<td bgcolor='#F3F5E7'  valign="top"><font size='12' color='#393536'>UTP категории 5e</font></td>
+		<td bgcolor='#F3F5E7'  valign="top"><font size='12' color='#393536'>1000 Мбит/с при частоте <br/>100 МГц</font></td>
+		<td bgcolor='#F3F5E7'  valign="top"><font size='12' color='#393536'>
+			<li>Изготовляется по более высоким стандартам, чем категория 5, для обеспечения более высоких скоростей передачи данных.</li>
+			<li>Больше оборотов на единицу длины, чем категория 5. Это обеспечивает более оптимальную защиту от электромагнитных и радиочастотных помех от внешних источников.</li>
+		</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'  valign="top"><font size='12' color='#393536'>UTP категории 6</font></td>
+		<td bgcolor='#FFFFFF'  valign="top"><font size='12' color='#393536'>1000 Мбит/с при частоте <br/>250 МГц</font></td>
+		<td bgcolor='#F3F5E7'  rowspan='10' valign="top" height='290px'><font size='12' color='#393536'>
+<li>Изготовляется по более высоким стандартам, чем категория 5e.</li>
+<li>Больше оборотов на единицу длины, чем категория 5e. Это обеспечивает более оптимальную защиту от электромагнитных и радиочастотных помех от внешних источников.</li>
+<li>Кабель категории 6a имеет лучшую изоляцию и производительность, чем кабель категории 6.</li>
+<li>Может иметь пластиковый разделитель для разделения пар проводов внутри кабеля, что обеспечивает более оптимальную защиту от электромагнитных и радиочастотных помех.</li>
+<li>Хороший выбор для клиентов, использующих приложения, для которых требуется большая пропускная способность, такие как видеоконференции или игры.</li>
+<li>Кабель ScTP (экранированная витая пара) очень дорогой и существенно менее гибкий, чем UTP.</li>
+		</font></td>
+	</tr>
+	 <tr>  
+		<td bgcolor='#F3F5E7'  valign="top"><font size='12' color='#393536'>Неэкранированная витая пара категории 6a</font></td>
+		<td bgcolor='#F3F5E7'  valign="top"><font size='12' color='#393536'>1000 Мбит/с при частоте <br/>500 МГц</font></td>
+	</tr>
+	<tr>  
+		<td bgcolor='#FFFFFF' rowspan='8'  valign="top"><font size='12' color='#393536'>Экранированная витая пара категории 7</font></td>
+		<td bgcolor='#FFFFFF' rowspan='8' valign="top"><font size='12' color='#393536'>10 Мбит/с при частоте <br/>600 МГц</font></td>
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+
+
+</table>]]></text>
+</component>
+
+<component id="ID_s3_title">
+  <text><![CDATA[<b>Разъемы RJ-11 и RJ-45</b>]]></text> 
+ </component>
+
+ 
+
+
+</textcomponents>

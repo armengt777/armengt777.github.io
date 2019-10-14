@@ -1,0 +1,174 @@
+﻿<textcomponents>
+
+
+<component id="ID_s1_title">
+  <text><![CDATA[<b>Модули памяти</b>]]></text> 
+  </component>
+  
+ <component id="ID_s1_btn01">
+  <text><![CDATA[<b>Микросхема с двухрядным расположением выходов (DIP)</b>]]></text>
+  </component>
+<component id="ID_s1_btn02">
+  <text><![CDATA[<b>Модуль памяти с однорядным расположением выводов (SIMM)</b>]]></text> 
+  </component>
+<component id="ID_s1_btn03">
+  <text><![CDATA[<b>Память DIMM</b>]]></text> 
+  </component>
+<component id="ID_s1_btn04">
+  <text><![CDATA[<b>RIMM</b>]]></text>
+  </component>
+<component id="ID_s1_btn05">
+  <text><![CDATA[<b>SODIMM</b>]]></text> 
+  </component>
+  
+ <component id="ID_s1_txt01">
+  <text><![CDATA[Микросхема с двухрядным расположением выходов (DIP) — отдельная интегральная схема памяти. Она имеет двойной ряд штырьков, используемый для ее подключения к материнской плате. ]]></text>
+  </component>
+<component id="ID_s1_txt02">
+  <text><![CDATA[Модуль памяти с однорядным расположением выводов (SIMM) — это небольшая печатная плата с несколькими интегральными схемами. Модули SIMM бывают 30-контактные или 72-контактные.]]></text> 
+  </component>
+<component id="ID_s1_txt03">
+  <text><![CDATA[Модуль памяти с двухрядным расположением выводов — это печатная плата, на которую напаяны микросхемы SDRAM, DDR SDRAM, DDR2 SDRAM и DDR3 SDRAM. Существуют 168-контактные модули DIMM SDRAM, 184-контактные модули DIMM DDR и 240-контактные модули DIMM DDR2 и DDR3.]]></text> 
+  </component>
+<component id="ID_s1_txt04">
+  <text><![CDATA[Модуль RIMM — это печатная плата с интегральными схемами RDRAM. Стандартная плата RIMM имеет 184 контакта.]]></text>
+  </component>
+<component id="ID_s1_txt05">
+  <text><![CDATA[Уменьшенные модули DIMM (SODIMM) выпускается в 72-контактном и 100-контактном вариантах с поддержкой 32-разрядной передачи и 144-контактном, 200-контактном и 204-контактном вариантах с поддержкой 64-разрядной передачи. Эта более компактная версия DIMM с большей плотностью монтажа обеспечивает память с произвольным доступом, идеальную для ноутбуков, принтеров и прочих устройств, где желательна экономия места.]]></text> 
+  </component> 
+  
+  
+
+<component id="ID_s2_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+			<td colspan='4' bgcolor='#DAE17A' class="title"><font color='#393536'><b>Распространенные типы памяти и их характеристики</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='4' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23'  valign="top" width="107"><font color='#ffffff '><b>Тип памяти</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top" width="100" ><font color='#ffffff '><b>Отраслевое наименование</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top" width="100"><font color='#ffffff '><b>Максимальная скорость передачи данных</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top" width="100"><font color='#ffffff '><b>Внешняя шина</b></font></td>
+	</tr>
+	
+	<tr>
+		<td height="30" bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC100 SDRAM</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC-100</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>800 МБ/с</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>100 МГц</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>PC133 SDRAM</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>PC -133</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1060 МБ/с</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>133 МГц</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR-333</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC -2700</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>2700 МБ/с</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>166 МГц</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR-400</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC -3200</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>3200 МБ/с</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>200 МГц</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR2-667</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC2-5300</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>5333 МБ/с</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>667 МГц</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR3-1600</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC3-12800</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>12800 МБ/с</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1600 МГц</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR2-800</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC2-6400</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>6400 МБ/с</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>400 МГц</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR3-1333</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC3-10600</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>10667 МБ/с</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1333 МГц</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR3-1866</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC3-14900</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>14933 МБ/с</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1867 МГц</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR3-2133</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC3-17000</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>17066 МБ/с</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>2133 МГц</font></td>
+	</tr>
+</table>]]></text>
+</component>  
+  
+  
+<component id="ID_s3_title">
+  <text><![CDATA[<b>Кэш-память</b>]]></text> 
+  </component>
+  
+ <component id="ID_s3_btn01">
+  <text><![CDATA[<b>L1</b>]]></text>
+  </component>
+<component id="ID_s3_btn02">
+  <text><![CDATA[<b>L2</b>]]></text> 
+  </component>
+<component id="ID_s3_btn03">
+  <text><![CDATA[<b>L3</b>]]></text> 
+  </component>
+  
+ <component id="ID_s3_txt01">
+  <text><![CDATA[Кэш L1 — это внутренний кэш, интегрированный в ЦП.]]></text>
+  </component>
+<component id="ID_s3_txt02">
+  <text><![CDATA[Кэш L2 — внешний кэш, первоначально устанавливаемый на материнскую плату около ЦП. Сейчас кэш L2 интегрируется в ЦП.]]></text> 
+  </component>
+<component id="ID_s3_txt03">
+  <text><![CDATA[Кэш L3 используется на ряде высокопроизводительных рабочих станций и серверных ЦП.]]></text> 
+  </component>
+  
+  
+<component id="ID_s4_title">
+  <text><![CDATA[<b>Ошибки памяти</b>]]></text> 
+  </component>
+  
+ <component id="ID_s4_btn01">
+  <text><![CDATA[<b>Без контроля четности</b>]]></text>
+  </component>
+<component id="ID_s4_btn02">
+  <text><![CDATA[<b>Контроль четности</b>]]></text> 
+  </component>
+<component id="ID_s4_btn03">
+  <text><![CDATA[<b>Код коррекции ошибок</b>]]></text> 
+  </component>
+  
+ <component id="ID_s4_txt01">
+  <text><![CDATA[Память без контроля четности не проверяет ошибки в памяти.]]></text>
+  </component>
+<component id="ID_s4_txt02">
+  <text><![CDATA[Память с контролем четности содержит восемь бит для данных и один бит для проверки ошибок. Этот бит для проверки ошибок называется битом четности.]]></text> 
+  </component>
+<component id="ID_s4_txt03">
+  <text><![CDATA[Код коррекции ошибок памяти может обнаружить многобитовые ошибки в памяти и исправить однобитовые ошибки в памяти.]]></text> 
+  </component>
+  
+  
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>

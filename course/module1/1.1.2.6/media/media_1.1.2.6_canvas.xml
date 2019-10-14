@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE">
+	<slide type="MBAR">
+		<slide type="MBUTTON">
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+			<slide buttonType="BLUE" buttonX="5" buttonY="48" buttonWidth="178" buttonHeight="42.9" compId="ID_s1_btn01">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s1_txt01" x="198" y="47" width="230" height="325" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="110.75" buttonWidth="178" buttonHeight="42.9" compId="ID_s1_btn02">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s1_txt02" x="198" y="47" width="230" height="325" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="177.5" buttonWidth="178" buttonHeight="21" compId="ID_s1_btn03">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s1_txt03" x="198" y="47" width="230" height="325" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="225.25" buttonWidth="178" buttonHeight="21" compId="ID_s1_btn04">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s1_txt04" x="198" y="47" width="230" height="325" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="272" buttonWidth="178" buttonHeight="21" compId="ID_s1_btn05">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s1_txt05" x="198" y="47" width="230" height="325" />
+			</slide>			
+		</slide>
+		
+		<slide>
+			<element type="TEXT" compId="ID_s2_table" x="10" y="60" width="410" height="300" subType="TABLE" class="mtable" />
+		</slide>
+
+		<slide type="MBUTTON">
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+			
+			<slide buttonType="BLUE" buttonX="5" buttonY="47" buttonWidth="175" buttonHeight="21" compId="ID_s3_btn01">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s3_txt01" x="200" y="45.3" width="230" height="325" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="85.75" buttonWidth="175" buttonHeight="21" compId="ID_s3_btn02">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s3_txt02" x="200" y="45.3" width="230" height="325" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="124.5" buttonWidth="175" buttonHeight="21" compId="ID_s3_btn03">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s3_txt03" x="200" y="45.3" width="230" height="325" />
+			</slide>
+						
+		</slide>	
+
+		<slide type="MBUTTON">
+			<element type="TEXT" subType="TITLE" compId="ID_s4_title"/>
+			
+			<slide buttonType="BLUE" buttonX="5" buttonY="47" buttonWidth="175" buttonHeight="21" compId="ID_s4_btn01">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s4_txt01" x="200" y="45.3" width="230" height="325" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="85.75" buttonWidth="175" buttonHeight="21" compId="ID_s4_btn02">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s4_txt02" x="200" y="45.3" width="230" height="325" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="124.5" buttonWidth="175" buttonHeight="21" compId="ID_s4_btn03">
+				<element type="TEXTBOX" titleId="null" bodyId="ID_s4_txt03" x="200" y="45.3" width="230" height="325" />
+			</slide>
+						
+		</slide>		
+	</slide>	
+</data>

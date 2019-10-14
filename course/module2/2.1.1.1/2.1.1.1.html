@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>2.1.1.1 Общая безопасность</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_2.1.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедуры безопасной работы в лаборатории</h1>
+        <h2>Процедуры защиты людей</h2>
+      </div>
+      <div id="content">
+          <p>Безопасные условия работы помогают избежать травмирования людей и повреждения компьютерного оборудования. Безопасное рабочее место должно содержаться в чистоте и порядке, иметь надлежащее освещение. Все должны знать и соблюдать технику безопасности. </p>
+          <p>Следуйте инструкции по безопасности, чтобы избежать порезов, ожогов, ударов электрическим током и нарушения зрения. Рекомендуется убедиться, что на случай пожара или травмы имеются огнетушитель и набор для оказания первой помощи. Неправильно размещенные или незакрепленные кабели могут стать травмоопасными препятствиями при монтаже сети. Во избежание риска кабели следует прокладывать в кабельных каналах или коробах. </p>
+          <p></p>
+          <p>Ниже представлен неполный список мер предосторожности при работе с компьютером:</p>
+          <p>
+            <ul>
+              <li>Снимите часы и украшения, подтяните свободную одежду, чтобы она не болталась.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Отключите питание и отсоедините кабель питания оборудования из розеток перед началом ремонтных работ.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Заклейте острые края внутри компьютера изоляционной лентой.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Никогда не разбирайте блок питания или ЭЛТ-монитор.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Не прикасайтесь к горячим частям принтера или деталям принтера, находящимся под высоким напряжением.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Узнайте, где находится огнетушитель и как им пользоваться.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Не держите еду и напитки на рабочем месте.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Поддерживайте свое рабочее место в чистоте и порядке.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Сгибайте колени, когда поднимаете тяжелые предметы, чтобы не повредить спину.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

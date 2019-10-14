@@ -1,0 +1,100 @@
+﻿<textcomponents>
+
+
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Перемычки на жестком диске</b>]]></text>
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Сравнение уровней RAID</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[<b>Контакты перемычек жесткого диска</b>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[<b>Чертеж<br /> контактов перемычек жесткого диска</b>]]></text>
+</component>
+
+
+
+<component id="ID_s2_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='5' class="title"></td>
+	</tr>
+	 <tr>
+          <td colspan='5' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+        </tr>
+	<tr >
+		<td bgcolor='#A2AA23' width='50' valign="top"><font  color='#FFFFFF'><b>Уровень RAID</b></font></td>
+		<td bgcolor='#A2AA23' width='55' valign="top"><font  color='#FFFFFF'><b>Минимальное количество<br /> приводов</b></font></td>
+		<td bgcolor='#A2AA23' width='85' valign="top"><font  color='#FFFFFF'><b>Описание</b></font></td>
+		<td bgcolor='#A2AA23' width='105' valign="top"><font  color='#FFFFFF'><b>Преимущества</b></font></td>
+		<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>Недостатки</b></font></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'><b>0</b></font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>2</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Чередование данных без избыточности</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Наилучшая производительность</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Отсутствует защита данных, сбой на одном диске приводит к потере всех данных</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'><b>1</b></font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>2</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Зеркалирование дисков</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Высокая производительность, высокий уровень защиты данных благодаря их дублированию</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Высокие затраты на реализацию, поскольку необходим дополнительный диск равной или большей емкости</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'><b>2</b></font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>2</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Кодирование с исправлением ошибок</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Данный уровень больше не используется</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Той же производительности можно достичь при меньших издержках с помощью RAID 3</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'><b>3</b></font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>3</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Чередование данных на уровне байтов с выделенной четностью</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Для больших, последовательных запросов данных</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Не поддерживает множественные, одновременные запросы на чтение и запись</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'><b>4</b></font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>3</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Чередование данных на уровне блоков с выделенной четностью</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Поддерживает множественные запросы на чтение, при сбое диска используется выделенный диск четности для создания диска на замену</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Запросы на запись — узкое место из-за выделенного диска четности</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'><b>5</b></font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>3</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Сочетание чередования данных и четности</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'><textformat blockindent='-16'><li>Поддерживает множественные одновременные запросы на чтение и запись</li><li>Данные записываются на всех дисках с четностью</li><li>Данные можно восстановить из информации, хранимой на других дисках</li></textformat></font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Производительность при записи ниже, чем у RAID 0 и 1</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'><b>6</b></font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>4</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Независимые диски для хранения данных с двойной четностью</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Чередование данных на уровне блоков, данные четности распределены по всем дискам, может обработать одновременные сбои двух дисков</font></td>
+		<td bgcolor='#F3F5E7' valign='top'><font size='10' color='#393536'>Производительность ниже, чем у RAID 5, поддерживается не на всех контроллерах дисков</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'><b>RAID 0+1</b></font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>4</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Сочетание чередования данных и зеркалирования</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Высокая производительность, высочайший уровень защиты данных</font></td>
+		<td bgcolor='#FFFFFF' valign='top'><font size='10' color='#393536'>Высокие издержки, поскольку для дублирования данных требуется в два раза больше места</font></td>
+	</tr>
+	
+</table>]]>
+</text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>1.1.2.3 Системы охлаждения</title>
+    <!--  -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_1.1.2.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Системы персональных компьютеров</h1>
+        <h2>Внутренние компоненты ПК</h2>
+      </div>
+      <div id="content">
+          <p>В результате прохождения электрического тока между электронным компонентами выделяется тепло. Компоненты компьютера работают лучше в охлажденном состоянии. Без отвода тепла работа компьютера может замедлиться. Чрезмерное выделение тепла может привести к повреждению компонентов компьютера.</p>
+          <p>Увеличение потока воздуха в корпусе компьютера позволяет отвести больше тепла. Если в корпусе установлен вентилятор, как показано на рисунке 1, охлаждение компонентов становится более эффективным. В дополнение к вентилятору корпуса существует радиатор, отводящий тепло от ядра ЦП. Вентилятор, установленный поверх радиатора, как показано на рисунке 2, охлаждает ЦП. </p>
+          <p>Прочие компоненты также могут быть повреждены в результате перегрева и иногда бывают оборудованы вентиляторами. Карты видеоадаптеров также вырабатывают много тепла. Имеются вентиляторы, предназначенные для охлаждения графического процессора, как показано на рисунке 3.</p>
+          <p>В компьютерах с чрезвычайно быстрыми ЦП и графическими процессорами может использоваться система водяного охлаждения. На процессоре размещается металлическая пластина, и на ее верхнюю часть подается вода, собирающая вырабатываемое процессором тепло. Вода подается в радиатор, охлаждается воздухом и затем возвращается обратно.</p>
+        </div>
+    </div>
+   <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

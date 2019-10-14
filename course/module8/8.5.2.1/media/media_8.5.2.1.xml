@@ -1,0 +1,107 @@
+﻿<textcomponents>
+	<component id="ID_table">
+		<text><![CDATA[
+			<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>	
+			<tr class="title">
+		<td colspan='3'  bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения</b></font></td>
+	</tr>
+				<tr >
+					<td colspan='3' bgcolor='#434321' class="liner_top"><font size='2' color='#434321'><span style="color:#A2AA23">.</span></font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#A2AA23'><font size='12' color='#ffffff'><b>Определение проблемы</b></font></td>
+					<td bgcolor='#A2AA23'><font size='12' color='#ffffff'><b>Возможные причины</b></font></td>
+					<td bgcolor='#A2AA23'><font size='12' color='#ffffff'><b>Возможные решения</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>Мобильное устройство не подключается к Интернету.</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Подключение Wi-Fi недоступно.</li>
+												<li>Функция Wi-Fi выключена.</li>
+												<li>Неправильные параметры Wi-Fi.</li>
+												<li>Устройство находится вне зоны действия сети передачи данных оператора.</li></textformat></font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Перейти в зону действия сети Wi-Fi.</li>
+												<li>Включить функцию Wi-Fi.</li>
+												<li>Изменить параметры Wi-Fi.</li>
+												<li>Перейти в зону действия сети передачи данных оператора.</li></textformat></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>Мобильное устройство не включается.</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Аккумулятор полностью разряжен.</li>
+												<li>Сломана кнопка включения питания.</li>
+												<li>Сбой устройства.</li></textformat></font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Зарядить мобильное устройство или заменить разряженный аккумулятор заряженным.</li>
+												<li>Обратиться в службу поддержки заказчиков для определения дальнейших действий.</li></textformat></font></td>
+				</tr>	
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12'color='#393536'>Приложение не отвечает на действия пользователя.</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Приложение работает неправильно.</li>
+												<li>Приложению не удалось закрыться корректно.</li></textformat></font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Принудительно закрыть приложение.</li>
+												<li>Перезапустить мобильное устройство.</li>
+												<li>Сбросить мобильное устройство.</li>
+												<li>Извлечь и заново установить аккумулятор мобильного устройства.</li></textformat></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>Мобильное устройство зависло и не отвечает.</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Операционная система обнаружила ошибку.</li>
+												<li>Операционная система зависла из-за приложения.</li></textformat></font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Принудительно закрыть приложение.</li>
+												<li>Перезапустить мобильное устройство.</li>
+												<li>Сбросить мобильное устройство.</li>
+												<li>Извлечь и заново установить аккумулятор мобильного устройства.</li></textformat></font></td>
+				</tr>	
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12'color='#393536'>Мобильное устройство не может отправлять или принимать электронную почту.</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Мобильное устройство не подключено к Интернету.</li>
+												<li>Неправильные параметры учетной записи электронной почты.</li></textformat></font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Подключить устройство к сети Wi-Fi или сотовой сети передачи данных.</li>
+												<li>Изменить параметры учетной записи электронной почты.</li></textformat></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>Планшетный ПК не заряжается или заряжается очень медленно при подключении к сети переменного тока.</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Планшетный ПК используется во время зарядки.</li>
+												<li>Недостаточная сила тока адаптера переменного тока.</li></textformat></font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Отключить планшетный ПК на время зарядки.</li>
+												<li>Использовать адаптер переменного тока, входивший в комплект поставки планшетного ПК.</li>
+												<li>Использовать адаптер переменного тока с подходящим значением силы тока.</li></textformat></font></td>
+				</tr>	
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12'color='#393536'>Смартфон не подключается к сети оператора.</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>Не установлена SIM-карта.</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>Вставить SIM-карту.</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>На мобильном устройстве не удается установить дополнительные приложения или сохранить фотографии.</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>Недостаточно памяти на мобильном устройстве.</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Вставить карту памяти или заменить ее картой большего объема.</li>
+												<li>Удалить ненужные файлы.</li>
+												<li>Удалить ненужные приложения.</li></textformat></font></td>
+				</tr>	
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12'color='#393536'>Мобильное устройство не удается синхронизировать с устройством Bluetooth.</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Устройство Bluetooth находится вне зоны действия мобильного устройства.</li>
+												<li>Неправильно введен PIN-код.</li>
+												<li>Устройство Bluetooth несовместимо с мобильным устройством.</li></textformat></font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'>
+												<textformat blockindent='-18'><li>Переместить устройство Bluetooth в зону действия мобильного устройства.</li>
+												<li>Ввести правильный PIN-код.</li>
+												<li>Обновить устройство Bluetooth или заменить его совместимым устройством.</li></textformat></font></td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+</textcomponents>

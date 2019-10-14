@@ -1,0 +1,501 @@
+﻿<textcomponents>
+  <component id="ID_table_01">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="title">
+				<td bgcolor='#DAE17A' colspan='3' class="title">
+					<font size='14' color='#393536'><b>Распространенные неполадки сетевых подключений и способы их устранения</b></font>
+				</td>
+			</tr> 	  			
+			<tr class="liner">
+			  <td colspan='3' bgcolor='#434321' class="liner_top">
+				<font size='1' color='#434321'>
+				  <span style="color:#DAE17A">.</span>
+				</font>
+			  </td>
+			</tr>
+		<tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+		<tr>
+			<td bgcolor='#FFFFFF' valign="top">
+				<font color='#393536'>Компьютер может подключиться к сетевому устройству только по IP-адресу, а не по имени узла.</font>
+			 </td>
+			  <td bgcolor='#FFFFFF' valign="top">
+				<font color='#393536'>
+						<textformat blockindent='-18'><li>Неверное имя узла.</li>
+						<li>Неверные параметры DNS. </li>
+						<li>Не работает сервер DNS.</li></textformat>
+					</font>
+			  </td>
+			  <td bgcolor='#FFFFFF' valign="top">
+				 <font color='#393536'>
+				 	<textformat blockindent='-18'><li>Повторно введите имя узла.</li>
+					<li>Повторно введите IP-адрес сервера DNS.</li>
+					<li>Перезагрузите сервер DNS. </li></textformat>
+				 </font>
+			  </td>
+        </tr>	
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Компьютер не получает или не обновляет IP-адрес.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>Компьютер использует статический IP-адрес.</li>
+				<li>Неплотное подключение сетевого кабеля.</li>
+				<li>Межсетевой экран блокирует DHCP.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>
+				<textformat blockindent='-18'><li>Включите автоматическое получение компьютером IP-адреса. </li>
+				<li>Проверьте подключения кабелей. </li>
+				<li>В параметрах межсетевого экрана разрешите трафик DHCP.</li></textformat>
+			</font>
+          </td>
+        </tr>		
+		<tr>
+			<td bgcolor='#FFFFFF' valign="top">
+				<font color='#393536'>При подключении к сети нового компьютера отображается сообщение о конфликте IP-адресов.</font>
+        	</td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Одинаковый IP-адрес назначен двум разным устройствам в сети.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          	<font color='#393536'>Настройте для каждого устройства уникальный IP-адрес.</font>
+          </td>
+        </tr>
+		
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Компьютер имеет доступ только к сети, но не к Интернету.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>Неправильный IP-адрес шлюза.</li>
+				<li>Маршрутизатор настроен неправильно.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+         	 <font color='#393536'>Перезагрузите маршрутизатор и измените его параметры.</font>
+          </td>
+        </tr>		
+		 <tr>
+			<td bgcolor='#FFFFFF' valign="top">
+				<font color='#393536'>Компьютер автоматически получил IP-адрес 169.254.x.x, но не может подключиться к сети.</font>
+         	</td>
+         	 <td bgcolor='#FFFFFF' valign="top">
+         	  <font color='#393536'>
+            	<textformat blockindent='-18'><li>Выключен сервер DHCP.</li>
+            	<li>Компьютеру не удается связаться с сервером DHCP.</li>
+            	<li>Другому компьютеру назначен статический IP-адрес, взятый из пула DHCP.</li></textformat></font>
+          	</td>
+          	<td bgcolor='#FFFFFF' valign="top">
+          	 <font color='#393536'>
+          		<textformat blockindent='-18'><li>Включите сервер DCHP.</li>
+          		<li>Запустите ipconfig /release, а затем ipconfig /renew.</li>
+          		<li>Перезагрузите компьютер.</li></textformat>
+          		</font>
+          </td>
+        </tr>
+
+		
+		<tr>
+			<td bgcolor='#FFFFFF' valign="top">
+				<font color='#393536'>Низкая скорость передачи данных по беспроводной сети.</font>
+         	</td>
+         	 <td bgcolor='#FFFFFF' valign="top">
+            	<font color='#393536'>
+					<textformat blockindent='-18'><li>Не настроено обеспечение безопасности беспроводной сети, в результате чего разрешен неавторизованный доступ пользователей.</li>
+					<li>К точке доступа подключено слишком много пользователей.</li></textformat>
+				</font>
+          	</td>
+          	<td bgcolor='#FFFFFF' valign="top">
+          		<font color='#393536'>
+					<textformat blockindent='-18'><li>Примените план обеспечения безопасности беспроводной сети.</li>
+					<li>Добавьте еще одну точку доступа.</li></textformat>
+				</font>
+          </td>
+        </tr>
+		
+		<tr>
+			<td bgcolor='#F3F5E7' valign="top">
+				<font color='#393536'>Нестабильная связь по беспроводной сети.</font>
+         	</td>
+         	 <td bgcolor='#F3F5E7' valign="top">
+            	<font color='#393536'>
+					<textformat blockindent='-18'><li>Пользователь находится слишком далеко от точки доступа.</li>
+					<li>Наблюдаются помехи для беспроводного сигнала от внешних источников.</li>
+					<li>К точке доступа подключено слишком много пользователей.</li></textformat>
+				</font>
+          	</td>
+          	<td bgcolor='#F3F5E7' valign="top">
+          		<font color='#393536'>
+					<textformat blockindent='-18'><li>Убедитесь, что точка доступа имеет центральное расположение.</li>
+					<li>Измените каналы беспроводной точки доступа.</li>
+					<li>Добавьте еще одну точку доступа.</li></textformat>
+				</font>
+          </td>
+        </tr>
+		
+      </table>]]>
+    </text>
+  </component>
+  <component id="ID_table_02">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		  <tr class="title">
+			<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки электронной почты и способы их устранения</b></font></td>
+		</tr> 
+			<tr class="liner">
+			  <td colspan='3' bgcolor='#434321' class="liner_top">
+				<font size='1' color='#434321'>
+				  <span style="color:#DAE17A">.</span>
+				</font>
+			  </td>
+			</tr>
+			
+		  <tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+		 <td bgcolor='#FFFFFF' valign="top">
+			<font color='#393536'>С компьютера не удается отправить или получить электронную почту.</font>
+         </td>
+         <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>Неправильные параметры клиента электронной почты на компьютере.</li>
+				<li>Сервер электронной почты не работает.</li>
+				<li>Сетевой кабель отключен или подключен неплотно.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>
+		  	<textformat blockindent='-18'><li>Измените параметры клиента электронной почты.</li>
+			<li>Перезагрузите сервер электронной почты или уведомите поставщика услуг электронной почты.</li></textformat>
+			</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>С компьютера удается только отправить электронную почту, но не получить.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Хранилище входящих сообщений переполнено</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+         	<font color='#393536'>Заархивируйте или удалите письма, чтобы освободить место.</font>
+          </td>
+        </tr>
+		
+		<tr>
+		 <td bgcolor='#FFFFFF' valign="top">
+			<font color='#393536'>С компьютера не удается получить вложение к определенному сообщению.</font>
+         </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>Вложение слишком большое.</li>
+				<li>Вложение содержит вирус и блокируется антивирусной защитой.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>
+		  	<textformat blockindent='-18'><li>Попросите отправителя разделить вложение на меньшие части и отправить их отдельными сообщениями.</li>
+			<li>Попросите отправителя проверить вложение на вирусы перед отправкой.</li></textformat>
+		  </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>С компьютера не удается пройти проверку подлинности на почтовом сервере.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Неверные параметры почтового сервера.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          	<font color='#393536'>Введите правильные параметры почтового сервера.</font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+  <component id="ID_table_03">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			  <tr class="title">
+				<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения для FTP и безопасных подключений через Интернет</b></font></td>
+			</tr> 
+			<tr class="liner">
+			  <td colspan='3' bgcolor='#434321' class="liner_top">
+				<font size='1' color='#434321'>
+				  <span style="color:#DAE17A">.</span>
+				</font>
+			  </td>
+			</tr>
+	  		<tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+		 <td bgcolor='#FFFFFF' valign="top">
+			<font color='#393536'>Пользователь не может получить доступ к серверу FTP.</font>
+         </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>В маршрутизаторе не включена переадресация портов.</li>
+				<li>Достигнуто максимальное количество пользователей.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>
+		  		<textformat blockindent='-18'><li>Включите на маршрутизаторе переадресацию портов, чтобы переадресовать порт 21 на IP-адрес сервера FTP.</li>
+				<li>Увеличьте максимальное количество одновременных пользователей FTP на сервере FTP.</li></textformat>
+			</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Клиентское ПО FTP не может найти сервер FTP.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>Клиент FTP имеет неправильный параметр IP-адреса или порта.</li>
+				<li>Сервер FTP не работает.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>
+		  	<textformat blockindent='-18'><li>Введите правильные параметры IP-адреса и порта в клиент FTP.</li>
+			<li>Перезагрузите сервер FTP.</li></textformat>
+		 </font>
+          </td>
+        </tr>
+		
+		<tr>
+		<td bgcolor='#FFFFFF' valign="top">
+			<font color='#393536'>Сервер FTP отключает клиента после краткого периода отсутствия активности.</font>
+         </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Сервер FTP не позволяет подключенным клиентам сохранять подключение, не отправляя никаких команд на сервер FTP.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>Увеличьте время, в течение которого клиент FTP может сохранять подключение, не выполняя никаких действий.</font>
+          </td>
+        </tr>	
+		
+
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Компьютер не может подключиться к конкретному сайту HTTPS.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Неправильная настройка сертификата SSL в обозревателе.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>
+		  	<textformat blockindent='-18'><li>Очистите состояние SSL.</li>
+			<li>Добавьте доверенный корневой сертификат.</li>
+			<li>Выберите Сервис > Параметры Интернета > вкладка «Дополнительно». Убедитесь, что установлен флажок SSL.</li></textformat>
+		 </font>
+          </td>
+        </tr>
+  		
+      </table>]]>
+    </text>
+  </component>
+  <component id="ID_table_04">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения при использовании средств поиска и устранения неполадок сетей</b></font></td>
+	</tr> 
+
+		<tr class="liner">
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+		<tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+		<td bgcolor='#FFFFFF' valign="top">
+			<font color='#393536'>Компьютер может отправить эхо-запрос только на IP-адрес, но не на имя узла.</font>
+         </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>Неверное имя узла.</li>
+				<li>Неверные параметры DNS в компьютере.</li>
+				<li>Не работает сервер DNS.</li>
+				<li>NetBIOS по TCP/IP не включен.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>
+		  	<textformat blockindent='-18'><li>Введите правильное имя узла.</li>
+			<li>Введите правильные параметры DNS.</li>
+			<li>Перезагрузите сервер DNS.</li>
+			<li>Включите NetBIOS по TCP/IP.</li></textformat>
+		  </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Компьютер из одной сети не может отправить эхо-запрос на компьютер из другой сети.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>Между двумя сетями повреждено подключение или имеется неисправное устройство.</li>
+				<li>Эхо-запрос по протоколу ICMP отключен.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>
+		  	<textformat blockindent='-18'><li>Используйте tracert для определения неработающего канала и его восстановления.</li>
+			<li>Убедитесь, что эхо-запрос по протоколу ICMP включен.</li></textformat>
+		  </font>
+          </td>
+        </tr>
+		
+		<tr>
+		<td bgcolor='#FFFFFF' valign="top">
+			<font color='#393536'>Команда Nslookup выводит сообщение "Can't find server name for address 127.0.0.0: timed out".</font>
+         </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>На локальном компьютере не настроен IP-адрес сервера DNS.</li>
+				<li>Неверный IP-адрес сервера DNS.</li></textformat>
+			</font>
+			
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>Добавьте IP-адрес нужного сервера DNS в свойства TCP/IP адаптера ЛВС.</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Компьютер не может подключиться к общей для сети папки с помощью команды net use.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>К папке не открыт общий доступ.</li>
+				<li>Компьютер не относится к той же рабочей группе.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>
+		  	<textformat blockindent='-18'><li>Убедитесь, что сетевая папка является общей, с помощью команды net share.</li>
+			<li>Поместите компьютер в ту же рабочую группу, что и компьютер, на котором хранится общая сетевая папка.</li></textformat>
+		  </font>
+          </td>
+        </tr>
+		
+			<tr>
+			<td bgcolor='#FFFFFF' valign="top">
+				<font color='#393536'>При попытке использовать команды ipconfig /release или ipconfig /renew command выводится сообщение: "No operation can be performed on the adapter while its media is disconnected."</font>
+        	</td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>Сетевой кабель отключен.</li>
+				<li>Компьютер настроен для статического IP-адреса.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>
+		  	<textformat blockindent='-18'><li>Повторно подключите сетевой кабель. </li>
+			<li>Измените свойства TCP/IP адаптера ЛВС для использования протокола DHCP</li></textformat>
+		  </font>
+          </td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Компьютер не может установить сеанс telnet с удаленным компьютером.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>
+				<textformat blockindent='-18'><li>Служба telnet остановлена.</li>
+				<li>Удаленный компьютер не настроен для приема подключений по telnet.</li></textformat>
+			</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>
+		  	<textformat blockindent='-18'><li>Запустите службу telnet на удаленном компьютере.</li>
+			<li>Настройте удаленный компьютер для приема подключений по telnet.</li></textformat>
+		  </font>
+          </td>
+        </tr>
+		<tr>
+			<td bgcolor='#FFFFFF' valign="top">
+				<font color='#393536'>На значке сети в области уведомлений отображается желтый восклицательный знак.  При попытке использовать команды ipconfig /release или ipconfig /renew command выводится сообщение: "The operation failed as no adapter is in the state permissible for this operation."</font>
+        	</td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Интерфейсу назначен статический IP-адрес.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+         	 <font color='#393536'>Измените настройку со статического IP-адреса на автоматическое получение IP-адреса.</font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+  
+  
+</textcomponents>

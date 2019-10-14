@@ -1,0 +1,37 @@
+﻿<textcomponents>
+<component id="ID_title">
+  <text><![CDATA[<b>Типы ПЗУ</b>]]></text>
+  </component>
+  
+ <component id="ID_btn01">
+  <text><![CDATA[<b>ПЗУ</b>]]></text>
+  </component>
+<component id="ID_btn02">
+  <text><![CDATA[<b>ППЗУ</b>]]></text> 
+  </component>
+<component id="ID_btn03">
+  <text><![CDATA[<b>СППЗУ</b>]]></text> 
+  </component>
+<component id="ID_btn04">
+  <text><![CDATA[<b>ЭППЗУ</b>]]></text>
+  </component>
+  
+<component id="ID_txt01">
+  <text><![CDATA[Микросхемы ПЗУ только для чтения. Данные записываются в микросхемы ПЗУ на производстве. Данные в микросхеме ПЗУ нельзя стереть или переписать. Микросхемы данного типа являются устаревшими.]]></text>
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[ППЗУ. Данные записываются в микросхемы ППЗУ после производства. Данные в микросхеме ППЗУ нельзя стереть или переписать.]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[СППЗУ.  Данные записываются в микросхемы СППЗУ после производства. Данные с микросхемы СППЗУ можно стереть под воздействием ультрафиолетовых лучей. Для этого необходимо специальное оборудование.]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[ЭППЗУ (EEPROM). Данные записываются в микросхемы ЭППЗУ (EEPROM) после производства. Микросхемы ЭППЗУ также называются перепрограммируемым ПЗУ (флэш-ПЗУ). Данные в микросхеме ЭППЗУ можно стереть или переписать, не удаляя микросхему из компьютера.]]></text>
+  </component>
+
+   
+
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>

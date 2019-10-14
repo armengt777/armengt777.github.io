@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.3.1.1 Управление питанием</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.3.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Питание ноутбука</h1>
+        <h2>Параметры питания</h2>
+      </div>
+      <div id="content">
+          <p>Благодаря техническим нововведениям в области управления питанием и технологий аккумуляторов время автономной работы ноутбука увеличивается. Существующие аккумуляторы могут проработать без подзарядки 10 часов или более. Важно настроить параметры питания ноутбука, чтобы обеспечить оптимальное управление питанием и эффективное использование аккумулятора. </p>
+          <p></p>
+          <p>Управление питанием подразумевает управление тем, как электричество поступает к компонентам компьютера. Существует два способа управления питанием:</p>
+          <p>
+            <ul>
+              <li>Расширенное управление питанием (APM)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Усовершенствованный интерфейс настройки и управления питанием (ACPI)</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>APM &mdash; более ранняя версия управления питанием. С помощью APM BIOS контролирует настройки управления питанием.  </p>
+          <p></p>
+          <p>ACPI заменил APM. Стандарты ACPI, как показано на рисунке, &mdash; это мост между оборудованием и ОС. Он позволяет инженерам создавать схемы управления питанием, чтобы ноутбук работал с оптимальной производительностью. Стандарты ACPI применяются в большинстве компьютеров, но играют особенно важную роль при управлении питанием в ноутбуках. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

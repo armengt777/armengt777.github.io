@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide>
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+			<element type="IMAGE" subType="STD" src="coaxialCable.jpg" x="267.7" y="29.45" width="156.8" height="156.8"/>
+			<element type="IMAGE" subType="STD" src="fiberOptic.jpg" x="152.9" y="215.95" width="156.8" height="156.8" />
+			<element type="IMAGE" subType="STD" src="twistedPair.jpg" x="46" y="29.45" width="156.8" height="156.8" />
+			<element type="TEXT" compId="ID_txt01" x="50.35" y="191.95" width="148.7" expand="down" align="center" size="12" />
+			<element type="TEXT" compId="ID_txt02" x="273" y="191.95" width="148.7" expand="down" align="center" size="12" />
+			<element type="TEXT" compId="ID_txt03" x="159.35" y="380.95" width="148.7" expand="down" align="center" size="12" />
+		</slide>
+	</data>
+
+

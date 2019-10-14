@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>9.3.3.1 Software Optimization</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.3.3.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка и настройка принтеров</h1>
+        <h2>Оптимизация работы принтера</h2>
+      </div>
+      <div id="content">
+          <p>В случае принтеров оптимизация в основном выполняется с помощью ПО, поставляемого вместе с драйверами.</p>
+          <p>Для оптимизации работы принтеров используются следующие инструменты:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Параметры буфера печати</b> &mdash; позволяют отменить или приостановить текущий документ в очереди печати.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Калибровка цвета</b> &mdash; позволяет изменить параметры таким образом, чтобы цвета на экране и напечатанной странице соответствовали друг другу.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Ориентация листа</b> &mdash; выбор альбомной или портретной ориентации изображения.</li>
+            </ul>
+          </p>
+          <p>Калибровка принтеров выполняется с помощью ПО драйвера печати. Калибровка дает возможность убедиться в том, что печатающие головки выровнены правильно и что они могут печатать на различных носителях, таких как открыточная бумага, фотобумага и оптические диски. Некоторые струйные принтеры нуждаются в подстройке под чернильный картридж, поэтому может потребоваться проводить калибровку принтера при каждой смене картриджа.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>

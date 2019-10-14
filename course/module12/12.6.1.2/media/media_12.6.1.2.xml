@@ -1,0 +1,407 @@
+﻿<textcomponents>
+  <component id="ID_table_01">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки, связанные с вредоносными программами, и способы их устранения</b></font></td></tr>
+	   <tr>
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+<tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+
+<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>При загрузке появляется сообщение «MBR has been changed or modified» (Загрузчик операционной системы изменен или модифицирован).
+</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Вирус в загрузочном секторе привел к изменению главной загрузочной записи.
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>Загрузите компьютер с загрузочного гибкого диска или флэш-накопителя и запустите антивирусное ПО, чтобы удалить вирус из загрузочного сектора.</font>
+          </td>
+        </tr>
+		
+		
+		
+		
+		
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Компьютер с Windows 7 или Windows Vista загружается с сообщением об ошибке «Error Loading Operating System» (Ошибка загрузки ОС).
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Вирус повредил главную загрузочную запись.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>
+<textformat blockindent='-18'><li>Загрузите компьютер с установочного носителя.</li>
+<li>В окне «Установка Windows» выберите «Восстановить компьютер».</li>
+<li>В командной строке наберите bootrec.exe /fixmbr.</li></textformat></font></td>
+        </tr>
+
+		<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Компьютер с Windows 7 или Windows Vista загружается с сообщением об ошибке «Caution: this hard disk may be infected by virus!» (Внимание! Этот жесткий диск может быть поврежден вирусом!)
+</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Вирус повредил загрузочную запись.
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Загрузите компьютер с установочного носителя.</li>
+<li>В окне «Установка Windows» выберите «Восстановить компьютер».</li>
+<li>В командной строке наберите bootrec.exe /fixboot.</li></textformat></font></td>
+        </tr>
+		
+		
+		
+		
+		
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Компьютер с Windows XP не загружается.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Вирус повредил главную загрузочную запись.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Загрузите компьютер с установочного носителя XP. </li>
+<li>На экране установки выберите R (Консоль восстановления).</li>
+<li>В командной строке введите команду fixmbr.</li></textformat></font></td>
+        </tr>
+		
+
+<tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Компьютер с Windows 7 не загружается.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Вирус повредил системные файлы Windows.
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Загрузите компьютер с загрузочного носителя Windows PE.</li> 
+            <li>Воспользуйтесь средством восстановления загрузки Windows для восстановления системных файлов.</li></textformat></font></td>
+        </tr>
+    
+		 <tr>
+<td bgcolor='#FFFFFF' valign="top">
+<font color='#393536'>С вашей учетной записи электронной почты идет рассылка спама пользователям из вашего списка контактов.</font>
+         </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Ваша учетная запись электронной почты была взломана вирусом или шпионским ПО.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Запустите антивирусное ПО для исправления, удаления или отправки в карантин зараженных файлов.</li>
+		  <li> Запустите антишпионское ПО и удалите все шпионские программы.</li>
+		   <li>После очистки компьютера измените пароль учетной записи электронной почты.</li></textformat></font></td>
+        </tr>
+		
+    
+		
+      </table>]]>
+    </text>
+  </component>
+  <component id="ID_table_02">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения для прав доступа пользователей</b></font></td>
+	</tr> 
+	  <tr>
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Пользователь может начать сеанс, но получает сообщение «access denied» (доступ запрещен) при попытке доступа к некоторым папкам и файлам.
+</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Пользователь не входит в группу, имеющую разрешение на доступ к этим папкам и файлам.
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Добавьте пользователя в правильную группу.</li>
+<li>Дайте пользователю нужные права доступа к файлам и папкам.</li></textformat></font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Пользователь может найти файл на сервере, но не может загрузить его.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Права доступа пользователя неправильные.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>Измените права доступа пользователя к файлу на чтение и выполнение.
+</font>
+          </td>
+        </tr>
+		<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Пользователь имеет права доступа к вложенной папке, к которой он доступа иметь не должен.
+</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Вложенная папка наследует права доступа от папки верхнего уровня.
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>Измените права доступа к вложенной папке так, чтобы она не наследовала права доступа от родительской папки. Установите правильные права доступа к вложенной папке.
+</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Пользователям группы не видна папка, к которой они должны иметь доступ.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>В правах доступа к папке установлен запрет.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>Измените права доступа к папке на разрешение.
+</font>
+          </td>
+        </tr>
+		<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Зашифрованные файлы, переданные через сеть на новый компьютер, больше не являются зашифрованными.</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>На новом компьютере нет раздела NTFS.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>Преобразуйте раздел нового компьютера в NTFS и повторно зашифруйте файлы.</font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+
+  <component id="ID_table_03">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения для параметров безопасности компьютера</b></font></td>
+	</tr> 
+	<tr>
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Компьютер медленно работает в одно и то же время каждый день.
+</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Антивирусное ПО настроено на ежедневную проверку компьютера в одно и то же время.
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>Настройте антивирусное ПО на проверку компьютера в то время, когда он не используется.</font></td></tr>
+		
+		
+		
+		
+		
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Пользователь жалуется, что параметры BIOS компьютера постоянно изменяются.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Не установлен пароль BIOS, поэтому другие пользователи могут менять параметры BIOS.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>Установите пароль, чтобы ограничить доступ к параметрам BIOS.</font>
+          </td>
+        </tr>
+		
+		<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Модуль TPM не отображается в диспетчере устройств.</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Модуль TPM отключен.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>Включите модуль TPM в BIOS.</font></td>
+        </tr>	       
+      </table>]]>
+    </text>
+  </component>
+	
+	
+  <component id="ID_table_04">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения для параметров межсетевых экранов или прокси-серверов</b></font></td>
+	</tr> 
+	<tr>
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+<tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>С компьютера не удается отправить эхо-запрос другому компьютеру в сети.</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Брандмауэр Windows блокирует запросы эхо-тестирования.</li>
+<li>Маршрутизатор блокирует эхо-запросы.</li></textformat></font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Разрешите эхо-запросы в параметрах межсетевого экрана Windows. </li><li>Разрешите эхо-запросы в параметрах маршрутизатора.</li></textformat></font></td>
+    </tr>
+		
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Исключения межсетевого экрана портативного компьютера разрешают несанкционированные подключения со вредоносных компьютеров.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Неверные параметры межсетевого экрана Windows.</li>
+<li>Межсетевой экран Windows отключен.</li></textformat></font></td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Установите в параметрах межсетевого экрана Windows «Do not allow exceptions when using a public network» (Не разрешать исключения при использовании общественной сети).</li>
+<li>Включите межсетевой экран Windows.</li></textformat></font></td>
+        </tr>
+		
+		<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Компьютер не может подключиться к другому компьютеру по telnet.</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Межсетевой экран Windows блокирует порт 23 по умолчанию.</li>
+<li>Маршрутизатор блокирует порт 23.</li></textformat></font></td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Откройте порт 23 в параметрах межсетевого экрана Windows.</li>
+<li>Откройте порт 23 в параметрах маршрутизатора.</li></textformat></font></td>
+        </tr>
+		
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Почтовая программа настроена надлежащим образом, но не может подключиться к серверу электронной почты.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Сервер электронной почты не работает.</li>
+<li>Межсетевой экран Windows блокирует почтовую программу.</li></textformat></font></td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Убедитесь, что сервер электронной почты работает.</li>
+<li>Создайте исключение для вашей почтовой программы в межсетевом экране Windows.</li></textformat></font> </td>
+        </tr>
+		
+			<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>С компьютера удается отправить эхо-запросы за пределы локальной сети, но не удается подключиться к Интернету.</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Межсетевой экран Windows блокирует порт 80.</li>
+<li>Маршрутизатор блокирует порт 80.</li></textformat></font></td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Откройте порт 80 в параметрах межсетевого экрана Windows.</li>
+<li>Откройте порт 80 в параметрах маршрутизатора.</li></textformat></font></td>
+		</tr>
+		
+		 <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>С компьютера удается отправить эхо-запросы на прокси-сервер, но не удается подключиться к Интернету.
+
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Неверные параметры прокси-сервера в браузере.</li>
+<li>Прокси-сервер в автономном режиме.</li></textformat></font></td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Еще раз введите параметры прокси-сервера, включая IP-адрес и порт прокси-сервера, и все исключения, которые нужно определить.</li>
+<li>Перезагрузите прокси-сервер.</li></textformat></font></td>
+        </tr>
+		
+      </table>]]>
+    </text>
+  </component>
+  
+  
+</textcomponents>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>12.0.1.1 Введение</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script> var myLayout;  $(document).ready(function () { var frame = document.getElementById("mainFrame"); if (isTextOnly(window)) {frame.setAttribute("src", "media_12.0.1.1_longdesc.txt");  } else {frame.setAttribute("src", "media/index.html"); }	myLayout = $("body").layout({  west__size: 300, west__minSize: 300, center__minWidth: 100, stateManagement__enabld: true,  maskIframesOnResize: true, livePaneResizing: true, onresize_end: resizeTextDiv, stateManagement__cookie__name: "ui_pane_ru", stateManagement__cookie__expires: 1,  stateManagement__cookie__path: "/"   }); }); function resizeTextDiv() {var DivHeight = document.getElementById("header").offsetHeight;document.getElementById("content").style.top = String(DivHeight) + "px";} </script>
+
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Поиск и устранение сложных неполадок</h1>
+        <h2>Введение</h2>
+      </div>
+      <div id="content">
+          <p>Для успешной карьеры инженера очень важно развивать дополнительные приемы поиска и устранения неполадок и изучать методики диагностики компьютерных компонентов, операционных систем, сетей, портативных компьютеров, принтеров и способы обеспечения безопасности. Расширенный поиск и устранение сложных неполадок означает, что проблема является уникальной или решение &mdash; труднореализуемым. Чаще же этот термин означает, что вероятную причину неполадки трудно диагностировать.  </p>
+          <p></p>
+          <p>Для поиска и устранения сложных неполадок требуется не только применять дополнительные навыки диагностики при работе с оборудованием или ПО, но и взаимодействовать с заказчиками и другими инженерами. Ваше умение работать с заказчиками и другими инженерами влияет на скорость и полноту диагностики и решения конкретной проблемы. Пользуйтесь своими ресурсами, помощью других специалистов и сообществом инженеров в Интернете, чтобы получить ответы на вопросы, возникшие при диагностике. Также возможно, что ваша помощь будет полезна другому инженеру в устранении сложной неполадки.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

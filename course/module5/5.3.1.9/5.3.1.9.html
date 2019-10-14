@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.1.9 Библиотеки Windows 7</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.1.9_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Рабочий стол, инструменты и приложения Windows</h2>
+      </div>
+      <div id="content">
+          <p>Библиотеки — это новая функция ОС Windows 7, позволяющая упорядочить содержимое различных устройств хранения на локальном компьютере и в сети, в том числе на сменных носителях, при этом не перемещая файлы. Библиотека — это виртуальная папка, в которой в едином виде представлено содержимое из разных местоположений. Можно выполнять поиск в библиотеке и фильтровать содержимое с применением различных критериев: имени файла, типа файла или даты изменения.</p>
+          <p>После установки ОС Windows 7 для каждого пользователя по умолчанию создано четыре библиотеки: Документы, Музыка, Изображения и Видео. Для получения доступа в библиотеку откройте Проводник Windows и щелкните <b>Библиотеки</b> в столбце слева. Для добавления в библиотеку файла или папки щелкните объект правой кнопкой мыши, выберите пункт <b>Добавить в библиотеку</b> <b></b>и выберите библиотеку, в которую нужно добавить этот элемент. При открытии этой библиотеки обеспечивается доступ к добавленному файлу или папке.</p>
+          <p>Чтобы создать новую библиотеку, откройте папку и перейдите по пунктам <b>Библиотеки &gt; Новая библиотека</b>.</p>
+          <p>Для настройки библиотеки щелкните ее правой кнопкой мыши и выберите пункт <b>Свойства</b>. Можно добавить папки в библиотеку с помощью окна «Свойства», нажав <b>Добавить папку</b>. Можно также изменить значок для библиотеки и изменить расположение элементов. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

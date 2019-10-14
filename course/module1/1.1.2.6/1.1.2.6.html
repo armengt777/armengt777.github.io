@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>1.1.2.6 Модули памяти</title>
+    <!--  -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_1.1.2.6_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Системы персональных компьютеров</h1>
+        <h2>Внутренние компоненты ПК</h2>
+      </div>
+      <div id="content">
+          <p>На ранних моделях компьютеров ОЗУ были установлены на материнских платах в виде отдельных микросхем. Отдельные интегральные схемы, называемые микросхемами с двухрядным расположением выводов (DIP), были неудобны в установке и часто расшатывались. Для решения этой проблемы проектировщики объединили интегральные схемы в особую печатную плату, создав модуль памяти. Типы модулей памяти приведены на рисунке 1.</p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Модули памяти бывают односторонними и двухсторонними. На односторонних модулях памяти микросхемы ОЗУ напаяны только с одной стороны. На двухсторонних модулях памяти микросхемы ОЗУ расположены с обеих сторон.</p>
+          <p>Скорость работы памяти оказывает прямое воздействие на объем данных, который может обработать процессор, поскольку более быстрая память улучшает его производительность. С повышением скорости работы процессора скорость работы памяти также должна возрастать. Например, одноканальная память способна передавать данные со скоростью 64 бита на такт. У двухканальной памяти путем использования второго канала скорость повышена до 128 битов на такт.</p>
+          <p>Технология двойной скорости данных (DDR) позволяет удвоить максимальную пропускную способность по отношению к SDRAM. DDR2 обеспечивает более высокую производительность и потребляет меньше энергии. DDR3 работает на еще большей скорости по сравнению с DDR2. Тем не менее, ни одна из технологий DDR не обладает прямой или обратной совместимостью. На рисунке 2 приведены распространенные типы памяти и их скорости.</p>
+          <p>
+            <b>Кэш</b>
+          </p>
+          <p>Статическое ОЗУ (SRAM) используется в качестве кэш-памяти для хранения недавно использованных данных и команд. SRAM обеспечивает процессору более быстрый доступ к данным по сравнению с более медленным динамическим ОЗУ (DRAM), или основной памятью. На рисунке 3 приведены три наиболее распространенных типа кэш-памяти.</p>
+          <p>
+            <b>Выявление ошибок</b>
+          </p>
+          <p>Если данные сохраняются на микросхемах ОЗУ с ошибками, возникают ошибки памяти. Компьютер использует различные способы выявления и исправления ошибок в памяти. Различные типы выявления ошибок приведены на рисунке 4.</p>
+        </div>
+    </div>
+   <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

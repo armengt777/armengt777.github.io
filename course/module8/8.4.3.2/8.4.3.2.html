@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.4.3.2 Исправление и обновление операционных систем</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.4.3.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Способы защиты мобильных устройств</h1>
+        <h2>Защита при помощи программного обеспечения</h2>
+      </div>
+      <div id="content">
+          <p>ОС на мобильных устройствах можно исправлять и обновлять так же, как на настольных и портативных компьютерах. При установке обновлений добавляются новые функции или повышается производительность. Исправления позволяют устранить проблемы безопасности или неполадки оборудования и программного обеспечения.</p>
+          <p></p>
+          <p>Из-за огромного разнообразия устройств Android обновления и исправления не выпускаются одним пакетом для всех устройств. Иногда новая версия Android не устанавливается на более старые устройства, оборудование которых не соответствует минимальным требованиям. На эти устройства можно загрузить исправления для известных проблем, но операционная система не подлежит обновлению.</p>
+          <p></p>
+          <p>Обновления и исправления для устройств Android загружаются автоматически. Когда у оператора или производителя появляется обновление для устройства, на последнем отображается уведомление о готовности обновления. Чтобы начать загрузку и установку, нужно коснуться уведомления об обновлении.</p>
+          <p></p>
+          <p>Обновления iOS также устанавливаются автоматически на устройствах, отвечающих требованиям к оборудованию. Чтобы проверить наличие обновлений для iOS, подключите устройство к iTunes. Если обновления доступны, появится предложение загрузки. Чтобы проверить наличие обновлений вручную, нажмите кнопку <b>Проверка обновлений</b> на панели &laquo;Обзор&raquo; iTunes.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

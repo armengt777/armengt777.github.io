@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.9.1.2 DSL и ADSL</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.9.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Выбор типа подключения к поставщику услуг Интернета</h1>
+        <h2>Технологии подключения</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Цифровая абонентская линия (DSL)</b>
+          </p>
+          <p>DSL относится к службам постоянного подключения, что избавляет пользователей от необходимости набирать номер каждый раз, когда они хотят подключиться к Интернету. В DSL используются существующие медные телефонные линии для обеспечения высокоскоростной цифровой передачи данных между конечными пользователями и телефонными компаниями. В отличие от ISDN, где цифровая передача данных заменяет аналоговую голосовую связь, DSL использует телефонные провода одновременно с передаваемыми аналоговыми сигналами. </p>
+          <p>В технологии DSL сигналы голоса и данных передаются по медным телефонным проводам на разных несущих частотах. Фильтр предотвращает воздействие сигнала DSL на телефонный сигнал. Фильтр DSL включается между каждым телефоном и телефонной розеткой.</p>
+          <p>Модему DSL фильтр не требуется. Работе модема DSL частоты, используемые телефоном, не мешают. Модем DSL может подключаться непосредственно к компьютеру или сетевому устройству, которое предоставляет нескольким компьютерам общий доступ к Интернету.</p>
+          <p>
+            <b>Асимметричная цифровая абонентская линия (ADSL)</b>
+          </p>
+          <p>Технология ADSL отличается тем, что в ней пропускные способности в каждом из направлений различны. Загрузкой называется прием данных от сервера конечным пользователем. Отправкой называется пересылка данных от конечного пользователя на сервер. Технология ADSL обеспечивает высокую скорость загрузки, что удобно пользователям, которые загружают большие объемы данных. Скорость отправки при использовании ADSL меньше, чем скорость загрузки. ADSL не следует использовать для размещения веб-сервера или сервера FTP, поскольку они предусматривают интенсивную отправку данных в Интернет. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

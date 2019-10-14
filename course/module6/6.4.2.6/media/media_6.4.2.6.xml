@@ -1,0 +1,42 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Конструкция оптоволоконного кабеля</b>]]></text>
+</component>
+
+<component id="ID_image01_txt01">
+<text><![CDATA[<b>Внешняя оболочка (обычно поливинилхлорид)</b>]]></text>
+</component>
+<component id="ID_image01_txt02">
+<text><![CDATA[<b>Уплотняющий слой (кевлар)</b>]]></text>
+</component>
+<component id="ID_image01_txt03">
+<text><![CDATA[<b>Буфер</b>]]></text>
+</component>
+<component id="ID_image01_txt04">
+<text><![CDATA[<b>Оболочка оптического волокна</b>]]></text>
+</component>
+<component id="ID_image01_txt05">
+<text><![CDATA[<b>Жила оптоволокна</b>]]></text>
+</component>
+
+<component id="ID_image02_txt01">
+<text><![CDATA[<b>Внешняя оболочка</b>]]></text>
+</component>
+<component id="ID_image02_txt02">
+<text><![CDATA[<b>Кевлар</b>]]></text>
+</component>
+<component id="ID_image02_txt03">
+<text><![CDATA[<b>Буфер</b>]]></text>
+</component>
+<component id="ID_image02_txt04">
+<text><![CDATA[<b>Оболочка оптического волокна</b>]]></text>
+</component>
+<component id="ID_image02_txt05">
+<text><![CDATA[<b>Центральный</b>]]></text>
+</component>
+
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>

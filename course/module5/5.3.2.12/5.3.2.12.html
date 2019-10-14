@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.2.12 Центр поддержки</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.2.12_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Служебные программы панели управления</h2>
+      </div>
+      <div id="content">
+          <p>Параметры безопасности являются важным аспектом обслуживания операционной системы, поскольку они защищают компьютер от угроз безопасности. Центр поддержки в ОС Windows 7 и Windows Vista обеспечивает настройку параметров безопасности. В Windows XP Центру поддержки соответствует название Центр обеспечения безопасности. </p>
+          <p></p>
+          <p>Для получения доступа к Центру поддержки в Windows 7 и Windows Vista перейдите по следующим пунктам (см. рисунок):</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр поддержки</b>
+          </p>
+          <p></p>
+          <p>Для получения доступа к Центру обеспечения безопасности в Windows XP перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр обеспечения безопасности</b>
+          </p>
+          <p></p>
+          <p>Центр поддержки имеет ряд служебных программ:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Защита от вирусов</b> — включение или отключение программ защиты от вирусов.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Настройка архивации</b> — пользователи с правами администратора могут настраивать архивацию Windows.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Настройка центра поддержки</b> — включение или отключение сообщений программ безопасности и обслуживания.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Изменение параметров контроля учетных записей</b> — пользователи с правами администратора могут настраивать параметры контроля учетных записей.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Просмотр архива сообщений</b> — просмотр архива сообщений о прежних проблемах компьютера.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Просмотр сведений о производительности компьютера</b> — просмотр и оценка производительности компонентов системы.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

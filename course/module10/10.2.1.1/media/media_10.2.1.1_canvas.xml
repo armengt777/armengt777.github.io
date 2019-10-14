@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide>
+			<element type="IMAGE" x="28" y="24" width="402.4" height="366.95" subType="STD" src="10_2_1_1.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+			<element type="TEXT" compId="ID_txt01" x="256" y="55" width="102" expand="down" align="left" size="12" color="#ffffff" />
+			<element type="TEXT" compId="ID_txt08" x="117" y="195" width="247.2" expand="down" align="left" size="10" />
+			<element type="TEXT" compId="ID_txt07" x="117" y="127" width="247.2" expand="down" align="left" size="10" />
+			<element type="TEXT" compId="ID_txt06" x="117" y="98" width="247.2" expand="down" align="left" size="10" />
+			<element type="TEXT" compId="ID_txt09" x="117" y="264" width="249" expand="down" align="left" size="10" />
+			<element type="TEXT" compId="ID_txt10" x="117" y="309" width="247.2" expand="down" align="left" size="10" />
+			<element type="TEXT" compId="ID_txt11" x="395" y="72" width="132.1" expand="right" align="center" size="10" rotation="89.99" />
+			<element type="TEXT" compId="ID_txt13" x="379" y="114" width="81.4" expand="right" align="center" size="10" rotation="89.99" />
+			<element type="TEXT" compId="ID_txt14" x="379" y="209" width="137.65" expand="right" align="center" size="10" rotation="89.99" />
+			<element type="TEXT" compId="ID_txt12" x="394" y="246" width="99.5" expand="right" align="center" size="10" rotation="89.99" />
+		</slide>
+	</data>
+
+

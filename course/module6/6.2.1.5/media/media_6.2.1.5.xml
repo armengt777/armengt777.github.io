@@ -1,0 +1,16 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Глобальная сеть</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Сеть LAN</b>]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[<b>Сеть WAN</b>]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[<b>Сеть LAN</b>]]></text> 
+  </component> 
+</textcomponents>

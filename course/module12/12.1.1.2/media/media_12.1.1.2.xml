@@ -1,0 +1,135 @@
+﻿<textcomponents> 
+ <component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>	
+<tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки компонентов и периферийных устройств и способы их устранения</b></font></td></tr> 
+ 
+	  <tr>	  
+		<td class="liner_top" colspan='3' bgcolor='#434321'><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23' valign="top" width='110'><font size='12' color='#ffffff'><b>Определение проблемы</b></font></td>
+		<td bgcolor='#A2AA23' valign="top"><font size='12' color='#ffffff'><b>Возможные причины</b></font></td>
+		<td bgcolor='#A2AA23' valign="top"width='150'><font size='12' color='#ffffff'><b>Возможные решения</b></font></td>
+	 
+	</tr>
+		
+	<tr>
+		<td bgcolor='#F3F5E7' width='110' valign="top">При запуске компьютера возникает сообщение об ошибке "OS not found" (ОС не найдена). </td>
+		<td bgcolor='#F3F5E7' valign="top">
+			<textformat blockindent='-18'><li>Отказ жесткого диска.</li>
+			<li>Перемычки на жестком диске не установлены надлежащим образом.</li>
+			<li>В BIOS неправильно установлен порядок загрузки.</li>
+			<li>Повреждена главная загрузочная запись (MBR).</li></textformat>
+		</td>
+		<td bgcolor='#F3F5E7' valign="top">
+			<textformat blockindent='-18'><li>Замените жесткий диск.</li>
+			<li>Измените положение перемычек на жестком диске.</li>
+			<li>Измените порядок загрузки в BIOS для загрузки с нужного жесткого диска.</li>
+			<li>При загрузке компьютера выберите консоль восстановления. В командной строке введите bootrec /fixmbr или bootrec /fixboot в Windows 7 или Vista или команду fixmbr в Windows XP. </li></textformat>
+		</td>
+		</tr>
+		<tr>
+		<td bgcolor='#FFFFFF' width='110' valign="top">Не удалось обнаружить массив RAID.</td>
+		<td bgcolor='#FFFFFF' valign="top">
+			<textformat blockindent='-18'><li>Кабели неправильно подключены к жестким дискам.</li>
+			<li>На внешний контроллер RAID не поступает питание.</li>
+			<li>Отказ контроллера RAID.</li>
+			<li>Неправильные параметры BIOS. </li></textformat>
+		</td>
+		<td bgcolor='#FFFFFF' valign="top">
+			<textformat blockindent='-18'><li>Проверьте все места подключения кабелей ко всем жестким дискам в массиве.</li>
+			<li>Проверьте подключение питания к контроллеру RAID.</li>
+			<li>Замените контроллер RAID.</li>
+			<li>Перенастройте параметры BIOS для контроллера RAID. </li></textformat>
+		</td>
+		</tr> 
+	
+<tr>
+		<td bgcolor='#F3F5E7' width='110' valign="top">Массив RAID не работает.</td>
+		<td bgcolor='#F3F5E7' valign="top">
+			<textformat blockindent='-18'><li>На внешний контроллер RAID не поступает питание.</li>
+			<li>Отказ контроллера RAID.</li>
+			<li>Неправильные параметры BIOS.</li></textformat> 
+		</td>
+		<td bgcolor='#F3F5E7' valign="top">
+			<textformat blockindent='-18'><li>Проверьте подключение питания к контроллеру RAID.</li>
+			<li>Замените контроллер RAID.</li>
+			<li>Перенастройте параметры BIOS для контроллера RAID. </li></textformat>
+		</td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#FFFFFF' width='110' valign="top">Компьютер работает медленно.</td>
+		<td bgcolor='#FFFFFF' valign="top">
+			<textformat blockindent='-18'><li>Недостаточный объем ОЗУ.</li>
+			<li>На компьютере выполняется слишком много программ.</li>
+			<li>Жесткий диск переполнен. </li></textformat> 
+		</td>
+		<td bgcolor='#FFFFFF' valign="top">
+			<textformat blockindent='-18'><li>Установить дополнительное ОЗУ.</li>
+			<li>Закройте ненужные программы.</li>
+			<li>Запустите очистку диска или замените жесткий диск на более вместительный.</li></textformat>
+		</td>
+		</tr>
+		<tr>
+		<td bgcolor='#F3F5E7' width='110' valign="top">Компьютер не распознает привод SCSI.</td>
+		<td bgcolor='#F3F5E7' valign="top">
+			<textformat blockindent='-18'><li>Привод SCSI имеет неправильный идентификатор SCSI.</li>
+			<li>Терминатор SCSI установлен неправильно.</li>
+			<li>На внешний привод SCSI не подавалось питание до загрузки компьютера.</li></textformat>
+		</td>
+		<td bgcolor='#F3F5E7' valign="top">
+			<textformat blockindent='-18'><li>Перенастройте идентификатор SCSI.</li>
+			<li>Убедитесь, что цепочка SCSI терминируется в правильных конечных точках.</li>
+			<li>Включите привод перед запуском компьютера.</li></textformat>
+		</td>
+		</tr>
+		<tr>
+			<td bgcolor='#FFFFFF' width='110' valign="top">Компьютер не распознает съемный внешний привод.</td>
+			<td bgcolor='#FFFFFF' valign="top">
+				<textformat blockindent='-18'><li>ОС не имеет правильных драйверов для съемного внешнего привода.</li>
+				<li>К порту USB подключено слишком много устройств, что не позволяет обеспечить необходимое питание.</li></textformat> 
+			</td>
+			<td bgcolor='#FFFFFF' valign="top">
+				<textformat blockindent='-18'><li>Загрузите правильные драйверы привода.</li>
+				<li>Подключите внешнее питание устройства или удалите некоторые из устройств USB.</li></textformat>
+			</td>
+		</tr> 
+		<tr>
+			<td bgcolor='#F3F5E7' width='110' valign="top">После обновления микропрограммы CMOS компьютер не запускается.</td>
+			<td bgcolor='#F3F5E7' valign="top">
+			<textformat blockindent='-18'><li>Обновленная микропрограмма CMOS установилась неправильно. </li></textformat> 
+			</td>
+			<td bgcolor='#F3F5E7' valign="top">
+			<textformat blockindent='-18'><li>Восстановите оригинальную микропрограмму из встроенной резервной копии, если таковая имеется.</li>
+			<li>Обратитесь к производителю материнской платы, чтобы приобрести чип CMOS.</li>
+			<li>Если на материнской плате имеется два чипа CMOS, можно использовать второй чип CMOS.</li></textformat>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor='#FFFFFF' width='110' valign="top">Компьютер перезагружается без предупреждения, блокируется, выводит сообщения об ошибках или «синий экран».</td>
+			<td bgcolor='#FFFFFF' valign="top">
+				<textformat blockindent='-18'><li>Установлена слишком высокая частота внешней шины.</li>
+				<li>Установлен слишком высокий множитель частоты ЦП.</li> 
+				<li>Установлено слишком высокое напряжение питания ЦП.</li></textformat> 
+			</td>
+			<td bgcolor='#FFFFFF' valign="top">
+				<textformat blockindent='-18'><li>Восстановите заводские параметры материнской платы по умолчанию.</li>
+				<li>Понизьте частоту внешней шины.</li>
+				<li>Понизьте множитель частоты ЦП.</li>
+				<li>Понизьте параметры напряжения питания ЦП.</li></textformat>
+			</td>
+		</tr> 
+		<tr>
+			<td bgcolor='#F3F5E7' width='110' valign="top">После обновления ЦП с одноядерного на двухъядерный компьютер работает медленнее, а в диспетчере задач отображается график только одного ЦП.</td>
+			<td bgcolor='#F3F5E7' valign="top">
+			<textformat blockindent='-18'><li>BIOS не распознает многоядерный ЦП.</li></textformat> 
+			</td>
+			<td bgcolor='#F3F5E7' valign="top">
+			<textformat blockindent='-18'><li>Обновите микропрограмму BIOS для поддержки многоядерного ЦП.</li></textformat>
+			</td>
+		</tr>
+</table>]]></text>
+</component> 
+</textcomponents>

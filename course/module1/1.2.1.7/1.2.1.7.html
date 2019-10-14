@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>1.2.1.7 Выбор твердотельных накопителей и устройств чтения носителей</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_1.2.1.7_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Выбор компонентов компьютера для замены</h1>
+        <h2>Выбор компонентов ПК</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Твердотельные накопители</b>
+          </p>
+          <p>В твердотельных накопителях для хранения данных вместо магнитных пластин используется статическое ОЗУ, как показано на рисунке 1. Твердотельные накопители считаются очень надежными, поскольку не имеют подвижных частей. </p>
+          <p>Если потребности заказчика совпадают с любой из приведенного ниже списка, выберите твердотельный накопитель:</p>
+          <p>
+            <ul>
+              <li>Работа в экстремальных условиях</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Энергосбережение</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Сокращение нагревания</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Сокращение времени запуска</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>Устройства чтения носителей</b>
+          </p>
+          <p>Устройство чтения носителей &mdash; это устройство, которое выполняет считывание и запись на разные типы карт памяти, которые используются в цифровых фотоаппаратах, смартфонах или MP3-плеерах. При замене устройства чтения носителей проверьте, поддерживает ли оно тип используемых карт и их емкость. При приобретении нового устройства чтения носителей следует принять во внимание несколько факторов:</p>
+          <p>
+            <ul>
+              <li>Внешний или внутренний</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Тип используемого разъема</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Типы поддерживаемых карт памяти</li>
+            </ul>
+          </p>
+          <p>Выбирайте устройство чтения носителей на основе текущих и прогнозируемых потребностей пользователя. Например, если заказчику необходимо использовать различные типы карт памяти, требуется многоформатное устройство чтения носителей. Распространенные типа карт памяти показаны на рисунке 2:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Карты SD </b>&mdash; предназначены для использования в мобильных устройствах, таких как фотоаппараты, MP3-плееры и планшетные ПК. Емкость карт SD составляет до 4 ГБ. Карты SD большой емкости (SDHC) имеют емкость до 32 ГБ, а карты SD расширенной емкости (SDXC) &mdash; до 2 ТБ данных.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>microSD </b>&mdash; значительно уменьшенная версия карты SD, широко используемая в мобильных телефонах.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>CompactFlash</b> &mdash; устаревший формат, который, тем не менее, широко используется благодаря своей высокой емкости (как правило, до 128 ГБ) и высокой скорости. Карты CompactFlash часто используются в видеокамерах.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Memory Stick</b> &mdash; флэш-память с закрытой спецификацией, созданная корпорацией Sony. Карты Memory Stick используются в фотоаппаратах, MP3-плеерах, системах карманных видеоигр, мобильных телефонах и других портативных электронных устройствах.</li>
+            </ul>
+          </p>
+          <p>Еще один тип карт памяти &mdash; Extreme Digital (xD, или xD-Picture). Карты xD были разработаны для использования в фотоаппаратах и диктофонах, но устарели в связи с широким распространением карт SD. Максимальная емкость карт xD составляет 2 ГБ.</p>
+        </div>
+    </div>
+   <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

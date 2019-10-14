@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.8.4.5 Совместное использование ресурсов в системе Windows&nbsp;XP</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.8.4.5_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Подключение компьютера к сети</h1>
+        <h2>Настройка операционных систем</h2>
+      </div>
+      <div id="content">
+          <p>Мастер настройки сети операционной системы Windows&nbsp;XP, как показано на рисунке, настраивает параметры компьютера для создания домашней сети и совместного использования ресурсов. Мастер позволяет настраивать следующие параметры:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Подключение компьютера к Интернету с помощью прямого подключения удаленного доступа, широкополосного подключения или через другой компьютер домашней сети</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Общий доступ к подключению Интернета в операционной системе Windows&nbsp;XP для организации совместного доступа к Интернету для нескольких компьютеров домашней сети</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Имя компьютера, описание компьютера и имя рабочей группы</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Совместный доступ к файлам и принтерам</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Для получения доступа к мастеру настройки сети перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Мастер настройки сети</b>
+          </p>
+          <p></p>
+          <p>Параметры, созданные мастером настройки сети, можно переносить. Для автоматической настройки одинаковых параметров на других компьютерах под управлением Windows&nbsp;XP можно создать диск мастера настройки сети.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

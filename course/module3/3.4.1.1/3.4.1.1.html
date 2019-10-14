@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.4.1.1 Обзор</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.4.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сборка компьютера</h1>
+        <h2>Обзор</h2>
+      </div>
+      <div id="content">
+          <p>В этой главе подробно рассматриваются этапы сборки компьютера и первой загрузки системы. Важно всегда помнить перечисленное ниже:</p>
+          <p>
+            <ul>
+              <li>Корпуса компьютеров выпускаются во множестве размеров и комплектаций. Многие компоненты компьютера должны подходить под форм-фактор корпуса.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ЦП устанавливается на материнскую плату вместе с блоком радиатора и вентилятора.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Модули ОЗУ устанавливаются в гнезда ОЗУ на материнской плате.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Платы видеоадаптеров устанавливаются в разъемы PCI, AGP и PCIe на материнской плате.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Жесткие диски устанавливаются в 3,5-дюймовые (8,9 см) отсеки внутри корпуса.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Оптические приводы устанавливаются в 5,25-дюймовые (13,34 см) отсеки, к которым есть доступ снаружи корпуса.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Приводы гибких дисков устанавливаются в 3,5-дюймовые (8,9 см) отсеки, к которым есть доступ снаружи корпуса.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Кабели блока питания подключаются ко всем приводам и материнской плате.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Внутренние кабели данных служат для передачи данных ко всем приводам.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Внешние кабели служат для подключения периферийных устройств к компьютеру.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Неправильная работа оборудования обозначается кодами звуковых сигналов.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Программа настройки BIOS выводит информацию о компонентах компьютера и позволяет пользователю менять параметры системы. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Компоненты компьютера нуждаются в периодическом обновлении и замене деталей.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Дополнительные жесткие диски повышают отказоустойчивость и дают возможность устанавливать дополнительные операционные системы.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

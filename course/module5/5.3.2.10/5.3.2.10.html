@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.2.10 Параметры экрана</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.2.10_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Служебные программы панели управления</h2>
+      </div>
+      <div id="content">
+          <p>При использовании ЖК-дисплея настройте для него собственные режим и разрешение. В собственном режиме количество пикселей изображения на экране совпадает с количеством пикселей монитора. Если используется режим монитора, отличный от собственного, изображение ухудшится.</p>
+          <p></p>
+          <p>Параметры экрана можно изменить с помощью служебной программы «Параметры экрана».  Можно изменить вид Рабочего стола, выбрав разрешение и качество цвета, как показано на рисунке.  При неправильной настройке разрешения экрана можно получить неожиданные результаты отображения с различных видеокарт и мониторов. Можно также настроить дополнительные параметры экрана, например обои, заставку, яркость и другие. </p>
+          <p>В ОС Windows 7 используйте следующие пункты меню:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Экран &gt; Настройка параметров экрана</b>
+          </p>
+          <p>В ОС Windows Vista используйте следующие пункты меню:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Персонализация &gt; Параметры дисплея</b>
+          </p>
+          <p>В ОС Windows XP используйте следующие пункты меню:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Экран &gt; Параметры </b>
+          </p>
+          <p>В Windows 7 можно выполнить следующие настройки:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Разрешение экрана</b> — указывается количество пикселей. При увеличении количества пикселей улучшается разрешение и изображение.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Ориентация </b>— определяется ориентация изображения на экране (альбомная, портретная, альбомная перевернутая или портретная перевернутая).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Частота обновления</b> — устанавливается частота обновления изображения на экране. Частота обновления измеряется в герцах (Гц). Чем она выше, тем устойчивее изображение на экране.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Цветовое качество</b> — указывает количество цветов, одновременно отображающихся а экране. Чем больше битов, тем больше цветов. 8-битовая цветовая палитра содержит 256 цветов. 16-битовая цветовая палитра (High Color) содержит 65 536 цветов. 24-битовая цветовая палитра (True Color) содержит 16 миллионов цветов. 32-битовая цветовая палитра содержит цвета, соответствующие 24-битовой палитре, и еще 8 бит для передачи других данных, например прозрачности.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Получить доступ к параметрам экрана в Windows 7 и Windows Vista можно также с помощью ссылки «Экран» служебной программы «Персонализация» на панели управления.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>10.2.4.4 Режимы безопасности беспроводной связи</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_10.2.4.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедуры безопасности</h1>
+        <h2>Методы безопасности</h2>
+      </div>
+      <div id="content">
+          <p>Используйте систему беспроводного шифрования, чтобы зашифровать отправляемую информацию и предотвратить нежелательный перехват и использование данных. Обе стороны одного канала связи должны использовать один стандарт шифрования. </p>
+          <p> Большинство беспроводных точек доступа поддерживают несколько различных режимов безопасности. Ниже приведены наиболее распространенные из них.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Wired Equivalent Privacy (WEP)</b> &mdash; стандарт защиты для беспроводной связи первого поколения. Злоумышленники быстро обнаружили, что шифрование WEP было слишком слабым. Ключи шифрования, используемые для шифрования сообщений, могли быть обнаружены программами мониторинга. После получения этих ключей можно было просто расшифровать сообщения.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Wi-Fi Protected Access (WPA)</b> &mdash; улучшенная версия WEP. WPA охватывает весь стандарт 802.11i (уровень безопасности для беспроводных систем). В WPA используется гораздо более стойкое шифрование, чем в WEP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Wi-Fi Protected Access 2 (WPA2)</b> &mdash; улучшенная версия WPA. В этом протоколе представлены более высокие уровни безопасности, чем в WPA. WPA2 поддерживает надежное шифрование, предоставляя безопасность правительственного уровня. WPA2 имеет две версии: Personal (проверка подлинности с помощью пароля) и Enterprise (серверная проверка подлинности).</li>
+            </ul>
+          </p>
+          <p>
+            <b>Дополнения к WPA и WPA2</b>
+          </p>
+          <p>К стандарту WPA добавлены другие реализации безопасности.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Temporal Key Integrity Protocol (TKIP)</b> &mdash; эта технология меняет ключ шифрования для каждого пакета и предоставляет способ проверки целостности сообщений.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Extensible Authentication Protocol (EAP)</b> &mdash; для повышения безопасности используется централизованный сервер проверки подлинности.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Protected Extensible Authentication Protocol (PEAP)</b> &mdash; протокол, не использующий сервер сертификатов.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Advanced Encryption Standard (AES)</b> &mdash; метод шифрования с использованием симметричного ключа добавлен только к WPA2.</li>
+            </ul>
+          </p>
+          <p>Для добавления безопасности беспроводной связи используйте следующий путь, как показано на рисунке:</p>
+          <p>
+            <b>Wireless &gt; Wireless Security &gt; </b> (Беспроводная связь &gt; Безопасность беспроводной связи), выберите <b>Security Mode </b> (Метод безопасности) <b>&gt;</b>, выберите <b>Encryption Type </b>(Тип шифрования) <b>&gt;</b>, введите<b> Pre-shared Key (Предварительный ключ) &gt;</b> и установите<b> Key Renewal &gt; Save Settings &gt; Continue</b> (Обновление ключа &gt; Сохранение параметров &gt; Продолжить)</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

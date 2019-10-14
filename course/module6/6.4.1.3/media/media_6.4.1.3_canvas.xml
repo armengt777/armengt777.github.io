@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide type="MBAR">
+
+		<!--Slide 01-->
+			<slide>
+				<element type="IMAGE" subType="STD" src="6_4_1_3_s1.jpg" x="7.45" y="41.5" width="425.25" height="98.35" />
+				<element type="IMAGE" src="6_4_1_3_s1_A.jpg" x="23.45" y="149" width="450" height="175" />
+				<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+				<element type="TEXT" compId="ID_s1_txt01" x="16.2" y="231.65" width="117.6" expand="down" align="center" size="12" />
+				<element type="TEXT" compId="ID_s1_txt02" x="169.2" y="228.65" width="117.6" expand="down" align="center" size="12" />
+				<element type="TEXT" compId="ID_s1_txt03" x="296.2" y="207.65" width="117.6" expand="down" align="right" size="12" />
+				<element type="TEXT" compId="ID_s1_txt04" x="16.2" y="341.55" width="117.6" expand="down" align="center" size="12" />
+				<element type="TEXT" compId="ID_s1_txt05" x="169.2" y="342.55" width="117.6" expand="down" align="center" size="12" />
+				<element type="TEXT" compId="ID_s1_txt06" x="296.2" y="317.95" width="117.6" expand="down" align="right" size="12" />
+			</slide>
+
+		<!--Slide 02-->
+			<slide>
+				<element type="IMAGE" src="6_4_1_3_B.jpg" x="0" y="0" width="470" height="400" />
+				<element type="IMAGE" src="6_4_1_3_s2.png" subType="STD" x="238.55" y="41.3" width="188.9" height="161.35" />
+				<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+			</slide>
+
+		<!--Slide 03-->
+			<slide>
+				<element type="IMAGE" subType="STD" src="6_4_1_3_s3.jpg" x="65.5" y="32.1" width="308.95" height="332.8" />
+				<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+			</slide>
+
+				<element type="TEXT" compId="ID_inst" x="5" y="380" width="432.1" expand="up" align="left" size="12" />
+		</slide>
+	</data>
+
+

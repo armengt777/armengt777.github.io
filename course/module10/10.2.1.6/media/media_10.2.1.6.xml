@@ -1,0 +1,792 @@
+﻿<textcomponents>
+  <component id="ID_s1_title">
+    <text>
+      <![CDATA[<b>Разрешения для папок</b>]]>
+    </text>
+  </component>
+  <component id="ID_s2_title">
+    <text>
+      <![CDATA[<b>Разрешения для файлов</b>]]>
+    </text>
+  </component>
+  <component id="ID_s3_title">
+    <text>
+      <![CDATA[<b>Сравнение FAT32 и NTFS</b>]]>
+    </text>
+  </component>
+  <component id="ID_table01">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="liner">
+          <td colspan='7' bgcolor='#434321' class="liner">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td width="100px" bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b>Разрешения</b>
+            </font>
+          </td>
+          <td width="55px" bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b>Полный доступ </b>
+            </font>
+          </td>
+          <td width="45px" bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b>Изменение</b>
+            </font>
+          </td>
+          <td width="60px" bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b >Чтение и выполнение</b>
+            </font>
+          </td>
+          <td width="60px" bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b>Просмотр содержимого папок</b>
+            </font>
+          </td>
+          <td width="42px" bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b>Чтение</b>
+            </font>
+          </td>
+          <td width="41px" bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b>Запись</b>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Вход в папку</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Содержимое папки</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Просмотр атрибутов папки</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Просмотр расширенных атрибутов папки</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Создание файлов в папке</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Создание папок</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Запись атрибутов папок</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Запись расширенных атрибутов папок</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Удаление вложенных папок и файлов</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Удаление папки</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Просмотр разрешений для папок</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Изменение разрешений для папок</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Смена владельца</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Синхронизация</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+  <component id="ID_table02">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="liner">
+          <td colspan='6' bgcolor='#434321' class="liner">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td width="100px" bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b class="subHeaderFont">Разрешения</b>
+            </font>
+          </td>
+          <td bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b class="subHeaderFont">Полный доступ </b>
+            </font>
+          </td>
+          <td bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b class="subHeaderFont">Изменение</b>
+            </font>
+          </td>
+          <td bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b class="subHeaderFont">Чтение и выполнение</b>
+            </font>
+          </td>
+          <td bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b class="subHeaderFont">Чтение</b>
+            </font>
+          </td>
+          <td bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b class="subHeaderFont">Запись</b>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Выполнение файла</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Просмотр данных</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Просмотр атрибутов файла</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Просмотр расширенных атрибутов</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Запись данных</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Добавление данных</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Запись атрибутов файлов</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Запись расширенных атрибутов файлов</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Удаление файлов</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Просмотр разрешений для файлов</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Изменение разрешений для файлов</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Смена владельца</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>нет</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Синхронизация</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>да</font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+  <component id="ID_table03">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="liner">
+          <td colspan='3' bgcolor='#434321' class="liner">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b class="subHeaderFont">
+            </b>
+          </font>
+        </td>
+          <td bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b class="subHeaderFont">FAT32</b>
+            </font>
+          </td>
+          <td bgcolor='#A2AA23' valign="top" >
+            <font  color='#FFFFFF'>
+              <b class="subHeaderFont">NTFS</b>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Безопасность</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Низкий уровень безопасности</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Разрешения уровня файлов и папок, шифрование</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Совместимость</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Совместимость со всеми версиями Windows</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Совместимость со всеми версиями Windows</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Размер файла</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Ограничение размера файла 4 ГБ / размера томов 32 ГБ</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Ограничение размера файла 16 терабайт/ размера томов 256 терабайт</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Число файлов в томе</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>4,17 миллиона</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>4,29 миллиарда</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Эффективность размера файла</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>В больших кластерах теряется некоторое пространство</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>В кластерах меньшего размера используется большее доступное пространство; встроенное сжатие увеличивает пространство</font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Надежность</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Изменения файловой системы не отслеживаются</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Включает в себя журналирование, помогающее перестраивать файловую систему после сбоя или отключения питания</font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+  
+</textcomponents>

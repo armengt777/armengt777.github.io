@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>1.4.1.1 Обзор</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_1.4.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Знакомство с персональным компьютером</h1>
+        <h2>Обзор</h2>
+      </div>
+      <div id="content">
+          <p>В данной главе перечислены компоненты, из которых состоит система персонального компьютера, а также принципы подбора компонентов для модернизации. Содержимое этой главы поможет вам успешно пройти данный курс.</p>
+          <p>
+            <ul>
+              <li>Сфера информационных технологий охватывает использование компьютеров, сетевого оборудования и ПО для обработки, хранения, передачи и получения информации.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Компьютерная система состоит из компонентов оборудования и программного обеспечения.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Корпус компьютера и источник питания следует выбирать таким образом, чтобы они были совместимы с оборудованием, устанавливаемым в корпус, и позволяли добавлять дополнительные компоненты.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Внутренние компоненты компьютера выбираются в соответствии с конкретными возможностями и функциями. Все внутренние компоненты должны быть совместимы с материнской платой.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>При подключении устройств следует использовать подходящие типы портов и кабелей.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>К типичным устройствам ввода относятся клавиатура, мышь, сенсорный экран, и цифровые камеры.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>В число типичных устройств вывода входят мониторы, принтеры и динамики.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Корпуса, источники питания, ЦП и система охлаждения, ОЗУ, жесткие диски и адаптерные платы следует обновлять в случае отказа устройства или если устройство больше не соответствует требованиям пользователя.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Для специализированных компьютеров требуется оборудование, соответствующее их конкретным функциям. Тип оборудования, используемого в специализированных компьютерах, определяется в зависимости от способов работы пользователя и его целей.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+   <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

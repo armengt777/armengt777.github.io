@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>10.2.4.3 Фильтрация по MAC-адресам</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_10.2.4.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедуры безопасности</h1>
+        <h2>Методы безопасности</h2>
+      </div>
+      <div id="content">
+          <p>Фильтрация по MAC-адресам &mdash; это метод, используемый для развертывания безопасности на уровне устройств в беспроводных ЛВС. Поскольку каждое беспроводное устройство имеет уникальный MAC-адрес, беспроводные маршрутизаторы и точки доступа  могут отказать в подключении к сети беспроводным устройствам, если MAC-адреса этих устройств не являются авторизованными. Для применения фильтрации по MAC-адресам введите MAC-адрес каждого беспроводного устройства.</p>
+          <p>Для настройки фильтра MAC-адресов, как показано на рисунке, выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Выберите <b>Wireless &gt; Wireless MAC Filter</b> (Беспроводная связь &gt; Фильтр беспроводных MAC-адресов).</p>
+          <p>
+            <b>Этап 2. </b>Выберите <b>Enabled</b> (Включено). </p>
+          <p>
+            <b>Этап 3. </b>Выберите <b>Prevent</b> (Запретить) или <b>Permit</b> (Разрешить), чтобы установить тип ограничения доступа.</p>
+          <p>
+            <b>Этап 4. </b>Щелкните <b>Wireless Client List</b> (Список беспроводных клиентов).</p>
+          <p>
+            <b>Этап 5. </b>Выберите клиент.</p>
+          <p>
+            <b>Этап 6. </b>Щелкните <b>Save to MAC Address Filter List &gt; Add &gt; Save Settings &gt; Continue</b> (Сохранить в списке фильтра по MAC-адресам&gt; Добавить &gt; Сохранить параметры &gt; Продолжить).</p>
+          <p>Повторите приведенные выше действия для добавления других беспроводных клиентов к списку фильтра по MAC-адресам.</p>
+          <p>Для получения MAC-адреса интерфейсной платы беспроводной связи введите <b>ipconfig /all</b> в командной строке. MAC-адрес обозначен в выходных данных как <b>Physical Address</b> (Физический адрес). Для других устройств, отличных от компьютеров, MAC-адрес обычно напечатан на наклейке на устройстве или внутри руководства, предоставляемого производителем. </p>
+          <p>Настройка фильтрации по MAC-адресам может быть утомительным процессом, если к сети подключено множество устройств. Кроме того, при использовании фильтрации по MAC-адресам злоумышленник может прочитать MAC-адрес, используя беспроводные средства взлома. Если злоумышленнику известен MAC-адрес, он может использовать его для выдачи себя за компьютер, утвержденный через фильтрацию по MAC-адресам. Вместо этого необходимо использовать технологию стойкого шифрования. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

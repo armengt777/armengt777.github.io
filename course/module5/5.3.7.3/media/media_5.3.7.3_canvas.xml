@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE" >
+	<slide type="MBAR">
+	<!-- slide 01 -->
+		<slide>
+			<element type="IMAGE" x="58.45" y="109.95" width="323" height="179" subType="STD" src="5_3_7_3_A.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+		</slide>
+
+	<!-- slide 02 -->
+		<slide>
+			<element type="IMAGE" x="4.45" y="90.5" width="430" height="217.95" subType="STD" src="5_3_7_3_B.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+		</slide>
+
+	<!-- slide 03 -->
+		<slide>
+			<element type="IMAGE" x="6.15" y="42.8" width="428.6" height="313.3" subType="STD" src="5_3_7_3_C.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+		</slide>
+
+	<!-- slide 04 -->
+		<slide>
+			<element type="IMAGE" x="3.9" y="67.9" width="433.1" height="264.1" subType="STD" src="5_3_7_3_D.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s4_title"/>
+		</slide>
+
+	<!-- slide 05 -->
+		<slide>
+			<element type="IMAGE" x="5.7" y="56.45" width="428.55" height="288" subType="STD" src="5_3_7_3_E.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s5_title"/>
+		</slide>
+
+	<!-- slide 06 -->
+		<slide>
+			<element type="IMAGE" x="5.5" y="93.8" width="428.9" height="213.3" subType="STD" src="5_3_7_3_F.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s6_title"/>
+		</slide>
+
+	<!-- slide 07 -->
+		<slide>
+			<element type="IMAGE" x="6.45" y="53.8" width="426.95" height="293.3" subType="STD" src="5_3_7_3_G.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s7_title"/>
+		</slide>
+
+	<!-- slide 08 -->
+		<slide>
+			<element type="IMAGE" x="6" y="53.8" width="427.9" height="293.35" subType="STD" src="5_3_7_3_H.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s8_title"/>
+		</slide>
+		
+			<element type="TEXT" compId="ID_inst" x="5" y="380" width="432.1" expand="up" align="left" size="12" />
+	</slide>
+</data>
+
+

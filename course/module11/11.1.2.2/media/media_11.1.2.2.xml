@@ -1,0 +1,45 @@
+﻿<textcomponents>
+
+
+<!--slide 1-->
+<component id="ID_s1_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr>
+		<td bgcolor='#DAE17A' colspan='2'><font size='+2' color='#393536'><b class="font-forteen">Постановка вызова заказчика на удержание</b></font></td>
+	</tr>
+	<tr class="liner_top">
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='2' color='#DAE17A'><span style="color:#DAE17A; display:block; margin-top:-6px;">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23'><font color='#FFFFFF'><b>Верное действие</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#FFFFFF'><b>Неверное действие</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Дождаться, пока заказчик закончит говорить.</li>
+		<li>Сообщить заказчику о постановке его вызова <span id="spacer">на удержание и объяснить причину.</span></li><li>Попросить разрешения<span id="spacer"> заказчика поставить его вызов на удержание.</span></li><li>После получения согласия сообщить<span id="spacer">, что удержание вызова займет не больше<span id="spacer"> минуты.</span></span></li></textformat></font></td>
+		<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'><textformat blockindent='-18'><li>Прерывать заказчика.</li><li>Внезапно ставить вызов заказчика на <span id="spacer"> удержание.</span></li><li>Ставить вызов на удержание, <span id="spacer">не объяснив причину и не получив разрешения </span><span id="spacer">заказчика.</span></li></textformat></font></td>
+	</tr>
+</table>]]></text>
+</component>
+
+<!--slide 2-->
+<component id="ID_s2_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr>
+		<td bgcolor='#DAE17A' colspan='2' ><font size='+2' color='#393536'><b class="font-forteen">Перевод вызова</b></font></td>
+	</tr>
+	<tr class="liner_top">
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='2' color='#DAE17A'><span style="color:#DAE17A; display:block; margin-top:-6px;">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23' class="width"><font color='#FFFFFF'><b>Верное действие</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#FFFFFF'><b>Неверное действие</b></font></td>
+	</tr>
+	<tr>
+		  <td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Дождаться, пока заказчик закончит говорить.</li><li>Объяснить заказчику необходимость перевода его вызова,<span id="spacer"> назвать инженера, которому переводится вызов, </span><span id="spacer">а также причину перевода.</span></li><li>Сообщить заказчику номер, на который <span id="spacer">переводится его вызов. </span><span id="spacer"> (например, №142)</span></li><li>Спросить у заказчика разрешения перевести его вызов<span id="spacer"> прямо сейчас.</span></li><li>После получения согласия заказчика выполнить <span id="spacer">перевод.</span></li><li>Представиться специалисту, которому переводится вызов заказчика, назвать <span id="spacer">номер заявки и имя </span><span id="spacer">заказчика.</span></li></textformat></font></td>
+		<td bgcolor='#F3F5E7' class="valign-top"><font color='#393536'><textformat blockindent='-18'><li>Прерывать.</li><li>Переводить вызов, не предупредив заказчика.</li><li>Переводить вызов без <span id="spacer">объяснения и получения </span><span id="spacer">согласия заказчика.</span></li><li>Переводить вызов без ведома <span id="spacer">специалиста, которому переводится вызов.</span></li></textformat></font></td>
+	</tr>
+</table>]]></text>
+</component>
+
+</textcomponents>

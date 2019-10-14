@@ -1,0 +1,159 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Требования для установки и функции операционных систем Windows</b>]]></text>
+</component>
+
+<component id="ID_table"><text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+<tr>
+<td colspan='7' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+</tr>
+<tr>
+	<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b></b></font></td>
+	<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>ЦП</b></font></td>
+	<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>ОЗУ</b></font></td>
+	<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>Жесткий диск</b></font></td>
+	<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>Видеоадаптер</b></font></td>
+	<td bgcolor='#A2AA23' valign="top" class="space"><font color='#FFFFFF'><b>Функции</b></font></td>
+	<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>Идеально подходит</b></font></td>
+</tr>
+
+<tr>
+	<td bgcolor='#FFFFFF' width='90' valign="top"><font color='#393536'>Windows 7  ակյղան</font></td>
+	<td bgcolor='#FFFFFF' width='100' valign="top"><font color='#393536'>32-разрядный (x86) или 64-разрядный (x64) процессор частотой 1 ГГц и более</font></td>
+	<td bgcolor='#FFFFFF' width='100' valign="top"><font color='#393536'>1 ГБ ОЗУ</font></td>
+	<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Жесткий диск, имеющий не менее 16 ГБ свободного места (ОС является 32-разрядной)</font></td>
+	<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Графическое устройство, совместимое с DirectX 9, с драйвером WDDM 1.0 или более поздней версии</font></td>
+	<td bgcolor='#FFFFFF' width='125' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Списки переходов</li><li>Pin</li><li>Snap</li><li>Поиск Windows</li></textformat></font></td>
+	<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Хороший выбор для заказчиков, имеющих нетбуки</font></td>
+</tr>
+
+<tr>
+	<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows 7 Домашняя расширенная</font></td>
+	<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>32-разрядный (x86) или 64-разрядный (x64) процессор частотой 1 ГГц и более</font></td>
+	<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1 ГБ ОЗУ (для 32-разрядного процессора) или 2 ГБ ОЗУ (для 64-разрядного процессора)</font></td>
+	<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Жесткий диск, имеющий не менее 16 ГБ свободного места (для 32-разрядной версии) или не менее 20 ГБ свободного места (для 64-разрядной версии)</font></td>
+	<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Графическое устройство, совместимое с DirectX 9, с драйвером WDDM 1.0 или более поздней версии</font></td>
+	<td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Shake</li><li>Настраиваемые темы</li><li>Улучшенная система переходов по рабочей среде</li><li>Интернет ТВ</li><li>Домашняя группа</li></textformat></font></td>
+	<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Хороший выбор для пользователей, которым нужно совместно использовать мультимедийные данные</font></td>
+</tr>
+
+<tr>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Windows 7 Профессиональная</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>32-разрядный (x86) или 64-разрядный (x64) процессор частотой 1 ГГц и более</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1 ГБ ОЗУ (для 32-разрядного процессора) или 2 ГБ ОЗУ (для 64-разрядного процессора)</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Жесткий диск, имеющий не менее 16 ГБ свободного места (для 32-разрядной версии) или не менее 20 ГБ свободного места (для 64-разрядной версии)</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Графическое устройство, совместимое с DirectX 9, с драйвером WDDM 1.0 или более поздней версии</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Печать с учетом сетевого расположения</li><li>Режим Windows XP</li><li>Присоединение к домену</li><li>Резервное копирование в домашней или корпоративной сети</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Хороший выбор для тех, кто использует бизнес-приложения и желает защитить свои данные</font></td>
+</tr>
+
+<tr>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows 7 Максимальная</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>32-разрядный (x86) или 64-разрядный (x64) процессор частотой 1 ГГц и более</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1 ГБ ОЗУ (для 32-разрядного процессора) или 2 ГБ ОЗУ (для 64-разрядного процессора)</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Жесткий диск, имеющий не менее 16 ГБ свободного места (для 32-разрядной версии) или не менее 20 ГБ свободного места (для 64-разрядной версии)</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Графическое устройство, совместимое с DirectX 9, с драйвером WDDM 1.0 или более поздней версии</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-18'><li>BitLocker</li><li>Переключение между 35 языками</li></textformat></font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Хороший выбор для обеспечения безопасности, обмена данными и работы с несколькими бизнес-приложениями</font></td>
+</tr>
+
+<tr>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Windows 7 Корпоративная</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>32-разрядный (x86) или 64-разрядный (x64) процессор частотой 1 ГГц и более</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1 ГБ ОЗУ (для 32-разрядного процессора) или 2 ГБ ОЗУ (для 64-разрядного процессора)</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Жесткий диск, имеющий не менее 16 ГБ свободного места (для 32-разрядной версии) или не менее 20 ГБ свободного места (для 64-разрядной версии)</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Графическое устройство, совместимое с DirectX 9, с драйвером WDDM 1.0 или более поздней версии</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Печать с учетом сетевого расположения</li><li>Режим Windows XP</li><li>Присоединение к домену</li><li>Резервное копирование в домашней или корпоративной сети</li><li>Шифрование диска Windows BitLocker</li><li>DirectAccess</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Хороший выбор для крупных компаний, в которых требуется корпоративное лицензирование</font></td>
+</tr>
+
+<tr>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows Vista Home Basic</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>32-разрядный (x86) или 64-разрядный (x64) процессор частотой 1 ГГц</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>512 МБ системной памяти</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Жесткий диск объемом 20 ГБ, имеющий не менее 15 ГБ свободного места</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Поддержка графики DirectX 9 и графическая память объемом 32 МБ</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Контроль учетных записей пользователей (UAC)</li><li>Защитник Windows</li><li>Брандмауэр Windows</li><li>Мгновенный поиск</li><li>Центр управления сетями и общим доступом</li></textformat></font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Хороший выбор для использования базовых функций компьютера, например, электронная почта, просмотр веб-страниц и фотографий</font></td>
+</tr>
+
+<tr>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Windows Vista Home Premium</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>32-разрядный (x86) или 64-разрядный (x64) процессор частотой 1 ГГц</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1 ГБ системной памяти</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Жесткий диск объемом 40 ГБ, имеющий не менее 15 ГБ свободного места</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>
+Поддержка графики DirectX 9:<textformat blockindent='-18'><li>драйвер WDDM</li><li>графическая память объемом 128 МБ (минимум)</li><li>аппаратная реализация пиксельных шейдеров версии 2.0</li><li>32 бит на пиксель</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Windows Aero</li><li>Центр мобильности Windows</li><li>Конференц-зал Windows</li><li>Windows Sideshow</li><li>Windows Media Center</li><li>Архивация по расписанию</li><li>DVD-студия Windows</li><li>Windows Movie Maker в HD</li></textformat>
+</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Хороший выбор для расширения базовых функций компьютера, повышения производительности и увеличения возможностей проведения досуга</font></td>
+</tr>
+
+<tr>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows Vista Business</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>32-разрядный (x86) или 64-разрядный (x64) процессор частотой 1 ГГц</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1 ГБ системной памяти</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Жесткий диск объемом 40 ГБ, имеющий не менее 15 ГБ свободного места</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>
+Поддержка графики DirectX 9:<textformat blockindent='-18'><li>драйвер WDDM</li><li>графическая память объемом 128 МБ (минимум)</li><li>аппаратная реализация пиксельных шейдеров версии 2.0</li><li>32 бит на пиксель</li></textformat></font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Windows Complete PC</li><li>Архивация и восстановление</li><li>Факсы и сканирование Windows</li><li>Подключение к удаленному рабочему столу</li></textformat></font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Хороший выбор для владельца или управляющего небольшого предприятия</font></td>
+</tr>
+
+<tr>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Windows Vista Ultimate</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>32-разрядный (x86) или 64-разрядный (x64) процессор частотой 1 ГГц</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1 ГБ системной памяти</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Жесткий диск объемом 40 ГБ, имеющий не менее 15 ГБ свободного места</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>
+Поддержка графики DirectX 9:<textformat blockindent='-18'><li>драйвер WDDM</li><li>графическая память объемом 128 МБ (минимум)</li><li>аппаратная реализация пиксельных шейдеров версии 2.0</li><li>32 бит на пиксель</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Программа шифрования диска Windows BitLocker</li><li>Дополнительные возможности Windows Ultimate</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Хороший выбор для использования одного и того же компьютера на работе и дома</font></td>
+</tr>
+
+<tr>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows Vista Enterprise</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>32-разрядный (x86) или 64-разрядный (x64) процессор частотой 1 ГГц</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1 ГБ системной памяти</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Жесткий диск объемом 40 ГБ, имеющий не менее 15 ГБ свободного места</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>
+Поддержка графики DirectX 9:<textformat blockindent='-18'><li>драйвер WDDM</li><li>графическая память объемом 128 МБ (минимум)</li><li>аппаратная реализация пиксельных шейдеров версии 2.0</li><li>32 бит на пиксель</li></textformat></font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Windows Complete PC</li><li>Архивация и восстановление</li><li>Факсы и сканирование Windows</li><li>Подключение к удаленному рабочему столу</li></textformat></font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Хороший выбор для крупных компаний, в которых требуется корпоративное лицензирование</font></td>
+</tr>
+
+<tr>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Windows XP Home</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>процессор частотой не менее 233 МГц</li><li>рекомендуется 300 МГц и выше</li><li>Семейство Intel Pentium/Celeron</li><li>Семейство AMD K6/Athlon/ Duron или совместимые</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>ОЗУ не менее 64 МБ</li><li>рекомендуется 128 МБ и более</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>не менее 1,5 ГБ свободного места на жестком диске</li><li>при установке по сети рекомендуется увеличить объем свободного места</li></textformat>
+</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>минимальное требование Super VGA 800 x 600, рекомендуется более высокое разрешение</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Повышенная совместимость оборудования и программного обеспечения</li><li>Быстрое переключение пользователей</li><li>Новый интерфейс пользователя</li><li>Упрощение доступа к функциям безопасности</li><li>Упрощенный вход в систему</li><li>Дополнительная поддержка мультимедийных данных</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Обычно используется частными лицами</font></td>
+</tr>
+
+<tr>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows XP Media Center</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1,6 ГГц и выше</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>256 МБ системной памяти</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-18'><li>не менее 1,5 ГБ свободного места на жестком диске</li><li>при установке по сети рекомендуется увеличить объем свободного места</li></textformat></font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Поддержка графики DirectX 9</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows Media Center</font></td>
+<td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Специализированная версия XP Home для упорядочения и воспроизведения мультимедийных файлов всех типов</li><li>Подключение к телевизору для использования функциональных возможностей DVR</li></textformat></font></td>
+</tr>
+
+<tr>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Windows XP Professional</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>процессор с частотой не менее 233 МГц (система с одним или двумя процессорами)</li><li>рекомендуется процессор с частотой 300 МГц и более Intel Pentium/ Celeron Family</li><li>AMD K6/Athlon/ Duron Family или совместимые</li></textformat>
+</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>ОЗУ не менее 64 МБ</li><li>рекомендуется 128 МБ и более</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>не менее 1,5 ГБ свободного пространства на жестком диске</li><li>при установке по сети рекомендуется увеличить объем свободного пространства</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>минимальное требование Super VGA 800 x 600, рекомендуется более высокое разрешение</font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Удаленный рабочий стол</li><li>Поддержка многопроцессорной системы</li><li>Шифрование на уровне файловой системы</li><li>Членство в домене</li><li>Групповая политика</li><li>Перемещаемые профили</li><li>Автоматическое восстановление системы</li><li>Поддержка динамических дисков</li><li>Поддержка Sysprep</li></textformat></font></td>
+<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Обычно используется специалистами в рабочих целях</font></td>
+</tr>
+</table>]]></text>
+</component>
+</textcomponents>

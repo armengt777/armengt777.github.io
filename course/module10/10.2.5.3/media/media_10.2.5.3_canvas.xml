@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data course="ITE" >
+        <slide>
+			
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+			
+			<element type="TEXT" compId="ID_s1_inst" width="339.1"  x="5.35" y="380.85" align="left" expand="up"/>
+			<element type="IMAGE" x="0" y="0" width="470" height="400"  src="10_2_5_3.jpg" />
+			<element type="TEXT" compId="ID_s1_def01" x="174.05" y="90.5" width="95" expand="up+down" align="right" />
+			<element type="TEXT" compId="ID_s1_def02" x="174.05" y="162" width="95" expand="up+down" align="right" />
+			<element type="TEXT" compId="ID_s1_def03" x="174.05" y="233.5" width="95" expand="up+down" align="right" />
+			
+				
+			
+			<element type="ACTIVITY" subType="DRAGDROP" method="NORMAL" replicate="false" compWidth="167" compHeight="65" dragIcon="" dropIcon="" tickPosition="right" dragAlpha="1" dragAlign="left" textColor="#0D658B">
+			  
+			  <subelement type="DRAG" x="0" y="70" compId="ID_s1_drag03" />
+			  <subelement type="DRAG" x="0" y="141.5" compId="ID_s1_drag02" />
+			  <subelement type="DRAG" x="0" y="216" compId="ID_s1_drag01" />
+			  
+			  <subelement type="DROP" x="277" y="70"  match="2"/>
+			  <subelement type="DROP" x="277" y="141.5"  match="1"/>
+			  <subelement type="DROP" x="277" y="213"   match="0"/>
+			  
+			  <subelement type="CHECK" x="352.5" y="349" width="79" height="21" compId="ID_CHECK"/>
+			  <subelement type="RESET" x="352.5" y="374" width="79" height="21" compId="ID_RESET"/>
+			  <subelement type="FEEDBACK" x="120" y="125" width="200" height="150" correctTitleId="ID_CORRECT_TITLE" correctBodyId="ID_CORRECT_BODY" wrongTitleId="ID_INCORRECT_TITLE" wrongBodyId="ID_INCORRECT_BODY"/>
+			
+			</element>
+		 
+		</slide>
+
+</data>

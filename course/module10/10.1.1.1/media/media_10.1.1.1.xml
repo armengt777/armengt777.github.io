@@ -1,0 +1,51 @@
+﻿<textcomponents>
+   
+	<component id="ID_title">
+   <text><![CDATA[<b>Рекламное ПО, шпионское ПО и фишинг</b>]]></text>
+   </component>
+   
+   
+   
+   <component id="ID_term01">
+		<text><![CDATA[<B>Злоумышленник маскируется под легитимную внешнюю организацию</B>]]></text> 
+	</component>
+	<component id="ID_term02">
+		<text><![CDATA[<B>На компьютере отображается нежелательная реклама. Обычно появляется при загрузке «бесплатного» программного обеспечения</B>]]></text> 
+	</component>
+	<component id="ID_term03">
+		<text><![CDATA[<B>Отслеживание пользователя и передача журнала его действий организации, отправившей ПО</B>]]></text> 
+	</component>
+
+   
+	<component id="ID_drag01">
+		<text><![CDATA[Шпионское ПО]]></text> 
+	</component>
+	<component id="ID_drag02">
+		<text><![CDATA[Фишинг]]></text> 
+	</component>
+	<component id="ID_drag03">
+		<text><![CDATA[Рекламное ПО]]></text> 
+	</component>  
+
+   
+   	<component id="ID_CORRECT_TITLE">
+		<text><![CDATA[Верно]]></text> 
+	</component>
+	<component id="ID_CORRECT_BODY">
+		<text><![CDATA[Правильно.]]></text> 
+	</component>
+	<component id="ID_INCORRECT_TITLE">
+		<text><![CDATA[Неверно]]></text> 
+	</component>
+	<component id="ID_INCORRECT_BODY">
+		<text><![CDATA[Неправильно.]]></text> 
+	</component>
+   
+   	<component id="ID_CHECK">
+		<text><![CDATA[Проверить]]></text> 
+	</component>
+	<component id="ID_RESET">
+		<text><![CDATA[Очистить]]></text> 
+	</component>
+   
+</textcomponents>

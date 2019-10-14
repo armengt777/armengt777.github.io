@@ -1,0 +1,38 @@
+﻿<textcomponents>
+	
+	
+	<component id="ID_table">
+		<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			 <tr>
+	 <td colspan='2' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Этап 1. Определение неполадки</b></font></td>
+	 </tr>
+			 <tr>
+          <td colspan='2' bgcolor='#434321' class="mtable_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+        </tr>
+			<tr>
+				<td valign="top" bgcolor='#F3F5E7'><font size='12' color='#393536'>«Открытые» вопросы</font></td>
+				<td valign="top" bgcolor='#F3F5E7'><font size='12' color='#393536'>
+														<li>Какие неполадки возникают в вашем компьютере?</li>
+														<li>Какая операционная система установлена на вашем компьютере?</li>
+														<li>Какие последние обновления были выполнены?</li>
+														<li>Какие программы вы недавно установили?</li>
+														<li>Что вы делали в тот момент, когда обнаружили неполадку?</li>
+													</font></td>
+				
+			</tr>
+			 
+			<tr>
+				<td valign="top" bgcolor='#ffffff'><font size='12' color='#393536'>«Закрытые» вопросы</font></td> 
+				<td valign="top" bgcolor='#ffffff'><font size='12' color='#393536'>
+														<li>Вы можете загрузить операционную систему?</li>
+														<li>Вы можете выполнить загрузку в безопасном режиме?</li>
+														<li>Вы недавно меняли свой пароль?</li>
+														<li>Отображались ли на компьютере сообщения об ошибках?</li>
+														<li>Использовал ли кто-нибудь ваш компьютер в последнее время?</li>
+														<li>Было ли недавно добавлено новое оборудование?</li>
+													</font></td> 
+			</tr>
+
+		</table>]]></text>
+	</component>
+</textcomponents>

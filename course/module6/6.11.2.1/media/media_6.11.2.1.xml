@@ -1,0 +1,134 @@
+﻿<textcomponents>
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения</b></font></td>
+	</tr>  
+	<tr>
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	 
+	<tr>
+		<td bgcolor='#A2AA23' width='120' valign="top"><font  color='#FFFFFF'><b>Определение неполадки</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top"><font  color='#FFFFFF'><b>Возможные причины</b></font></td>
+		<td bgcolor='#A2AA23' valign="top" ><font  color='#FFFFFF'><b>Возможные решения</b></font></td>
+		
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Светодиодные индикаторы сетевой платы не горят.</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Сетевой кабель не подключен, неисправен или поврежден.</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Повторно подключите или замените сетевой кабель.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Пользователю не удается установить подключение к удаленному устройству по Telnet.
+</font></td>
+		<td bgcolor='#FFFFFF' valign="top">
+			<font  color='#393536'><textformat blockindent='-16'>
+				<li>Удаленное устройство не настроено для доступа по протоколу Telnet.</li>
+				<li>Подключение по Telnet не разрешено устанавливать с устройства пользователя или из данной сети.</li></textformat></font>
+				</td>
+		<td bgcolor='#FFFFFF' valign="top">
+			<font color='#393536'>
+				<textformat blockindent='-16'>
+				<li>Настройте удаленное устройство для доступа по протоколу Telnet.</li>
+				<li>Разрешите доступ по протоколу Telnet с устройства данного пользователя или из данной сети.</li></textformat> 
+		</font></td>
+</tr>
+<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Ноутбук более ранней версии не может обнаружить беспроводной маршрутизатор.</font></td>
+		<td bgcolor='#F3F5E7' valign="top">
+			<font color='#393536'>
+				<textformat blockindent='-16'><li>Беспроводные маршрутизатор/точка доступа настроены на использование другого протокола группы 802.11.</li>
+				<li>Не выполняется рассылка имени сети.</li>
+				<li>Беспроводная сетевая плата ноутбука отключена.</li></textformat> 
+			</font></td>
+		<td bgcolor='#F3F5E7' valign="top">
+			<font color='#393536'>
+				<textformat blockindent='-16'><li>Настройте беспроводной маршрутизатор, используя поддерживаемый ноутбуком протокол.</li>
+				<li>Настройте беспроводной маршрутизатор для рассылки имени сети.</li>
+				<li>Включите беспроводную сетевую плату ноутбука.</li></textformat> 
+			</font></td>
+</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536' valign="top">Компьютеру назначен IP-адрес 169.254.x.x.</font></td>
+		<td bgcolor='#FFFFFF' valign="top">
+			<font color='#393536'>
+				<textformat blockindent='-16'><li>Сетевой кабель отключен.</li>
+				<li>Маршрутизатор выключен или неправильно подключен к сети.</li>
+				<li>Сетевая плата неисправна.</li></textformat> 
+			</font></td>
+		<td bgcolor='#FFFFFF' valign="top">
+			<font color='#393536'>
+				<textformat blockindent='-16'><li>Повторно подключите сетевой кабель.</li>
+				<li>Убедитесь, что питание маршрутизатора включено и что он надлежащим образом подключен к сети.</li>
+				<li>Замените сетевую плату.</li>
+				<li>Сбросьте и обновите IP-адрес компьютера.</li></textformat> 
+			</font></td>
+</tr>	
+<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Удаленное устройство не отвечает на эхо-запрос.</font></td>
+		<td bgcolor='#F3F5E7' valign="top">
+			<font color='#393536'>
+				<textformat blockindent='-16'><li>Межсетевой экран Windows отключает эхо-запросы по умолчанию.</li>
+				<li>Удаленное устройство настроено так, чтобы не отвечать на эхо-запросы.</li></textformat> 
+			</font></td>
+		<td bgcolor='#F3F5E7' valign="top">
+			<font color='#393536'>
+			 <textformat blockindent='-16'><li>Настройте межсетевой экран для разрешения протокола PING.</li>
+			 <li>Настройте удаленное устройство для ответа на эхо-запросы.</li></textformat> 
+			</font></td>
+</tr>	
+<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Пользователь может войти в локальную сеть, но не имеет доступа к Интернету.</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Неверно указан адрес шлюза.
+</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Убедитесь, что сетевой плате назначен верный адрес шлюза.
+</font></td>
+</tr>	
+<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Все функции сети работают правильно, беспроводное подключение на ноутбуке включено, однако ноутбуку не удается подключиться к сети.</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>
+			<textformat blockindent='-16'><li> На ноутбуке отключена поддержка беспроводной связи.</li>
+			<li> Внешняя беспроводная антенна не отрегулирована.</li>
+			<li> Ноутбук находится вне зоны охвата беспроводной сети.</li>
+			<li>Помехи от других беспроводных устройств, работающих в том же частотном диапазоне.</li></textformat> 
+		</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>
+			<textformat blockindent='-16'><li>Включите поддержку беспроводной связи на ноутбуке в свойствах беспроводной сетевой платы или с помощью клавиши Fn в сочетании с многофункциональной клавишей.	            </li>
+			<li>Отрегулируйте внешнюю беспроводную антенну так, чтобы она принимала беспроводной сигнал.</li>
+			<li>Переместите ноутбук ближе к беспроводному маршрутизатору/точке доступа.</li>
+			<li>Переключите беспроводной маршрутизатор на другой канал.</li></textformat> 
+		</font></td>
+</tr>
+<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Компьютер с ОС Windows 7, только что подключенный к компьютерной сети исключительно на базе ОС Windows 7, не может обнаружить общие ресурсы.</font></td>
+		<td bgcolor='#FFFFFF' valign="top">
+		<font  color='#393536'>
+			<textformat blockindent='-16'><li>Неверная рабочая группа.</li>
+			<li>Неверное сетевое расположение.</li>
+			<li>Не добавлен в домашнюю группу.</li>
+			<li>Отключены функции обнаружения сети и общего доступа к файлам.</li></textformat> 
+		</font></td>
+		<td bgcolor='#FFFFFF' valign="top">
+			<font color='#393536'>
+				<textformat blockindent='-16'><li>Измените имя рабочей группы.</li>
+				<li>Измените сетевое местоположение на домашнюю сеть.</li>
+				<li>Добавьте компьютер в домашнюю группу.</li>
+				<li>Включите функции обнаружения сети и общего доступа к файлам.</li></textformat> </font></td>
+</tr>	
+<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Пользователю не удается сопоставить диск в сети.
+</font></td><td bgcolor='#F3F5E7' valign="top">
+			<font color='#393536'>
+				<textformat blockindent='-16'><li>Неверная рабочая группа.</li>
+				<li>Отключены функции обнаружения сети и общего доступа к файлам.</li></textformat> 
+			</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-16'><li>Измените имя рабочей группы.</li><li>Включите функции обнаружения сети и общего доступа к файлам.</li></textformat> </font></td>
+</tr>	
+</table>]]>
+</text>
+</component>
+</textcomponents>

@@ -1,0 +1,17 @@
+﻿<textcomponents>
+<component id="ID_btn01">
+	<text><![CDATA[<font align="center"><b>Центр поддержки<br>Windows 7</b></font>]]></text>
+</component>
+
+<component id="ID_btn02">
+	<text><![CDATA[<b>Антивирусная<br>программа</b>]]></text>
+</component>
+
+<component id="ID_btn03">
+	<text><![CDATA[<b>Антишпионская<br>программа</b>]]></text>
+</component>
+
+<component id="ID_btn04">
+	<text><![CDATA[<b>Межсетевой экран<br>Windows 7</b>]]></text>
+</component>
+</textcomponents>

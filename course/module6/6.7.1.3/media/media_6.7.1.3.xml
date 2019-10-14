@@ -1,0 +1,63 @@
+﻿<textcomponents>
+
+
+<!--Slide 1-->
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Сравнение моделей OSI и TCP/IP</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[<font size="14"><b>Эталонная модель OSI</b></font>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+	<text><![CDATA[Уровень приложений]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+	<text><![CDATA[Представления]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Сеансовый]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+	<text><![CDATA[Транспортный]]></text>
+</component>
+
+<component id="ID_s1_txt06">
+	<text><![CDATA[Сетевой]]></text>
+</component>
+
+<component id="ID_s1_txt07">
+	<text><![CDATA[Канальный ]]></text>
+</component>
+
+<component id="ID_s1_txt08">
+	<text><![CDATA[Физический]]></text>
+</component>
+
+<component id="ID_s1_txt09">
+	<text><![CDATA[<font size="14"><b>Модель TCP/IP</b></font>]]></text>
+</component>
+
+<component id="ID_s1_txt10">
+	<text><![CDATA[Уровень приложений]]></text>
+</component>
+
+<component id="ID_s1_txt11">
+	<text><![CDATA[Транспортный]]></text>
+</component>
+
+<component id="ID_s1_txt12">
+	<text><![CDATA[Интернет]]></text>
+</component>
+
+<component id="ID_s1_txt13">
+	<text><![CDATA[Сетевой доступ]]></text>
+</component>
+
+
+
+</textcomponents>

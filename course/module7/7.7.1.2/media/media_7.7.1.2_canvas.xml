@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data course="ITE" >
+	<slide>
+		<element type="TEXT" subtype="TABLE" class="mtable-ite" compId="ID_table" x="15" y="100" width="440" height="100" />
+	</slide>
+</data>

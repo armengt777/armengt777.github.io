@@ -1,0 +1,13 @@
+﻿<textcomponents>
+
+<component id="ID_title_01">
+<text><![CDATA[<b>Ресурсы инженера</b>]]></text>
+</component>
+<component id="ID_body01">
+  <text><![CDATA[<textformat blockindent='-16'><LI>Личный опыт</LI><LI>Сценарии</LI><LI>Веб-сайты</LI><LI>Поисковые системы</LI><LI>Сборники часто задаваемых вопросов (FAQ) в Интернете</LI><LI>Другие сотрудники</LI><LI>Сайты технической поддержки поставщиков</LI><LI>Средства диагностики, устранения неполадок и восстановления работоспособности</LI><LI>Руководства производителя</LI><LI>Электронная почта</LI></textformat>]]></text> 
+  </component>
+
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>

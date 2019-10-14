@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>10.3.1.11 Поддержка учетных записей</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_10.3.1.11_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Стандартные методы профилактического обслуживания для обеспечения безопасности</h1>
+        <h2>Обеспечение безопасности</h2>
+      </div>
+      <div id="content">
+          <p>Сотрудникам организации часто требуются различные уровни доступа к данным. Например, руководитель или бухгалтер могут быть единственными сотрудниками организации с доступом к платежным ведомостям.</p>
+          <p>Сотрудники могут группироваться по требованиям к работе, и им может предоставляться доступ к файлам в соответствии с разрешениями группы. Этот процесс помогает управлять доступом сотрудников к сети. Для сотрудников, которым требуется кратковременный доступ, можно настроить временные учетные записи. Точное управление сетевым доступом помогает ограничить области уязвимости, которые могут быть использованы вирусами или вредоносным программным обеспечением для проникновения в сеть.</p>
+          <p>
+            <b>Прекращение доступа сотрудников</b>
+          </p>
+          <p>Когда сотрудник уходит из организации, его доступ к данным и оборудованию сети должен быть немедленно прекращен. Если бывший сотрудник имеет сохраненные файлы в личном месте на сервере, необходимо закрыть доступ, отключив учетную запись. Если новому сотруднику, заменившему прежнего, требуется доступ к приложению и личному месту для хранения данных, можно снова настроить учетную запись и изменить имя на имя нового сотрудника.</p>
+          <p>
+            <b>Гостевые учетные записи</b>
+          </p>
+          <p>Временным сотрудникам и гостям может потребоваться доступ к сети. Например, посетителям может потребоваться доступ к электронной почте, Интернету и принтеру в сети. Эти ресурсы могут быть предоставлены с помощью специальной учетной записи, которая называется гостевой. При наличии гостей им может быть назначена гостевая учетная запись. При отсутствии гостей учетная запись может быть отключена до появления новых гостей.</p>
+          <p>Для некоторых гостевых учетных записей требуется расширенный доступ к ресурсам, например для консультантов или финансового аудитора. Этот тип доступа должен предоставляться только на время выполнения работы.</p>
+          <p>Для настройки всех пользователей и групп на компьютере введите <b>lusrmgr.msc</b> в поле &laquo;Поиск&raquo; или запустите служебную программу командной строки.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

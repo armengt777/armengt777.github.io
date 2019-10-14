@@ -1,0 +1,199 @@
+﻿<textcomponents>
+
+<!--slide 1-->
+<component id="ID_s1_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки устройств хранения данных способы их устранения</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23' width="105" valign="top"><font color='#FFFFFF'><b>Определение проблемы</b></font></td>
+		<td bgcolor='#A2AA23' width="155" valign="top"><font color='#FFFFFF'><b>Возможные причины</b></font></td>
+		<td bgcolor='#A2AA23' width="155" valign="top"><font color='#FFFFFF'><b>Возможные решения</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Компьютер не распознает устройство хранения данных.</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Кабель питания подключен ненадежно.</li><li>Кабель данных подключен ненадежно.</li><li>Перемычки установлены неверно.</li><li>Отказ устройства хранения данных.</li><li>Настройки устройства хранения данных в BIOS неверны.</li></textformat></td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Обеспечьте надежное подключение кабеля питания.</li><li>Обеспечьте надежное подключение кабеля питания.</li><li>Установите перемычки заново.</li><li>Замените устройство хранения данных.</li><li>Измените настройки устройства хранения данных в BIOS.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Привод гибких дисков не считывает данные с носителей или индикатор на нем горит постоянно.</td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Кабель питания или кабель передачи данных вставлен ненадежно.</li><li>Контакт 1 на кабеле данных не соединен с контактом 1 на диске.</li><li>Настройки FDD в BIOS неверны.</li><li>Диск поврежден или не отформатирован.</li><li>Диск вставлен не той стороной вверх.</li></textformat></td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Убедитесь, что кабель питания или кабель данных надежно подключены к приводу и материнской плате.</li><li>Подключите кабель данных правильно.</li><li>Сбросьте настройки привода гибких дисков в BIOS.</li><li>Попробуйте другой диск или отформатируйте диск снова.</li><li>Вставьте диск правильно.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Компьютер не распознает оптический диск.</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'></textformat><li>Сбой привода оптических дисков.</li><li>Диск вставлен не той стороной вверх.</li><li>В привод вставлено более одного диска.</li><li>Диск поврежден.</li><li>Формат диска неверен.</li></td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'></textformat><li>Замените привод оптических дисков.</li><li>Вставьте диск правильно.</li><li>Убедитесь, что вставлен только один диск.</li><li>Замените диск.</li><li>Используйте правильный тип диска.</li></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Компьютер не извлекает оптический диск.</td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Привод оптических дисков заклинило.</li><li>Привод оптических дисков заблокирован программным обеспечением.</li><li>Сбой привода оптических дисков.</li></textformat></td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Вставьте штырек в маленькое отверстие рядом с кнопкой извлечения на приводе, чтобы открыть лоток.</li><li>Перезагрузите компьютер.</li><li>Замените привод оптических дисков.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Компьютер не распознает накопитель SCSI.</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Неверный идентификатор SCSI накопителя SCSI.</li><li>Терминатор SCSI установлен неверно.</li><li>Внешний накопитель SCSI не был включен перед загрузкой компьютера.</li></textformat></td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Перенастройте идентификатор SCSI.</li><li>Убедитесь, что цепь SCSI терминируется в правильных конечных точках.</li><li>Включите накопитель перед загрузкой компьютера.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Компьютер не распознает съемный внешний диск.</td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Сбой съемного внешнего диска.</li><li>Съемный внешний диск подключен неверно.</li><li>Внешние порты отключены в параметрах BIOS.</li></textformat></td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Замените съемный внешний диск.</li><li>Извлеките диск и вставьте его заново.</li><li>Включите порты в параметрах BIOS.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Устройство чтения носителей не считывает данные с карты памяти, которая работала в фотоаппарате.</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Устройство чтения носителей не поддерживает этот тип карт памяти.</li><li>Устройство чтения носителей подключено неверно.</li><li>Устройство чтения носителей неверно настроено в параметрах BIOS.</li><li>Отказ устройства чтения носителей.</li></textformat></td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Используйте карту памяти другого типа.</li><li>Убедитесь, что устройство чтения носителей правильно подключено к компьютеру.</li><li>Измените параметры для устройства чтения носителей в BIOS.</li><li>Установите проверенное работающее устройство чтения носителей.</li></textformat></td>
+	</tr>
+</table>]]></text>
+</component>
+
+<!--slide 2-->
+<component id="ID_s2_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title1">
+		<td bgcolor='#DAE17A' colspan='3' class="title1"  ><font size='14' color='#393536'><b>Распространенные неполадки материнских плат и внутренних компонентов и способы их устранения</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23' width="105"valign="top"><font color='#FFFFFF'><b>Определение проблемы</b></font></td>
+		<td bgcolor='#A2AA23' width="155" valign="top"><font color='#FFFFFF'><b>Возможные причины</b></font></td>
+		<td bgcolor='#A2AA23' width="155" valign="top"><font color='#FFFFFF'><b>Возможные решения</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Часы на компьютере показывают неправильное время, или параметры BIOS меняются при перезагрузке компьютера.</td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Возможно, батарея CMOS закреплена ненадежно.</li><li>Возможно, батарея CMOS разряжена.</li></textformat></td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Закрепите батарею.</li><li>Замените батарею.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Извлечение данных с флэш-накопителя USB или сохранение их на нем выполняется медленно.</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Материнская плата не поддерживает USB 3.0.</li><li>Флэш-накопитель USB не поддерживает USB 3.0.</li><li>Скорость порта установлена на полную (full) в настройках BIOS.</li></textformat></td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Обновите материнскую плату или флэш-накопитель USB, чтобы они поддерживали USB 3.0.</li><li>Измените скорость порта на высокую (high) в настройках BIOS.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Компьютер не запускается после обновления прошивки BIOS.</td>
+		<td bgcolor='#FFFFFF' valign="top">Обновление прошивки BIOS установлено неправильно.</td>
+		<td bgcolor='#FFFFFF' valign="top">Обратитесь к производителю материнской платы для получения новой микросхемы BIOS. (Если на материнской плате есть две микросхемы BIOS, то можно использовать вторую).</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Компьютер отображает неверную информацию о ЦП при загрузке.</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Перемычки на материнской плате расположены неверно.</li><li>Параметры ЦП в расширенных настройках BIOS неверны.</li><li>BIOS не распознает ЦП должным образом.</li></textformat></td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Установите нужное положение перемычек на материнской плате.</li><li>Правильно установите расширенные параметры BIOS для ЦП.</li><li>Обновите BIOS.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Светодиодный индикатор жесткого диска на передней панели компьютера не загорается.</td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'></textformat><li>Провод индикатора жесткого диска не подключен или подключен ненадежно.</li><li>Провод индикатора жесткого диска неправильно подключен в разъем материнской платы для передней панели корпуса.</li></td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Повторно подключите провод индикатора жесткого диска к материнской плате.</li><li>Правильно подключите кабельный разъем провода индикатора жесткого диска в разъеме материнской платы для передней панели корпуса.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Встроенная сетевая плата на материнской плате перестала работать.</td>
+		<td bgcolor='#F3F5E7' valign="top">Сбой оборудования сетевой платы.</td>
+		<td bgcolor='#F3F5E7' valign="top">Добавьте новую сетевую плату в свободное гнездо расширения.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Компьютер не показывает видео после установки нового видеоадаптера PCIe.</td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Параметры BIOS установлены на использование встроенного видеоадаптера.</li><li>Кабель по-прежнему подключен ко встроенному видеоадаптеру.</li><li>Новый видеоадаптер неисправен.</li></textformat></td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Отключите встроенный видеоадаптер в параметрах BIOS.</li><li>Подключите кабель к новому видеоадаптеру.</li><li>Вставьте проверенный и работающий видеоадаптер.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Новая звуковая плата не работает.
+</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Динамики не подключены к нужному разъему.</li><li>Звук отключен.</li><li>Звуковая плата неисправна.</li><li>Параметры BIOS установлены на использование встроенного звукового устройства.</li></textformat></td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Подключите динамики к правильному разъему.</li><li>Включите звук.</li><li>Установите проверенную, работающую звуковую плату.</li><li>Отключите встроенное звуковое устройство в параметрах BIOS.</li>
+</textformat></td>
+	</tr>
+</table>]]></text>
+</component>
+
+<!--slide 3-->
+<component id="ID_s3_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки блоков питания и способы их устранения</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23'  width="105" valign="top"><font color='#FFFFFF'><b>Определение проблемы</b></font></td>
+		<td bgcolor='#A2AA23' width="155" valign="top"><font color='#FFFFFF'><b>Возможные причины</b></font></td>
+		<td bgcolor='#A2AA23' width="155" valign="top"><font color='#FFFFFF'><b>Возможные решения</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Компьютер не включается.</td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Компьютер не подключен к розетке переменного тока.</li><li>Розетка переменного тока не работает.</li><li>Кабель питания поврежден.</li><li>Выключатель питания находится в положении «выключено».</li><li>Переключатель напряжения питания установлен на неверное напряжение.</li><li>Кнопка питания неверно подключена к разъему передней панели.</li><li>Сбой блока питания.</li></textformat></td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Подключите компьютер к исправной сетевой розетке переменного тока.</li><li>Используйте исправный кабель питания.</li><li>Включите питание.</li><li>Установите переключатель напряжения питания на правильное значение напряжения.</li><li>Правильно установите кабельный разъем провода контакта кнопки питания для разъема передней панели на материнской плате и повторно подключите её.</li><li>Установите исправный блок питания.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Компьютер перезагружается, неожиданно отключается, либо чувствуется запах дыма или сгоревших проводов.</td>
+		<td bgcolor='#F3F5E7' valign="top">Начало сбоя блока питания.</td>
+		<td bgcolor='#F3F5E7' valign="top">Замените блок питания.</td>
+	</tr>
+</table>]]></text>
+</component>
+
+<!--slide 4-->
+<component id="ID_s4_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки ЦП и памяти и способы их устранения</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23'  width="105" valign="top"><font color='#FFFFFF'><b>Определение проблемы</b></font></td>
+		<td bgcolor='#A2AA23' width="155" valign="top"><font color='#FFFFFF'><b>Возможные причины</b></font></td>
+		<td bgcolor='#A2AA23' width="155" valign="top"><font color='#FFFFFF'><b>Возможные решения</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Компьютер не загружается или зависает.</td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'></textformat><li>ЦП перегрелся.</li><li>Сбой вентилятора ЦП.</li><li>Сбой ЦП.</li></td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Повторно установите ЦП.</li><li>Замените вентилятор ЦП.</li><li>Добавьте вентилятор(ы) в корпус.</li><li>Замените ЦП.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Вентилятор ЦП издает необычные звуки.</td>
+		<td bgcolor='#F3F5E7' valign="top">Вентилятор ЦП отказывает.</td>
+		<td bgcolor='#F3F5E7' valign="top">Замените вентилятор ЦП.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Компьютер перезагружается без предупреждения, зависает или отображает сообщения об ошибках.</td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Установлена слишком высокая частота внешней шины.</li><li>Установлен слишком высокий множитель ЦП</li><li>Установлено слишком высокое напряжение питания ЦП.</li></textformat></td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Верните заводские параметры по умолчанию для материнской платы.</li><li>Уменьшите частоту внешней шины.</li><li>Уменьшите множитель.</li><li>Уменьшите напряжение на ЦП.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">После обновления с одноядерного ЦП на двухъядерный ЦП компьютер работает медленнее и показывает график лишь для одного ЦП в диспетчере задач.</td>
+		<td bgcolor='#F3F5E7' valign="top">BIOS не распознает двухъядерный ЦП.</td>
+		<td bgcolor='#F3F5E7' valign="top">Обновите прошивку BIOS для поддержки двухъядерного ЦП.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">ЦП не устанавливается на материнскую плату.</td>
+		<td bgcolor='#FFFFFF' valign="top">Неверный тип ЦП.</td>
+		<td bgcolor='#FFFFFF' valign="top">Замените ЦП на ЦП, соответствующий типу процессорного разъема материнской платы.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">Компьютер не распознает добавленный модуль ОЗУ.</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Новый модуль ОЗУ неисправен.</li><li>Установлен неверный тип ОЗУ.</li><li>Новый модуль ОЗУ вставлен ненадежно.</li></textformat></td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'><li>Замените модуль ОЗУ.</li><li>Установите правильный тип ОЗУ.</li><li>Закрепите модуль ОЗУ в гнезде памяти.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">Компьютер работает очень медленно после обновления Windows.</td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>У компьютера недостаточно ОЗУ.</li><li>У видеоадаптера недостаточно памяти.</li></textformat></td>
+		<td bgcolor='#FFFFFF' valign="top"><textformat blockindent='-18'><li>Установите дополнительные модули ОЗУ.</li><li>Установите видеоадаптер с большим объемом памяти.</li></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">На компьютеры установлены модули ОЗУ DDR2 и DDR3, но распознается только DDR3.</td>
+		<td bgcolor='#F3F5E7' valign="top">Материнская карта не поддерживает одновременное использование ОЗУ DDR2 и DDR3.</td>
+		<td bgcolor='#F3F5E7' valign="top">Обратитесь к руководству по материнской плате, чтобы убедиться, поддерживает ли она одновременное использование двух типов ОЗУ.</td>
+	</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.4.1.4 Wi-Fi</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.4.1.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Технологии беспроводной связи в ноутбуках</h1>
+        <h2>Функции и настройка ОС</h2>
+      </div>
+      <div id="content">
+          <p>Беспроводные адаптеры обеспечивают доступ к Интернету с ноутбуков. Они могут быть встроены в ноутбук или подключены к нему через порт расширения. Беспроводные адаптеры, используемые в ноутбуках, делятся на три основных типа, как показано на рисунке.</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Mini-PCI</b> &mdash; широко распространены в старых моделях ноутбуков. Карты Mini-PCI являются 124-контактными и поддерживают стандарты 802.11a, 802.11b и 802.11g подключения к беспроводной локальной сети.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Mini-PCIe</b> &mdash; наиболее распространенный тип беспроводных плат в ноутбуках. Карты Mini-PCIe являются 54-контактными и поддерживают все стандарты подключения к беспроводной локальной сети.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>PCI Express Micro</b> &mdash; распространены в новых и компактных моделях ноутбуков, таких как ультрабуки, поскольку по размеру они вдвое меньше карт Mini-PCIe. Карты PCI Express Micro являются 54-контактными и поддерживают все стандарты подключения к беспроводной локальной сети.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>В современных ноутбуках беспроводные платы расширения используются редко, поскольку в большинство таких ноутбуков встроены платы адаптеров беспроводной связи. Как правило, для добавления или обновления функций работы с беспроводными сетями используется адаптер для USB.</p>
+          <p></p>
+          <p>Для настройки параметров беспроводной сети Ethernet на ноутбуке под управлением Windows 7 или Windows Vista выполните следующие действия:</p>
+          <p></p>
+          <p>
+            <b>Этап 1. </b>Проверьте, что установлено ПО для модема и маршрутизатора и что оба эти устройства включены.</p>
+          <p>
+            <b>Этап 2. </b>Выберите <b>Пуск</b> &gt; <b>Панель управления</b> &gt; <b>Центр управления сетями и общим доступом</b> &gt; <b>Создание нового подключения к сети</b>.</p>
+          <p>
+            <b>Этап 3. </b>Если подключение уже установлено или сеть определена, нажмите кнопку <b>Подключить</b> и выберите сеть.</p>
+          <p>
+            <b>Этап 4. </b>С помощью мастера <b>Создание нового подключения к сети</b> создайте новое подключение или настройте сеть.</p>
+          <p></p>
+          <p>Для настройки параметров беспроводной сети Ethernet на ноутбуке под управлением Windows XP выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Проверьте, что установлено ПО для модема и маршрутизатора и что оба эти устройства включены. </p>
+          <p>
+            <b>Этап 2. </b>Выберите <b>Пуск</b> &gt; <b>Панель управления</b> &gt; <b>Сеть и подключения к Интернету</b> &gt; <b>Сетевые подключения</b>.</p>
+          <p>
+            <b>Этап 3. </b>Если подключение уже установлено или сеть определена, нажмите кнопку <b>Подключить</b> и выберите сеть.</p>
+          <p>
+            <b>Этап 4. </b>Если подключение не установлено или сеть не определена, щелкните ссылку <b>Создать подключение</b>.</p>
+          <p>
+            <b>Этап 5. </b>С помощью мастера <b>Создание нового подключения к сети</b> создайте новое подключение или настройте сеть.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

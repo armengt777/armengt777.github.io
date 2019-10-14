@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>ՕՀ-ի համատեղելիությունը</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[<b>Համատեղելիություն</b>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data course="ITE" >
+	<slide>
+		
+        <slide>
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+		<element type="IMAGE" x="0" y="0" width="470" height="400"  src="6_1_1_3.jpg" />
+		    
+			<element type="TEXT" compId="ID_txt01" x="13" y="62.05" width="450.15" expand="right" align="left" />
+			<element type="TEXT" compId="ID_txt02" x="13" y="142" width="450.15" expand="right" align="left" />
+			<element type="TEXT" compId="ID_txt03" x="7" y="33" width="455" expand="down" align="left" />
+			
+			
+		<element type="ACTIVITY" subType="DRAGDROP" method="NORMAL" replicate="false" compWidth="200" compHeight="40" dragIcon="" dropIcon="" tickPosition="left" dragAlpha="1" dragAlign="" size="10" matchType="group" >
+		  <subelement type="DRAG" x="29" y="261" compId="ID_drag01" group="a"/>
+		  <subelement type="DRAG" x="257" y="261" compId="ID_drag04" group="b"/>
+		   <subelement type="DRAG" x="29" y="307" compId="ID_drag02" group="b"/>
+		  <subelement type="DRAG" x="257" y="307" compId="ID_drag05" group="b"/>
+		   <subelement type="DRAG" x="29" y="353" compId="ID_drag03"  group="a"/>
+		 
+		   
+		  
+		  <subelement type="DROP" x="29" y="87"  group="a"/>
+		  <subelement type="DROP" x="257" y="87"   group="a"/>
+		  <subelement type="DROP" x="29" y="166"  group="b"/>
+		  <subelement type="DROP" x="257" y="166" group="b"/>
+		  <subelement type="DROP" x="29" y="211.6"   group="b"/>
+		 
+		  
+		  <subelement type="CHECK" x="265.5" y="373.5" width="90" height="21" compId="ID_CHECK"/>
+		  <subelement type="RESET" x="377.5" y="373.5" width="90" height="21" compId="ID_RESET"/>
+		  <subelement type="FEEDBACK" x="3" y="211" width="200" height="150" correctTitleId="ID_CORRECT_TITLE" correctBodyId="ID_CORRECT_BODY" wrongTitleId="ID_INCORRECT_TITLE" wrongBodyId="ID_INCORRECT_BODY"/>
+		
+		  
+	  </element>
+		</slide>
+		
+		
+	</slide>
+</data>

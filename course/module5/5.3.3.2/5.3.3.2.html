@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.3.2 Просмотр событий, службы компонентов и источники данных</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.3.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Администрирование</h2>
+      </div>
+      <div id="content">
+          <p>В окне «Просмотр событий», как показано на рисунке, отображается журнал событий, относящихся к приложениям, безопасности и системе. Файлы журналов являются ценными инструментами поиска и устранения неполадок, поскольку они содержат сведения, необходимые для определения проблемы. </p>
+          <p>Для получения доступа к функции «Просмотр событий» перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Администрирование &gt; Просмотр событий</b>
+          </p>
+          <p>«Службы компонентов» — это инструмент администрирования, используемый администраторами и разработчиками для развертывания, настройки и администрирования компонентов компонентной объектной модели (COM). Компонентная объектная модель (COM) — это способ обеспечения использования компонентов в средах, отличных от той, в которой они были созданы. </p>
+          <p>Для получения доступа к функции «Службы компонентов» перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Администрирование &gt; Службы компонентов</b>
+          </p>
+          <p>«Источники данных» — это средство администрирования, используемое для управления источниками данных, их добавления или удаления с помощью интерфейса открытой системы связи с базами данных (ODBC). ODBC — это технология, позволяющая иметь доступ к различным базам и источникам данных.  </p>
+          <p>Для получения доступа к функции «Источники данных (ODBC)» перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Администрирование &gt; Источники данных (ODBC)</b>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

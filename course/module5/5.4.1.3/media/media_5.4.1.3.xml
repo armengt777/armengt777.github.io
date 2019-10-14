@@ -1,0 +1,44 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Системные требования Virtual PC</b>]]></text>
+</component>
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+         <tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+		</tr> 
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Процессор</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'><li>1 ГГц</li>
+          <li>32-разрядный или 64-разрядный процессор</li>
+          </font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Место на жестком диске</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>15 ГБ для каждой виртуальной ОС</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Память</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>2 ГБ</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Поддерживаемые операционные системы главного компьютера</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'><li>Windows 7 Домашняя базовая</li>
+          <li>Windows 7 Домашняя расширенная</li>
+          <li>Windows 7 Корпоративная</li>
+          <li>Windows 7 Профессиональная</li>
+          <li>Windows 7 Максимальная</li>
+          </font></td>
+        </tr>
+       <tr>
+      <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Поддерживаемые гостевые ОС</font></td>
+      <td bgcolor='#FFFFFF' valign="top"><font color='#393536'><li>Windows XP</li>
+      <li>Windows Vista</li>
+      <li>Windows 7</li>
+      </font></td></tr>
+    </table>
+]]>
+</text>
+</component>
+
+</textcomponents>

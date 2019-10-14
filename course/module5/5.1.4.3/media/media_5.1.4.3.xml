@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+
+<!--Slide 1-->
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Средство миграции пользовательской среды</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Администратор: Командная строка]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+	<text><![CDATA[<font color="#FFFFFF" face='_typewriter' size='10' class="cmdFontSize">C:\Program Files\USMT301>scanstate c:\usmt<br><br><span class="cmdFontSize">Log messages are being sent to 'C:\Program Files\USMT301\scanstate.log</span>'<br><span class="cmdFontSize">Scanning the computer for files and settings...</span><br><span class="cmdFontSize">Collecting files and settings for:</span><br><span class="paragraghSpace"><textformat blockindent='25'>This Computer</span><br><span class="paragraghSpace">'PRODUCTION\Administrator' &lt;user 1 of 2&gt;</span><br><span class="paragraghSpace">'JOHN\John' &lt;user 2 of 2&gt;</span></textformat><br><span class="cmdFontSize">Saving files and settings -</span><br><br><span class="cmdFontSize">ScanState has successfully collected the files and settings.</span><br><br><span class="cmdFontSize">C:\Program Files\USMT301></span></font>]]></text>
+</component>
+
+<!--Slide 2-->
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Средство переноса данных Windows</b>]]></text>
+</component>
+
+<!--Slide 3-->
+<component id="ID_s3_title">
+	<text><![CDATA[<b>Мастер переноса файлов и параметров</b>]]></text>
+</component>
+
+</textcomponents>

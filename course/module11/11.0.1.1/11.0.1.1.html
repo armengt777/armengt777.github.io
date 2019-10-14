@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>11.0.1.1 Введение</title>
+    <!--  -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script> var myLayout;  $(document).ready(function () { var frame = document.getElementById("mainFrame"); if (isTextOnly(window)) {frame.setAttribute("src", "media_11.0.1.1_longdesc.txt");  } else {frame.setAttribute("src", "media/index.html"); }	myLayout = $("body").layout({  west__size: 300, west__minSize: 300, center__minWidth: 100, stateManagement__enabld: true,  maskIframesOnResize: true, livePaneResizing: true, onresize_end: resizeTextDiv, stateManagement__cookie__name: "ui_pane_ru", stateManagement__cookie__expires: 1,  stateManagement__cookie__path: "/"   }); }); function resizeTextDiv() {var DivHeight = document.getElementById("header").offsetHeight;document.getElementById("content").style.top = String(DivHeight) + "px";} </script>
+
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>ИТ-специалист</h1>
+        <h2>Введение</h2>
+      </div>
+      <div id="content">
+          <p>Каждый может приобрести технические знания, необходимые для работы в области ИТ. Однако, чтобы стать успешным ИТ-специалистом, технических знаний недостаточно. ИТ-специалист должен быть хорошо знаком с правовыми и этическими вопросами в этой области. При взаимодействии с заказчиком, независимо от того, где и как оно происходит, — в центре обслуживания, в офисе, по телефону в центре обработки вызовов, — следует принимать во внимание вопросы конфиденциальности и личной информации заказчика. Инженер ремонтной мастерской, даже если он лично не разговаривает с заказчиками, имеет доступ к их личным и конфиденциальным данным. В этой главы рассматриваются некоторые типичные правовые и этические вопросы.</p>
+          <p>Инженеры центра обработки вызовов работают с клиентами только по телефону. В этой главе рассматриваются стандартные процедуры центра обработки вызовов и процесс работы с клиентами.</p>
+          <p>ИТ-специалисты занимаются поиском и устранением неполадок и ремонтом компьютеров, и им часто приходится общаться с заказчиками и своими сотрудниками. Для успешного поиска и устранения неполадок умение общаться с клиентом не менее важно, чем знания о том, как ремонтировать компьютер. Эта глава посвящена коммуникационным навыкам при работе с заказчиком. Предполагается, что вы будете владеть ими так же уверенно, как навыками работы с отверткой.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

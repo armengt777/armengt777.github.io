@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.3.2.1 Bluetooth для мобильных устройств</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.3.2.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сетевая связь и электронная почта</h1>
+        <h2>Bluetooth</h2>
+      </div>
+      <div id="content">
+          <p>Для подключения мобильных устройств используются разные способы. Иногда сложно настроить параметры связи по сотовой сети и Wi-Fi. Для нее также требуется дополнительное оборудование, такое как вышки и точки доступа. Кабельные подключения не всегда удобны, если требуется использовать гарнитуру или динамики. Технология Bluetooth обеспечивает простую связь между мобильными устройствами и их подключение к дополнительному беспроводному оборудованию. Bluetooth &mdash; это беспроводная технология, работающая в автоматическом режиме и потребляющая очень мало электроэнергии, что помогает продлить срок службы аккумулятора. Одновременно можно подключить друг к другу до восьми устройств Bluetooth. </p>
+          <p>Вот несколько примеров использования Bluetooth на мобильных устройствах:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Гарнитура беспроводной связи </b>&mdash; маленький наушник с микрофоном, который используется для выполнения и приема вызовов (рис. 1).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Клавиатура или мышь</b> &mdash; клавиатуру или мышь можно подключить к мобильному устройству, чтобы сделать ввод более удобным.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Управление стереосистемой </b>&mdash; мобильное устройство можно подключить к домашней или автомобильной стереосистеме для воспроизведения музыки.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Автомобильное устройство громкой связи </b>&mdash; устройство, состоящее из динамика и микрофона, для выполнения и приема вызовов.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Режим точки доступа </b>&mdash; мобильное устройство можно подключить к другому мобильному устройству или компьютеру для совместного использования сетевого подключения (рис. 2). Режим точки доступа можно также реализовать при помощи подключения Wi-Fi или кабельного подключения, например USB.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Мобильный динамик </b>&mdash; портативные динамики можно подключить к мобильному устройству для получения высокого качества звука без стереосистемы.</li>
+            </ul>
+          </p>
+          <p>Bluetooth &mdash; сетевой стандарт, имеющий два уровня &mdash; физический и протокольный. На физическом уровне Bluetooth представляет радиочастотный стандарт. На протокольном уровне устройства согласовывают между собой время и способ отправки данных, а также точное соответствие между отправленными и принятыми данными.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

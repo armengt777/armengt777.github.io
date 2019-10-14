@@ -1,0 +1,57 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Сравнение FAT32 и NTFS </b>]]></text>
+</component>
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>	
+	<tr>
+		<td colspan='4' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	<tr>
+		<td bgcolor='#A2AA23' width="90" valign="top">&nbsp;</td>
+		<td bgcolor='#A2AA23' width="90" valign="top" ><font  color='#FFFFFF'><b>FAT32</b></font></td>
+		<td bgcolor='#A2AA23' width="90" valign="top" ><font  color='#FFFFFF'><b>NTFS</b></font></td>
+		<td bgcolor='#A2AA23' valign="top" ><font  color='#FFFFFF'><b>exFAT (FAT64)</b></font></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Безопасность</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Низкая безопасность</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Права доступа на уровне файлов и папок Шифрование</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>exFAT поддерживает списки контроля доступа (ACL), определяющие права доступа пользователей</font></td>		
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Совместимость</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Совместима с Windows </font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Совместима с Windows</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Совместима с Windows XP с пакетами обновлений SP2 или SP3, Windows Vista с SP1, Windows 7, Windows Server 2003 с SP2, Windows Server 2008 и Linux</font></td>		
+	</tr>
+	
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Размер файлов</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Файлы не более 4 ГБ <br>Тома не более 32 ГБ</br></font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Файлы не более 16 ТБ <br>Тома не более 256 ТБ</br>
+</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Файлы не более 64 зеттабайт (ЗБ) <br>Тома не более 512 ТБ</br></font></td>		
+	</tr>	
+
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Количество файлов на томе</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>4,17 миллиона</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>4,29 миллиарда</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Не более 16 эксабайт (ЭБ) </font></td>		
+	</tr>
+	</table>]]>
+</text>
+</component>
+
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Новый раздел для Windows 7</b>]]></text>
+</component>
+<component id="ID_s3_title">
+<text><![CDATA[<b>Быстрое или полное форматирование</b>]]></text>
+</component>
+
+</textcomponents>

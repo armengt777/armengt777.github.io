@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.2.3.3 Реестр Windows</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.2.3.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка операционной системы</h1>
+        <h2>Последовательность загрузки и файлы реестра</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Реестр Windows</b>
+          </p>
+          <p>Файлы реестра Windows являются важной частью процесса загрузки Windows. Эти файлы распознаются по особым именам, которые начинаются с сочетания HKEY_ (см. рисунок), за которым следует имя управляемой части ОС. Все параметры Windows, начиная от фона рабочего стола и цвета кнопок экрана и заканчивая лицензированием приложений, хранятся в реестре. При внесении пользователем изменений в параметры панели управления, сопоставление файлов, системные политики или установленное ПО эти изменения сохраняются в реестре. </p>
+          <p>Каждая учетная запись пользователя имеет отдельный раздел в реестре. При входе в систему Windows запрашивает системные параметры из реестра, чтобы перенастроить систему для каждой отдельной учетной записи пользователя.</p>
+          <p></p>
+          <p>В реестре также записывается местоположения файлов библиотек динамической компоновки (DLL). Файл DLL состоит из программного кода, который может быть использован различными программами для выполнения общих функций. Поэтому файлы DLL очень важны для работы операционной системы и приложений, устанавливаемых пользователями.</p>
+          <p></p>
+          <p>Чтобы операционная система или программа могли определить местоположение файла DLL, этот файл должен быть зарегистрирован. Обычно регистрация выполняется автоматически во время процесса установки. В случае возникновения проблемы может понадобиться зарегистрировать файл DLL вручную. При регистрации файла DLL строится сопоставление для пути к этому файлу, что облегчает программам задачу поиска необходимых файлов. Для регистрации файла DLL в Windows из командной строки выполните следующие действия:</p>
+          <p></p>
+          <p>
+            Нажмите <b>Пуск</b>, введите <b>cmd</b> в строку <b>Найти программы и файлы</b> и <b></b> введите <b>regsvr32 </b><i>имяфайла</i>.dll</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

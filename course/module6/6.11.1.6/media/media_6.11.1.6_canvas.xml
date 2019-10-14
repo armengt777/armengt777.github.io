@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide>
+			<element type="TEXT" id="ID_static_1" text="’" x="163.95" y="166.35" width="104" align="left" size="14" color="#0" />
+			<element type="TEXT" subType="TABLE" compId="ID_table" x="12.5" y="102.6" width="445" height="222" class="mtable" />
+		</slide>
+	</data>
+
+

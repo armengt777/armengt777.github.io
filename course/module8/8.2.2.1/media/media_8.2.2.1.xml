@@ -1,0 +1,80 @@
+﻿<textcomponents>
+
+
+
+<!--Slide 1-->
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Центральный главный экран Android</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[<b>Поиск Google</b>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+	<text><![CDATA[<b>Индикатор главного экрана</b>]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+	<text><![CDATA[<b>Основная область приложений и виджетов</b>]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[<b>Значки перехода</b>]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+	<text><![CDATA[<b>Открытие панели мини-приложений</b>]]></text>
+</component>
+
+<component id="ID_s1_txt06">
+	<text><![CDATA[<b>Значки системы</b>]]></text>
+</component>
+
+<!--Slide 2-->
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Значки перехода</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+	<text><![CDATA[<b>Назад</b>]]></text>
+</component>
+
+<component id="ID_s2_txt02">
+	<text><![CDATA[<b>На главный экран</b>]]></text>
+</component>
+
+<component id="ID_s2_txt03">
+	<text><![CDATA[<b>Недавние приложения</b>]]></text>
+</component>
+
+<component id="ID_s2_txt04">
+	<text><![CDATA[<b>Меню</b>]]></text>
+</component>
+
+<!--Slide 3-->
+<component id="ID_s3_title">
+	<text><![CDATA[<b>Область уведомлений</b>]]></text>
+</component>
+
+<component id="ID_s3_txt01">
+	<text><![CDATA[<b>Игнорирование всех уведомлений</b>]]></text>
+</component>
+
+<component id="ID_s3_txt02">
+	<text><![CDATA[<b>Переключение часто используемых параметров</b>]]></text>
+</component>
+
+<component id="ID_s3_txt03">
+	<text><![CDATA[<b>Настройка яркости экрана</b>]]></text>
+</component>
+
+<component id="ID_s3_txt04">
+	<text><![CDATA[<b>Быстрые настройки</b>]]></text>
+</component>
+
+<component id="ID_s3_txt05">
+	<text><![CDATA[<b>Ответ на уведомления</b>]]></text>
+</component>
+
+</textcomponents>

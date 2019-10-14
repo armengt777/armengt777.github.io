@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data course="ITE" >
+	<slide type="MBAR">
+	<!-- Slide 01-->
+		<slide>
+			<element type="IMAGE" x="18" y="51" width="404.9" height="303.85" subType="STD" src="7_2_2_2_s1.jpg" />
+			<element type="IMAGE" x="56.6" y="80" width="160.4" height="42.55" src="7_2_2_2_s1a.png" />
+			<element type="IMAGE" x="242.5" y="80" width="160.4" height="42.55" src="7_2_2_2_s1a.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+		</slide>
+
+	<!-- Slide 02-->
+		<slide>
+			<element type="IMAGE" x="18" y="51" width="404.9" height="303.85" subType="STD" src="7_2_2_2_s2.jpg" />
+			<element type="IMAGE" x="153.05" y="139" width="45" height="45" src="7_2_2_2_s2a.png" />
+			<element type="IMAGE" x="223.55" y="139" width="45" height="45" src="7_2_2_2_s2a.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+		</slide>
+
+	<!-- Slide 03-->
+		<slide>
+			<element type="IMAGE" x="18" y="51" width="404.9" height="303.85" subType="STD" src="7_2_2_2_s3.jpg" />
+			<element type="IMAGE" x="29.2" y="80.15" width="48" height="262" src="7_2_2_2_s3a.png" />
+			<element type="IMAGE" x="369.5" y="80.15" width="48" height="262" src="7_2_2_2_s3a.png" />
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+		</slide>
+
+		<element type="TEXT" compId="ID_inst" x="5" y="380" width="432.1" expand="up" align="left" size="12" />
+	</slide>
+</data>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE">
+		<slide type="MBUTTON">
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+			
+			<slide buttonType="BLUE" buttonX="1" buttonY="32" buttonWidth="175" buttonHeight="21" compId="ID_btn01">
+				<element type="IMAGE" src="2.2.1.3a.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s1_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="59.65" buttonWidth="175" buttonHeight="21" compId="ID_btn02">
+				<element type="IMAGE" src="2.2.1.3b.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s2_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="87.3" buttonWidth="175" buttonHeight="21" compId="ID_btn03">
+				<element type="IMAGE" src="2.2.1.3c.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s3_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="114.95" buttonWidth="175" buttonHeight="21" compId="ID_btn04">
+				<element type="IMAGE" src="2.2.1.3d.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s4_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="142.6" buttonWidth="175" buttonHeight="21" compId="ID_btn05">
+				<element type="IMAGE" src="2.2.1.3e.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s5_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="170.25" buttonWidth="175" buttonHeight="21" compId="ID_btn06">
+				<element type="IMAGE" src="2.2.1.3f.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s6_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="197.9" buttonWidth="175" buttonHeight="21" compId="ID_btn07">
+				<element type="IMAGE" src="2.2.1.3g.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s7_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="225.55" buttonWidth="175" buttonHeight="21" compId="ID_btn08">
+				<element type="IMAGE" src="2.2.1.3h.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s8_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="253.2" buttonWidth="175" buttonHeight="21" compId="ID_btn09">
+				<element type="IMAGE" src="2.2.1.3i.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s9_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="280.85" buttonWidth="175" buttonHeight="21" compId="ID_btn10">
+				<element type="IMAGE" src="2.2.1.3j.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s10_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="308.5" buttonWidth="175" buttonHeight="21" compId="ID_btn11">
+				<element type="IMAGE" src="2.2.1.3k.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s11_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="1" buttonY="336.35" buttonWidth="175" buttonHeight="21" compId="ID_btn12">
+				<element type="IMAGE" src="2.2.1.3l.jpg" subType="STD" x="195" y="30" width="270" height="214" />
+				<element type="TEXT" compId="ID_s12_caption" x="185" y="260" width="260" height="100" align="left" expand="down" class="height100" size="12" />
+			</slide>
+		</slide>
+</data>

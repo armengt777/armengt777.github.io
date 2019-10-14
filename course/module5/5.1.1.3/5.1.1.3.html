@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.1.1.3 Պրոցեսորի ճարտարապետությունը</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.1.1.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Ժամանակակից օպերացիոն համակարգեր</h1>
+        <h2>ՕՀ-ի տերմինները և բնութագրերը</h2>
+      </div>
+      <div id="content">
+          <p>Եղանակը, որով պրոցեսորը մշակում է ինֆորմացիան , կարող է ազդեցություն ունենալ ՕՀ-ի արտադրողականության վրա:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>x86</b> — 32 բիթանոց ճարտարապետությունն է, որը մեկ հարցման ժամանակ մշակում է մի քանի հրամաններ :  x86  պրոցեսորը օգտագործում է ավելի քիչ քանակությամբ ռեգիստրեր քան x64 պրոցեսորը: Ռեգիստրները հիշողության հատվածներ են (storage areas), որոնք օգտագործվում են պրոցեսորի կողմից հաշվարկներ կատարելու ժամանակ: x86 պրոցեսորները ապահովում է 32 բիթանոց ՕՀ-ի հետ աշխատանք:</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>x64</b> — 64  բիթանոց ճարտարապետությունն է, որը ավելացնում է լրացուցիչ ռեգիստրներ հատուկ այն  հրամանների համար , որոնք օգտագործում են 64 բիթանոց հասցեական տարածությունը: Լրացուցիչ ռեգիստրները թույլ են տալիս պրոցեսորին մշակել հրահանգները ավելի արագ քան x86 պրոցեսորը:  x64 պրոցեսորը հետադարց համատեղելի է x86-ի հետ: x64 -ը կարող է ապահովել և 32 և 64 բիթանոց ՕՀ-ի հետ աշխատանք:</li>
+            </ul>
+          </p>
+          <p>•	32 բիթանոց ՕՀ-ն ընդունակ է աշխատել  միայն  4GB օպերատիվ հիշողության հետ, իսկ 64 բիթանոցը՝ ավելի քան 128GB  օպերատիվ հիշողության հետ: Հիշողության կառավարումը  երկու համակարգերում տարբերվում է: 64 բիթանոց համակարգն ունի ավելի բարձր արտադրողականություն, ինչպես նաև ներառում է ֆունկցիաներ, որոնք  ապահովում են  հավելյալ անվտանգություն:</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>

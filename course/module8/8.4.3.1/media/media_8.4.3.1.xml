@@ -1,0 +1,8 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Антивирусное программное обеспечение для мобильных устройств</b>]]></text>
+</component>
+<component id="ID_txt01">
+  <text><![CDATA[<b>Антивирусное программное обеспечение</b>]]></text> 
+  </component>
+</textcomponents>

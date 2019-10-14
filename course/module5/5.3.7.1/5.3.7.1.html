@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.7.1 Команды интерфейса командной строки Windows</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.7.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Программы командной строки</h2>
+      </div>
+      <div id="content">
+          <p>При устранении проблем с ОС могут понадобиться команды и параметры интерфейса командной строки. Для получения доступа к интерфейсу командной строки выполните следующие действия:</p>
+          <p>
+            Нажмите <b>Пуск</b>, введите <b>Cmd</b> в <b>окне поиска</b> и нажмите клавишу <b>Ввод</b></p>
+          <p>Откроется окно командной строки, где можно вводить команды для выполнения конкретных функций. На рисунке показаны наиболее часто используемые команды, их использование и выполняемые ими функции.</p>
+          <p></p>
+          <p>Если в выполнении какой-либо команды отказано, попытайтесь запустить интерфейс командной строки от имени администратора.  Для получения доступа к командной строке в качестве администратора выполните следующие действия:</p>
+          <p></p>
+          <p>
+            Нажмите <b>Пуск</b>, введите <b>Cmd</b> в <b>окно поиска</b>, щелкните правой кнопкой мыши <b>cmd.exe</b> и выберите пункт <b>Запуск от имени администратора</b>, затем нажмите <b>Да</b></p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>4.3.1.1 Обзор</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_4.3.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Обзор профилактического обслуживания и устранения неполадок</h1>
+        <h2>Обзор</h2>
+      </div>
+      <div id="content">
+          <p>В этой главе рассказывается о принципах профилактического обслуживания и о процедуре устранения неполадок.</p>
+          <p>
+            <ul>
+              <li>Регулярное профилактическое обслуживание сокращает число проблем с оборудованием и программным обеспечением. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Перед тем как приступить к устранению любых неполадок, создавайте резервную копию данных с компьютера. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Процедура поиска и устранения неполадок &mdash; это набор рекомендаций, помогающий эффективно решать проблемы, связанные с компьютером.  </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Документируйте все свои действия, даже если они не дают результатов. Создаваемая документация будет полезна вам и другим инженерам. </li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,30 @@
+﻿<textcomponents>
+  
+  <component id="ID_table">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			 <tr>
+			 	<td colspan='2' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Этап 3. Проверка выводов, сделанных о причине неполадки</b></font></td>
+			</tr>
+			 <tr>
+          		<td colspan='2' bgcolor='#434321' class="mtable_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+       		</tr>
+			
+			<tr>
+			<td valign="top" bgcolor='#F3F5E7'><font color='#393536'>Стандартные действия для определения причины</font></td>
+			<td valign="top" bgcolor='#F3F5E7'><font color='#393536'>
+				<textformat blockindent='-18'><li>Используйте ноутбук с питанием от адаптера переменного тока</li>
+				<li>Замените аккумулятор</li>
+				<li>Перезагрузите ноутбук</li>
+				<li>Проверьте параметры BIOS</li>
+				<li>Отсоедините и подключите кабели</li>
+				<li>Отключите периферийные устройства</li>
+				<li>Проверьте, не нажата ли клавиша Num Lock</li>
+				<li>Извлеките и повторно установите ОЗУ</li>
+				<li>Проверьте, не нажата ли клавиша Caps Lock</li>
+				<li>Проверьте, нет ли в загрузочном устройстве носителя, не являющегося загрузочным</li></textformat></font></td>
+			</tr>
+		</table>]]>
+    </text>
+  </component>
+</textcomponents>

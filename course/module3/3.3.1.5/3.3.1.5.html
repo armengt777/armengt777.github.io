@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.3.1.5 Обновление BIOS</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.3.1.5_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Обновление и настройка ПК</h1>
+        <h2>Материнская плата и связанные с ней компоненты</h2>
+      </div>
+      <div id="content">
+          <p>Производители материнских плат периодически выпускают обновления для своего BIOS. Как показано на рисунке 1, в примечаниях к выпуску описываются обновления продукта, улучшения совместимости и исправленные ошибки. Некоторые новые устройства могут работать правильно только с установленными обновлениями BIOS. Чтобы узнать, какая версия BIOS установлена на компьютере, проверьте сведения в меню настройки BIOS, как показано на рисунке 2. </p>
+          <p>Раньше информация BIOS компьютера хранилась в микросхемах ПЗУ. Чтобы обновить информацию в BIOS, нужно было заменить микросхему ПЗУ, что не всегда представлялось возможным. Теперь для BIOS используются микросхемы EEPROM (ЭППЗУ) или флэш-память, которые могут обновляться пользователем без открытия корпуса компьютера. Этот процесс называется перезаписью BIOS.</p>
+          <p>Чтобы загрузить новый BIOS, зайдите на веб-сайт производителя и выполните рекомендованные процедуры по установке. Установка ПО для BIOS может включать в себя загрузку нового файла BIOS, копирование или извлечение файлов на съемный носитель и дальнейшую загрузку с этого съемного носителя. Программа установки выдает пользователю запросы для успешного завершения процесса.</p>
+          <p>Хотя все еще широко применяется перезапись BIOS через командную строку, некоторые производители материнских плат предоставляют на своих веб-сайтах ПО, которое позволяет пользователю перезаписывать BIOS прямо из Windows. Эта процедура может различаться в зависимости от производителя.</p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Неправильная или прерванная установка BIOS может повлечь за собой выход компьютера из строя.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

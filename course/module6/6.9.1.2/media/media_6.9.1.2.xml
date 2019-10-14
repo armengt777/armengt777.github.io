@@ -1,0 +1,24 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Подключение по DSL</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Домашний компьютер или сеть</b>]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[<b>Модем DSL</b>]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[<b>Витая пара</b>]]></text> 
+  </component>
+
+<component id="ID_txt05">
+  <text><![CDATA[<b>Поставщик услуг доступа к Интернету</b>]]></text> 
+  </component>
+  
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>

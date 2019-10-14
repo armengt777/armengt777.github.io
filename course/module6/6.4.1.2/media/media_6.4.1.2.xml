@@ -1,0 +1,15 @@
+﻿<textcomponents>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[<b>Передняя и задняя панель концентратора</b>]]></text>
+</component>
+<component id="ID_s1_txt02">
+  <text><![CDATA[<b>Подключение через концентратор</b>]]></text> 
+</component>
+<component id="ID_s1_txt03">
+  <text><![CDATA[<b>Концентратор</b>]]></text> 
+</component>
+<component id="ID_s2_txt01">
+  <text><![CDATA[<b>Коммутатор</b>]]></text> 
+</component>
+</textcomponents>

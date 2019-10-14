@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>10.1.2.1 Социальная инженерия</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_10.1.2.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Угрозы безопасности</h1>
+        <h2>Доступ к данным и оборудованию</h2>
+      </div>
+      <div id="content">
+          <p>Социальная инженерия используется в тех случаях, когда злоумышленник пытается получить доступ к оборудованию или сети, обманным путем получая от пользователей необходимую для доступа информацию. Часто злоумышленник, пользующийся социальной инженерией, завоевывает доверие сотрудника и склоняет его раскрыть имя пользователя и пароль.</p>
+          <p>Злоумышленник, пользующийся социальной инженерией, для получения доступа в здание может представляться инженером. Внутри здания злоумышленник, пользующийся социальной инженерией, может подсмотреть информацию, найти на рабочих столах документы с паролями и добавочными номерами или получить каталог компании с адресами электронной почты.</p>
+          <p>Ниже приведены основные меры предосторожности для защиты от социальной инженерии:</p>
+          <p>
+            <ul>
+              <li>Никогда никому не сообщайте свой пароль.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Всегда спрашивайте у неизвестных лиц удостоверения.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Ограничьте доступ посетителей.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Сопровождайте всех посетителей.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Никогда не записывайте пароль на рабочем месте.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Блокируйте компьютер, отлучаясь с рабочего места.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Проходя через дверь по карте доступа, не допускайте, чтобы с вами прошли посторонние лица.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

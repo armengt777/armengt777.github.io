@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.1.4 Диспетчер задач</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.1.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Рабочий стол, инструменты и приложения Windows</h2>
+      </div>
+      <div id="content">
+          <p>Диспетчер задач (см. рисунок) позволяет просматривать все текущие приложения и закрывать приложения, которые не отвечают. </p>
+          <p>Диспетчер задач имеет следующие вкладки:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Приложения</b> — все текущие приложения. С помощью этой вкладки можно запускать приложение, перейти к приложению или закрыть не отвечающее приложение, используя кнопки в нижней части окна.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Процессы</b> — все текущие процессы. Процесс — это набор команд, запущенных пользователем, программой или операционной системой. С помощью этой вкладки можно завершить процессы или установить приоритеты процессов.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Службы</b> — доступные службы, в том числе их состояние выполнения.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Быстродействие</b> — использование ЦП и файла подкачки.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Сеть</b> — использование всех сетевых адаптеров.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Пользователи</b> — все текущие пользователи компьютера. С помощью этой вкладки можно отключить удаленных пользователей и завершить сеанс локальных пользователей.</li>
+            </ul>
+          </p>
+          <p>Для просмотра информации в Диспетчере задач в Windows 7 и Windows Vista выполните следующие действия:</p>
+          <p>
+            Нажмите сочетание клавиш <b>CTRL-ALT-DEL</b> и выберите пункт <b>Запустить диспетчер задач</b></p>
+          <p>Доступ к Диспетчеру задач можно также получить, щелкнув панель задач правой кнопкой мыши и выбрав пункт <b>Запустить диспетчер задач</b>.</p>
+          <p>В ОС Windows XP перейдите по следующим пунктам:</p>
+          <p>
+            Нажмите сочетание клавиш <b>CTRL-ALT-DEL</b> и выберите пункт <b>Диспетчер задач</b></p>
+          <p>Доступ к Диспетчеру задач можно получить и другим способом: щелкнув панель задач правой кнопкой мыши и выбрав пункт <b>Диспетчер задач</b>.</p>
+          <p>Будьте осторожны при завершении процесса или изменении приоритета выполнения процессов. Завершение процесса приводит к немедленному завершению программы без сохранения данных.  Завершение процесса может привести к неполадкам в работе системы. Изменение приоритета выполнения процессов может негативно сказаться на работе компьютера.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

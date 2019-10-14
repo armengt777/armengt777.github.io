@@ -1,0 +1,28 @@
+﻿<textcomponents>
+	<component id="ID_table">
+		<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="title">
+					<td colspan='2' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Этап 5. Полная проверка функционального состояния системы и <span style="display:block;width:400px;padding-top:15px;"> принятие профилактических мер в случае необходимости</span></b></font></td></tr>
+			 
+			 <tr>
+          		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+        	 </tr>
+			<tr>
+				<td width="120px" bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>Проверка всех функций системы</font></td>
+			
+				<td valign="top" bgcolor='#F3F5E7'><font color='#393536'>
+														<li>Выключите и перезапустите компьютер</li>
+														<li>Проверьте журнал событий, чтобы убедиться в отсутствии новых предупреждений или ошибок</li>
+														<li>Проверьте диспетчер устройств, чтобы убедиться в отсутствии новых предупреждений или ошибок</li>
+														<li>Запустите DxDiag, чтобы убедиться в правильности работы DirectX</li>
+														<li>Убедитесь в правильной работе приложений</li>
+														<li>Убедитесь в доступности сетевых ресурсов</li>
+														<li>Убедитесь в наличии доступа к Интернету</li>
+														<li>Запустите программу проверки системных файлов, чтобы убедиться в правильности всех файлов</li>
+														<li>Проверьте диспетчер задач, чтобы убедиться, что для всех программ установлен статус «Работает»</li>
+														<li>Запустите средства диагностики сторонних поставщиков</li>														
+													</font></td>
+			</tr>
+		</table>]]></text>
+	</component>
+</textcomponents>

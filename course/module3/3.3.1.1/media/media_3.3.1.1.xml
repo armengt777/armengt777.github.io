@@ -1,0 +1,14 @@
+﻿<textcomponents>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Старая<br /> материнская плата</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>Новая <br />материнская плата</b>]]></text>
+</component>
+
+<component id="ID_title">
+<text><![CDATA[<b>Обновление материнской платы</b>]]></text>
+</component>
+</textcomponents>

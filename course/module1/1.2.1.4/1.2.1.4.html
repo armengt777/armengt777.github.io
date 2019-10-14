@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>1.2.1.4 Выбор ОЗУ</title>
+    <!--  -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_1.2.1.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Выбор компонентов компьютера для замены</h1>
+        <h2>Выбор компонентов ПК</h2>
+      </div>
+      <div id="content">
+          <p>Если приложения зависают или компьютер часто выводит сообщения об ошибках, может потребоваться новое ОЗУ. Чтобы определить, связана ли эта проблема с ОЗУ, замените старый модуль ОЗУ, как показано на рисунке. Перезагрузите компьютер, чтобы проверить, работает ли он без ошибок.</p>
+          <p>При выборе нового ОЗУ необходимо проверить, совместимо ли оно с уже установленной материнской платой. Новое ОЗУ должно быть того же типа, что и уже установленное на компьютере. Скорость нового ОЗУ должна поддерживаться набором микросхем. При покупке нового ОЗУ полезно взять с собой исходный модуль памяти.</p>
+        </div>
+    </div>
+   <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

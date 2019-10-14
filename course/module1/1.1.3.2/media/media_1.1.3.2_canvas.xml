@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE" >
+	<slide type="MBAR">
+		<slide>
+			<element type="IMAGE" x="62.3" y="40" width="315.5" height="316.95" subType="STD" src="1_1_3_2_s1_A.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" x="13.25" y="50" width="413.55" height="291.95" subType="STD" src="1_1_3_2_s2_A.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" x="21.15" y="50" width="397.75" height="291.9" subType="STD" src="1_1_3_2_s3_A.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s3_title"/>
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" x="16.2" y="99" width="198" height="198" subType="STD" src="1_1_3_2_s4_A.jpg" />
+			<element type="IMAGE" x="229.7" y="99" width="198" height="198" subType="STD" src="1_1_3_2_s4_B.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s4_title"/>
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" x="192.3" y="45.95" width="236.6" height="160.05" subType="STD" src="1_1_3_2_s5_A.jpg" />
+			<element type="IMAGE" x="13.7" y="223" width="233" height="126" subType="STD" src="1_1_3_2_s5_B.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s5_title"/>
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" x="90.5" y="39.15" width="259.05" height="124.85" subType="STD" src="1_1_3_2_s6_A.jpg" />
+			<element type="IMAGE" x="91.45" y="177" width="257.1" height="185" subType="STD" src="1_1_3_2_s6_B.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s6_title"/>
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" x="11.05" y="119.1" width="237.25" height="180" subType="STD" src="1_1_3_2_s7_A.jpg" />
+			<element type="IMAGE" x="259.05" y="119.1" width="173" height="181" subType="STD" src="1_1_3_2_s7_B.jpg" />
+			<element type="TEXT" compId="ID_s7_txt01" x="260.3" y="155.85" width="171.8" expand="down" align="center" size="12" />
+			<element type="TEXT" compId="ID_s7_txt02" x="260.3" y="214.85" width="171.8" expand="down" align="center" size="12" />
+			<element type="TEXT" compId="ID_s7_txt03" x="260.3" y="271.85" width="171.8" expand="down" align="center" size="12" />
+			<element type="TEXT" subType="TITLE" compId="ID_s7_title"/>
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" x="62.3" y="40" width="315.5" height="315.5" subType="STD" src="1_1_3_2_s8_A.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s8_title"/>
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" x="62.3" y="40" width="315.5" height="315.5" subType="STD" src="1_1_3_2_s9_A.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s9_title"/>
+		</slide>
+		
+		<slide>
+			<element type="IMAGE" x="62.3" y="40" width="315.5" height="315.5" subType="STD" src="1_1_3_2_s10_A.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s10_title"/>
+			<element type="TEXT" compId="ID_s10_txt01" x="83.3" y="292.85" width="66" expand="down" align="center" size="10" />
+			<element type="TEXT" compId="ID_s10_txt02" x="115.8" y="315.85" width="73" expand="down" align="center" size="10" />
+			<element type="TEXT" compId="ID_s10_txt03" x="152.8" y="293.85" width="53" expand="down" align="center" size="10" />
+			<element type="TEXT" compId="ID_s10_txt04" x="185.3" y="329.85" width="73" expand="right" align="left" size="10" />
+			<element type="TEXT" compId="ID_s10_txt05" x="219.8" y="293.85" width="109" expand="left" align="center" size="10" />
+		</slide>
+
+
+
+		<element type="TEXT" compId="ID_inst" x="5" y="380" width="432.1" expand="up" align="left" size="12" />
+
+	</slide>
+</data>
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>4.2.1.7 Документирование полученных данных, принятых мер и результатов</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_4.2.1.7_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедура поиска и устранения неполадок</h1>
+        <h2>Этапы процедуры поиска и устранения неполадок</h2>
+      </div>
+      <div id="content">
+          <p>По окончании ремонта компьютера завершите процесс устранения неполадок, поговорив с заказчиком. Расскажите заказчику в устном и письменном виде о неполадке и решении, которое помогло ее устранить. На рисунке показаны действия, которые следует предпринять по окончании ремонта.</p>
+          <p>Проверьте решение совместно с заказчиком. Если заказчик доступен, продемонстрируйте, как решение устранило проблему с компьютером. Пусть заказчик протестирует решение и попробует воспроизвести неполадку. Когда заказчик убедился, что проблема устранена, вы можете заполнить документацию для ремонта в заказе на обслуживание и в своем журнале. Включите в документацию следующую информацию:</p>
+          <p>
+            <ul>
+              <li>Описание неполадки </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Действия, предпринятые для устранения неполадки </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Компоненты, использованные при ремонте </li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

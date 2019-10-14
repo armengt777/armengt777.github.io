@@ -1,0 +1,42 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Аппаратный межсетевой экран</b>]]></text>
+</component>
+<component id="ID_s1_txt01">
+	<text><![CDATA[<b>Интегрированный маршрутизатор</b>]]></text>
+</component>
+<component id="ID_s1_txt02">
+	<text><![CDATA[<b>Внутренняя сеть</b>]]></text>
+</component>
+<component id="ID_s1_txt03">
+	<text><![CDATA[<b>Внешняя сеть</b>]]></text>
+</component>
+<component id="ID_s1_txt04">
+	<text><![CDATA[<b>H1</b>]]></text>
+</component>
+<component id="ID_s1_txt05">
+	<text><![CDATA[<b>H2</b>]]></text>
+</component>
+<component id="ID_s1_txt06">
+	<text><![CDATA[<b>H3</b>]]></text>
+</component>
+<component id="ID_s1_txt07">
+	<text><![CDATA[<b>Веб-сервер</b>]]></text>
+</component>
+<component id="ID_s1_txt08">
+	<text><![CDATA[<b>Коммутатор Ethernet</b><br>(подключает все проводные узлы)]]></text>
+</component>
+<component id="ID_s1_txt09">
+	<text><![CDATA[<b>Встроенный межсетевой экран</b><br>(защищает узлы H1 и H2)]]></text>
+</component>
+<component id="ID_s1_txt10">
+	<text><![CDATA[<b>Внутренний маршрутизатор</b><br>(выполняет маршрутизацию пакетов для всех узлов)]]></text>
+</component>
+<component id="ID_s1_txt11">
+	<text><![CDATA[<b>Интернет</b>]]></text>
+</component>
+<component id="ID_s1_txt12">
+	<text><![CDATA[<b>Внутренние компоненты</b>]]></text>
+</component>
+</textcomponents>

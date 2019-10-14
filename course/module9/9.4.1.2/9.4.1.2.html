@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>9.4.1.2 Подключения к беспроводному принтеру</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.4.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Совместное использование принтеров</h1>
+        <h2>Параметры операционной системы для совместного использования принтера</h2>
+      </div>
+      <div id="content">
+          <p>Беспроводные принтеры позволяют устройствам подключаться к ним через порт Bluetooth 802.11x или инфракрасный порт (ИК) и выполнять печать. Чтобы беспроводной принтер мог использовать Bluetooth, сам принтер и устройство (с которого будет выполняться печать) должны иметь оборудование и ПО Bluetooth и быть сопряжены между собой. При необходимости можете добавить к компьютеру адаптер Bluetooth. Обычно это делается через порт USB. Беспроводные принтеры с Bluetooth упрощают печать с мобильных устройств.</p>
+          <p>Разработанные под стандарты 802.11 беспроводные принтеры оборудованы установленной беспроводной сетевой платой и напрямую подключаются к беспроводному маршрутизатору или точке доступа. Настройка выполняется путем подключения принтера к компьютеру с ПО, поставляемым вместе с принтером, или использования панели дисплея принтера для подключения к беспроводному маршрутизатору.</p>
+          <p>Печать через ИК-порт, самая первая форма беспроводной печати, требует наличия на обоих устройствах приемников и передатчиков. Между приемниками и передатчиками устройств должна быть прямая видимость и расстояние не более 3,7 м. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

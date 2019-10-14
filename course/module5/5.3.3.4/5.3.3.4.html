@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.3.4 Производительность и средство диагностики памяти в ОС Windows</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.3.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Администрирование</h2>
+      </div>
+      <div id="content">
+          <p>Консоль «Системный монитор», как показано на рисунке, состоит из двух частей: «Системный монитор» и «Журналы и оповещения производительности». Для получения доступа к консоли «Системный монитор» необходимо обладать правами администратора.</p>
+          <p>Консоль «Системный монитор» отображает сведения об использовании процессоров, дисков, памяти и сети. Системный монитор используется для отображения подробных сведений о ресурсах, задействованных при выполнении отдельных задач или нескольких задач одновременно. Отображаемые данные помогают понять, насколько системные ресурсы компьютера (ЦП, память и сеть) задействованы в рабочей нагрузке компьютера. Данные об использовании ресурсов представлены в виде гистограмм, графиков и отчетов. Эти данные также помогают определить необходимость обновления.</p>
+          <p>Журналы и оповещения производительности позволяют регистрировать данные производительности и настраивать оповещения. Оповещения появляются в случае, если использование указанных ресурсов опускается ниже определенного порога или превышает его. Можно настроить различные способы оповещений: создание записей в журнале событий, отправка сетевых сообщений, создание журнала производительности, запуск отдельной программы или сочетание этих действий. </p>
+          <p>Чтобы открыть консоль «Системный монитор» в Windows 7, перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Администрирование &gt; Системный монитор</b>
+          </p>
+          <p>В ОС Windows Vista перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Администрирование &gt; Монитор производительности и стабильности &gt; Продолжить</b>
+          </p>
+          <p>В ОС Windows XP перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Администрирование &gt; Производительность</b>
+          </p>
+          <p>Средство диагностики памяти Windows — это средство администрирования для проверки на ошибки физической памяти, установленной на компьютере.</p>
+          <p>Для получения доступа к средству диагностики памяти Windows перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Администрирование &gt; Средство проверки памяти Windows</b>
+          </p>
+          <p>Для получения доступа к средству диагностики памяти в ОС Windows Vista перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Администрирование &gt; Средство диагностики памяти</b>
+          </p>
+          <p>Функция диагностики памяти Windows не поддерживается ОС Windows XP.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

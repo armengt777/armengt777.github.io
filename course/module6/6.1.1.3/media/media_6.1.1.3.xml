@@ -1,0 +1,52 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Практическое задание — преимущества и недостатки организации сетей</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<font size="14"><b>ПРОТИВ</b></font>]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[<font size="14"><b>ЗА</b></font>]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Выберите ответ, перетащив варианты на соответствующее место. Затем нажмите кнопку <b>Проверить</b>.]]></text>
+	</component>
+	
+<!--drag sources-->	
+	<component id="ID_drag01">
+		<text><![CDATA[<b>Сети требуют администрирования.</b>]]></text>
+	</component>
+	<component id="ID_drag02">
+		<text><![CDATA[<b>Сети предоставляют групповой доступ к документам.</b>]]></text>
+	</component>
+	<component id="ID_drag03">
+		<text><![CDATA[<b>Могут возникнуть сложности с поиском и устранением неисправностей</b>]]></text>
+	</component>
+	<component id="ID_drag04">
+		<text><![CDATA[<b>Централизованное резервное копирование данных</b>]]></text>
+	</component>
+	<component id="ID_drag05">
+		<text><![CDATA[<b>Возможно совместное использование периферийных устройств.</b>]]></text>
+	</component>
+	
+<!--feedback-->
+	<component id="ID_CORRECT_TITLE">
+		<text><![CDATA[Верно]]></text> 
+	</component>
+	<component id="ID_CORRECT_BODY">
+		<text><![CDATA[Правильно.]]></text> 
+	</component>
+	<component id="ID_INCORRECT_TITLE">
+		<text><![CDATA[Неверно]]></text> 
+	</component>
+	<component id="ID_INCORRECT_BODY">
+		<text><![CDATA[Неправильно.]]></text> 
+	</component>
+	<component id="ID_CHECK">
+		<text><![CDATA[Проверить]]></text> 
+	</component>
+	<component id="ID_RESET">
+		<text><![CDATA[Сброс]]></text> 
+	</component>
+</textcomponents>

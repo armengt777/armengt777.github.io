@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.3.2.3 IPv6</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.3.2.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Основные понятия и технологии организации сетей</h1>
+        <h2>Адресация оборудования в сети</h2>
+      </div>
+      <div id="content">
+          <p>Работать со 128-битными числами трудно, поэтому 128&nbsp;бит в адресах IPv6 представляются в виде 32&nbsp;шестнадцатеричных чисел. 32 шестнадцатеричных числа также разделяются на восемь групп из четырех шестнадцатеричных чисел. В качестве разделителя используется двоеточие. Каждая группа из четырех шестнадцатеричных значений называется блоком.</p>
+          <p>Адрес IPv6 имеет иерархическую структуру, состоящую из трех частей, как показано на рисунке&nbsp;1. Глобальный префикс, также называемый префиксом сайта, занимает первые три блока адреса и назначается организации регистратором доменных имен в Интернете. Идентификатор подсети занимает четвертый блок, а идентификатор интерфейса &mdash; последние четыре блока адреса. Сетевой администратор контролирует как идентификатор подсети, так и идентификатор интерфейса.</p>
+          <p>Например, если узлу присвоен адрес IPv6 3ffe:6a88:85a3:08d3:1319:8a2e:0370:7344, адресом глобального префикса будет последовательность fe80:6a88:85a3, адресом идентификатора подсети &mdash; 08d3, а адресом идентификатора интерфейса &mdash; 1319:8a2e:0370:7344.</p>
+          <p>Адрес IPv6 можно сокращать по следующим правилам:</p>
+          <p>
+            <ul>
+              <li>Исключить начальные нули в 16-битном числе.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Заменить одну группу последовательных нулей двойным двоеточием.</li>
+            </ul>
+          </p>
+          <p>На рисунке 2 представлен пример применения этих правил.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

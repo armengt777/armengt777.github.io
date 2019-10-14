@@ -1,0 +1,14 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Аналогия с автотрассой</b>]]></text>
+	</component> 
+	<component id="ID_txt01">
+		<text><![CDATA[<b>Пропускную способность можно сравнить с числом полос.</b>]]></text>
+	</component> 
+	<component id="ID_txt02">
+		<text><![CDATA[<b>Сетевые устройства можно сравнить с выездами на главную дорогу, сигналами светофора, дорожными знаками и картами.</b>]]></text>
+	</component> 
+	<component id="ID_txt03">
+		<text><![CDATA[<b>Передаваемые данные можно сравнить с движущимися автомобилями.</b>]]></text>
+	</component> 
+</textcomponents>

@@ -1,0 +1,18 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+		<text><![CDATA[<b>KVM-переключатель</b>]]></text>
+</component>
+<component id="ID_s2_title">
+		<text><![CDATA[<b>Джойстик и геймпад</b>]]></text>
+</component>
+<component id="ID_s3_title">
+  <text><![CDATA[<b>Цифровые фотоаппараты</b>]]></text> 
+</component>
+<component id="ID_s4_title">
+  <text><![CDATA[<b>Сканер отпечатков пальцев</b>]]></text> 
+</component>
+<component id="ID_s5_title">
+  <text><![CDATA[<b>Графический планшет</b>]]></text> 
+</component>
+</textcomponents>

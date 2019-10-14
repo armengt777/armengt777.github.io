@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.4.2.1 Удаленное резервное копирование</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.4.2.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Способы защиты мобильных устройств</h1>
+        <h2>Облачные службы для интеллектуальных устройств</h2>
+      </div>
+      <div id="content">
+          <p>Как и в случае настольных ПК и ноутбуков, данные мобильного устройства можно потерять в результате сбоя или потери устройства. Необходимо периодически создавать резервные копии данных, чтобы потерянные данные можно было восстановить. На мобильных устройствах нередко используются несъемные ЗУ ограниченного объема. Чтобы преодолеть эти ограничения, можно проводить удаленное резервное копирование. В этом случае данные устройства копируются на веб-сайт при помощи специального приложения. Чтобы восстановить данные на устройстве, запустите приложение резервного копирования, установите подключение к веб-сайту, где хранятся данные, и извлеките их.</p>
+          <p>Пользователям iOS бесплатно доступно 5 ГБ места. Дополнительное место для хранения можно получить по годовой платной подписке. В iCloud можно создавать резервные копии следующих компонентов:</p>
+          <p>
+            <ul>
+              <li>календаря;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>почты;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>контактов;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>содержимого, приобретенного в магазине Apple App Store (это содержимое не входит в общее ограничение объема 5 ГБ);</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>фотографий, снятых камерой устройства;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>личных параметров, настроенных пользователем;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>данных, собранных работающими приложениями;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>значков экрана и расположений;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>текстовых и мультимедийных сообщений;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>мелодий звонка.</li>
+            </ul>
+          </p>
+          <p>На устройствах Android автоматически создаются удаленные резервные копии следующих компонентов:</p>
+          <p>
+            <ul>
+              <li>календаря;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>почты;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>контактов.</li>
+            </ul>
+          </p>
+          <p>Google также отслеживает все приобретенные пользователем приложения и содержимое, что позволяет загрузить их снова. Для удаленного резервного копирования других компонентов также предусмотрены приложения. Найти подходящие для себя приложения резервного копирования можно в магазине Google Play. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

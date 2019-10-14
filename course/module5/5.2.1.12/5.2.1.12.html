@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.2.1.12 Выполнение установки</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.2.1.12_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка операционной системы</h1>
+        <h2>Порядок настройки жесткого диска</h2>
+      </div>
+      <div id="content">
+          <p>После того как программа установки Windows скопирует все необходимые файлы ОС на жесткий диск, компьютер выполнит перезагрузку и выдаст запрос на создание учетной записи пользователя.</p>
+          <p>ОС Windows 7 должна быть зарегистрирована. Как показано на рис. 1, необходимо также выполнить проверку, чтобы убедиться в использовании легальной копии. Выполнение проверки позволит загружать отдельные обновления, называемые исправлениями. Пакет обновлений представляет собой набор из нескольких исправлений.</p>
+          <p>
+            <b>Центр обновления Windows</b>
+          </p>
+          <p>В зависимости от срока давности носителя на момент установки, возможно, потребуется установка обновлений. Как показано на рис. 2, можно использовать Диспетчер обновления в меню «Пуск» для проверки наличия нового ПО и установки пакетов обновлений и исправлений. </p>
+          <p>Для установки исправлений и пакетов обновлений в Windows 7 или Windows Vista используйте следующие пункты меню:</p>
+          <p>
+            <b>Пуск &gt; Все программы &gt; Центр обновления Windows</b>
+          </p>
+          <p>Для установки исправлений и пакетов обновлений в Windows XP перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Все программы &gt; Стандартные &gt; Служебные &gt; Центр обновления Windows</b>
+          </p>
+          <p>
+            <b>Диспетчер устройств</b>
+          </p>
+          <p>После установки оборудования удостоверьтесь, что оно установлено правильно. Как показано на рис. 3, можно использовать диспетчер устройств для выявления проблемы и установки правильных или обновленных драйверов в ОС Windows 7 и Windows Vista, перейдя по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Диспетчер устройств</b>
+          </p>
+          <p>В ОС Windows XP перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Система &gt; Оборудование &gt; Диспетчер устройств </b>
+          </p>
+          <p>Диспетчер устройств в ОС Windows 7 и Windows Vista помечает проблемное устройство желтым треугольником с восклицательным знаком. Чтобы отобразить описание проблемы, щелкните устройство правой кнопкой мыши и выберите пункт <b>Свойства</b>. Кружок серого цвета со стрелкой вниз означает, что устройство отключено. Чтобы включить устройство, щелкните его правой кнопкой мыши и выберите <b>Включить</b>. Чтобы раскрыть ветку категории устройств, щелкните треугольную стрелку справа рядом с названием категории.</p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. В Windows XP отключенное устройство обозначается красным кружком с белым значком X.</p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. При обнаружении Windows системной ошибки появляется диалоговое окно. При отправке отчета об ошибках информация о приложении, в котором произошла ошибка, собирается и отправляется в Microsoft.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

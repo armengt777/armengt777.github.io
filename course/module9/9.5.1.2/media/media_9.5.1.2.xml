@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>Оценка уровней чернил в принтере</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[<b>Оценка уровней чернил</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+	<text><![CDATA[<b>Обслуживание устройства</b>]]></text>
+</component>
+
+<component id="ID_txt03">
+	<text><![CDATA[<b>Информация об устройстве</b>]]></text>
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[Оценка уровней чернил. Реальные уровни могут отличаться.]]></text>
+</component>
+
+</textcomponents>

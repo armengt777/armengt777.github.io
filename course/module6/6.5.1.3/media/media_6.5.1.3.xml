@@ -1,0 +1,55 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+  <text><![CDATA[<b>Топология сети</b>]]></text> 
+  </component>
+
+<component id="ID_internet1">
+  <text><![CDATA[<b>Интернет</b>]]></text> 
+  </component>
+
+<component id="ID_C1">
+  <text><![CDATA[<b>Аудитория 1</b>]]></text> 
+  </component>
+<component id="ID_C2">
+  <text><![CDATA[<b>Аудитория 2</b>]]></text> 
+  </component>
+<component id="ID_C3">
+  <text><![CDATA[<b>Аудитория 3</b>]]></text> 
+  </component>
+
+<component id="ID_AO">
+  <text><![CDATA[<b>Офис администратора</b>]]></text> 
+  </component>
+<component id="ID_CH">
+  <text><![CDATA[<b>Коммутатор в аудитории</b>]]></text> 
+  </component>
+<component id="ID_CH2">
+  <text><![CDATA[<b>Коммутатор в аудитории</b>]]></text> 
+  </component>
+<component id="ID_CH3">
+  <text><![CDATA[<b>Коммутатор в аудитории</b>]]></text> 
+  </component>
+<component id="ID_AH">
+  <text><![CDATA[<b>Коммутатор администратора</b>]]></text> 
+  </component>
+<component id="ID_ES">
+  <text><![CDATA[<b>Коммутатор Ethernet</b>]]></text> 
+  </component>
+<component id="ID_RTR">
+  <text><![CDATA[<b>Маршрутизатор</b>]]></text> 
+  </component>
+<component id="ID_SWT">
+  <text><![CDATA[<b>Коммутатор</b>]]></text> 
+  </component>
+<component id="ID_MS">
+  <text><![CDATA[<b>Почт. сервер</b>]]></text> 
+  </component>
+<component id="ID_WS">
+  <text><![CDATA[<b>Веб-сервер</b>]]></text> 
+  </component>
+<component id="ID_FS">
+  <text><![CDATA[<b>Файловый сервер</b>]]></text> 
+  </component>
+
+</textcomponents>

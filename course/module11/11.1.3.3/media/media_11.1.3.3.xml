@@ -1,0 +1,8 @@
+﻿<textcomponents>
+
+<component id="ID_title"> 
+	 <text><![CDATA[<b>Центр обработки вызовов</b>]]></text>
+</component>
+ 
+
+</textcomponents>

@@ -1,0 +1,26 @@
+﻿<textcomponents>
+	<component id="ID_table">
+		<text><![CDATA[
+				<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				<tr class="title">
+					<td colspan='2' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b></b></font></td>
+				</tr>		
+				<tr class="liner_top">
+					<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#A2AA23' width='180' valign="top"><font size='12' color='#ffffff'><b>TCP</b></font></td>
+					<td bgcolor='#A2AA23' valign="top"><font size='12' color='#ffffff'><b>UDP</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>Преимущества.<br/><br/>Обнаружение ошибок — протокол TCP повторно передает потерянные пакеты, удаляет дублированные пакеты и гарантирует правильный порядок передачи данных.<br/><br/>Надежный транспортный протокол — протокол TCP отслеживает данные, гарантируя их доставку в пункт назначения.</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Преимущества.<br/><br/>Снижение накладных расходов - использует меньше служебных данных в полосе пропускания, чем протокол TCP.<br/><br/>Без установления соединения — получатель не обязательно должен быть доступен и готов получить данные, также не требуется подтверждать получение.</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Приложения:<br/><br/>электронная почта<br/><br/>веб-браузер</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Приложения.<br/><br/>Simple File Transfer — отправка данных без обеспечения безопасности и без требования подтверждения получения.<br/><br/>NFS — система доступа к файлам по сети, аналогичная локальному доступу к файлам.</font></td>
+				</tr>				
+			</table>]]>
+		</text>
+	</component>
+</textcomponents>

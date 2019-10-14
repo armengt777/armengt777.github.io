@@ -1,0 +1,50 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Устройства, используемые для подключения к поставщику услуг доступа к Интернету</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[<b>DSL</b>]]></text>
+</component>
+<component id="ID_s1_txt02">
+<text><![CDATA[<b>Модем DSL</b>]]></text>
+</component>
+<component id="ID_s1_txt03">
+<text><![CDATA[<b>Телефонная линия</b>]]></text>
+</component>
+<component id="ID_s1_txt04">
+<text><![CDATA[<b>Кабель</b>]]></text>
+</component>
+<component id="ID_s1_txt05">
+<text><![CDATA[<b>Кабельный модем</b>]]></text>
+</component>
+<component id="ID_s1_txt06">
+<text><![CDATA[<b>Коаксиальный кабель</b>]]></text>
+</component>
+
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Беспроводная точка доступа</b>]]></text>
+</component>
+
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>Многоцелевое устройство</b>]]></text>
+</component>
+
+<component id="ID_s3_textBoxHead01">
+<text><![CDATA[<B>Функции</B>]]></text>
+</component>
+
+<component id="ID_s3_textBoxBody01">
+<text><![CDATA[<textformat blockindent='-16'><LI>Безопасность</LI><LI>Точка беспроводного доступа</LI><LI>VPN</LI><LI>DHCP</LI><LI>NAT</LI><LI>Обнаружение вторжений</LI><LI>Голосовая связь по IP</LI><LI>Обеспечение качества обслуживания (QoS)</LI></textformat>]]></text>
+</component>
+
+
+
+
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>

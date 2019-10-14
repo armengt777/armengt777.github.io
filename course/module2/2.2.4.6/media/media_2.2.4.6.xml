@@ -1,0 +1,42 @@
+﻿<textcomponents>
+ 
+<component id="ID_s2_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'> 
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top" width='125'><font color='#393536'>Корпус компьютера и внешняя поверхность монитора</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Мягкое чистящее средство и безворсовая ткань</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>ЖК-дисплей</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Чистящий раствор для ЖК-дисплеев или дистиллированная вода и безворсовая ткань</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>ЭЛТ-монитор</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Дистиллированная вода и безворсовая ткань</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Радиатор</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Сжатый воздух</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>ОЗУ</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Изопропиловый спирт и безворсовая щетка</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Клавиатура</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Ручной пылесос с насадкой-щеткой</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Мышь</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Мягкое чистящее средство и безворсовая ткань</font></td>
+	</tr>
+</table>]]></text>
+</component>
+ 
+  
+  
+<!--<component id="transcript">   <text><![CDATA[<b>transcript goes here</b>]]></text>    </component> -->
+</textcomponents>

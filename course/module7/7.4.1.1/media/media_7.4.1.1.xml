@@ -1,0 +1,118 @@
+﻿<textcomponents>
+<!--SLIDE 1-->
+<component id="ID_s1_title">
+   <text><![CDATA[<b>Характеристики устройств Bluetooth</b>]]></text>
+</component>
+
+<component id="ID_s1_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	
+	<tr>
+		<td colspan='1' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Беспроводная технология малого радиуса действия, созданная с целью исключить потребность в кабельном подключении между портативными устройствами или устройствами с фиксированной настройкой</font></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Работает с частотой от 2,4 до 2,485 ГГц в нелицензируемых диапазонах частот для промышленной, научной и медицинской аппаратуры (ISM)</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Низкое энергопотребление, низкие затраты, компактный размер</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Используется адаптивная перестройка частоты</font></td>
+	</tr>	
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Скорость передачи данных в версии 1.2 до 1,2 Мбит/с </font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Скорость передачи данных в версии 2.0 + EDR до 3 Мбит/с</font></td>
+	</tr>	
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Скорость передачи данных в версии 3.0 + HS до 24 Мбит/с</font></td>
+	</tr>
+</table>]]>
+</text>
+</component>
+
+
+<!--SLIDE 2-->
+<component id="ID_s2_title">
+   <text><![CDATA[<b>Классификации Bluetooth</b>]]></text>
+</component>
+
+<component id="ID_s2_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr>
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	
+	<tr>
+		<td bgcolor='#A2AA23' width='120' valign="top"><font  color='#FFFFFF'><b>Класс</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top"><font  color='#FFFFFF'><b>Максимальная допустимая мощность (мВт)</b></font></td>
+		<td bgcolor='#A2AA23' valign="top" ><font  color='#FFFFFF'><b>Примерное расстояние</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Класс 1</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>100 мВт</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>~100 м</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Класс 2</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>2,5 мВт</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>~10 м</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Класс 3</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1 мВт</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>~1 м</font></td>
+	</tr>
+</table>]]>
+</text>
+</component>
+
+
+<!--SLIDE 3-->
+<component id="ID_s3_title">
+   <text><![CDATA[<b>Спецификации Bluetooth</b>]]></text>
+</component>
+
+<component id="ID_s3_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	
+	<tr>
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	
+	<tr>
+		<td bgcolor='#A2AA23' width='120' valign="top"><font color='#FFFFFF'><b>Характеристики</b></font></td>
+		<td bgcolor='#A2AA23' valign="top"><font  color='#FFFFFF'><b>Версия</b></font></td>
+		<td bgcolor='#A2AA23' valign="top" ><font  color='#FFFFFF'><b>Скорость передачи данных</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1,0</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>вер. 1.2</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1 Мбит/с</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>2,0</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>вер. 2.0 + EDR</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>3 Мбит/с</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>3,0</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>вер. 3.0 + HS</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>24 Мбит/с</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>4,0</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>вер. 4.0 + LE</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>24 Мбит/с</font></td>
+	</tr>
+</table>]]>
+</text>
+</component>
+
+
+</textcomponents>

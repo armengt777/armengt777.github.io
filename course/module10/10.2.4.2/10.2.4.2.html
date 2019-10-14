@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>10.2.4.2 Идентификаторы наборов служб (имена сетей) </title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_10.2.4.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедуры безопасности</h1>
+        <h2>Методы безопасности</h2>
+      </div>
+      <div id="content">
+          <p>Поскольку для передачи данных в беспроводных сетях используются радиоволны, злоумышленники могут просто отслеживать и собирать данные без физического подключения к сети. Злоумышленники могут получать доступ к сети, находясь в диапазоне действия незащищенной беспроводной сети. Инженеру требуется настроить соответствующий уровень безопасности на точках доступа и беспроводных сетевых платах.</p>
+          <p>При установке беспроводных служб необходимо немедленно применить методы безопасности беспроводной связи для предотвращения нежелательного доступа к сети. Для беспроводных точек доступа должны быть настроены базовые параметры безопасности, совместимые с существующей безопасностью сети. </p>
+          <p>Идентификатор набора услуг (SSID) &mdash; это имя беспроводной сети. Беспроводной маршрутизатор или точка доступа по умолчанию вещает имя сети, позволяя беспроводным устройствам обнаружить беспроводную сеть. Если вещание имени сети отключено на беспроводном маршрутизаторе или точке доступа, для подключения к беспроводной сети введите имя сети на беспроводных устройства вручную.</p>
+          <p>Для отключения вещания имени сети используйте следующий путь, как показано на рисунке.</p>
+          <p>
+            <b>Wireless &gt; Basic Wireless Settings &gt;</b> (Беспроводная связь &gt; Основные параметры беспроводной сети), выберите <b>Disabled</b> (Отключено) для вещания имени сети <b>&gt; Save Settings &gt; Continue</b> (Сохранить параметры &gt; Продолжить)</p>
+          <p>Отключение вещания имени сети обеспечивает очень небольшой уровень безопасности. Если вещание имени сети отключено, все пользователи компьютеров, которым необходимо подключиться к беспроводной сети, должны ввести имя сети вручную. При поиске беспроводной сети компьютер вещает имя сети. Опытный злоумышленник может просто перехватить эту информацию и использовать ее, чтобы выдать себя за ваш маршрутизатор и перехватить учетные данные.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

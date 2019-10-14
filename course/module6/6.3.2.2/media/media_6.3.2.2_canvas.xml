@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide>
+			<element type="TEXT" subType="TABLE" compId="ID_table_01" x="10.95" y="25.05" width="445.55" height="111.9"  size="10" />
+			<element type="TEXT" subType="TITLE" compId="ID_title" />
+			<element type="TEXT" subType="TABLE" compId="ID_table_02" x="10.95" y="132.4" width="445.55" height="111" size="10"   />
+			<element type="TEXT" subType="TABLE" compId="ID_table_03" x="10.95" y="244.4" width="445.55" height="111" size="10" />
+			<element type="TEXT" compId="ID_text" x="5" y="352" width="460" expand="down" align="left" size="10" />
+		</slide>
+	</data>
+

@@ -1,0 +1,25 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>IP-адрес</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>192.168.200.8</b>]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[<b>Интернет</b>]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[<b>WWW.CISCO.COM<br/>192.168.5.100</b>]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[<b>Компания A<br/>172.16.30.5</b>]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[<b>Компания B<br/>10.5.105.50</b>]]></text> 
+  </component>  
+  
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>

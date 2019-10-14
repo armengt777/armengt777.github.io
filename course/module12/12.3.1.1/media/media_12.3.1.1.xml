@@ -1,0 +1,221 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text>
+<![CDATA[<b> </b>]]>
+</text>
+</component>
+
+<component id="ID_table_01">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 1. Определение проблемы</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>«Открытые» вопросы</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7' class="width">
+<textformat blockindent='-18'><font color='#393536'>
+<li>Когда началась неполадка?</li>
+<li>Какие световые индикаторы сети сейчас горят?</li>
+<li>Какие проблемы возникли?</li>
+<li>Что бы вы еще могли рассказать о неполадке?</li>
+<li>У каких еще пользователей возникают неполадки?</li>
+<li>Можете ли вы описать конфигурацию своей сети?</li>
+</font>
+</textformat></td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#FFFFFF'>
+<font color='#393536'>«Закрытые» вопросы</font>
+</td>
+<td  valign="top" bgcolor='#FFFFFF'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Менялось ли какое-либо сетевое оборудование?</li>
+<li>Добавлялись ли на ваш компьютер какие-либо периферийные устройства?</li>
+<li>Добавлялись ли к сети новые компьютеры?</li>
+<li>Перезагружали ли вы свой компьютер?</li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_02">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 2. Формирование предположений о возможной причине неполадки</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Распространенные причины неполадок в сетях</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7' class="width_2">
+<textformat blockindent='-18'><font color='#393536'>
+<li>Неверная информация об IP.</li>
+<li>Неправильная настройка беспроводной сети.</li>
+<li>Сетевое подключение отключено</li>
+<li>Проверьте настройку беспроводного маршрутизатора</li>
+<li>Проверьте проводку и подключения</li>
+<li>Проверьте параметры сетевого оборудования</li>
+</font>
+</textformat></td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_03">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 3. Проверка выводов, сделанных о причине неполадки</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Стандартные действия для определения причины</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7' class="width_3">
+<textformat blockindent='-18'><font color='#393536'>
+<li>Перезагрузите сетевое оборудование</li>
+<li>Обновите IP адрес</li>
+<li>Повторно подключите все сетевые кабели</li>
+<li>Проверьте настройку беспроводного маршрутизатора</li>
+<li>Отправьте эхо-запрос на локальный узел</li>
+<li>Отправьте эхо-запрос на шлюз по умолчанию</li>
+<li>Отправьте эхо-запрос на внешний веб-сайт</li>
+<li>Проверьте параметры сетевого оборудования</li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_04">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 4. Разработка плана действий по устранению неполадки и его выполнение</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Если на предыдущем этапе проблема не была устранена, то для ее решения необходим дальнейший анализ ситуации</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Журналы учета ремонтных работ службы поддержки</li>
+<li>Другие инженеры</li>
+<li>Сборники часто задаваемых вопросов производителей</li>
+<li>Технические веб-сайты</li>
+<li>Новостные группы</li>
+<li>Руководства к компьютеру</li>
+<li>Руководства к устройствам</li>
+<li>Форумы в Интернете</li>
+<li>Поиск в Интернете</li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_05">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 5. Полная проверка функционального состояния системы и принятие профилактических мер в случае необходимости</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Проверьте, помогло ли решение устранить проблему, и убедитесь в полной функциональности системы
+</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Повторно загрузите все сетевое оборудование</li>
+<li>Повторно загрузите все компьютеры, на которых возникали неполадки с сетью</li>
+<li>Проверьте все световые индикаторы на сетевом оборудовании</li>
+<li>Используйте команду ipconfig /all для отображения информации об IP-адресации для всех сетевых адаптеров</li>
+<li>Используйте команду ping для проверки связи со внешним веб-сайтом</li>
+<li>Используйте команду nslookup для отправки запроса на ваш сервер DNS.</li>
+<li>Используйте команду net view для отображения доступных общих ресурсов в сети.</li>
+<li>Выполните печать на общем принтере</li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+<component id="ID_table_06">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 6. Документирование полученных данных, принятых мер и результатов</b></font></td>
+</tr> 
+<tr>
+<td colspan='2' bgcolor='#434321' class="liner_top">
+<font size='1' color='#434321'>
+<span style="color:#DAE17A">.</span>
+</font>
+</td>
+</tr>
+<tr>
+<td width="150" valign="top" bgcolor='#F3F5E7'>
+<font color='#393536'>Задокументируйте результаты</font>
+</td>
+<td  valign="top" bgcolor='#F3F5E7'>
+<textformat blockindent='-18'><font color='#393536'>
+<li>Обсудите примененное решение <span id="spacer">с заказчиком</span></li>
+<li>Попросите заказчика убедиться, что неполадка <span id="spacer">устранена</span></li>
+<li>Предоставьте заказчику все <span id="spacer">документы.</span></li>
+<li>Задокументируйте действия, предпринятые для устранения <span id="spacer">неполадки в заказе на обслуживание </span> <span id="spacer">и в журнале инженера</span></li>
+<li>Задокументируйте все компоненты, использованные <span id="spacer">при ремонте</span></li>
+<li>Задокументируйте время, ушедшее на разрешение <span id="spacer">проблемы</span></li>
+</font></textformat>
+</td>
+</tr>
+</table>]]>
+</text>
+</component>
+
+</textcomponents>

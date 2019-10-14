@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.3.4.1 Типы синхронизируемых данных</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.3.4.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сетевая связь и электронная почта</h1>
+        <h2>Синхронизация мобильных устройств</h2>
+      </div>
+      <div id="content">
+          <p>Часто для доступа к информации и ее хранения люди пользуются и настольным компьютером, и портативным компьютером, и планшетным компьютером, и смартфоном. Полезно, когда на нескольких устройствах хранятся одинаковые копии определенных данных. Например, при планировании встреч в календаре информацию о каждой новой встрече потребовалось бы вводить на каждом устройстве, чтобы поддерживать актуальное состояние сведений. Синхронизация данных устраняет необходимость постоянно вносить изменения на каждом устройстве.</p>
+          <p>Синхронизация представляет собой обмен данными между двумя или большим числом устройств с сохранением согласованности данных на этих устройствах. Вот некоторые типы данных, которые можно синхронизировать:</p>
+          <p>
+            <ul>
+              <li>контакты;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>электронную почту;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>записи календаря;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>изображения;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>музыку;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>приложения;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>видео;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ссылки и параметры обозревателя.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

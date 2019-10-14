@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.2.14 Электропитание</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.2.14_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Служебные программы панели управления</h2>
+      </div>
+      <div id="content">
+          <p>Служебная программа «Электропитание» в ОС Windows позволяет сократить потребление энергии некоторыми устройствами или системой в целом, как показано на рисунке.  Функция «Электропитание» обеспечивает увеличение производительности компьютера и экономию электроэнергии с помощью настройки плана электропитания системы. Планы электропитания представляют собой совокупность параметров оборудования и системы, управляющих энергопотреблением компьютера. В ОС Windows XP планы электропитания называются схемами электропитания.</p>
+          <p>В ОС Windows 7 и Windows Vista существуют предварительно настроенные планы электропитания, а в ОС Windows XP — предварительно настроенные схемы электропитания. Они содержат параметры по умолчанию, созданные при установке операционной системы. Можно использовать параметры по умолчанию или изменить план электропитания в зависимости от конкретных условий работы. </p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Служебная программа «Электропитание» автоматически определяет некоторые устройства, подключенные к компьютеру. Следовательно, её окна будут изменяться в зависимости от обнаруженного оборудования. </p>
+          <p>Для получения доступа к служебной программе «Электропитание» перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Электропитание</b>
+          </p>
+          <p>В окне программы доступны следующие пункты:</p>
+          <p>
+            <ul>
+              <li>Запрос пароля при пробуждении </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Действия кнопок питания</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Действие при закрытии крышки (только для портативных компьютеров)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Создать план электропитания</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Настройка отключения дисплея</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Настройка перехода в спящий режим</li>
+            </ul>
+          </p>
+          <p>При выборе пунктов <b>Действия кнопок питания</b> или <b>Действие при закрытии крышки </b>выполняется настройка действий компьютера при нажатии кнопок питания или спящего режима или при закрывании крышки. Чтобы не выключать компьютер полностью, можно выбрать один из следующих вариантов: </p>
+          <p>
+            <ul>
+              <li>
+                <b>Действия не требуется </b>— компьютер продолжает работать на полную мощность.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Сон</b> — документы и приложения сохраняются в ОЗУ, что позволяет компьютеру быстро включаться. В Windows XP этот вариант называется «Ждущий режим».</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Гибернация</b> — документы и приложения сохраняются во временный файл на жестком диске.  При выборе этого режима компьютер включается немного медленнее, чем при выборе режима «Сон»</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

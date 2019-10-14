@@ -1,0 +1,13 @@
+﻿<textcomponents>
+
+<component id="ID_title_01">
+<text><![CDATA[<b>Контрольные вопросы для сбора информации</b>]]></text>
+</component>
+<component id="ID_body01">
+  <text><![CDATA[<textformat blockindent='-16'><LI>Контактная информация</LI><LI>Какая у вас марка и модель компьютера ?</LI><LI>Какая ОС используется на компьютере?</LI><LI>Компьютер работает от сетевой розетки <span style="display:block; clear:right">или от аккумулятора?</LI><LI>Подключен ли компьютер к сети? Если да, то какое используется подключение: проводное или <span style="display:block; clear:right">беспроводное?</LI><LI>Работало ли какое-либо конкретное приложение, когда <span style="display:block; clear:right"> возникла проблемы?</LI><LI>Были ли недавно установлены новые драйверы или обновления<span style="display:block; clear:right">? Если да, то какие?</LI><LI>Описание проблемы</LI><LI>Приоритет проблемы</LI></textformat>]]></text> 
+  </component>
+
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>

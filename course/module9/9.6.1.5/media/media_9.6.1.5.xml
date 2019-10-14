@@ -1,0 +1,31 @@
+﻿<textcomponents>
+<component id="ID_table">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 5: Полная проверка функционального состояния системы и принятие профилактических мер в случае необходимости</b></font></td>
+	</tr> 
+          <tr>
+          <td colspan='2' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td width="150" valign="top" bgcolor='#F3F5E7'>
+            <font color='#393536'>Полная проверка функционального состояния системы</font> </td>
+          <td  valign="top" bgcolor='#F3F5E7'>
+            <font color='#393536'>
+							<textformat blockindent='-18'><li>Перезагрузите компьютер.</li>
+							<li>Перезагрузите принтер.</li>
+							<li>Напечатайте тестовую страницу из <span id="spacer">панели управления принтера.</span></li>
+							<li>Напечатайте документ из приложения.</li>
+							<li>Напечатайте документ, с которым у клиента возникла <span id="spacer">проблема.</span></li></textformat></font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+</textcomponents>
+

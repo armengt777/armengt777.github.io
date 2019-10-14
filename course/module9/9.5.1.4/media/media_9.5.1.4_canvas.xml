@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE" >
+
+	<slide>			
+		<element type="TEXTBOX"  titleId="ID_title_01" bodyId="ID_body01"  x="40" y="75" width="330" height="130" />
+	</slide>	
+</data>

@@ -1,0 +1,27 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Служебная программа, запускаемая из командной строки</b>]]></text>
+</component>  
+<component id="ID_s2_title">
+<text><![CDATA[<b>Интерфейс командной строки</b>]]></text>
+</component>  
+<component id="ID_s3_title">
+<text><![CDATA[<b>DxDiag</b>]]></text>
+</component>  
+<component id="ID_s4_title">
+<text><![CDATA[<b>MMC</b>]]></text>
+</component>  
+<component id="ID_s5_title">
+<text><![CDATA[<b>MSCONFIG</b>]]></text>
+</component>  
+<component id="ID_s6_title">
+<text><![CDATA[<b>Msinfo32</b>]]></text>
+</component>  
+<component id="ID_s7_title">
+<text><![CDATA[<b>Программа «Блокнот»</b>]]></text>
+</component>  
+<component id="ID_s8_title">
+<text><![CDATA[<b>Редактор реестра</b>]]></text>
+</component> 
+  
+</textcomponents>

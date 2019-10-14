@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.2.13 Брандмауэр Windows</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.2.13_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Служебные программы панели управления</h2>
+      </div>
+      <div id="content">
+          <p>Помимо настроек безопасности Центра поддержки, атаки на компьютер можно предотвратить с помощью служебной программы «Брандмауэр Windows», показанной на рисунке. Брандмауэр применяет политику безопасности, выборочно разрешающую или блокирующую передачу данных на компьютер. Название «брандмауэр» происходит от названия противопожарной стены из кирпича и цемента, предназначенной для предотвращения распространения огня из одной части здания в другую.</p>
+          <p>Параметры брандмауэра можно настроить для домашних, корпоративных и общественных сетей. Для дополнительных изменений используются следующие пункты:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Разрешить запуск программы или компонента через брандмауэр Windows </b>— определяет программы, взаимодействующие с брандмауэром Windows.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Изменение параметров уведомления</b> — пользователи с правами администратора могут <b></b>настраивать уведомления брандмауэра Windows.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Включение или отключение брандмауэра Windows</b> — пользователи с правами администратора могут включать или отключать брандмауэр Windows.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Восстановить умолчания</b> — пользователи с правами администратора могут <b></b>восстановить параметры по умолчанию брандмауэра Windows.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Дополнительные параметры</b> — пользователи с правами администратора могут устанавливать дополнительные параметры безопасности.</li>
+            </ul>
+          </p>
+          <p> Для получения доступа к служебной программе «Брандмауэр Windows» в ОС Windows 7 перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Брандмауэр Windows</b>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

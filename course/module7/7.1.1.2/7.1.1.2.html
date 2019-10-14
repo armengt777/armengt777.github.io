@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.1.1.2 Распространенные устройства ввода и светодиодные индикаторы ноутбуков</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.1.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Компоненты ноутбуков</h1>
+        <h2>Компоненты ноутбуков</h2>
+      </div>
+      <div id="content">
+          <p>Основными качествами ноутбуков являются компактность и мобильность. При этом они должны поддерживать большинство функций, которыми обладают настольные системы. Как следствие, в ноутбуки интегрированы необходимые устройства ввода. Если ноутбук открыт, можно увидеть следующие устройства ввода:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Сенсорная панель</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Трекпойнт</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Клавиатура</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Устройство считывания отпечатков пальцев</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Микрофон</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Веб-камера</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Щелкните выделенные области на рисунке 1, чтобы получить дополнительные сведения об устройствах ввода.</p>
+          <p></p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Устройства ввода, интегрированные в ноутбуки, можно настроить или оптимизировать для того, чтобы улучшить скорость, чувствительность, прокрутку или число касаний, таким же образом, как и устройства ввода для настольных компьютеров.</p>
+          <p></p>
+          <p>Ноутбуки могут быть оснащены светодиодными индикаторами, которые обозначают состояние определенных устройств или компонентов. Как правило, эти индикаторы находятся под экраном или непосредственно над клавиатурой. Щелкните выделенные области на рисунке 2, чтобы получить дополнительные сведения о светодиодных индикаторах.</p>
+          <p></p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Светодиодные индикаторы могут различаться в зависимости от модели ноутбука.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

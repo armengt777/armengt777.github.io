@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>9.3.2.2 Global and Individual Document Options</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.3.2.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка и настройка принтеров</h1>
+        <h2>Настройка режимов и параметров по умолчанию</h2>
+      </div>
+      <div id="content">
+          <p>Некоторые принтеры оснащены панелями управления с кнопками для выбора режимов. Другие принтеры используют параметры и режимы своего драйвера. Можно настраивать параметры и режимы как для всех документов, так и для отдельного документа.</p>
+          <p>
+            <b>Общий метод</b>
+          </p>
+          <p>Общий метод относится к параметрам и режимам принтера, устанавливаемым для всех документов. Они применяются каждый раз при печати документа, если только они не отменены выбором для конкретного документа.</p>
+          <p>Чтобы изменить общую настройку принтера в Windows 7, перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Устройства и принтеры</b> <b>&gt;</b>, далее следует щелкнуть принтер правой кнопкой мыши</p>
+          <p>Чтобы указать принтер, используемый по умолчанию, щелкните его правой кнопкой мыши и выберите <b>Установить принтер по умолчанию</b>, как показано на рисунке.</p>
+          <p>Чтобы изменить ориентацию страницы на альбомную в Windows 7, щелкните принтер правой кнопкой мыши и выберите <b>Настройка печати</b>. На вкладке <b>Расположение</b> выберите пункт <b>альбомная</b> из раскрывающегося меню <b>Ориентация</b>. Нажмите <b>ОК</b>.</p>
+          <p>Чтобы изменить общие настройки принтера в Windows Vista и Windows XP, перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Принтеры и факсы</b> <b>&gt;</b> далее следует щелкнуть принтер правой кнопкой мыши</p>
+          <p>Чтобы указать принтер, используемый по умолчанию, щелкните его правой кнопкой мыши и выберите <b>Установить принтер по умолчанию</b>.</p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. В зависимости от того, какой драйвер установлен для принтера, пункт <b>Установить принтер по умолчанию</b> может быть недоступен. В таком случае дважды щелкните значок принтера, откроется окно &laquo;Статус документа&raquo;, в котором выберите <b>Принтер &gt; Установить принтер по умолчанию</b>.</p>
+          <p>
+            <b>Метод &laquo;В соответствии с типом документа&raquo;</b>
+          </p>
+          <p>Письма, электронные таблицы и цифровые изображения относятся к тому типу документов, для которого могут потребоваться специальные параметры принтера. Изменить параметры для индивидуального документа можно с помощью изменения параметров печати документа.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>

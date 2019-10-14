@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.4.2.2 Коаксиальные кабели</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.4.2.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Физические компоненты сети</h1>
+        <h2>Кабели и разъемы</h2>
+      </div>
+      <div id="content">
+          <p>Коаксиальный кабель, показанный на рисунке 1, обычно изготовлен либо из меди, либо из алюминия. Он используется на кабельном телевидении для обеспечения обслуживания и подключения различных компонентов систем спутниковой связи.</p>
+          <p></p>
+          <p>По коаксиальному кабелю проходят данные в форме электрических сигналов. Экранирование у него лучше, чем у неэкранированной витой пары (UTP), отношение сигнала к шуму выше, и данных передается больше. Однако витая пара заменила коаксиальный кабель в локальных сетях, поскольку по сравнению с неэкранированной витой парой коаксиальный кабель сложнее в установке, дороже и хуже поддается ремонту. </p>
+          <p></p>
+          <p>Коаксиальный кабель заключен в оболочку, как показано на рисунке 2. Существует несколько типов коаксиального кабеля.</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Thicknet или 10BASE5</b> &mdash; используется в сетях и работает на скорости 10 Мбит/с с максимальной длиной 500 м (1640,4 футов) </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Thinnet 10BASE2</b> &mdash; используется в сетях и работает на скорости 10 Мбит/с с максимальной длиной 185 м (607 футов) </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>RG-59</b> &mdash; чаще всего используется для кабельного телевидения в США</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>RG-6</b> &mdash; кабель более высокого качества, чем RG-59, с большой пропускной способностью и менее подверженный помехам</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Кабель сети кабельного ТВ у заказчика &mdash; коаксиальный кабель. Для подключения коаксиального кабеля используется несколько способов. Ниже приведены два распространенных типа подключения, как показано на рисунке 3.</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Серия F</b> &mdash; в основном используется для телевизионного кабеля и антенн с частотой до 1 ГГц</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>BNC </b>&mdash; предназначен для использования в военных целях, а также используется для видео и радиочастотных применений частотой до 2 ГГц</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Разъем серии F имеет стандартное резьбовое соединение, но доступны и варианты с автоматической защелкой. В BNC используются нажимной, витой и замковый разъемы. Для коаксиального кабеля не определена максимальная пропускная способность, а скорость и ограничения зависят от типа используемой технологии сигнализации.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data course="ITE" >
+	<slide type="MBAR">
+		<slide>
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+			<element type="IMAGE" x="29.8" y="79.5" width="380.4" height="241.05" subType="STD" src="7_5_1_3A.jpg" />
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" x="18" y="61" width="404.9" height="286" subType="STD" src="7_5_1_3B.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+		</slide>
+
+
+
+		<element type="TEXT" compId="ID_inst" x="5" y="380" width="432.1" expand="up" align="left" size="12" />
+	</slide>
+</data>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.2.5.2 Местоположения файлов пользователя и системных файлов</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.2.5.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка операционной системы</h1>
+        <h2>Структура каталогов и атрибуты файлов</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Местоположения файлов пользователя</b>
+          </p>
+          <p>По умолчанию в ОС Windows 7 и Windows Vista большинство файлов, созданных пользователями, хранится в папке <b>C:\Users\</b><i>Имя_пользователя</i><b>\</b>. В ОС Windows XP используется папка <b>C:\Documents and Settings\</b><i>Имя_пользователя</i>\.</p>
+          <p>Кроме того, каждая папка пользователя содержит папки, предназначенные для хранения музыки, видео, информации с веб-сайтов, изображений, как показано на рис. 1. В этих папках также хранятся данные пользователей, необходимые для работы различных программ. Если на одном компьютере зарегистрировано несколько пользователей, каждый из них имеет свою папку с избранным, элементами рабочего стола и файлами cookie. «Cookie» — это файлы, содержащие информацию о посещенных пользователем веб-страницах.</p>
+          <p>
+            <b>Системная папка</b>
+          </p>
+          <p>После установки ОС Windows все файлы, используемые для работы компьютера, хранятся в папке <b>C:\Windows</b><b><i>\system32</i></b>. Содержимое системной папки Windows показано на рис. 2.</p>
+          <p>
+            <b>Шрифты</b>
+          </p>
+          <p>В папке<b> C:\Windows\Fonts</b> находятся шрифты, установленные на компьютере. Шрифты имеют несколько форматов, среди них TrueType, OpenType, Composite и PostScript. Вот несколько примеров гарнитуры шрифтов: Arial, Times New Roman, Courier. Доступ к папке «Шрифты» осуществляется с панели управления. Шрифты устанавливаются при помощи меню <b>Файл &gt; Установить шрифт</b>. </p>
+          <p>
+            <b>Временные файлы</b>
+          </p>
+          <p>В папке «Временные файлы» содержатся файлы, созданные ОС и программами на короткий промежуток времени. Например, временные файлы могут быть созданы во время установки приложения, чтобы для других приложений оставалось больше ОЗУ.</p>
+          <p>Временные файлы используются почти во всех программах. Они автоматически удаляются по окончании их использования ОС или приложением. Однако некоторые временные файлы необходимо удалять вручную. Поскольку временные файлы занимают место на жестком диске, которое могло бы использоваться другими файлами, рекомендуется удалять временные файлы каждые два-три месяца по мере необходимости. </p>
+          <p>В ОС Windows Vista и Windows 7 временные файлы обычно размещаются в следующих папках:</p>
+          <p>
+            <ul>
+              <li>C:\Windows\Temp</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>C:\Users\<i>Имя_пользователя\</i>AppData\Local\Temp</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>%USERPROFILE%\AppData\Local\Temp </li>
+            </ul>
+          </p>
+          <p>В ОС Windows XP временные файлы обычно размещаются в следующих папках:</p>
+          <p>
+            <ul>
+              <li>C:\Temp</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>C:\Tmp</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>C:\Windows\Temp</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>C:\Windows\Tmp</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>C:\Documents and Settings\%USERPROFILE%\Local Settings\Temp</li>
+            </ul>
+          </p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. %USERPROFILE% является переменной среды, установленной ОС, с именем пользователя, который в данный момент выполнил вход в систему. Переменные среды используются операционной системой, приложениями и программами установки ПО. </p>
+          <p>Для отображения переменных среды в Windows 7 перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Система &gt; Дополнительные параметры системы &gt; Дополнительно </b> <b>&gt; Переменные среды</b></p>
+          <p>Для отображения переменных среды в Windows Vista перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Система &gt; Дополнительные параметры системы &gt; Дополнительно </b><b> &gt; Переменные среды</b></p>
+          <p>Для отображения переменных сред в Windows XP перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Система &gt; Дополнительно &gt; Переменные среды</b>
+          </p>
+          <p>
+            <b>Program Files</b>
+          </p>
+          <p>Папка &quot;Program Files&quot; используется большинством установочных программ для установки ПО. В 32-разрядных системах программы обычно устанавливаются в папку <b>C:\Program Files</b>. В 64-разрядных системах 64-разрядные программы обычно устанавливаются в папку <b>C:\Program Files</b>, а 32-разрядные программы — в папку <b>C:\Program Files (x86)</b>.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,11 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Телефоны VoIP</b>]]></text>
+	</component> 
+	<component id="ID_txt01">
+	  <text><![CDATA[<b>Телефоны Linksys IP</b>]]></text> 
+	</component>
+	<component id="ID_txt02">
+	  <text><![CDATA[<b>Телефоны Cisco IP</b>]]></text> 
+	</component>
+</textcomponents>

@@ -1,0 +1,38 @@
+﻿<textcomponents>
+
+
+<component id="ID_title">
+<text><![CDATA[<b>Физические топологии</b>]]></text>
+</component>
+
+
+
+<component id="ID_btn01">
+<text><![CDATA[<b>Топология шины</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[<b></b>]]></text>
+</component>
+
+<component id="ID_btn02">
+<text><![CDATA[<b>Топология кольца</b>]]></text>
+</component> 
+
+<component id="ID_btn03">
+<text><![CDATA[<b>Типология типа «звезда»</b>]]></text>
+</component> 
+
+<component id="ID_btn04">
+<text><![CDATA[<b>Иерархическая топология, или «расширенная звезда»</b>]]></text>
+</component>
+
+<component id="ID_btn05">
+<text><![CDATA[<b>Полносвязная топология</b>]]></text>
+</component> 
+
+<component id="ID_btn06">
+<text><![CDATA[<b>Гибридная топология</b>]]></text>
+</component>
+
+</textcomponents>

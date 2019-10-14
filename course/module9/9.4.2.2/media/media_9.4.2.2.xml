@@ -1,0 +1,59 @@
+﻿<textcomponents>
+	<component id="ID_title">
+	 	 <text><![CDATA[<b>Мастер общего доступа к принтеру</b>]]></text> 
+	</component>
+	<component id="ID_txt01">
+	 	 <text><![CDATA[<b>Общие</b>]]></text> 
+	</component>
+	<component id="ID_txt02">
+	 	 <text><![CDATA[<b>Общий доступ</b>]]></text> 
+	</component>
+	<component id="ID_txt03">
+	 	 <text><![CDATA[<b>Порты</b>]]></text> 
+	</component>
+	<component id="ID_txt04">
+	 	 <text><![CDATA[<b>Дополнительно...</b>]]></text> 
+	</component>
+	<component id="ID_txt05">
+	 	 <text><![CDATA[<b>Управление цветом</b>]]></text> 
+	</component>
+	<component id="ID_txt06">
+	 	 <text><![CDATA[<b>Безопасность</b>]]></text> 
+	</component>
+	<component id="ID_txt07">
+	 	 <text><![CDATA[<b>Вы можете настроить общий доступ к этому принтеру в рамках своей сети. Чтобы открыть доступ к этому принтеру, щелкните «Настроить общий доступ к принтеру». Если вы откроете общий доступ к этому принтеру, брандмауэр Windows будет перенастроен для общего доступа к принтеру других пользователей сети.</b>]]></text> 
+	</component>
+	<component id="ID_txt08">
+	 	 <text><![CDATA[<b>Не открывать общий доступ к этому принтеру</b>]]></text> 
+	</component>
+	<component id="ID_txt09">
+	 	 <text><![CDATA[<b>Открыть общий доступ к этому принтеру</b>]]></text> 
+	</component>
+	<component id="ID_txt10">
+	 	 <text><![CDATA[<b>Имя общего ресурса:</b>]]></text> 
+	</component>
+	<component id="ID_txt11">
+	 	 <text><![CDATA[<b>Общий ресурс Cisco</b>]]></text> 
+	</component>
+	<component id="ID_txt13">
+	 	 <text><![CDATA[<b>Список в каталоге</b>]]></text> 
+	</component>
+	<component id="ID_txt14">
+	 	 <text><![CDATA[<b>Драйверы</b>]]></text> 
+	</component>
+	<component id="ID_txt15">
+	 	 <text><![CDATA[<b>Если этот принтер совместно используется пользователями, работающими под разными версиями Windows, вам может потребоваться установить дополнительные драйверы, чтобы пользователям не нужно было искать эти драйверы при подключении к общему принтеру.</b>]]></text> 
+	</component>
+	<component id="ID_txt16">
+	 	 <text><![CDATA[<b>Дополнительные драйверы...</b>]]></text> 
+	</component>
+	<component id="ID_txt17">
+	 	 <text><![CDATA[<b>ОК</b>]]></text> 
+	</component>
+	<component id="ID_txt18">
+	 	 <text><![CDATA[<b>Отмена</b>]]></text> 
+	</component>
+	<component id="ID_txt19">
+	 	 <text><![CDATA[<b>Применить</b>]]></text> 
+	</component>
+</textcomponents>

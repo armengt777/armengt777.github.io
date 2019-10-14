@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.3.3.3 Протоколы и порты TCP и UDP</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.3.3.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Основные понятия и технологии организации сетей</h1>
+        <h2>Стандартные порты и протоколы</h2>
+      </div>
+      <div id="content">
+          <p>Когда включен стек протоколов TCP/IP, другие протоколы могут обмениваться данными через конкретные порты. Например, протокол HTTP по умолчанию использует порт 80. Порт &mdash; это числовой идентификатор, используемый для отслеживания сетевых диалогов. В каждом сообщении, отправляемом с узла, указываются порт источника и порт назначения. </p>
+          <p>Сетевые программные приложения используют эти протоколы и порты для выполнения функций через Интернет или через сеть. Некоторые сетевые программные приложения включают в себя службы для размещения веб-страниц, отправки сообщений электронной почты и передачи файлов. Эти службы могут быть доступны с одного или нескольких серверов. Клиенты используют хорошо известные порты для каждой службы, что позволяет идентифицировать запросы клиентов с помощью определенного порта назначения. </p>
+          <p>Чтобы ознакомиться с принципом работы сетей и Интернета, необходимо изучить часто используемые протоколы и связанные с ними порты. Некоторые способы использования этих протоколов связаны с подключением удаленных сетевых устройств, преобразованием URL-адресов веб-сайтов в IP-адреса, а также с передачей файлов данных. По мере изучения ИТ вы столкнетесь с другими протоколами, однако они не используются так часто, как описанные в данном разделе протоколы.</p>
+          <p>На данном рисунке представлен обзор некоторых наиболее часто используемых сетевых протоколов и протоколов Интернета, а также перечислены номера портов, используемых этими протоколами. Чем больше вы будете знакомиться с функциями каждого из этих протоколов, тем лучше изучите принципы работы сетей и Интернета.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

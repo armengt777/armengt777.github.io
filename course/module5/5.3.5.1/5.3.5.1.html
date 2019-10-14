@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.5.1 Удаленный рабочий стол</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.5.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Стандартные программы</h2>
+      </div>
+      <div id="content">
+          <p>Для устранения неполадок и обновления компьютеров инженеры могут использовать функции удаленного помощника и удаленного рабочего стола. Как показано на рисунке 1, удаленный рабочий стол позволяет просматривать и контролировать компьютер из удаленного местоположения. Удаленный помощник, как показано на рисунке 2, позволяет инженерам разрешать проблемы с компьютером заказчика из удаленного местоположения. Заказчик также может использовать удаленный помощник для просмотра исправлений и обновлений, выполняемых на его компьютере.</p>
+          <p>Для получения доступа к удаленному рабочему столу в Windows 7 или Windows Vista перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Все программы &gt; Стандартные &gt; Подключение к удаленному рабочему столу</b>
+          </p>
+          <p>В ОС Windows XP функция удаленного рабочего стола доступна только для версии Windows XP Professional. Для доступа к удаленному рабочему столу в Windows XP Professional перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Все программы &gt; Стандартные &gt; Связь &gt; Подключение к удаленному рабочему столу</b>
+          </p>
+          <p>Прежде чем использовать удаленного помощника в ОС Windows, его необходимо включить. Для включения удаленного помощника и доступа к нему выполните следующие действия:</p>
+          <p>
+            <b>Этап 1.</b> Нажмите кнопку <b>Пуск</b> и щелкните правой кнопкой мыши пункт <b>Компьютер &gt; Свойства</b>.</p>
+          <p>
+            <b>Этап 2.</b> Щелкните ссылку <b>Настройка удаленного доступа</b> в окне «Система». </p>
+          <p>
+            <b>Этап 3.</b> Установите флажок <b>Разрешить подключение удаленного помощника к этому компьютеру</b>.</p>
+          <p>
+            <b>Этап 4.</b> Выберите <b>Применить &gt; ОК</b>.</p>
+          <p>Для получения доступа к удаленному помощнику в Windows 7 или Windows Vista перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Все программы &gt; Обслуживание &gt; Удаленный помощник Windows</b>
+          </p>
+          <p>Для получения доступа к удаленному рабочему столу в Windows XP перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Все программы &gt; Удаленный помощник</b>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

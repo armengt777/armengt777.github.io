@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.8.4.2 Подключение к рабочей группе или домену</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.8.4.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Подключение компьютера к сети</h1>
+        <h2>Настройка операционных систем</h2>
+      </div>
+      <div id="content">
+          <p>Чтобы компьютеры могли совместно использовать ресурсы, они должны входить в один домен или одну рабочую группу. Старые операционные системы имеют ограничение на имена, которые можно давать рабочим группам. Если в рабочую группу входят как новые, так и старые операционные системы, следует использовать имя рабочей группы компьютера с наиболее старой операционной системой.</p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Чтобы переключить компьютер из домена в рабочую группу, необходимо знать имя пользователя и пароль учетной записи, которая входит в группу локальных администраторов.</p>
+          <p>На рисунке 1 показано, как можно изменить имя рабочей группы в операционных системах Windows&nbsp;7 и Windows Vista:</p>
+          <p>
+            <b>Пуск &gt;</b> щелкнуть правой кнопкой мыши значок <b>Мой компьютер &gt; Свойства &gt; Изменить настройки &gt; Изменить</b></p>
+          <p>Изменить имя рабочей группы в операционной системе Windows&nbsp;XP можно следующим образом:</p>
+          <p>
+            <b>Пуск &gt;</b> щелкнуть правой кнопкой мыши значок <b>Мой компьютер &gt; Свойства &gt;</b> вкладка <b>Имя компьютера</b><b> &gt; Изменить</b></p>
+          <p>В операционной системе Windows также есть мастер, который поможет присоединиться к домену или рабочей группе (рисунок&nbsp;2). Чтобы изменения имени домена или рабочей группы вступили в силу, необходимо перезапустить компьютер.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

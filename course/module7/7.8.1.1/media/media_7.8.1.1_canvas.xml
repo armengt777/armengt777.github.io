@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data course="ITE" >
+	<slide>
+		<element type="IMAGE" x="33" y="57" width="180" height="120" subType="STD" src="7.8.1.1a.jpg" />
+		<element type="IMAGE" x="258" y="222" width="180" height="120.05" subType="STD" src="7.8.1.1e.jpg" />
+		<element type="IMAGE" x="33" y="222" width="180" height="120.05" subType="STD" src="7.8.1.1d.jpg" />
+		<element type="IMAGE" x="258" y="57" width="180" height="120" subType="STD" src="7.8.1.1b.jpg" />
+		<element type="IMAGE" x="147.25" y="127.9" width="180" height="139.45" subType="STD" src="7.8.1.1c.jpg" />
+	</slide>
+</data>

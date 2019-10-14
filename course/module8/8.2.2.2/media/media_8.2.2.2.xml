@@ -1,0 +1,18 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Приложения, виджеты и папки</b>]]></text>
+</component>
+<component id="ID_txt01">
+	<text><![CDATA[<b>Виджеты</b>]]></text>
+</component>
+<component id="ID_txt02">
+	<text><![CDATA[<b>Папки</b>]]></text>
+</component>
+<component id="ID_txt03">
+	<text><![CDATA[<b>Значок «Все приложения»</b>]]></text>
+</component>
+<component id="ID_txt04">
+	<text><![CDATA[<b>Приложения</b>]]></text>
+</component>
+
+</textcomponents>

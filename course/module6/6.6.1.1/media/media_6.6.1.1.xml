@@ -1,0 +1,50 @@
+﻿
+<textcomponents>
+
+<component id="ID_table">
+<text><![CDATA[
+				<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+	 <td colspan='2' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Организации по стандартам</b></font></td>
+	 </tr>			
+			<tr>
+					<td class="liner_top" colspan='2' bgcolor='#434321'><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+				</tr>  
+				<tr>
+					<td bgcolor='#F3F5E7' width="100px" valign="top"><font size='12'color='#393536'>ITU–T</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Сектор стандартизации телекоммуникаций международного телекоммуникационного союза — специализированное учреждение ООН по информационным и коммуникационным технологиям (ICT).</font></td>			</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12'color='#393536'>IEEE</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Институт инженеров по электротехнике и электронике — разрабатывает стандарты для отраслей компьютерной и электронной промышленностей. Например, стандарт IEEE 802 для локальных сетей.
+</font></td> 
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>ISO</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Международная организация по стандартизации — определяет компьютерные стандарты. Например, модель взаимодействия открытых систем (OSI).
+</font></td> 
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12'color='#393536'>IAB</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Совет по архитектуре Интернета — комитет, отвечающий за техническое и инженерное развитие Интернета.
+</font></td> 
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>IEC</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Международная электротехническая комиссия — всемирная организация, занимающаяся подготовкой и публикацией международных стандартов для электрических, электронных и связанных технологий.
+</font></td> 
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12'color='#393536'>ANSI</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Американский национальный институт стандартизации — способствует разработке стандартов, устанавливая процедуры согласования для соответствующих групп.
+</font></td> 
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>TIA/EIA</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Ассоциация телекоммуникационной промышленности и Альянс отраслей электронной промышленности — разрабатывают и публикуют стандарты структурированной кабельной системы для передачи данных и голосовой связи для локальных сетей. </font></td> 
+				</tr>
+			
+			</table>]]>
+		</text>
+</component>
+
+</textcomponents>

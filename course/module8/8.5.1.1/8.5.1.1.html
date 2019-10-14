@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.5.1.1 Определение проблемы</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.5.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Основная процедура поиска и устранения неполадок для мобильных устройств</h1>
+        <h2>Применение процедуры поиска и устранения неполадок к мобильным устройствам</h2>
+      </div>
+      <div id="content">
+          <p>Устраняя неполадки на мобильных устройствах, проверьте, действует ли гарантия на устройство.  Если да, устройство часто можно вернуть по месту приобретения для обмена. Если срок действия гарантии на устройство истек, определите, насколько экономически целесообразен его ремонт. Чтобы выбрать оптимальный вариант действий, сравните затраты на ремонт со стоимостью замены мобильного устройства. Поскольку конструкция и функции мобильных устройств стремительно меняются, их ремонт часто обходится дороже замены. По этой причине неисправные мобильные устройства обычно заменяют на новые.</p>
+          <p>Следуйте этапам, описанным в этом разделе, чтобы точно определить, устранить и задокументировать неполадку.</p>
+          <p>Причиной неполадки мобильного устройства может быть сочетание неполадок оборудования, программного обеспечения и сети. Инженеры по мобильным устройствам должны уметь проанализировать неполадку и определить ее причину, чтобы восстановить работоспособность мобильного устройства. Этот процесс называется поиском и устранением неполадок. </p>
+          <p>Первым этапом процедуры поиска и устранения неполадок является определение проблемы. На рисунке изображен перечень &laquo;открытых&raquo; и &laquo;закрытых&raquo; вопросов, которые следует задать заказчику.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

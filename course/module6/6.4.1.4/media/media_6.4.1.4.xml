@@ -1,0 +1,29 @@
+﻿<textcomponents>
+	<component id="ID_txt01">
+		<text><![CDATA[Маршрутизатор]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Рисунок]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Видео]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Музыка]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[Ноутбук]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+		<text><![CDATA[Домашний ПК]]></text>
+	</component>
+	
+	<component id="ID_txt07">
+		<text><![CDATA[Частный или общедоступный<br />доступ через Интернет.]]></text>
+	</component>
+</textcomponents>

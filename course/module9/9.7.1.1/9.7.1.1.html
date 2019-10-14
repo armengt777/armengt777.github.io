@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>9.7.1.1 Обзор</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.7.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Принтеры</h1>
+        <h2>Обзор</h2>
+      </div>
+      <div id="content">
+          <p>В этой главе рассматривались принтеры различных типов. Вы узнали, что существует множество разных типов и размеров принтеров, каждый из которых имеет особые возможности, скорость и назначение. Также вы узнали, что принтеры могут подключаться к компьютеру напрямую или использоваться совместно через сеть. В главе описаны различные типы кабелей и интерфейсов для подключения принтера. </p>
+          <p>Вот основные понятия этой главы, которые необходимо запомнить:</p>
+          <p>
+            <ul>
+              <li>Некоторые принтеры имеют низкую производительность и подходят для домашнего использования. Другие, напротив, имеют высокую производительность и разработаны для коммерческого применения. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Принтеры могут иметь разные скорость и качество печати. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>В более старых принтерах используются параллельные порты и кабели.  В новых принтерах обычно используются кабели и разъемы USB или FireWire. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Для более новых принтеров компьютер автоматически устанавливает необходимые драйверы. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Если драйвер устройства не устанавливается автоматически, загрузите его с сайта производителя или используйте прилагающийся компакт-диск. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Большая часть оптимизации выполняется с помощью программных драйверов и служебных программ. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>После установки принтера можно открыть к нему общий доступ другим пользователям сети. Это экономически выгодно, так как не нужно покупать принтер для каждого пользователя. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Хорошая программа профилактического обслуживания продлевает срок службы принтера и способствует его качественной работе. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Всегда соблюдайте правила безопасности при работе с принтерами. Многие детали внутри принтера находятся под высоким напряжением или очень сильно нагреваются при использовании. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Используйте предписанные действия для устранения неполадки. Начните с простых задач, пока не будет выбран способ действий. Если неполадка слишком сложна для вас, позвоните сертифицированному инженеру по принтерам. </li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

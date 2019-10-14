@@ -1,0 +1,85 @@
+﻿<textcomponents>
+
+<component id="ID_s2_btn01">
+<text><![CDATA[<b>Регистрация и отслеживание инцидентов</b>]]></text>
+</component>
+<component id="ID_s2_btn02">
+<text><![CDATA[<b>Запись контактной информации</b>]]></text>
+</component>
+<component id="ID_s2_btn03">
+<text><![CDATA[<b>Поиск информации о продукте</b>]]></text>
+</component>
+<component id="ID_s2_btn04">
+<text><![CDATA[<b>Запуск программ диагностики</b>]]></text>
+</component>
+<component id="ID_s2_btn05">
+<text><![CDATA[<b>Поиск в базе знаний</b>]]></text>
+</component>
+<component id="ID_s2_btn06">
+<text><![CDATA[<b>Сбор отзывов клиентов</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[В функции данного ПО входит управление очередностью вызовов, установка приоритетов вызовов, назначение вызовов и их передача на более высокий уровень.]]></text>
+</component>
+<component id="ID_s2_txt02">
+<text><![CDATA[С помощью специального ПО можно сохранять, редактировать, восстанавливать имена заказчиков, электронные адреса, телефонные номера, местоположение, веб-сайты, номера факсов и другую информацию в базе данных.]]></text>
+</component>
+<component id="ID_s2_txt03">
+<text><![CDATA[ПО обеспечивает инженеров информацией о поддерживаемых продуктах, включая их функции, ограничения, новые версии, ограничения конфигурации, известные ошибки, доступность продукта, ссылки на файлы интерактивной справки и другую информацию.]]></text>
+</component>
+<component id="ID_s2_txt04">
+<text><![CDATA[Программное обеспечение может включать в себя некоторые программы диагностики, в том числе удаленную программу диагностики, с помощью которой инженер может управлять компьютером заказчика, находясь на своем рабочем месте в центре обработки вызовов.]]></text>
+</component>
+<component id="ID_s2_txt05">
+<text><![CDATA[Программное обеспечение может содержать базу знаний, предварительно запрограммированную на типичные неполадки и способы их устранения. Эта база может увеличиваться по мере добавления инженерами собственных записей с описанием неполадок и способов их устранения.]]></text>
+</component>
+<component id="ID_s2_txt06">
+<text><![CDATA[С помощью данного программного обеспечения можно собирать отзывы клиентов, в которых они отмечают степень удовлетворенности продуктами и услугами центра обработки вызовов.]]></text>
+</component>
+
+
+<component id="ID_s3_table">
+    <text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="table-height">
+		<td bgcolor='#DAE17A' colspan="3" class="table-height"><font size='14' color='#393536'><b class="font-forteen">Распределение вызовов по приоритету</b></font></td>
+	</tr>
+	<tr class="liner_top">
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='2' color='#434321'>.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23' width="100"><font color='#ffffff'><b>Название</b></font></td>
+		<td bgcolor='#A2AA23' width="200"><font color='#ffffff'><b>Определение</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#ffffff'><b>Приоритет</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Сообщение о простое</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>В компании не работает все компьютерное оборудование.</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>1 (Наиболее срочный)</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Оборудование</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Один (или несколько) компьютеров компании неисправны.</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>2 (Срочный)</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'>ПО</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>На одном (или нескольких) компьютерах компании возникли ошибки ПО или операционной системы.</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>2 (Срочный)</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Сеть</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Один (или несколько) компьютеров компании не могут получить доступ к сети.</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>2 (Срочный)</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Модернизация</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>От компании поступила заявка на расширение функциональных возможностей компьютеров.</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>3 (Важный)</font></td>
+	</tr>
+</table>]]></text>
+    </component>
+
+
+
+</textcomponents>

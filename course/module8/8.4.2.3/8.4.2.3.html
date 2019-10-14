@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.4.2.3 Удаленные блокировка и стирание</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.4.2.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Способы защиты мобильных устройств</h1>
+        <h2>Облачные службы для интеллектуальных устройств</h2>
+      </div>
+      <div id="content">
+          <p>Если найти пропавшее мобильное устройство не удалось, можно все же принять меры безопасности для предотвращения несанкционированного доступа к данным на устройстве. Эти действия можно выполнить при помощи функции &laquo;Найти iPhone&raquo; на устройстве iOS или при помощи специальных приложений. Обычно функции защиты встроены в приложения для дистанционного определения местоположения. Вот две из наиболее распространенных функций дистанционной защиты:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Удаленная блокировка</b> (рис. 1) &mdash; позволяет заблокировать устройство при помощи секретного кода.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Удаленное стирание</b> (рис. 2) &mdash; удаляет все данные с устройства и восстанавливает его заводские настройки. Чтобы восстановить данные на устройстве, пользователь Android должен настроить устройство с помощью учетной записи Gmail, а пользователь iOS &mdash; синхронизировать устройство с iTunes.</li>
+            </ul>
+          </p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Для работы этих функций дистанционной защиты должно быть включено питание устройства и установлено подключение устройства к сети сотовой связи или Wi-Fi.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

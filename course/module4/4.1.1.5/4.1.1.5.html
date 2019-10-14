@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>4.1.1.5 Значение окружающей среды</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_4.1.1.5_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Профилактическое обслуживание</h1>
+        <h2>Обзор процедур профилактического обслуживания ПК</h2>
+      </div>
+      <div id="content">
+          <p>Оптимальная рабочая среда для компьютера &mdash; это чистая среда, где нет потенциальных загрязнителей, а температура и влажность находятся в диапазонах, указанных производителем. Рабочую среду, в которой находится большинство настольных компьютеров, можно контролировать. При использовании ноутбука не всегда возможно контролировать условия работы, а также температуру и влажность окружающей среды.. Компьютеры создаются с расчетом на сопротивляемость неблагоприятным условиям, но инженерам никогда не следует забывать о мерах защиты компьютера от повреждений и потери данных. </p>
+          <p>Следуйте рекомендациям, приведенным ниже, чтобы обеспечить оптимальную работоспособность компьютера: </p>
+          <p>
+            <ul>
+              <li>Не закрывайте вентиляционные отверстия. Нарушение циркуляции воздуха может привести к перегреву компьютера. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Температура в помещении должна составлять от 7 до 32 градусов Цельсия. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Относительная влажность воздуха должна составлять от 10 до 80 процентов. </li>
+            </ul>
+          </p>
+          <p>Рекомендованные значения температуры и влажности варьируются в зависимости от производителя компьютера. Если планируется использовать компьютер в экстремальных условиях, следует изучить эти значения. Примеры значений температуры и влажности приведены на рисунке. </p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Чтобы избежать повреждения поверхностей компьютера, используйте мягкую безворсовую ткань и специальное чистящее средство. Наносите чистящее средство на безворсовую ткань, а не непосредственно на компьютер.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

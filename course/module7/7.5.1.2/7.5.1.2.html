@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.5.1.2 Флэш-память</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.5.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка и настройка оборудования и компонентов ноутбука</h1>
+        <h2>Возможности расширения</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Внешний флэш-накопитель</b>
+          </p>
+          <p>Внешний флэш-накопитель, также известный как флэшка, &mdash; это съемное устройство хранения данных, подключаемое через порт USB. Во внешних флэш-накопителях, как показано на рисунке 1, используется тот же тип энергонезависимых микросхем памяти, что и в твердотельных накопителях. В результате флэш-накопители обеспечивают более быстрый доступ к данным, высокую надежность работы и сниженное энергопотребление. </p>
+          <p></p>
+          <p>Внешние флэш-накопители помогают увеличить объем устройств хранения ноутбука. Они подключаются через порты USB. Операционная система получает доступ к подобным накопителям так же, как и к другим.</p>
+          <p></p>
+          <p>
+            <b>Карты флэш-памяти и устройства для считывания с этих карт</b>
+          </p>
+          <p>Карта флэш-памяти &mdash; это устройство хранения данных, использующее флэш-память для хранения информации. Карты флэш-памяти компактны, портативны и не нуждаются в электроэнергии для хранения данных. Как правило, они используются в ноутбуках, мобильных устройствах и цифровых фотоаппаратах. Существует широкий диапазон карт флэш-памяти, которые различаются по форме и размеру. На большинстве современных ноутбуков установлены устройства чтения карт флэш-памяти Secure Digital (SD) и Secure Digital High Capacity (SDHC), как показано на рисунке 2. Устройство чтения карт флэш-памяти, установленное на стандартном ноутбуке, показано на рисунке 3.</p>
+          <p></p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Карты флэш-памяти поддерживают горячую замену. Для их извлечения используется стандартная процедура извлечения устройств, поддерживающих горячую замену.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

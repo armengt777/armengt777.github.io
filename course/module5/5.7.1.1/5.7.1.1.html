@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.7.1.1 Обзор</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.7.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Операционные системы</h1>
+        <h2>Обзор</h2>
+      </div>
+      <div id="content">
+          <p>В этой главе были рассмотрены операционные системы компьютера. Инженер должен уметь выполнять установку, настройку, а также поиск и устранение неполадок операционной системы. Вот основные понятия этой главы, которые необходимо запомнить:</p>
+          <p>
+            <ul>
+              <li>Существуют различные операционные системы, и при их выборе необходимо руководствоваться потребностями и средой клиента.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Основными этапами настройки компьютера клиента являются подготовка жесткого диска, установка операционной системы, создание учетной записи пользователя и настройка параметров установки.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Графический интерфейс пользователя отображает файлы, папки и приложения компьютера. Для переходов по рабочему столу графического интерфейса пользователя используется указывающее устройство (например, мышь).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>В интерфейсе командной строки для выполнения задач и переходов по файловой системе используются команды.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Рекомендуется разработать стратегию резервного копирования, которая дает возможность восстановления данных. В операционных системах Windows доступны следующие типы резервного копирования: обычное, создание копий, разностное, инкрементальное и ежедневное резервное копирование.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Диспетчер виртуальных машин распределяет системные ресурсы главного компьютера для работы виртуальных машин. В виртуальных машинах выполняются операционные системы, обеспечивающие дополнительные функциональные возможности для пользователей.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Методы профилактического обслуживания обеспечивают оптимальную производительность операционной системы.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>В число средств поиска и устранения неполадок операционной системы входят средства администрирования, служебные программы и команды интерфейса командной строки.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

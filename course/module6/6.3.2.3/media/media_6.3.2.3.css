@@ -1,0 +1,18 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+html, body {
+	margin:0;
+	height:100%;
+	
+}
+#flashContent {
+	width:98%;
+	height:98%;
+}
+#ID_s1_txt02, #ID_s1_txt03 {border:1px solid #4A275F; background:#E0D5E6; padding:3px 4px; border-radius:5px;}
+font[size="-1"], .subnetId{font-size:9px !important;}
+.spacer {letter-spacing:-0.4px;}
+table tr td{vertical-align:top;}

@@ -1,0 +1,230 @@
+﻿<textcomponents>
+<component id="ID_table">
+<text>
+<![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+	<td colspan='3' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения</b></font></td>
+</tr>
+<tr class="liner">
+	<td colspan='3' bgcolor='#434321' class="liner_top">
+		<font size='1' color='#434321'>
+			<span style="color:#DAE17A">.</span>
+		</font>
+	</td>
+</tr>
+<tr>
+	<td bgcolor='#a2aa23' >
+		<font  color='#ffffff'>
+		<b>Определение проблемы</b>
+		</font>
+	</td>
+	<td bgcolor='#a2aa23'>
+		<font  color='#ffffff'>
+		<b>Возможные причины</b>
+		</font>
+	</td>
+	<td bgcolor='#a2aa23' >
+		<font  color='#ffffff'>
+		<b>Возможные решения</b>
+		</font>
+	</td>
+</tr>
+<tr>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>Не печатается документ из приложения.</font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>В очереди печати возникла ошибка документа.</font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>Настройте принтер, отменив печать документа в очереди и напечатав его снова.</font>
+	</td>
+</tr>
+<tr>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'>Не удается добавить принтер или возникает ошибка очереди печати.</font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'>Служба печати остановлена или работает ненадлежащим образом.</font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'>Запустите службу печати и при необходимости перезагрузите компьютер. </font>
+	</td>
+</tr>
+<tr>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>Задания на печать отправляются в очередь печати, но не печатаются.</font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>Принтер установлен на неправильный порт.</font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>Используйте свойства и параметры принтера для настройки порта принтера.</font>
+	</td>
+</tr>
+<tr>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'>Служба печати работает правильно, но принтер не печатает.</font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'><textformat blockindent='-18'><li>Нарушено кабельное подключение.</li>
+		<li>Принтер находится в режиме ожидания.</li>
+		<li>Возникла такая ошибка, как нехватка бумаги, тонера или застревание бумаги.  </li></textformat>
+		</font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'><textformat blockindent='-18'><li>Проверьте, не погнуты ли контакты на кабеле принтера, а также подключен ли кабель к принтеру и компьютеру.</li>
+		<li>Вручную выведите принтер из режима ожидания или выключите и вновь включите принтер.</li>
+		<li>Проверьте статус принтера и исправьте все ошибки.</li></textformat>
+		</font>
+	</td>
+</tr>
+<tr>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>Принтер печатает непонятные символы или не печатает тестовую страницу.</font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>Установлен неправильный или устаревший драйвер принтера.</font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>Удалите текущий драйвер принтера и установите правильный.</font>
+	</td>
+</tr>
+
+
+<tr>
+	<td bgcolor='#FFFFFF' valign="top">
+	<font color='#393536'>Принтер печатает непонятные символы или не печатает вообще ничего.</font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+	<font color='#393536'><textformat blockindent='-18'><li>Принтер может быть подключен к ИБП.</li><li> Установлен неправильный драйвер принтера. </li><li>Плохо подключены кабели принтера.</li><li> В принтере нет бумаги.</li></textformat></font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+	<font color='#393536'><textformat blockindent='-18'><li>Подключите принтер напрямую в настенную розетку или сетевой фильтр.</li> <li>Удалите неправильный драйвер и установите правильный.</li> <li>Проверьте подключение кабелей принтера. </li><li>Добавьте бумагу в принтер.</li></textformat></font>
+	</td>
+</tr>
+
+<tr>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>При печати бумага застревает.</font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'><textformat blockindent='-18'><li>Принтер загрязнился.</li> <li>Используется неправильный тип бумаги.</li><li>От повышенной влажности листы бумаги слипаются.</li></textformat> </font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'><textformat blockindent='-18'><li>Очистите принтер.</li> <li>Замените бумагу в соответствии с рекомендациями производителя.</li> <li>Вставьте новую бумагу в лоток.</li></textformat> </font>
+	</td>
+</tr>
+
+<tr>
+	<td bgcolor='#FFFFFF' valign="top">
+	<font color='#393536'>Печать тусклая.</font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+		<textformat blockindent='-18'><font color='#393536'>
+		<li>Низкий уровень тонера в картридже.</li>
+		<li>Картридж с тонером имеет дефект.</li>
+		<li>Данная бумага не совместима с принтером.</li></font></textformat></td>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'>
+		<textformat blockindent='-18'><li>Замените картридж с тонером.</li>
+		<li>Замените бумагу.</li></textformat></font>
+	</td>
+</tr>
+
+<tr>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'>Тонер не закрепляется на бумаге.</font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'><textformat blockindent='-18'><li>В картридже закончился тонер.</li>
+		<li>Картридж с тонером имеет дефект.</li>
+		<li>Данная бумага не совместима с принтером.</li> </textformat></font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+		<font color='#393536'><textformat blockindent='-18'><li>Замените картридж с тонером.</li> 
+		<li>Замените бумагу.</li></textformat></font>
+	</td>
+</tr>
+
+<tr>
+	<td bgcolor='#FFFFFF' valign="top">
+	<font color='#393536'>Бумага мнется после печати.</font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'>
+		<textformat blockindent='-18'><li>Бумага имеет дефект.</li>
+		<li>Бумага неправильно загружена.</li></textformat></font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'>
+		<textformat blockindent='-18'><li>Вытащите бумагу из принтера, проверьте на наличие дефектов и вставьте обратно.</li>
+		<li>Вытащите бумагу, выровняйте ее и вставьте обратно.</li></textformat></font>
+	</td>
+</tr>
+
+<tr>
+	<td bgcolor='#F3F5E7' valign="top">
+	<font color='#393536'>Бумага не поступает в принтер.</font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+	<font color='#393536'><textformat blockindent='-18'><li>Бумага мятая.</li>
+	<li>Принтер настроен для печати на бумаге другого размера.</li></textformat></font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+	<font color='#393536'><textformat blockindent='-18'><li>Вытащите мятую бумагу из лотка.</li> 
+	<li>Измените размер бумаги в параметрах печати.</li></textformat> </font>
+	</td>
+</tr>
+
+<tr>
+	<td bgcolor='#FFFFFF' valign="top">
+	<font color='#393536'>Пользователь получил сообщение "Document failed to print" (Не удалось напечатать документ). </font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+	<font color='#393536'>
+	<textformat blockindent='-18'><li>Кабель плохо подключен или отсоединен.</li>
+	<li>К принтеру больше нет общего доступа.</li></textformat></font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+	<font color='#393536'>
+	<textformat blockindent='-18'><li>Проверьте и повторно подключите кабель параллельного порта, USB или питания.</li>
+	<li>Настройте общий доступ к принтеру.</li></textformat></font>
+	</td>
+</tr>
+
+<tr>
+	<td bgcolor='#F3F5E7' valign="top">
+	<font color='#393536'>Пользователь получил сообщение "Access Denied" (Отказано в доступе) при установке принтера.</font>
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+	<font color='#393536'>У пользователя нет прав администратора или опытного пользователя.</font> 
+	</td>
+	<td bgcolor='#F3F5E7' valign="top">
+	<font color='#393536'>Выйдите и зайдите в систему как администратор или опытный пользователь.</font>
+	</td>
+</tr>
+
+<tr>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'>Принтер печатает неправильные цвета.</font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'>
+		<textformat blockindent='-18'><li>Картридж принтера пуст.</li>
+		<li>Картридж имеет дефект.</li>
+		<li>Установлен неправильный картридж.</li>
+		<li>Нужно очистить печатающие головки и провести их калибровку.</li></textformat></font>
+	</td>
+	<td bgcolor='#FFFFFF' valign="top">
+		<font color='#393536'>
+		<textformat blockindent='-18'><li>Замените картридж.</li>
+		<li>Очистите и откалибруйте принтер с помощью прилагающегося ПО.</li></textformat></font>
+	</td>
+</tr>
+
+</table>]]>
+</text>
+</component>
+</textcomponents>
+

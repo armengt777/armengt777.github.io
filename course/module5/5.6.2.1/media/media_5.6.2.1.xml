@@ -1,0 +1,144 @@
+﻿<textcomponents>
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+					<td colspan='3' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения</b></font></td>
+	</tr>
+	<tr class="liner_top">
+					<td colspan='3' bgcolor='#434321' class="liner_top"><font size='2' color='#434321'>.</font></td>
+				</tr>
+	<tr>
+		<td bgcolor='#A2AA23' width="106"><font color='#FFFFFF'><b>Определение проблемы</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#FFFFFF'><b>Возможные причины</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#FFFFFF'><b>Возможные решения</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'>ОС заблокирована.</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Компьютер перегрелся.</li><li>Некоторые файлы операционной системы повреждены.</li><li>Неисправности питания, ОЗУ, жесткого диска или материнской платы.</li><li>Неверные значения параметров BIOS.</li><li>Произошло неизвестное событие, которое привело к блокированию операционной системы.</li><li>Установлен неверный драйвер.</li></textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Очистите внутренние компоненты.</li><li>Проверьте подключения вентиляторов, убедитесь в их правильной работе.</li><li>Запустите программу проверки системных файлов и замените поврежденные файлы операционной системы.</li><li>Проверьте блок питания, ОЗУ, жесткий диск и материнскую плату (с помощью программ диагностики сторонних поставщиков) и при необходимости замените их.</li><li>Просмотрите события в журнале событий.</li><li>Проверьте и настройте параметры BIOS.</li><li>Установите драйверы или выполните откат обновленных драйверов к их предыдущим версиям.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Мышь/клавиатура не реагирует на воздействие.</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Сбой связи между клавиатурой/мышью и компьютером.</li><li>В компьютере установлен несовместимый или устаревший драйвер.</li><li>Поврежден кабель.</li><li>Устройство неисправно.</li><li>Используется KVM-переключатель, и активный компьютер не отображается.</li></textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Перезагрузите компьютер.</li><li>Установите или откатите драйверы.</li>
+		<li>Замените устройство.</li>
+		<li>Смените устройство ввода на KVM-переключателе.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Не удается запустить операционную систему.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color="#393536"><textformat blockindent='-18'></textformat></font><textformat blockindent='-18'><li><font color="#393536">Сбой инициализации какого-либо устройства.</font></li><li><font color="#393536">Диск в приводе не является загрузочным.</font></li><li><font color="#393536">Возможно, некоторые файлы операционной системы повреждены.</font></li><li><font color="#393536">Возможно повреждение главной загрузочной записи.</font></li>
+		<li><font color="#393536">Возможны неисправности блока питания, ОЗУ, жесткого диска или материнской платы.</font></li>
+		<li><font color="#393536">Неправильно установлены драйверы для нового оборудования.</font></li><li><font color="#393536">При обновлении Windows была повреждена операционная система.</font></li></textformat></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Перезагрузите компьютер.</li><li>Извлеките из приводов все диски, не являющиеся загрузочными.</li><li>Выполните восстановление Windows с помощью программы восстановления системы. </li><li>Восстановите системный диск с помощью программы восстановления образа системы.</li><li>Выполните восстановление операционной системы.</li><li>Используйте консоль восстановления для исправления загрузчика операционной системы.</li><li>Замените неисправные блок питания, ОЗУ, жесткий диск или материнскую плату.</li><li>Отключите все недавно подключенные устройства и используйте параметр «Последняя удачная конфигурация» для запуска операционной системы.</li><li>Выполните загрузку компьютера в безопасном режиме и просмотрите события в журнале событий.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>По окончании процедуры POST отображается сообщение об ошибке "Invalid Boot Disk" (Недопустимый загрузочный диск).</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color="#393536"><textformat blockindent='-18'>
+		  </textformat></font><textformat blockindent='-18'><li><font color="#393536">В приводе находится диск, который не содержит операционной системы. </font></li><li><font color="#393536">В BIOS неправильно установлен порядок загрузки.</font></li>
+		  <li><font color="#393536">Не определяется жесткий диск или неправильно установлены перемычки жесткого диска.</font></li>
+		  <li><font color="#393536">На жестком диске не установлена операционная система.</font></li><li><font color="#393536">Главная загрузочная запись (MBR) повреждена.</font></li><li><font color="#393536">Вирус в загрузочном секторе компьютера.</font></li><li><font color="#393536">Отказ жесткого диска.</font></li></textformat></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Извлеките все носители из приводов.</li><li>Измените порядок загрузки в BIOS так, чтобы загрузка начиналась с загрузочного диска.</li><li>Повторно подключите кабели жесткого диска или переставьте перемычки жесткого диска.</li><li>Установите операционную систему.</li><li>Запустите команду fdisk /mbr из интерфейса командной строки (только для Windows XP).</li><li>Запустите антивирусную программу.</li><li>Замените жесткий диск.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>По окончании процедуры POST отображается сообщение "Inaccessible  Boot Disk" (Загрузочный диск недоступен).</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Недавно установленный драйвер устройства несовместим с загрузочным контроллером.</li><li>Поврежден диспетчер загрузки BOOTMGR (для Windows 7 или Windows Vista).</li><li>Поврежден загрузчик NTLDR (для Windows XP).</li></textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Используйте режим «Последняя удачная конфигурация» для загрузки компьютера.</li><li>Загрузите компьютер в безопасном режиме и загрузите точку восстановления, которая предшествовала установке нового оборудования.</li><li>Восстановите файл BOOTMGR с установочного носителя Windows 7 или Windows Vista.</li><li>Восстановите NTLDR с установочного носителя Windows XP.</li>
+</textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>На экране компьютера  после процедуры POST отображается сообщение "BOOTMGR is missing" (BOOTMGR отсутствует) (для Windows 7 и Windows Vista)</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Файл BOOTMGR отсутствует или поврежден.</li><li>Файл данных настройки загрузки отсутствует или поврежден.</li><li>В BIOS неправильно установлен порядок загрузки.</li><li>Главная загрузочная запись (MBR) повреждена.</li><li>Сбой жесткого диска.</li><li>Неправильно установлены перемычки жесткого диска.</li></textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Восстановите файл BOOTMGR с установочного носителя.</li><li>Восстановите файл данных конфигурации загрузки с установочного носителя.</li><li>Измените порядок загрузки в BIOS так, чтобы первым в списке загрузки стоял загрузочный диск.</li><li>Запустите команду chkdsk /F /R с консоли восстановления.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>По окончании процедуры POST отображается сообщение об ошибке "Missing NTLDR" (Отсутствует NTLDR) (для Windows XP)</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>NTLDR отсутствует или поврежден.</li><li>Компонент Ntdetect.com отсутствует или поврежден.</li><li>Компонент Boot.ini отсутствует или поврежден.</li><li>В BIOS неправильно установлен порядок загрузки.</li><li>Главная загрузочная запись (MBR) повреждена.</li><li>Произошел сбой жесткого диска.</li><li>Неправильно установлены перемычки жесткого диска.</li></textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Восстановите компонент NTLDR с установочного носителя.</li><li>Восстановите компонент ntdetect.com с установочного носителя.</li><li>Восстановите компонент boot.ini с установочного носителя.</li><li>Измените порядок загрузки BIOS так, чтобы первым в списке загрузки стоял загрузочный диск.</li><li>Запустите команду fdisk /mbr из командной строки.</li><li>Запустите команду chkdsk /F /R с консоли восстановления.</li><li>Переставьте перемычки на жестком диске.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'></textformat>При загрузке компьютера не запускается служба.</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Служба не включена.</li><li>Служба настроена на ручной режим.</li><li>Для запуска службы необходимо включение другой службы.</li></textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Включите службу.</li><li>Настройте службу на автоматический режим.</li><li>Выполните повторное включение или переустановку требуемой службы.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>При загрузке компьютера не запускается какое-либо устройство.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Питание внешнего устройства не включено.</li><li>К устройству не подключен кабель данных или кабель питания.</li><li>Устройство отключено в BIOS.</li><li>Произошел сбой устройства.</li><li>Устройство конфликтует с другим недавно установленным устройством.</li><li>Драйвер устройства поврежден.</li></textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Включите питание устройства.</li><li>Надежно подключите к устройству кабель данных и кабель питания.</li><li>Включите устройство в BIOS.</li><li>Замените устройство.</li><li>Удалите недавно установленное устройство.</li><li>Повторно установите драйвер или выполните его откат до предыдущей версии.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>Программа из списка реестра не найдена.</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Возможно, были удалены один или несколько программных файлов.</li><li>Неверно выполнено удаление программы.</li><li>Папка установки была перемещена.</li><li>Жесткий диск поврежден.</li><li>Компьютер заражен вирусом.</li></textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Повторно установите программу.</li><li>Повторно установите программу и повторно запустите удаление программы.</li><li>Запустите команду chkdsk /F /R для восстановления данных файла жесткого диска.</li><li>Проверьте компьютер на вирусы и удалите вирус.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Компьютер постоянно перезапускается, не отображая Рабочий стол.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Компьютер настроен на перезапуск в случае сбоя.</li><li>Файл автозапуска поврежден.</li></textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Нажмите клавишу F8, чтобы открыть меню «Дополнительные параметры», и выберите пункт «Отключить автоматическую перезагрузку при отказе системы».</li><li>Запустите команду chkdsk /F /R с консоли восстановления.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>Компьютер отображает черный или синий «экран смерти» (BSOD).</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Один из драйверов несовместим с оборудованием.</li><li>Сбой ОЗУ.</li><li>Сбой блока питания.</li><li>Сбой ЦП.</li><li>Сбой материнской платы.</li></textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Выполните поиск фатальной ошибки и имени модуля, вызвавшего ошибку.</li><li>Замените устройства, в которых произошел сбой, на заведомо исправные устройства.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Компьютер блокируется без отображения сообщений об ошибке.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>ЦП или внешняя шина неправильно настроены на материнской плате или в BIOS.</li><li>Компьютер перегрет.</li><li>Операционная система повреждена после выполнения обновления.</li><li>Отказ ОЗУ.</li><li>Отказ жесткого диска.</li><li>Отказ источника питания.</li></textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Проверьте и сбросьте параметры ЦП и внешней шины. </li><li>Проверьте и при необходимости замените вентиляторы. Удалите обновление программ или выполните восстановление системы.</li><li>Запустите команду chkdsk /F /R с консоли восстановления.</li><li>Замените неисправные устройства на заведомо исправные.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>Приложение не устанавливается.</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Загруженная программа установки приложения содержит вирус, и его установка запрещена антивирусной программой.</li><li>Установочный диск или файл поврежден.</li><li>Установочная программа несовместима с операционной системой.</li><li>Запущено слишком много программ, и для установки приложения недостаточно памяти.</li><li>Оборудование не удовлетворяет минимальным требованиям.</li></textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Приобретите новый установочный диск или удалите зараженный файл и загрузите установочный файл заново.</li><li>Запустите установочную программу в режиме совместимости.</li><li>Закройте приложения, прежде чем устанавливать новую программу.</li><li>Установите оборудование, которое отвечает минимальным требованиям.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>На компьютере с установленной ОС Windows 7 не запускается Aero.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Компьютер не удовлетворяет минимальным требованиям для запуска Aero.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>
+		<textformat blockindent='-18'>Обновите процессор, ОЗУ и видеокарту, чтобы они удовлетворяли минимальным требованиям для Aero.</textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>Функция поиска работает слишком медленно.</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Служба индексирования не работает.</li><li>Служба индексирования не индексирует нужные местоположения.</li></textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Запустите службу индексирования с помощью services.msc.</li><li>Измените параметры службы индексирования на панели «Дополнительные параметры».</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Контроль учетных записей больше не выдает запрос на разрешение доступа пользователю.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Контроль учетных записей отключен.
+</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Включите контроль учетных записей на панели управления.  </textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>На Рабочем столе не отображаются гаджеты.</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Гаджеты не установлены или удалены.</li><li>XML, необходимый для визуализации гаджетов, поврежден, испорчен или не установлен.</li></textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'><li>Щелкните правой кнопкой мыши пункт «Гаджеты», щелкните гаджет правой кнопкой мыши и нажмите «Добавить».</li><li>Зарегистрируйте файл msxml3.dll, введя regsvr32 msxml3.dll в командной строке и нажав Ввод.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Компьютер работает медленно и отвечает с запаздыванием.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Процесс потребляет большую часть ресурсов ЦП.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'><li>Перезапустите процесс с помощью services.msc.</li><li>Если процесс не нужен, завершите его с помощью Диспетчера задач.</li><li>Перезапустите компьютер.</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>Компьютер не распознает внешний носитель.</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>У ОС нет подходящих драйверов для внешнего носителя.</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>Загрузите подходящие драйверы для данного носителя.</textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Новая звуковая плата не работает.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Звук выключен.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Включите звук с помощью программы «Звук» на Панели управления.</textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>Некоторые внешние устройства для 32-разрядного компьютера не работают на 64-разрядном компьютере.</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>Установлены неправильные драйверы устройств.</textformat></font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'><textformat blockindent='-18'>Обновление драйверов устройств до 64-разрядной версии.</textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>После обновления до Windows 7 компьютер работает очень медленно.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Медленная работа компьютера связана с интерфейсом Aero.</textformat></font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'><textformat blockindent='-18'>Отключите интерфейс Aero в Windows 7.
+</textformat></font></td>
+	</tr>
+</table>]]></text>
+</component>
+
+</textcomponents>

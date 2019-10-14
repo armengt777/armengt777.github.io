@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+		<slide>		
+			<element type="TEXT" subType="TITLE" compId="ID_title" />	
+			<element type="IMAGE" subType="STD" x="79.5" y="42.9" width="361.7" height="351.9" src="5_2_1_1.jpg" />
+			<element type="TEXT" compId="ID_txt01" x="1" y="58.4" width="90" align="center" expand="up+down" size="10"/>
+			<element type="TEXT" compId="ID_txt02" x="1" y="139.3" width="90" align="center" expand="up+down" size="10"/>
+			<element type="TEXT" compId="ID_txt03" x="1" y="95.35" width="90" align="center" expand="up+down" size="10"/>
+			<element type="TEXT" compId="ID_txt04" x="1" y="183.25" width="90" align="center" expand="up+down" size="10"/>
+			<element type="TEXT" compId="ID_txt12" x="1" y="222.85" width="90" align="center" expand="up+down" size="10"/>
+			<element type="TEXT" compId="ID_txt05" x="367.05" y="132.55" width="83.25" align="center" expand="up+down" size="10"/>
+			<element type="TEXT" compId="ID_txt06" x="368.55" y="163.3" width="84.75" align="center" expand="down" size="10"/>
+			<element type="TEXT" compId="ID_txt07" x="349.35" y="213.9" width="106.95" align="center" expand="up" size="10"/>
+			<element type="TEXT" compId="ID_txt08" x="325.85" y="245.5" width="129.45" align="center" expand="down" size="10"/>
+			<element type="TEXT" compId="ID_txt09" x="327.85" y="288.05" width="129.5" align="center" expand="down" size="10"/>
+			<element type="TEXT" compId="ID_txt10" x="255.25" y="365" width="215" align="center" expand="up" size="10"/>
+			<element type="TEXT" compId="ID_txt11" x="2" y="365" width="168.75" align="center" expand="up" size="10"/>
+			<element type="TEXT" compId="ID_txt13" x="137.6" y="281.55" width="60.7" align="center" expand="up+down" size="9" color="#fff" rotation="-4"/>
+			<element type="TEXT" compId="ID_txt15" x="240.4" y="307.5" width="46.65" align="center" expand="up+down" size="9" color="#fff"/>
+			<element type="TEXT" compId="ID_txt14" x="187.35" y="301.1" width="57.05" align="center" expand="up+down" size="9" color="#fff"/>
+
+		</slide>			
+</data>
+

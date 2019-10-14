@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.2.4.1 Процедуры многовариантной загрузки</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.2.4.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка операционной системы</h1>
+        <h2>Многовариантная загрузка</h2>
+      </div>
+      <div id="content">
+          <p>На одном компьютере может находиться несколько операционных систем. Для одних программ может требоваться последняя версия ОС, а для других — более ранняя версия. При наличии на одном компьютере нескольких операционных систем используется процесс двойной загрузки. Во время процесса загрузки диспетчер загрузки Windows (BOOTMGR) определяет наличие более одной ОС и предлагает выбрать ОС для загрузки, как показано на рис. 1.</p>
+          <p>Для создания системы двойной загрузки в Microsoft Windows жесткий диск должен содержать более одного раздела.</p>
+          <p>Более раннюю версию ОС следует установить в основной раздел или на жесткий диск, который был выбран в качестве первого активного раздела. Вторую ОС следует установить во второй раздел или на второй жесткий диск. Загрузочные файлы автоматически устанавливаются в активный раздел.</p>
+          <p>
+            <b>Файл BOOTMGR</b>
+          </p>
+          <p>Во время установки в активном разделе создается файл BOOTMGR, позволяющий выбрать ОС, загружаемую при запуске. Файл BOOTMGR можно настроить таким образом, чтобы изменить порядок операционных систем. Можно также изменить время выбора ОС на этапе загрузки. Обычно значение по умолчанию составляет 30 секунд. Загрузка компьютера откладывается на указанное время, чтобы дать пользователю возможность выбрать нужную ОС. Если на диске находится только одна ОС, рекомендуется установить время равным 5-10 секундам, чтобы компьютер загружался быстрее.</p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. В Windows XP вместо файла BOOTMGR используется файл BOOT.INI.</p>
+          <p>Чтобы изменить время отображения имеющихся операционных систем, перейдите по следующим пунктам:</p>
+          <p>Нажмите <b>Пуск &gt; Панель управления &gt; Система и безопасность &gt; Система &gt; Дополнительные параметры системы</b>, щелкните вкладку <b>Дополнительно</b> <b></b>и в поле<b> Загрузка и восстановление </b>выберите пункт <b>Параметры</b></p>
+          <p>Чтобы изменить общие данные настройки загрузки в Windows 7 и Vista, используйте средство командной строки bcdedit.exe, как показано на рис. 2. Для доступа к средству bcdedit.exe перейдите по следующим пунктам:</p>
+          <p>Нажмите <b>Пуск &gt; Все программы &gt; Стандартные</b>, щелкните правой кнопкой мыши пункт <b>Командная строка &gt; Запуск от имени администратора &gt; Продолжить</b>, введите <b>bcdedit.exe</b></p>
+          <p></p>
+          <p>Для изменения файла boot.ini в Windows XP перейдите по следующим пунктам:</p>
+          <p></p>
+          <p>Нажмите кнопку <b>Пуск</b>, щелкните правой кнопкой мыши пункт <b>Мой компьютер &gt; Свойства &gt; Дополнительно</b><b></b>, в разделе <b>З</b><b>агрузка и восстановление</b> выберите <b>Параметры</b><b></b> и нажмите кнопку <b>Правка</b></p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

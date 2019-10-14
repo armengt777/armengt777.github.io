@@ -1,0 +1,88 @@
+﻿<textcomponents>
+
+<!--Slide 2-->
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Сравнение моделей OSI и TCP/IP</b>]]></text>
+</component>
+<component id="ID_header01">
+	<text><![CDATA[<b>Интернет</b>]]></text>
+</component>
+<component id="ID_header02">
+	<text><![CDATA[<b>Уровень приложений</b>]]></text>
+</component>
+<component id="ID_header03">
+	<text><![CDATA[<b>Сетевой доступ</b>]]></text>
+</component>
+<component id="ID_header04">
+	<text><![CDATA[<b>Транспортный</b>]]></text>
+</component>
+<!--Drag and Drop Activity-->
+<component id="ID_continue_btn">
+	<text><![CDATA[Продолжить]]></text>
+</component>
+<component id="ID_DnD_inst_title">
+	<text><![CDATA[<b>Действие модели OSI</b>]]></text>
+</component>
+
+<component id="ID_DnD_inst_body">
+	<text><![CDATA[<p>Сравнение моделей OSI и TCP/IP.</p><br /><p>Перетащите уровень OSI на верный уровень TCP/IP, затем щелкните <b>Проверить</b>.</p><br /><p>Нажмите кнопку <b>Продолжить</b>, чтобы начать. Щелкните <b>?</b>, чтобы увидеть эти инструкции снова.</p>]]></text>
+</component>
+
+<component id="ID_DnD_inst_body1">
+	<text><![CDATA[<p>Сравнение моделей OSI и TCP/IP.</p><p>Перетащите уровень OSI на верный уровень TCP/IP, затем щелкните <b>Проверить</b>.</p><p>Нажмите <b>Продолжить</b>, чтобы начать. Щелкните <b>?</b>, чтобы увидеть эти инструкции снова.</p>]]></text>
+</component>
+
+<component id="ID_s2_inst">
+	<text><![CDATA[Сравнение моделей OSI и TCP/IP.<br><b>Перетащите уровень OSI на верный уровень TCP/IP, затем щелкните «Проверить».</b>]]></text>
+</component>
+
+<component id="ID_ds_a1">
+	<text><![CDATA[<b>Уровень приложений</b>]]></text>
+</component>
+
+<component id="ID_ds_a2">
+	<text><![CDATA[<b>Представления</b>]]></text>
+</component>
+
+<component id="ID_ds_t1">
+	<text><![CDATA[<b>Транспортный</b>]]></text>
+</component>
+
+<component id="ID_ds_n1">
+	<text><![CDATA[<b>Канальный</b>]]></text>
+</component>
+
+<component id="ID_ds_n2">
+	<text><![CDATA[<b>Физический</b>]]></text>
+</component>
+
+<component id="ID_ds_i1">
+	<text><![CDATA[<b>Сетевой</b>]]></text>
+</component>
+
+<component id="ID_ds_a3">
+	<text><![CDATA[<b>Сеансовый</b>]]></text>
+</component>
+
+<!--Feedback-->
+<component id="ID_CORRECT_TITLE">
+	<text><![CDATA[Верно]]></text> 
+</component>
+<component id="ID_CORRECT_BODY">
+	<text><![CDATA[Правильно.]]></text> 
+</component>
+<component id="ID_INCORRECT_TITLE">
+	<text><![CDATA[Неверно]]></text> 
+</component>
+<component id="ID_INCORRECT_BODY">
+	<text><![CDATA[Неправильно.]]></text> 
+</component>
+<!--Buttons-->
+<component id="ID_CHECK">
+	<text><![CDATA[Проверить]]></text> 
+</component>
+<component id="ID_RESET">
+	<text><![CDATA[Сброс]]></text> 
+</component>
+
+</textcomponents>

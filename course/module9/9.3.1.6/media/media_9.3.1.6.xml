@@ -1,0 +1,51 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>Страница загрузки драйвера на веб-сайте производителя принтеров</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[<b>Магазин продуктов и услуг</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+	<text><![CDATA[<b>Исследуйте и создавайте</b>]]></text>
+</component>
+
+<component id="ID_txt03">
+	<text><![CDATA[<b>Поддержка и драйверы</b>]]></text>
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[<b>Поддержка и драйверы</b>]]></text>
+</component>
+
+<component id="ID_txt05">
+	<text><![CDATA[<b>Загрузка драйверов и ПО</b>]]></text>
+</component>
+
+<component id="ID_txt06">
+	<text><![CDATA[<b>Поддержка продукта и поиск и устранение неполадок</b>]]></text>
+</component>
+
+<component id="ID_txt07">
+	<text><![CDATA[<b>Сообщества поддержки</b>]]></text>
+</component>
+
+<component id="ID_txt08">
+	<text><![CDATA[<b>Введите название или номер продукта.</b>]]></text>
+</component>
+
+<component id="ID_txt09">
+	<text><![CDATA[<b>ПОИСК</b>]]></text>
+</component>
+
+<component id="ID_txt10">
+	<text><![CDATA[Как мне узнать название или номер моего продукта?]]></text>
+</component>
+
+<component id="ID_txt11">
+	<text><![CDATA[ ]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.4.1.6 Аппаратные межсетевые экраны</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.4.1.6_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Физические компоненты сети</h1>
+        <h2>Сетевые устройства</h2>
+      </div>
+      <div id="content">
+          <p>Аппаратные межсетевые экраны, например интегрированные маршрутизаторы, обеспечивают защиту данных и оборудования в сети от несанкционированного доступа. Аппаратный межсетевой экран &mdash; это независимое устройство, расположенное между двумя или более сетями, как показано на рисунке. Он не использует ресурсы компьютеров, которые защищает, следовательно, не влияет на производительность обработки данных. </p>
+          <p></p>
+          <p>Межсетевой экран следует использовать в качестве дополнения к ПО обеспечения безопасности. Межсетевой экран разделяет две сети или более и контролирует проходящий между ними трафик, одновременно предотвращая несанкционированный доступ. В межсетевых экранах используются различные методы определения разрешенного и запрещенного доступа к сегментам сети. </p>
+          <p></p>
+          <p>При выборе аппаратного межсетевого экрана следует учитывать следующие аспекты.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Пространство</b> &mdash; устанавливается отдельно, требует специализированного оборудования</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Стоимость</b> &mdash; начальная стоимость обновления оборудования и ПО может быть довольно высокой</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Число компьютеров</b> &mdash; обеспечивается защита нескольких компьютеров</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Требования к производительности</b> &mdash; незначительное влияние на производительность компьютеров</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. В защищенной сети, если производительность компьютеров не является проблемой, включите встроенный межсетевой экран операционной системы, чтобы обеспечить дополнительную безопасность. Некоторые приложения могут работать неправильно, пока для них соответствующим образом не будет настроен межсетевой экран.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

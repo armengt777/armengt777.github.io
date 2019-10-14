@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE">
+		<slide type="MBUTTON">
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+			
+			<slide buttonType="BLUE" buttonX="5" buttonY="69" buttonWidth="110" buttonHeight="41" compId="ID_btn01">
+				<element type="IMAGE" src="2_2_2_1A.jpg" subType="STD" x="140" y="99.5" width="328" height="201" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="98.8" buttonWidth="110" buttonHeight="41" compId="ID_btn02">
+				<element type="IMAGE" src="2_2_2_1B.jpg" subType="STD" x="140" y="107.1" width="326.05" height="185.85" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="151.6" buttonWidth="110" buttonHeight="41" compId="ID_btn03">
+				<element type="IMAGE" src="2_2_2_1C.jpg" subType="STD" x="140" y="107.5" width="328" height="185" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="182" buttonWidth="110" buttonHeight="41" compId="ID_btn04">
+				<element type="IMAGE" src="2_2_2_1D.jpg" subType="STD" x="140" y="117" width="328" height="166" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="234.2" buttonWidth="110" buttonHeight="41" compId="ID_btn05">
+				<element type="IMAGE" src="2_2_2_1E.jpg" subType="STD" x="140" y="69" width="330" height="262" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="266" buttonWidth="110" buttonHeight="41" compId="ID_btn06">
+				<element type="IMAGE" src="2_2_2_1F.jpg" subType="STD" x="179.9" y="53.9" width="241.25" height="292.25" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="5" buttonY="317.8" buttonWidth="110" buttonHeight="41" compId="ID_btn07">
+				<element type="IMAGE" src="2_2_2_1G.jpg" subType="STD" x="140" y="117.5" width="328" height="165" />
+			</slide>
+		</slide>
+</data>

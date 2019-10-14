@@ -1,0 +1,39 @@
+﻿<textcomponents>
+  <component id="ID_title">
+    <text>
+
+    </text>
+  </component>
+    <component id="ID_table">
+      <text>
+        <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+          
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 3. Проверка предположений для определения причины неполадки</b></font></td>
+	</tr>  
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	
+          <tr>
+            <td width="127" valign="top" bgcolor='#F3F5E7'>
+              <font color='#393536'>Стандартные действия для определения причины</font>
+            </td>
+            <td  valign="top" bgcolor='#F3F5E7'>
+              <font color='#393536'>
+                <textformat blockindent='-18'><li>Отключите устройство от сети.</li>
+                <li>Обновите сигнатуры антивирусного ПО и программы защиты от шпионского ПО.</li>
+                <li>Просканируйте компьютер с помощью защитного ПО.</li>
+                <li>Проверьте наличие новейших исправлений и <span class="space">обновлений ОС компьютера.</span></li>
+                <li>Перезагрузите компьютер или сетевое устройство.</li>
+                <li>Войдите в систему как другой пользователь, чтобы изменить <span class="space">пароль.</span></li>
+                <li>Защитите комнаты с оборудованием.</li>
+                <li>Защитите рабочую среду.</li>
+                <li>Примените политику безопасности.</li></textformat>
+              </font>
+            </td>
+          </tr>
+        </table>]]>
+      </text>
+    </component>
+  </textcomponents>

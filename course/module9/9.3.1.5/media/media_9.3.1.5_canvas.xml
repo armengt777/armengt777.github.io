@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data course="ITE" >
+	<slide>
+		<element type="TEXT" subType="TABLE" class="mtable" compId="ID_table" x="25.1" y="136" width="417.9" height="270" />
+		<element type="TEXT" subType="TITLE" compId="ID_title"/>
+	</slide>
+</data>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.5.2.12 Пластмассовые компоненты</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.5.2.12_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка и настройка оборудования и компонентов ноутбука</h1>
+        <h2>Замена оборудования</h2>
+      </div>
+      <div id="content">
+          <p>Внешняя часть ноутбука, как правило, состоит из нескольких пластмассовых компонентов. В их число входят детали, предназначенные для защиты памяти, беспроводной платы и жесткого диска, а также корпус сенсорной панели и клавиатуры.</p>
+          <p></p>
+          <p>Для извлечения и замены пластмассовых компонентов выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Отключите адаптер переменного тока и извлеките аккумулятор.</p>
+          <p>
+            <b>Этап 2. </b>Измените положение ноутбука таким образом, чтобы необходимый пластмассовый компонент находился перед вами.</p>
+          <p>
+            <b>Этап 3. </b>Отверните винты, фиксирующие пластмассовый компонент, или подденьте его, как указано в инструкции производителя.</p>
+          <p>
+            <b>Этап 4. </b>Установите пластмассовый компонент и установите на место винты или вставьте и закрепите компонент.</p>
+          <p>
+            <b>Этап 5. </b>Вставьте аккумулятор и подключите адаптер переменного тока.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

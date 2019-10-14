@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.1.2.3 Установка материнской платы</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.1.2.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сборка компьютера</h1>
+        <h2>Установка материнской платы</h2>
+      </div>
+      <div id="content">
+          <p>Теперь материнская плата готова к установке в корпус компьютера, как показано на рисунке 1. Для установки материнской платы и предотвращения ее соприкосновения с металлическими частями корпуса применяются пластиковые и металлические изолирующие муфты. Используйте только те муфты, которые подходят под отверстия в материнской плате. Установка дополнительных изоляционных муфт может помешать правильному расположению материнской платы в корпусе компьютера.</p>
+          <p>Так как расположение портов ввода-вывода на разных материнских платах отличаются, рамка ввода-вывода поставляется вместе с материнской платой, как показано на рисунке 2. Рамка ввода-вывода имеет вырезы на задней части материнской платы, предназначенные специально для разъемов. Рамка ввода-вывода устанавливается внутри задней части корпуса компьютера, чтобы можно было использовать разъемы, когда материнская плата будет установлена в корпус.</p>
+          <p>Для установки материнской платы выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Установите в компьютерный корпус изоляционные муфты так, чтобы они совпадали с расположением крепежных отверстий в материнской плате.</p>
+          <p>
+            <b>Этап 2. </b>Установите рамку ввода-вывода в заднюю часть компьютерного корпуса.</p>
+          <p>
+            <b>Этап 3. </b>Совместите разъемы ввода/вывода в задней части материнской платы с отверстиями в рамке ввода-вывода.</p>
+          <p>
+            <b>Этап 4. </b>Совместите отверстия для винтов в материнской плате с изолирующими муфтами.</p>
+          <p>
+            <b>Этап 5. </b>Вставьте все винты для материнской платы.</p>
+          <p>
+            <b>Этап 6. </b>Затяните все винты для материнской платы.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.2.4.2 GPS</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.2.4.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Мобильные операционные системы</h1>
+        <h2>Основные функции мобильных устройств</h2>
+      </div>
+      <div id="content">
+          <p>Еще одной общей функцией мобильных устройств является использование глобальной системы позиционирования (GPS). GPS &mdash; это система навигации, которая определяет время и местоположение на Земле на основе данных, полученных со спутников и наземного приемника. Для расчета местоположения радиоприемник GPS использует не менее четырех спутников. GPS &mdash; очень точная система, устойчивая к большинству погодных условий. Однако густые леса, туннели и высокие здания могут создавать помехи для спутниковых сигналов.</p>
+          <p>Есть устройства GPS для автомобилей, судов и портативных устройств, которые используют путешественники и туристы. В мобильных устройствах приемники GPS выполняют несколько функций:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Навигация</b> &mdash; картографическое приложение, которое показывает подробные маршруты для указанных места, адреса или координат.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Геокэшинг</b> &mdash; картографическое приложение, которое показывает местоположение тайников &mdash; спрятанных контейнеров по всему миру. Пользователи ищут их и обычно оставляют запись в журнале о том, что им удалось найти тайник.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Геопривязка</b> &mdash; внедряет сведения о расположении в цифровой объект, такой как фотография или видео, указывая, где объект был создан.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Особые результаты поиска </b>&mdash; например, вывод результатов по близости к пользователю объектов, таких как ближайших ресторанов при поиске по ключевому слову <i>рестораны</i>. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Отслеживание устройства </b>&mdash; отображение местонахождения потерянного или украденного устройства на карте.</li>
+            </ul>
+          </p>
+          <p>Чтобы включить GPS на устройстве Android (рис. 1), выберите следующее:</p>
+          <p>
+            <b>Настройки &gt; Службы геолокации &gt; Использовать спутники GPS.</b>
+          </p>
+          <p>Чтобы включить GPS на устройстве iOS (рис. 2), перейдите по следующим пунктам:</p>
+          <p>
+            <b>Настройки &gt; Службы геолокации &gt; </b>Включить службы геолокации.</p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. В некоторых устройствах Android и iOS нет приемников GPS. Для работы служб геолокации эти устройства используют данные, полученные из доступных сетей Wi-Fi и сотовой связи.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

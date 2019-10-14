@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.1.1.1 Компоненты, не подлежащие обслуживанию на месте эксплуатации</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.1.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Обзор оборудования мобильных устройств</h1>
+        <h2>Оборудование мобильных устройств</h2>
+      </div>
+      <div id="content">
+          <p>В отличие от портативных компьютеров, в мобильных устройствах нет деталей, подлежащих обслуживанию на месте эксплуатации. Мобильные устройства состоят из нескольких компактных компонентов, интегрированных в единый модуль. В случае неправильного функционирования мобильное устройство обычно отправляют производителю для ремонта или замены. Если устройство еще на гарантии, его часто можно вернуть для обмена по месту покупки.</p>
+          <p>Сломанные мобильные устройства обычно следует возвращать производителю для ремонта или замены. На многих веб-сайтах можно найти компоненты и инструкции по ремонту мобильных устройств, в том числе сенсорных экранов, передней и задней панели и аккумуляторов. При установке компонентов не от производителя устройства гарантия утрачивает силу. Такие действия могут привести к повреждению устройства. Например, аккумулятор для iPhone (рис. 1) нельзя заменять аккумулятором от другого производителя (не Apple). При установке нового аккумулятора, который не соответствует точным электрическим характеристикам телефона, может произойти короткое замыкание или перегрузка, что сделает телефон непригодным к эксплуатации.</p>
+          <p>В мобильных устройствах нет компонентов, подлежащих обслуживанию на месте, но некоторые компоненты допускают замену пользователем:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Аккумулятор</b> &mdash; аккумуляторы для некоторых мобильных устройств подлежат замене (рис. 2). </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Карта памяти</b> &mdash; во многих мобильных устройствах используются карты памяти для увеличения возможного объема сохраняемой информации (рис. 3). </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>SIM-карта</b> &mdash; на этой маленькой карте хранится информация, которая позволяет службам мобильной телефонной связи и передачи данных проверить подлинность устройства (рис. 4). SIM-карты также могут содержать данные пользователя, такие как контакты и текстовые сообщения.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

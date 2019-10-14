@@ -1,0 +1,146 @@
+﻿<textcomponents>
+
+
+<!--Slide 1-->
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Диспетчер загрузки Windows</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[<font face='_typewriter' size='10' class="ID_s1_txt01"><b>Диспетчер загрузки Windows</b></font>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+	<text><![CDATA[<font color="#FFFFFF" face='_typewriter' class="ID_s1_txt02"><b>Выберите операционную систему для запуска или нажмите клавишу TAB, чтобы выбрать инструмент:</b><br><span class="ID_s1_txt02">(Используйте клавиши со стрелками, чтобы выделить выбранный вариант, затем нажмите ВВОД.)</span></font>]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+	<text><![CDATA[<font color="#FFFFFF" face='_typewriter' class="ID_s1_txt02"><b>Для указания дополнительных параметров загрузки нажмите F8.</b><br><span class="ID_s1_txt02">Выделенная система будет автоматически запущена через: 29</span><br><br><br><b class="ID_s1_txt02">Инструменты:</b><br><br><textformat blockindent='25'><span class="ID_s1_txt02">Средство диагностики памяти Windows</span></textformat></font>]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[<font color="#FFFFFF" face='_typewriter' class="ID_s1_txt04">Windows 7 <span class="space">></span><b></font>]]></text>
+</component>
+<component id="ID_s1_txt05">
+	<text><![CDATA[<font color="#FFFFFF" face='_typewriter' class="ID_s1_txt05">Windows XP<b></font>]]></text>
+</component>
+
+<!--Slide 2-->
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Инструмент командной строки bcdedit.exe</b>]]></text>
+</component>
+
+<component id="ID_s2_txt0">
+	<text><![CDATA[<font><b class="ID_s2_txt01">C:\</b></font>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+	<text><![CDATA[<font><b class="ID_s2_txt01">Администратор: C:\Windows\system32\cmd.exe</b></font>]]></text>
+</component>
+
+<component id="ID_s2_txt02">
+	<text><![CDATA[<font color="#E9E7E8" face='_typewriter' size='10'><textformat tabstops='[150]'>C:\Users\John Doe&gt;bcedit.exe<br><br>Диспетчер загрузки Windows<br>--------------------<br>identifier	{bootmgr}<br>device	partition=\Device\HarddiskVolume1<br>description	Загрузчик Windows<br>locale	en-US<br>inherit	&lt;globalsettings&gt;<br>default	&lt;current&gt;<br>resumeobject	&lt;a11177bd-a5cf-11e1-acab-950c0ec54e74&gt;<br>displayorder	&lt;current&gt;<br>toolsdisplayorder	&lt;memdiag&gt;<br>timeout	30<br><br>Загрузчик Windows<br>-------------------<br>identifier	&lt;current&gt;<br>device	partition=C:<br>path	\Windows\system32\winload.exe<br>description	Windows 7<br>locale	en-US<br>inherit	&lt;bootloadersettings&gt;<br>recoverysequence	&lt;a11177bf-a5cf-11e1-acab-950c0ec54e74&gt;<br>recoveryenabled	Yes<br>osdevice	partition=C:<br>systemroot\Windows<br>resumeobject	&lt;a11177bd-a5cf-11e1-acab-950c0ec54e74&gt;<br>nx	OptIn<br><br>C:\Users\John Doe&gt;</textformat></font>]]></text>
+</component>
+
+<component id="ID_s2_txt03">
+	<text><![CDATA[<font color="#E9E7E8" face='_typewriter'>C:\Users\John Doe&gt;bcedit.exe<br>Диспетчер загрузки Windows<br>------------------------------<br>				
+						<table>
+							<tr>
+								<td width="40%">identifier</td>
+								<td>{bootmgr}</td>
+							</tr>
+							<tr>
+								<td>device</td>
+								<td>partition=\Device\HarddiskVolume1</td>
+							</tr>
+							<tr>
+								<td>description</td>
+								<td>Диспетчер загрузки Windows</td>
+							</tr>
+							<tr>
+								<td>locale</td>
+								<td>en-US</td>
+							</tr>							
+							<tr>
+								<td>inherit</td>
+								<td>&lt;globalsettings&gt;</td>
+							</tr>							
+							<tr>
+								<td>default</td>
+								<td>&lt;current&gt;</td>
+							</tr>							
+							<tr>
+								<td>resumeobject</td>
+								<td>&lt;a11177bd-a5cf-11e1-acab-950c0ec54e74&gt;</td>
+							</tr>							
+							<tr>
+								<td>displayorder</td>
+								<td>&lt;current&gt;</td>
+							</tr>							
+							<tr>
+								<td>toolsdisplayorder</td>
+								<td>&lt;memdiag&gt;</td>
+							</tr>							
+							<tr>
+								<td>timeout</td>
+								<td>30</td>
+							</tr>
+						</table>
+						<br>Загрузчик Windows<br>------------------------------<br>
+						<table>							
+							<tr>
+								<td width="40%">identifier</td>
+								<td>&lt;current&gt;</td>
+							</tr>							
+							<tr>
+								<td>device</td>
+								<td>partition=C:</td>
+							</tr>							
+							<tr>
+								<td>path</td>
+								<td>\Windows\system32\winload.exe</td>
+							</tr>							
+							<tr>
+								<td>description</td>
+								<td>Windows 7</td>
+							</tr>							
+							<tr>
+								<td>locale</td>
+								<td>en-US</td>
+							</tr>							
+							<tr>
+								<td>inherit</td>
+								<td>&lt;bootloadersettings&gt;</td>
+							</tr>							
+							<tr>
+								<td>recoverysequence</td>
+								<td>&lt;a11177bf-a5cf-11e1-acab-950c0ec54e74&gt;</td>
+							</tr>							
+							<tr>
+								<td>recoveryenabled</td>
+								<td>Yes</td>
+							</tr>							
+							<tr>
+								<td>osdevice</td>
+								<td>partition=C:</td>
+							</tr>							
+							<tr>
+								<td>systemroot\Windows</td>
+								<td></td>
+							</tr>							
+							<tr>
+								<td>resumeobject</td>
+								<td>&lt;a11177bd-a5cf-11e1-acab-950c0ec54e74&gt;</td>
+							</tr>							
+							<tr>
+								<td>nx</td>
+								<td>OptIn</td>
+							</tr>							
+							<tr>
+								<td></td>
+								<td></td>
+							</tr>
+						</table><br/>C:\Users\John Doe&gt;<br/><br/></font>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>9.1.1.2 Типы подключений проводных принтеров</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.1.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Общие функции принтеров</h1>
+        <h2>Характеристики и возможности</h2>
+      </div>
+      <div id="content">
+          <p>Чтобы печать была возможна, принтер должен иметь интерфейс, совместимый с компьютером. Подключение принтеров к домашним компьютерам обычно выполняется через параллельный порт, порт USB или беспроводной интерфейс. С помощью сетевого кабеля или беспроводного интерфейса можно подключить принтер к сети.</p>
+          <p>
+            <b>Последовательный порт</b>
+          </p>
+          <p>Последовательная передача данных &mdash; это движение отдельных битов информации в одном цикле. Подключение через последовательный порт можно использовать для точечно-матричных принтеров, так как они не требуют высокой скорости передачи данных. </p>
+          <p>
+            <b>Параллельный порт</b>
+          </p>
+          <p>Параллельная передача данных быстрее последовательной. При параллельной передаче данных в одном цикле переносится сразу несколько битов информации. В случае параллельного порта канал передачи данных шире, чем для последовательной передачи, что обеспечивает более быстрый обмен данными с принтером. </p>
+          <p>IEEE 1284 &mdash; это стандарт, принятый для параллельных портов принтеров. Два режима работы в рамках стандарта IEEE 1284 обеспечивают возможность двунаправленной коммуникации: через расширенный параллельный порт (Enhanced Parallel Port &mdash; EPP) и через порт с расширенными возможностями (Enhanced Capabilities Port &mdash; ECP). </p>
+          <p>
+            <b>SCSI</b>
+          </p>
+          <p>Интерфейс малых вычислительных систем (Small Computer System Interface &mdash; SCSI) использует технологию параллельной связи для достижения высоких скоростей передачи данных. </p>
+          <p>
+            <b>USB</b>
+          </p>
+          <p>USB &mdash; это широко распространенный интерфейс принтеров и прочих устройств. Когда к компьютерной системе, поддерживающей метод самонастройки (&laquo;plug-and-play&raquo;), подключается устройство USB, происходит его автоматическое определение и начинается процесс установки драйверов. </p>
+          <p>
+            <b>FireWire </b>
+          </p>
+          <p>Шина FireWire, также известная как i.LINK или IEEE 1394, &mdash; это независимая от платформы высокоскоростная шина связи. С помощью FireWire выполняется подключение цифровых устройств, таких как цифровые принтеры, сканеры, цифровые камеры и жесткие диски. </p>
+          <p>FireWire дает возможность прямого подключения к компьютеру периферийных устройств, например принтера. Существует также возможность горячей замены устройств. FireWire предоставляет единое штепсельное соединение, к которому можно подключить до 63 устройств. FireWire поддерживает скорость передачи данных до 400 Мбит/с.</p>
+          <p>
+            <b>Ethernet</b>
+          </p>
+          <p>Для подключения принтера к сети требуется кабельная проводка, совместимая как с сетью, так и с сетевым портом, установленным на принтере. На большинстве сетевых принтеров для подключения к сети используется интерфейс RJ-45 или беспроводной интерфейс.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

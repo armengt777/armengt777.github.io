@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.2.3.2 Режимы при запуске</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.2.3.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка операционной системы</h1>
+        <h2>Последовательность загрузки и файлы реестра</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Режимы при запуске</b>
+          </p>
+          <p>Windows может загружаться в одном из возможных режимов. При нажатии клавиши F8 во время процесса загрузки открывается меню «Дополнительные варианты загрузки» Windows, как показано на рисунке. Это меню позволяет выбрать способ загрузки Windows. Обычно используются следующие варианты загрузки:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Безопасный режим</b> — при запуске Windows загружаются драйверы только для основных устройств, таких как клавиатура и экран.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Безопасный режим с загрузкой сетевых драйверов</b> — запуск Windows выполняется, как и в «Безопасном режиме», но дополнительно загружаются драйверы для компонентов сети.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Безопасный режим с поддержкой командной строки</b> — при запуске Windows вместо графического интерфейса пользователя загружается командная строка.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Последняя удачная конфигурация</b> — загружается конфигурация, которая использовалась при последнем успешном запуске Windows. Эта загрузка выполняется благодаря доступу к копии реестра, созданной специально для этой цели.</li>
+            </ul>
+          </p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Режим «Последняя удачная конфигурация» полезен только в том случае, если он используется сразу же после сбоя системы. Если компьютер перезагружен и запустилась ОС Windows, в обновленный реестр будет занесена сбойная информация.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

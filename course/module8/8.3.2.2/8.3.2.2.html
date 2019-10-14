@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.3.2.2 Сопряжение устройств при подключении Bluetooth</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.3.2.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сетевая связь и электронная почта</h1>
+        <h2>Bluetooth</h2>
+      </div>
+      <div id="content">
+          <p>Сопряжение &mdash; это процесс установления подключения между двумя устройствами Bluetooth для совместного использования ресурсов. Для сопряжения устройств включается передача сигналов по Bluetooth, и одно устройство начинает поиск других устройств. Для других устройств необходимо установить режим с возможностью обнаружения (режим видимости). Когда устройство Bluetooth работает в режиме с возможностью обнаружения, то в ответ на запрос другого устройства Bluetooth оно передает следующие данные:</p>
+          <p>
+            <ul>
+              <li>имя;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>класс Bluetooth;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>службы, которые может использовать устройство;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>технические данные, например поддерживаемые функции или спецификация Bluetooth.</li>
+            </ul>
+          </p>
+          <p>В процессе сопряжения для проверки подлинности может быть запрошен PIN-код (рис. 1). Обычно PIN-код &mdash; это число, но он может быть и цифровым кодом или паролем. PIN-код сохраняется службами сопряжения, поэтому его не нужно вводить во время следующей попытки подключения устройства. Это удобно при использовании гарнитуры для смартфонов, поскольку их сопряжение выполняется автоматически при включении гарнитуры в зоне действия Bluetooth.</p>
+          <p>Для сопряжения устройства Bluetooth с устройством Android выполните следующие действия.</p>
+          <p>
+            <b>Этап 1. </b>Переведите устройство в режим с возможностью обнаружения согласно инструкциям.</p>
+          <p>
+            <b>Этап 2. </b>Найдите PIN-код для подключения устройства в инструкциях к нему.</p>
+          <p>
+            <b>Этап 3.</b> <b></b> Выберите <b>Настройки &gt; Беспроводная связь и сети</b>.</p>
+          <p>
+            <b>Этап 4. </b>Коснитесь пункта <b>Bluetooth</b>, чтобы включить Bluetooth.</p>
+          <p>
+            <b>Этап 5. </b>Перейдите на вкладку <b>Bluetooth</b>.</p>
+          <p>
+            <b>Этап 6. </b>Коснитесь кнопки <b>Поиск устройств</b>.</p>
+          <p>
+            <b>Этап 7. </b>Выберите обнаруженное устройство, коснувшись его имени.</p>
+          <p>
+            <b>Этап 8. </b>Введите PIN-код.</p>
+          <p>
+            <b>Этап 9. </b>Снова коснитесь имени устройства, чтобы подключиться к нему.</p>
+          <p>Для сопряжения устройства Bluetooth с устройством iOS выполните следующие действия.</p>
+          <p>
+            <b>Этап 1. </b>Переведите устройство в режим с возможностью обнаружения согласно инструкциям.</p>
+          <p>
+            <b>Этап 2. </b>Найдите PIN-код для подключения устройства в инструкциях к нему.</p>
+          <p>
+            <b>Этап 3.</b> <b></b> Выберите <b>Настройки &gt; Основные &gt; Bluetooth</b>.</p>
+          <p>
+            <b>Этап 4. </b>Коснитесь пункта <b>Bluetooth</b>, чтобы включить Bluetooth.</p>
+          <p>
+            <b>Этап 5. </b>Выберите обнаруженное устройство, коснувшись его имени.</p>
+          <p>
+            <b>Этап 6. </b>Введите PIN-код.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

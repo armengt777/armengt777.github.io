@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.4.2.1 Соглашения по монтажу кабелей сети</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.4.2.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Физические компоненты сети</h1>
+        <h2>Кабели и разъемы</h2>
+      </div>
+      <div id="content">
+          <p>Доступно множество сетевых кабелей, как показано на рисунке. В коаксиальных кабелях и витых парах для передачи данных используется медный провод. В оптоволоконных кабелях для передачи данных используется стеклянный или пластиковый световод. Эти кабели различаются пропускной способностью, размером и стоимостью. Чтобы установить подходящий кабель в каждом конкретном случае, необходимо знать, какой тип кабелей используется в различных ситуациях. Кроме того, необходимо быть готовым к устранению возможных неполадок и восстановлению работы, в том числе ремонту. Выберите тип кабеля, наиболее подходящий и экономичный для пользователей и служб, которые будут подключаться к сети.</p>
+          <p>
+            <b>Стоимость</b>
+          </p>
+          <p>При проектировании сети необходимо учитывать стоимость. Установка кабелей &mdash; это дорогостоящий процесс, однако обслуживание проводной сети не связано со значительными расходами.</p>
+          <p>
+            <b>Безопасность</b>
+          </p>
+          <p>Обычно проводная есть более безопасна, чем беспроводная. Как правило, кабели в проводной сети прокладываются в стенах и потолках, а потому труднодоступны. К сигналам беспроводной сети проще получить несанкционированный доступ, чем к сигналам проводной сети. Радиосигналы доступны всем, имеющим приемник. Чтобы сделать беспроводную сеть такой же безопасной, как проводная, необходимо использовать проверку подлинности и шифрование.</p>
+          <p>
+            <b>Разработка для будущего</b>
+          </p>
+          <p>Многие организации прокладывают лучшие кабели из доступных на рынке. Благодаря этому сети готовы к дополнительным требованиям к пропускной способности в будущем. Чтобы избежать дорогой прокладки кабеля позднее, вы вместе с заказчиком должны решить, необходимы ли расходы на прокладку кабеля более высокого класса.</p>
+          <p>
+            <b>Беспроводная сеть</b>
+          </p>
+          <p>Беспроводное решение может требоваться в случаях, когда кабель не может быть проложен, например в старых исторических зданиях, структурные изменения которых запрещены местными строительными нормами. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE">
+		<slide type="MBUTTON">
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+			
+			<slide buttonType="BLUE" buttonX="7" buttonY="40" buttonWidth="170" buttonHeight="42" compId="ID_btn01">
+				<element type="TEXTBOX" titleId="ID_titleTxt01" bodyId="ID_bodyTxt01" x="198" y="40" width="263.35" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="7" buttonY="95" buttonWidth="170" buttonHeight="42" compId="ID_btn02">
+				<element type="TEXTBOX" titleId="ID_titleTxt02" bodyId="ID_bodyTxt02" x="198" y="40" width="263.35" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="7" buttonY="148.2" buttonWidth="170" buttonHeight="42" compId="ID_btn03">
+				<element type="TEXTBOX" titleId="ID_titleTxt03" bodyId="ID_bodyTxt03" x="198" y="40" width="263.35" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="7" buttonY="200.3" buttonWidth="170" buttonHeight="42" compId="ID_btn04">
+				<element type="TEXTBOX" titleId="ID_titleTxt04" bodyId="ID_bodyTxt04" x="198" y="40" width="263.35" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="7" buttonY="257.4" buttonWidth="170" buttonHeight="42" compId="ID_btn05">
+				<element type="TEXTBOX" titleId="ID_titleTxt05" bodyId="ID_bodyTxt05" x="198" y="40" width="263.35" height="337" />
+			</slide>
+		</slide>
+</data>

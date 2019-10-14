@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.8.2.7 Настройка сетевой платы</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.8.2.7_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Подключение компьютера к сети</h1>
+        <h2>Сетевые платы</h2>
+      </div>
+      <div id="content">
+          <p>После установки драйвера сетевой платы необходимо настроить параметры IP-адреса. Если сетевая плата настроена со статическим IP-адресом, необходимо изменить IP-адрес при присоединении компьютера к другой сети. Следовательно, более рациональным вариантом может быть включение DHCP на компьютере для получения информации об IP-адресе с сервера DHCP. </p>
+          <p>Для каждой сетевой платы должна быть настроена следующая информация.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Протоколы</b> &mdash; как показано на рис. 1, для связи двух компьютеров в одной сети должны быть реализованы одинаковые протоколы. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>IP-адрес</b> &mdash; настраиваемый адрес, который должен быть уникальным для каждого устройства. IP-адрес настраивается вручную или автоматически назначается DHCP. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>MAC-адрес</b> &mdash; каждое устройство имеет уникальный MAC-адрес. MAC-адрес назначен производителем и не может быть изменен. </li>
+            </ul>
+          </p>
+          <p>В ОС Windows 7 перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр управления сетями и общим доступом &gt; Изменить адаптер &gt;</b>, правой кнопкой мыши щелкните <b> Подключение по локальной сети &gt; Свойства &gt; TCP/IPv4 &gt; Свойства &gt; </b>настройка параметров IP<b> &gt; ОК &gt; ОК</b></p>
+          <p>В ОС Windows Vista перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр управления сетями и общим доступом &gt; Управление сетевыми подключениями</b>, правой кнопкой мыши щелкните <b>Подключение по локальной сети &gt; Свойства &gt; TCP/IPv4 &gt; Свойства &gt; </b>настройка параметров IP<b> &gt; ОК &gt; ОК</b></p>
+          <p>В ОС Windows XP перейдите по следующим пунктам: </p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр управления сетями и общим доступом &gt; Управление сетевыми подключениями &gt;</b> правой кнопкой мыши щелкните <b>Подключение по локальной сети &gt; Свойства &gt; TCP/IPv4 &gt; Свойства &gt; </b>настройка параметров IP<b> &gt; ОК &gt; ОК</b></p>
+          <p>
+            <b>Настройка альтернативных параметров IP</b>
+          </p>
+          <p>Установка альтернативной настройки IP в ОС Windows упрощает перемещение между сетями, требующими использования сервера DHCP, и сетями, в которых используются статические параметры IP. Если компьютеру не удается связаться с сервером DHCP в сети, ОС Windows использует альтернативную настройку IP, назначенную сетевой плате. Альтернативная настройка IP также заменяет назначенный адрес APIPA, если связь с сервером DHCP невозможна.</p>
+          <p>Для создания альтернативной настройки IP, как показано на рис. 2, перейдите на вкладку <b>Альтернативная конфигурация</b> в окне &laquo;Свойства&raquo; сетевого адаптера. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

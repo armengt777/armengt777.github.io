@@ -1,0 +1,101 @@
+﻿<textcomponents>
+	
+	<component id="ID_table">
+		<text><![CDATA[
+				<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				<tr class="title">
+					<td colspan='3' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Распространенные сетевые протоколы и порты</b></font></td>
+				</tr>		
+				<tr class="liner_top">
+					<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#A2AA23' width='90' valign="top"><font size='12' color='#ffffff'><b>Протокол</b></font></td>
+					<td bgcolor='#A2AA23' width='90' valign="top"><font size='12' color='#ffffff'><b>Порт</b></font></td>
+					<td bgcolor='#A2AA23' valign="top"><font size='12' color='#ffffff'><b>Описание</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>TCP/IP</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Нет данных</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Стек протоколов, используемый для передачи данных через Интернет</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>NetBEUI/ NetBIOS</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>137, 139, 150</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Компактный быстрый протокол, разработанный для сети рабочей группы, которой не требуется подключение к Интернету</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>HTTP</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>80</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Протокол обмена данными, который устанавливает подключение типа запрос/ответ через Интернет.</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>HTTPS</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>443</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Использует аутентификацию и шифрование для защиты данных, пересылаемых между клиентом и веб-сервером.</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>FTP</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>20/21</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Предоставляет сервисы для передачи файлов и операций с ними</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>SSH</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>22</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Осуществляет безопасные подключения к удаленным сетевым устройствам</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Telnet</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>23</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Осуществляет подключения к удаленным сетевым устройствам</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>POP3</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>110</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Загружает сообщения электронной почты с почтового сервера</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>IMAP</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>143</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Загружает сообщения электронной почты с почтового сервера</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>SMTP</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>25</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Выполняет отправку электронной почты в сети TCP/IP</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>LDAP</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>389</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Осуществляет доступ к информационным каталогам</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>SNMP</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>161</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Управляет устройствами в сети и осуществляет их мониторинг</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>SMB</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>445</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Предоставляет общий доступ к файлам и принтерам, обеспечивает обмен данными между точками сети</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>SFTP</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>115</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Предоставляет услуги безопасной передачи файлов</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>DNS</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>53</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Разрешает имена узлов в IP-адреса</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>RDP</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>3389</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Используется для предоставления доступа к удаленным компьютерам</font></td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+	<!-- 	<component id="ID_txt02"> 	  <text><![CDATA[<b>Determine end-user requirements</b>]]></text>  	</component> 	<component id="ID_txt03"> 	  <text><![CDATA[<b>Determine choices and select OS</b>]]></text>  	</component> 	<component id="transcript"> 	  <text><![CDATA[<b>transcript goes here</b>]]></text>  	</component> 	-->
+</textcomponents>

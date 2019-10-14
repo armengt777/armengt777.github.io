@@ -1,0 +1,101 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Использование хэш-кода (контрольной суммы)</b>]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[&quot;Вот запрошенная квота...&quot;]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Если контрольная сумма отличается, сообщение изменено или фальсифицировано]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Отправитель вводит сообщение для подсчета контрольной суммы]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Алгоритм контрольного суммирования создает контрольную сумму]]></text>
+	</component>	
+	<component id="ID_s1_txt06">
+		<text><![CDATA[<b>Сообщение передается через сеть (защищенную или незащищенную)</b>]]></text>
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[<b>Отправить посылает сообщение вместе с контрольной суммой</b>]]></text>
+	</component>
+	<component id="ID_s1_txt08">
+		<text><![CDATA[Алгоритм контрольного суммирования (SHA или MD5) создает контрольную сумму сообщения]]></text>
+	</component>
+	<component id="ID_s1_txt09">
+		<text><![CDATA[Получатель восстанавливает отправленное сообщение]]></text>
+	</component>
+	<component id="ID_s1_txt10">
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>	
+	<component id="ID_s1_txt11">
+		<text><![CDATA[&quot;Вот запрошенная квота...&quot;]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Симметричное шифрование</b>]]></text>
+	</component>	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[&quot;Вот запрошенная квота...&quot;]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Отправитель вводит сообщение для шифрования]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Получатель вводит такой же секретный ключ для расшифровки зашифрованного сообщения]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[<b>Незащищенная сеть</b>]]></text>
+	</component>
+	<component id="ID_s2_txt06">
+		<text><![CDATA[Отправить вводит секретный ключ шифрования для расшифровки сообщения]]></text>
+	</component>
+	<component id="ID_s2_txt07">
+		<text><![CDATA[Получатель восстанавливает расшифрованное сообщение]]></text>
+	</component>
+	<component id="ID_s2_txt08">
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>
+	<component id="ID_s2_txt09">
+		<text><![CDATA[&quot;Вот запрошенная квота...&quot;]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Асимметричное шифрование</b>]]></text>
+	</component>	
+	<component id="ID_s3_txt01">
+		<text><![CDATA[&quot;Вот запрошенная квота...&quot;]]></text>
+	</component>	
+	<component id="ID_s3_txt02">
+		<text><![CDATA[1BAF55D000EF795...]]></text>
+	</component>	
+	<component id="ID_s3_txt03">
+		<text><![CDATA[Отправитель вводит сообщение для шифрования]]></text>
+	</component>	
+	<component id="ID_s3_txt04">
+		<text><![CDATA[Получатель вводит секретный ключ безопасности для расшифровки сообщения]]></text>
+	</component>	
+	<component id="ID_s3_txt05">
+		<text><![CDATA[<b>Незащищенная сеть</b>]]></text>
+	</component>	
+	<component id="ID_s3_txt06">
+		<text><![CDATA[Отправитель вводит открытый ключ получателя для шифрования сообщения]]></text>
+	</component>	
+	<component id="ID_s3_txt07">
+		<text><![CDATA[Получатель восстанавливает сообщение]]></text>
+	</component>	
+	<component id="ID_s3_txt08">
+		<text><![CDATA[1AG65B00BDE735...]]></text>
+	</component>	
+	<component id="ID_s3_txt09">
+		<text><![CDATA[&quot;Вот запрошенная квота...&quot;]]></text>
+	</component>
+		
+</textcomponents>

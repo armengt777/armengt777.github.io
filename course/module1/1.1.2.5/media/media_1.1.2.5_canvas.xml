@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE">
+
+		<slide type="MBUTTON">
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+			<slide buttonType="BLUE" buttonX="2" buttonY="40" buttonWidth="180.1" buttonHeight="21" compId="ID_btn01">
+				<element type="TEXTBOX"  bodyId="ID_txt01" x="198" y="40" width="262" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="2" buttonY="72" buttonWidth="180.1" buttonHeight="21" compId="ID_btn02">
+				<element type="TEXTBOX"  bodyId="ID_txt02" x="198" y="40" width="262" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="2" buttonY="104" buttonWidth="180.1" buttonHeight="41" compId="ID_btn03">
+				<element type="TEXTBOX"  bodyId="ID_txt03" x="198" y="40" width="262" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="2" buttonY="160" buttonWidth="180.1" buttonHeight="41" compId="ID_btn04">
+				<element type="TEXTBOX"  bodyId="ID_txt04" x="198" y="40" width="262" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="2" buttonY="214" buttonWidth="180.1" buttonHeight="41" compId="ID_btn05">
+				<element type="TEXTBOX"  bodyId="ID_txt05" x="198" y="40" width="262" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="2" buttonY="271" buttonWidth="180.1" buttonHeight="21" compId="ID_btn06">
+				<element type="TEXTBOX"  bodyId="ID_txt06" x="198" y="40" width="262" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="2" buttonY="305" buttonWidth="180.1" buttonHeight="21" compId="ID_btn07">
+				<element type="TEXTBOX"  bodyId="ID_txt07" x="198" y="40" width="262" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="2" buttonY="339" buttonWidth="180.1" buttonHeight="21" compId="ID_btn08">
+				<element type="TEXTBOX"  bodyId="ID_txt08" x="198" y="40" width="262" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="2" buttonY="372" buttonWidth="180.1" buttonHeight="21" compId="ID_btn09">
+				<element type="TEXTBOX"  bodyId="ID_txt09" x="198" y="40" width="262" height="337" />
+			</slide>
+		</slide>	
+
+</data>

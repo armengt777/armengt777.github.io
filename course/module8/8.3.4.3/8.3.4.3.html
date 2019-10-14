@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.3.4.3 Типы подключений для синхронизации</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.3.4.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сетевая связь и электронная почта</h1>
+        <h2>Синхронизация мобильных устройств</h2>
+      </div>
+      <div id="content">
+          <p>Чтобы синхронизировать данные между устройствами, необходима общая среда связи. Наиболее часто для синхронизации данных между устройствами используются подключения USB и Wi-Fi.</p>
+          <p>Поскольку для большинства устройств Android нет программы синхронизации данных для настольных компьютеров, для синхронизации (в том числе с настольным ПК или ноутбуком) обычно используются различные веб-службы Google. Одно из преимуществ такого способа синхронизации данных заключается в том, что доступ к данным можно получить с любого компьютера или мобильного устройства в любое время, войдя в систему под своей учетной записью Google. Недостатком является то, что может быть сложно синхронизировать данные с программами, установленными на локальном компьютере, такими как Outlook для управления электронной почтой, календарем и контактами или iTunes для работы с музыкой и видео. </p>
+          <p>До iOS 5 синхронизацию можно было проводить, только подключив устройство к компьютеру при помощи кабеля USB. Теперь возможна беспроводная синхронизация данных с iTunes по Wi-Fi. Чтобы использовать синхронизацию по Wi-Fi, нужно сначала синхронизировать устройство iOS с iTunes при помощи кабеля USB. Необходимо также включить режим <b>Синхронизировать по Wi-Fi</b> на панели &laquo;Обзор&raquo; iTunes. После этого можно использовать синхронизацию по Wi-Fi или по кабельному подключению USB. Если устройство iOS находится в той же беспроводной сети, что и компьютер с установленной программой iTunes, и подключено к источнику питания, то синхронизация с iTunes выполняется автоматически.</p>
+          <p>
+            <b>Межплатформенная синхронизация данных</b>
+          </p>
+          <p>Часто приходится иметь дело с устройствами, работающими под управлением разных операционных систем. Синхронизация данных между разными операционными системами называется межплатформенной синхронизацией данных. Чтобы синхронизация выполнялась, необходимо установить сторонние приложения, которые синхронизируют данные устройства Android с Outlook или iTunes. iTunes можно установить на компьютере с ОС Windows или Apple &mdash; устройство Android или iOS может синхронизировать данные с любой из этих систем.</p>
+          <p>Для синхронизации между различными вычислительными платформами можно также использовать приложения. Dropbox &mdash; пример приложения, синхронизирующего различные типы данных, которое можно установить на разных платформах. Особенно полезна возможность настроить автоматическую синхронизацию фотографий, снятых камерой мобильного устройства. Сделанный снимок автоматически передается на удаленный сервер. Когда программа запускается на другом устройстве, например на планшете или настольном ПК, фотография автоматически загружается.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

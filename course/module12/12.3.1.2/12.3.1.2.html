@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>12.3.1.2 Распространенные сетевые неполадки и способы их устранения</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script> var myLayout;  $(document).ready(function () { var frame = document.getElementById("mainFrame"); if (isTextOnly(window)) {frame.setAttribute("src", "media_12.3.1.2_longdesc.txt");  } else {frame.setAttribute("src", "media/index.html"); }	myLayout = $("body").layout({  west__size: 300, west__minSize: 300, center__minWidth: 100, stateManagement__enabld: true,  maskIframesOnResize: true, livePaneResizing: true, onresize_end: resizeTextDiv, stateManagement__cookie__name: "ui_pane_ru", stateManagement__cookie__expires: 1,  stateManagement__cookie__path: "/"   }); }); function resizeTextDiv() {var DivHeight = document.getElementById("header").offsetHeight;document.getElementById("content").style.top = String(DivHeight) + "px";} </script>
+
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сети</h1>
+        <h2>Применение процедуры поиска и устранения неполадок к сетям</h2>
+      </div>
+      <div id="content">
+          <p>Причины сетевых неполадок могут быть связаны со сбоями оборудования, ПО или сочетанием этих факторов. Некоторые типы неполадок встречаются чаще. Для решения других проблем могут требоваться более глубокие навыки поиска и устранения неполадок.</p>
+          <p>
+            <b>Неполадки сетевых подключений</b>
+          </p>
+          <p>Эти типы неполадок подключения часто бывают связаны с неправильными настройками TCP/IP, параметрами межсетевого экрана или устройствами, прекратившими работать, как показано на рисунке 1. </p>
+          <p>
+            <b>Отказ электронной почты</b>
+          </p>
+          <p>Невозможность отправлять или получать электронную почту часто бывает вызвана неправильными параметрами почтового ПО, параметрами межсетевого экрана и неполадками оборудования связи, как показано на рисунке 2.</p>
+          <p>
+            <b>Неполадки FTP и безопасного подключения через Интернет</b>
+          </p>
+          <p>Неполадки передачи файлов между клиентами и серверами FTP часто бывают вызваны неправильными параметрами IP-адреса и порта, а также политиками безопасности. Проблемы безопасного подключения через Интернет часто связаны с неправильными параметрами сертификатов и блокировкой портов программным обеспечением или оборудованием, как показано на рисунке 3.</p>
+          <p>
+            <b>Проблемы, выявляемые командами консоли</b>
+          </p>
+          <p>Неожиданные результаты выполнения команд консоли бывают вызваны неверными параметрами IP-адресов, неполадками подключения оборудования и параметрами межсетевого экрана, как показано на рисунке 4.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="media/index.html" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,26 @@
+﻿<textcomponents>
+	<component id="ID_table">
+		<text><![CDATA[
+				<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				<tr class="title">
+					<td colspan='2' bgcolor='#DAE17A'><font size='14' color='#393536'><b>Этап 6. Документирование полученных данных, принятых мер и результатов</b></font></td>				
+				</tr>
+				<tr>
+					<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+				</tr>
+				<tr>
+					<td width="120px" bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>Документирование полученных данных, принятых мер и результатов</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>
+						<textformat blockindent='-18'><li>Обсудите примененное решение с заказчиком.</li>
+						<li>Попросите заказчика убедиться, что неполадка устранена.</li>
+						<li>Предоставьте заказчику все бумаги.</li>
+						<li>Задокументируйте действия, предпринятые для устранения неполадки, в рабочем задании и журнале инженера.</li>
+						<li>Задокументируйте компоненты, использованные при ремонте.</li>
+						<li>Задокументируйте время, потраченное на устранение неполадки.</li></textformat></font>
+					</td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+	
+</textcomponents>

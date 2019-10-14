@@ -1,0 +1,37 @@
+﻿<textcomponents>
+      <component id="ID_table">
+      <text>
+        <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+          
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 2. Формирование предположений о возможной причине</b></font></td>
+	</tr>  
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+
+
+          <tr>
+            <td width="150" valign="top" bgcolor='#F3F5E7'>
+              <font color='#393536'>Распространенные причины неполадок мобильных устройств </font>
+            </td>
+            <td  valign="top" bgcolor='#F3F5E7'>
+              <font color='#393536'>
+								<textformat blockindent='-18'><li>Сломана кнопка включения питания. </li>
+								<li>Аккумулятор больше не держит заряд. </li>
+								<li>С мобильного устройства не удается отправить или принять <span id="spacer">электронную почту.</span> </li>
+								<li>На динамике, <span id="spacer">микрофоне или разъеме для зарядки скопились загрязнения.</span> </li>
+								<li>Мобильное устройство уронили. </li>
+								<li>Мобильное устройство погрузили в воду. </li>
+								<li>Приложение перестало работать. </li>
+								<li>Выполнена сторонняя загрузка вредоносного приложения. </li>
+								<li>Мобильное устройство зависло. </li>
+								<li>Версия программного обеспечения или приложения на мобильном устройстве <span id="spacer">устарела.</span> </li>
+								<li>Пользователь забыл секретный код.</li></textformat></font>
+            </td>
+          </tr>  
+		  
+        </table>]]>
+      </text>
+    </component>
+  </textcomponents>

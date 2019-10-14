@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.4.1.5 Телефоны VoIP</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.4.1.5_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Физические компоненты сети</h1>
+        <h2>Сетевые устройства</h2>
+      </div>
+      <div id="content">
+          <p>IP-телефония (VoIP) &mdash; это метод передачи телефонных вызовов по сетям данных и через Интернет. Технология VoIP преобразует аналоговые речевые сигналы в цифровые данные, передаваемые в виде пакетов IP. Технология VoIP также может использовать существующую сеть IP для предоставления доступа к коммутируемой телефонной сети общего пользования (PSTN).</p>
+          <p></p>
+          <p>Телефоны VoIP выглядят как обычные телефоны, но вместо стандартного телефонного разъема RJ-11 в них используется разъем Ethernet RJ-45. Телефоны VoIP подключаются непосредственно к сети и оснащены всем необходимым оборудованием и программным обеспечением для обработки связи по IP. </p>
+          <p></p>
+          <p>Подключение к PSTN с помощью технологии VoIP, как правило, зависит от наличия подключения к Интернету. Это может создавать трудности при возникновении перерыва в обслуживании подключений к Интернету. В этом случае пользователь не сможет звонить по телефону.</p>
+          <p>Существует несколько способов использования технологии VoIP.</p>
+          <p>
+            <ul>
+              <li>
+                <b>IP-телефон </b>&mdash; устройство, обеспечивающее подключение к сети IP с помощью разъема Ethernet RJ-45 или по беспроводного подключения. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Адаптер аналогового телефона (ATA)</b> &mdash; устройство, подключающее стандартные аналоговые устройства, такие как телефоны, факсимильные аппараты или автоответчики, к сети IP. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Программный IP-телефон</b> &mdash; это приложение обеспечивает подключения с помощью микрофона, динамиков и звуковой платы для имитации функций IP-телефона. </li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

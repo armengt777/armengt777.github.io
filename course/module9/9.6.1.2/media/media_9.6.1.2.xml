@@ -1,0 +1,35 @@
+﻿<textcomponents>
+<component id="ID_table">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 2. Формирование предположений о возможной причине</b></font></td>
+	</tr> 
+              <tr>
+          <td colspan='2' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td width="150" valign="top" bgcolor='#F3F5E7'>
+            <font color='#393536'>Распространенные причины неполадок принтеров</font>
+          </td>
+          <td  valign="top" bgcolor='#F3F5E7'>
+            <font color='#393536'>
+              <textformat blockindent='-18'><li>Ненадежные кабельные подключения</li>
+              <li>Застревание бумаги</li>
+              <li>Питание оборудования</li>
+              <li>Предупреждение о низком уровне чернил</li>
+              <li>Нет бумаги</li>
+              <li>Ошибки на дисплее оборудования</li>
+			  <li>Ошибки на экране компьютера</li></textformat>
+            </font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+</textcomponents>
+

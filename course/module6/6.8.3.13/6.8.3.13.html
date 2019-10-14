@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.8.3.13 Проверка связи с помощью командной строки Windows</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.8.3.13_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Подключение компьютера к сети</h1>
+        <h2>Настройка беспроводного и проводного маршрутизатора</h2>
+      </div>
+      <div id="content">
+          <p>Для проверки сетевой связи можно использовать интерфейс командной строки. Инженер должен быть знаком с набором основных команд для решения этой задачи.</p>
+          <p>
+            <b>Параметры команды &quot;ipconfig&quot;</b>
+          </p>
+          <p>Команда &quot;ipconfig&quot; отображает основную информацию о параметрах всех сетевых плат. Добавляя параметры команды &quot;ipconfig&quot;, как показано на рисунке&nbsp;1, можно указать конкретную задачу.</p>
+          <p>
+            <b>Параметры команды &quot;ping&quot;</b>
+          </p>
+          <p>Команда &quot;ping&quot; проверяет связь между устройствами, отправляя эхо-запрос. С помощью этой команды можно проверить подключение к локальному узлу, выдавая эхо-запрос на свой собственный компьютер. Чтобы проверить подключение к своему собственному компьютеру, необходимо отправить эхо-запрос на сетевую плату этого компьютера. В ОС Windows&nbsp;7 и Windows Vista нажмите кнопку <b>Пуск</b> и наберите &quot;<b>cmd</b>&quot;. В ОС Windows&nbsp;XP выберите <b>Пуск &gt; Выполнить &gt; cmd</b>. В командной строке введите &quot;<b>ping localhost</b>&quot;. </p>
+          <p>Попробуйте отправить эхо-запрос компьютерам, подключенным к сети, в том числе на шлюз по умолчанию и удаленным компьютерам. Узнать адрес шлюза по умолчанию можно с помощью команды <b>ipconfig</b>.</p>
+          <p>Чтобы проверить работу подключения к глобальной сети, отправьте эхо-запрос на общедоступный IP-адрес вне внутренней сети. Отправив эхо-запрос на популярный веб-сайт, можно проверить подключение к Интернету и службе доменных имен (DNS). В командной строке введите &quot;<b>ping</b><i> имя_назначения</i>&quot;.</p>
+          <p>В выводе команды <b>ping</b> отображается разрешенный IP-адрес домена. Команда &quot;ping&quot; отображает отклик или, при наличии проблемы, сообщает о том, что время ожидания истекло.</p>
+          <p>С помощью параметров команды &quot;<b>ping</b>&quot; можно указывать конкретные задачи, как показано на рисунке&nbsp;2.</p>
+          <p>
+            <b>Команды группы net</b>
+          </p>
+          <p>Для управления сетевыми компьютерами, серверами и ресурсами, такими как диски и принтеры, используются команды группы &quot;<b>net</b>&quot;. <b>Команды группы net</b> используют протокол NetBIOS, реализованный в операционной системе Windows. Эти команды позволяют запускать, останавливать и настраивать сетевые службы, как показано на рисунке&nbsp;3.</p>
+          <p>
+            <b>Команда &quot;tracert&quot;</b>
+          </p>
+          <p>
+            <b>Команда &quot;tracert&quot;</b> определяет маршрут от исходного компьютера до узла назначения. В командной строке введите &quot;<b>tracert </b><i>имя_</i><i>узла</i>&quot;.</p>
+          <p>Первой строкой в выводе будет шлюз по умолчанию. Каждая следующая строка &mdash; маршрутизатор, через который проходит пакет на пути к месту назначения. С помощью команды &quot;tracert&quot; можно узнать, где останавливаются пакеты, и определить место возникновения проблемы. Если вывод команды позволяет говорить о том, что место возникновения проблемы находится за шлюзом по умолчанию, это может указывать на неисправности у поставщика услуг доступа к Интернету (ISP), сети Интернет или сервера назначения.</p>
+          <p>
+            <b>Команда &quot;nslookup&quot;</b>
+          </p>
+          <p>Команда &quot;nslookup&quot; позволяет проверять и устранять неполадки серверов DNS. Она отправляет серверу DNS запрос для разрешения IP-адреса или имени узла. В командной строке введите &quot;<b>nslookup </b><i>имя_узла</i>&quot;. Команда &quot;nslookup&quot; возвращает IP-адрес, который соответствует имени введенного узла. Обратная команда &quot;<b>nslookup </b><i>IP-адрес</i>&quot; возвращает имя узла, которое соответствует IP-адресу. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,67 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+   <text><![CDATA[<b>Сравнение TCP с UDP</b>]]></text>
+   </component>
+   
+<component id="ID_s1_inst">
+<text><![CDATA[<b>Перетащите варианты на соответствующее место.</b>]]></text>
+</component>
+   
+   <component id="ID_s1_term01">
+		<text><![CDATA[<B>TCP</B>]]></text> 
+	</component>
+	<component id="ID_s1_term02">
+		<text><![CDATA[<B>UDP</B>]]></text> 
+	</component>
+
+   
+	<component id="ID_s1_drag01">
+		<text><![CDATA[Без привязки к соединениям]]></text> 
+	</component>
+	<component id="ID_s1_drag02">
+		<text><![CDATA[Simple File Transfer]]></text> 
+	</component>
+	<component id="ID_s1_drag03">
+		<text><![CDATA[Веб-браузер]]></text> 
+	</component>  
+	<component id="ID_s1_drag04">
+		<text><![CDATA[Обнаружение ошибок]]></text> 
+	</component>  
+	<component id="ID_s1_drag05">
+		<text><![CDATA[Снижение накладных расходов]]></text> 
+	</component>  
+	<component id="ID_s1_drag06">
+		<text><![CDATA[Ненадежная доставка данных]]></text> 
+	</component>  
+	<component id="ID_s1_drag07">
+		<text><![CDATA[Надежная доставка данных]]></text> 
+	</component>   
+   	<component id="ID_s1_drag08">
+		<text><![CDATA[Эл. почта]]></text> 
+	</component> 
+   	<component id="ID_s1_drag09">
+		<text><![CDATA[NFS]]></text> 
+	</component> 
+   
+   	<component id="ID_CORRECT_TITLE">
+		<text><![CDATA[Верно]]></text> 
+	</component>
+	<component id="ID_CORRECT_BODY">
+		<text><![CDATA[Правильно.]]></text> 
+	</component>
+	<component id="ID_INCORRECT_TITLE">
+		<text><![CDATA[Неверно]]></text> 
+	</component>
+	<component id="ID_INCORRECT_BODY">
+		<text><![CDATA[Неправильно.]]></text> 
+	</component>
+   
+   	<component id="ID_CHECK">
+		<text><![CDATA[Проверить]]></text> 
+	</component>
+	<component id="ID_RESET">
+		<text><![CDATA[Сброс]]></text> 
+	</component>
+   
+</textcomponents>

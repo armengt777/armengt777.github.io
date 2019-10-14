@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Имя домена или рабочей группы</b>]]></text>
+	</component>
+</textcomponents>

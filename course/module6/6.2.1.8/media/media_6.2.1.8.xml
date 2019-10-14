@@ -1,0 +1,71 @@
+﻿<textcomponents>
+	<component id="ID_title">
+   <text><![CDATA[<b>Задание по сопоставлению типов сетей</b>]]></text>
+   </component>
+   
+   
+   
+   <component id="ID_term01">
+		<text><![CDATA[<b>Сеть LAN</b>]]></text> 
+	</component>
+	<component id="ID_term02">
+		<text><![CDATA[<B>Сеть WAN</B>]]></text> 
+	</component>
+	<component id="ID_term03">
+		<text><![CDATA[<B>Сеть WLAN</B>]]></text> 
+	</component>
+<component id="ID_term04">
+		<text><![CDATA[<B>Сеть PAN</B>]]></text> 
+	</component>
+<component id="ID_term05">
+		<text><![CDATA[<B>Сеть MAN</B>]]></text> 
+	</component>
+<component id="ID_term06">
+		<text><![CDATA[<B>Одноранговая сеть</B>]]></text> 
+	</component>
+<component id="ID_term07">
+		<text><![CDATA[<B>Клиент-серверная сеть</B>]]></text> 
+	</component>
+	<component id="ID_drag01">
+		<text><![CDATA[В сетях этого типа используются кабельные подключения в одной административной группе.]]></text> 
+	</component>
+	<component id="ID_drag02">
+		<text><![CDATA[В сетях этого типа используются различные технологии для подключения удаленных сетей.]]></text> 
+	</component>
+	<component id="ID_drag03">
+		<text><![CDATA[В сетях этого типа для обеспечения подключений используются точки доступа и беспроводные сетевые платы.]]></text> 
+	</component>  
+	<component id="ID_drag04">
+		<text><![CDATA[Сети этого типа подключают устройства в пределах досягаемости отдельного пользователя.]]></text> 
+	</component>  
+	<component id="ID_drag05">
+		<text><![CDATA[Сети этого типа могут охватывать целый город.]]></text> 
+	</component>  
+	<component id="ID_drag06">
+		<text><![CDATA[В сетях этого типа отсутствует централизованное администрирование.]]></text> 
+	</component>  
+	<component id="ID_drag07">
+		<text><![CDATA[В сетях этого типа имеется централизованное администрирование.]]></text> 
+	</component>   
+   
+   	<component id="ID_CORRECT_TITLE">
+		<text><![CDATA[Верно]]></text> 
+	</component>
+	<component id="ID_CORRECT_BODY">
+		<text><![CDATA[Правильно.]]></text> 
+	</component>
+	<component id="ID_INCORRECT_TITLE">
+		<text><![CDATA[Неверно]]></text> 
+	</component>
+	<component id="ID_INCORRECT_BODY">
+		<text><![CDATA[Неправильно.]]></text> 
+	</component>
+   
+   	<component id="ID_CHECK">
+		<text><![CDATA[Проверить]]></text> 
+	</component>
+	<component id="ID_RESET">
+		<text><![CDATA[Сброс]]></text> 
+	</component>
+ 
+</textcomponents>

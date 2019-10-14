@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>2.1.1.2 Электрическая безопасность</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_2.1.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедуры безопасной работы в лаборатории</h1>
+        <h2>Процедуры защиты людей</h2>
+      </div>
+      <div id="content">
+          <p>На рабочем месте и у себя дома следуйте инструкциям по электрической безопасности, чтобы избежать возгораний электросети, травм и несчастных случаев со смертельным исходом. Блоки питания и ЭЛТ-мониторы находятся под высоким напряжением. </p>
+          <p></p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Не надевайте антистатический браслет при ремонте блоков питания и ЭЛТ-мониторов. Ремонт блоков питания и ЭЛТ-мониторов должны выполнять только опытные инженеры. </p>
+          <p></p>
+          <p>Некоторые детали принтеров нагреваются во время использования, а другие могут быть под высоким напряжением. Изучите инструкцию к принтеру, чтобы узнать расположение деталей под напряжением. Некоторые детали сохраняют высокое напряжение даже после выключения принтера. Перед началом ремонтных работ убедитесь, что прошло достаточно времени, чтобы принтер охладился.</p>
+          <p></p>
+          <p>Электрические устройства имеют определенные требования к электропитанию. Например, для разных ноутбуков выпускаются разные адаптеры переменного тока. Использование шнура электропитания от другого ноутбука или устройства другого типа может вызвать повреждение адаптера переменного тока и ноутбука.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,35 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>Сравнение языков PostScript и PCL</b>]]></text>
+</component>
+
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='0'>
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23' valign="top"><font color='#ffffff'><b>PostScript</b></font></td>
+		<td bgcolor='#A2AA23' valign="top"><font color='#ffffff'><b>PCL</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Страница формируется принтером</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Страница формируется локальной рабочей станцией</font></td>
+	</tr>
+		<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Более высокое качество печати</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Более высокая скорость печати</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Работает с большим количеством сложных заданий на печать</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Требует меньше памяти принтера</font></td>
+	</tr>
+		<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>На разных принтерах результаты печати одинаковы</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>На разных принтерах результаты печати слегка отличаются</font></td>
+	</tr> 
+</table>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,19 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Спутниковая связь</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Поставщик услуг Интернета (спутниковая связь)</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>Спутниковая передача</b>]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>Спутниковый модем</b>]]></text>
+</component>
+
+</textcomponents>

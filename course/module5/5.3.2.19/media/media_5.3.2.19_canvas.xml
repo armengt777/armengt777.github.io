@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE" >
+	<slide type="MBAR">
+	<!-- slide 01 -->
+		<slide>
+			<element type="IMAGE" x="10" y="47" width="420" height="295.85" subType="STD" src="5_3_2_19.jpg" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+		</slide>
+
+	<!-- slide 02 -->
+		<slide>
+			<element type="IMAGE" x="0" y="3" width="469" height="470" src="5.3.2.19.jpg" />
+			<element type="TEXT" compId="ID_s2_txt04" x="152" y="152" width="281.3" expand="down" align="left" size="11"/>
+			<element type="TEXT" compId="ID_s2_txt06" x="152" y="300" width="281.3" expand="down" align="left" size="11"/>
+			<element type="TEXT" compId="ID_s2_txt01" x="7.5" y="42" width="138.7" expand="down" align="left" color="#FFFFFF" />
+			<element type="TEXT" compId="ID_s2_txt05" x="152" y="228" width="281.3" expand="down" align="left" size="11" />
+			<element type="TEXT" compId="ID_s2_txt02" x="152" y="42" width="281.3" expand="down" align="left" color="#FFFFFF" />
+			<element type="TEXT" compId="ID_s2_txt03" x="152" y="80" width="281.3" expand="down" align="left" size="11" />
+		</slide>
+
+			<element type="TEXT" compId="ID_inst" x="5" y="380" width="432.1" expand="up" align="left" size="12" />
+	</slide>
+</data>
+
+

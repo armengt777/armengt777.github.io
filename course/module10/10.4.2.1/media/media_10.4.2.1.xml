@@ -1,0 +1,114 @@
+﻿<textcomponents>
+  <component id="ID_table">
+  
+     <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        
+		 <tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения</b></font></td>
+	</tr>  
+		
+		<tr class="liner">
+        
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	    </tr> 
+      
+        <tr>
+          <td bgcolor='#a2aa23' ><font  color='#ffffff'><b>Признак неполадки</b></font></td>
+          <td bgcolor='#a2aa23'><font  color='#ffffff'><b>Причины неполадки</b></font></td>
+          <td bgcolor='#a2aa23' ><font  color='#ffffff'><b>Возможные решения</b></font>
+          </td>
+        </tr>
+        <tr>
+          <td  bgcolor='#F3F5E7' valign="top"><font color='#393536'>Беспроводная сеть скомпрометирована, даже несмотря на использования 128-разрядного шифрования WEP.</font></td>
+          <td  bgcolor='#F3F5E7' valign="top"><font  color='#393536'>Злоумышленник использует имеющиеся в продаже беспроводные средства взлома для взлома шифрования.</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'><textformat blockindent='-18'><li>Перейдите на шифрование WPA2.</li>
+          <li>Добавьте фильтрацию по MAC-адресам для старых клиентов, не поддерживающих WPA2.</li></textformat></font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Пользователь получает сотни или тысячи нежелательных сообщений электронной почты каждый день.</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Сеть не обеспечивает определение или защиту сервера электронной почты от спамеров.</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Установите антивирус или почтовую программу, удаляющую спам из папки «Входящие».</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Замечено, что незнакомый специалист по ремонту принтеров заглядывает под клавиатуры и на рабочие столы.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font  color='#393536' >Наблюдение за посетителями не ведется надлежащим образом, или учетные данные пользователей для входа в здание украдены.</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>
+            <textformat blockindent='-18'><li>Обратитесь в службу безопасности или полицию.</li>
+            <li>Посоветуйте пользователям никогда не хранить пароли рядом со своими рабочими местами.</li></textformat></font>
+					</td>
+        </tr>
+         <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>В сети обнаружена несанкционированная беспроводная точка доступа.</font></td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font  color='#393536'>Пользователь добавил беспроводную точку доступа для увеличения диапазона беспроводной сети компании.</font>
+					</td>
+          <td width='170' bgcolor='#FFFFFF' valign="top"><font  color='#393536'>
+            <textformat blockindent='-18'><li>Отключите и конфискуйте несанкционированное устройство.</li><li>Примените политику безопасности, предприняв соответствующие действия в отношении лица, ответственного за нарушение безопасности.</li></textformat></font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Пользователи с флэш-дисками заражают вирусами компьютеры в сети.</font></td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font  color='#393536'>Флэш-диск заражен вирусом и не проверяется программным обеспечением защиты от вирусов при доступе к нему компьютера в сети.</font></td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Установите антивирусное ПО для сканирования съемных носителей при доступе к данным.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Отображается предупреждение безопасности.</font>
+					</td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>
+            <textformat blockindent='-18'><li>Брандмауэр Windows выключен.</li>
+            <li>Определения вирусов устарели.</li>
+            <li>Обнаружено вредоносное ПО.</li></textformat></font>
+					</td>
+          <td width='170' bgcolor='#FFFFFF' valign="top"><font  color='#393536'>
+            <textformat blockindent='-18'><li>Включите брандмауэр Windows.</li>
+            <li>Обновите определения вирусов.</li>
+            <li>Проверьте компьютер, чтобы удалить вредоносное ПО.</li></textformat></font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Сбой Центра обновления Windows.</font></td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font  color='#393536'>
+              <textformat blockindent='-18'><li>Загруженное обновление повреждено. </li>
+              <li>Для обновления требуется предыдущее обновление, которое не установлено.</li></textformat>
+          </font>
+        </td>
+          <td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>
+            <textformat blockindent='-18'><li>Загрузите обновление вручную и установите его. </li>
+            <li>Используйте восстановление системы, чтобы выполнить откат компьютера на момент до выполнения попытки обновления. </li>
+            <li>Восстановите компьютер из резервной копии.</li></textformat>
+          </font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Системные файлы переименованы.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font  color='#393536'>Компьютер заражен вирусом.</font>
+          </td>
+          <td width='170' bgcolor='#FFFFFF' valign="top"><font  color='#393536'>
+            <textformat blockindent='-18'><li>Удалите вирус, используя антивирусное ПО.</li>
+            <li>Восстановите компьютер из резервной копии.</li></textformat></font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Адресаты электронной почты сообщают, что с вашего адреса рассылается спам.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font  color='#393536'>Ваша электронная почта взломана.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>
+            <textformat blockindent='-18'><li>Смените пароль электронной почты.</li>
+             <li>Обратитесь в службу поддержки электронной почты для восстановления учетной записи.</li></textformat></font></td>
+        </tr> 
+      </table>]]>
+    </text>
+  </component>
+</textcomponents>

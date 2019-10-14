@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>0.2.1.1 Образование и сертификаты</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_0.2.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Отрасль ИТ</h1>
+        <h2>Сертификаты в отрасли ИТ</h2>
+      </div>
+      <div id="content">
+          <p>В этом курсе рассматриваются настольные компьютеры и ноутбуки. В нем также рассматриваются мобильные электронные устройства, такие как планшеты и смартфоны.</p>
+          <p>В этом курсе вы получите профильные технические навыки, необходимые для установки, обслуживания, защиты и ремонта компьютеров. Получение индустриального сертификата придаст вам уверенности в себе и расширит ваши возможности в области ИТ. </p>
+          <p>Этот курс ориентирован на два стандартных отраслевых сертификата:</p>
+          <p>
+            <ul>
+              <li>CompTIA&nbsp;A+ </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Европейская сертификация специалистов по ИТ (EUCIP) &mdash; сертификация администратора по ИТ (модули 1 и 2)</li>
+            </ul>
+          </p>
+          <p>Этот курс &mdash; лишь введение в мир информационных технологий. Инженер может продолжить обучение и получить следующие сертификаты: </p>
+          <p>
+            <ul>
+              <li>CCNA &mdash; сертифицированный компанией Cisco сетевой специалист (Cisco Certified Networking Associate),</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>CCNP &mdash; сертифицированный компанией Cisco сетевой профессионал (Cisco Certified Networking Professional),</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>CCIE &mdash; сертифицированный компанией Cisco эксперт в области распределенных сетей (Cisco Certified Internetworking Expert),</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>CISSP &mdash; сертифицированный специалист по защите информационных систем (Certified Information Systems Security Professional),</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>MCP &mdash; сертифицированный Microsoft специалист (Microsoft Certified Professional),</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>MCSA &mdash; сертифицированный Microsoft системный администратор (Microsoft Certified Systems Administrator),</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>MCSE &mdash; сертифицированный Microsoft системный программист (Microsoft Certified Systems Engineer),</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Network+ &mdash; сертификат CompTIA Network,</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Linux+ &mdash; сертификат CompTIA Linux.</li>
+            </ul>
+          </p>
+          <p>Сертификаты по ИТ можно использовать в качестве зачетных единиц в некоторых университетах и колледжах, дающих образование в таких областях, как информатика и телекоммуникации. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

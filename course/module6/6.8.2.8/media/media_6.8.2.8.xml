@@ -1,0 +1,12 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Параметры скорости и режима дуплексной связи</b>]]></text>
+</component>
+<component id="ID_s2_title">
+  <text><![CDATA[<b>Параметр WoL</b>]]></text> 
+  </component>
+<component id="ID_s3_title">
+  <text><![CDATA[<b>Добавление Планировщика пакетов QoS</b>]]></text> 
+  </component>
+
+</textcomponents>

@@ -1,0 +1,14 @@
+﻿<textcomponents>
+	<component id="ID_title">
+	 	 <text><![CDATA[<b>Аппаратный сервер печати</b>]]></text> 
+	</component>
+	<component id="ID_txt01">
+	 	 <text><![CDATA[<b>Коммутатор</b>]]></text> 
+	</component>
+	<component id="ID_txt02">
+	 	 <text><![CDATA[<b>Сервер печати</b>]]></text> 
+	</component>
+	<component id="ID_txt03">
+	 	 <text><![CDATA[<b>Многофункциональное устройство</b>]]></text> 
+	</component>
+</textcomponents>

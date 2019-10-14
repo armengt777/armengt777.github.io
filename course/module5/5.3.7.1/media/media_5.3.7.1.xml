@@ -1,0 +1,93 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Распространенные команды интерфейса командной строки</b>]]></text>
+</component>
+<component id="ID_table">
+<text><![CDATA[    <table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr>
+          <td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+        </tr>
+        <tr style="background:#A2AA23;">
+          <td bgcolor='#A2AA23' valign="top" class="tdWid"><font  color='#FFFFFF'><b>Команда</b></font></td>
+          <td bgcolor='#A2AA23' valign="top" ><font  color='#FFFFFF'><b>Функция команды</b></font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Help [command-name]</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Сведения о конкретной команде интерфейса командной строки. Можно также использовать команду [command-name] /?.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Taskkill</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Остановка выполняющегося приложения</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Bootrec</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Восстановление главной загрузочной записи (MBR)</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Shutdown</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Выключение локального или удаленного компьютера</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Tasklist</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Отображение приложений, выполняющихся в данный момент</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>MD</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Создание нового каталога</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>RD</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Удаление каталога</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>CD</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Переход в другой каталог</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>DEL</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Удаление файла</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>FDISK</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Работа с разделами диска в Windows XP</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>FORMAT</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Форматирование диска, точки подключения или тома с файловой системой</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>COPY</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Копирование файлов из одного местоположения в другое</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>XCOPY</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'><li>Копирование файлов, каталогов или целых дисков из одного местоположения в другое</li>
+          <li>Копирование каталога и его содержимого из одного местоположения в другое, за исключением пустых каталогов</li>
+          <li>Копирование только файлов с установленным атрибутом «Архивный»    </li>
+          <li>Копирование и проверка совпадения каждого нового файла с исходным файлом</li>
+           <li>Копирование без запроса замены существующих файлов</li>
+          </font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>ROBOCOPY</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Копирование файла</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>DISKPART</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Функциональность управления дисками</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>SFC</font></td>
+          <td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Проверка и замена всех защищенных системных файлов на заведомо исправные версии, если они были повреждены или удалены</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'>CHKDSK</font></td>
+          <td bgcolor='#FFFFFF' valign="top"><font color='#393536'><li>Создание отчета о состоянии диска</li><li> Исправление записей таблицы размещения файлов</li>
+          <li>Попытка восстановления данных с поврежденных секторов диска</li></font></td>
+        </tr>
+    </table>
+]]>
+</text>
+</component>
+
+</textcomponents>

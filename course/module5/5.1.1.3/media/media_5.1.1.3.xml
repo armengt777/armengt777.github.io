@@ -1,0 +1,74 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Совместимость 32-разрядной и 64-разрядной версий Windows</b>]]></text>
+	</component>
+	
+	<component id="ID_table">
+		<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr>
+				<td colspan='3' bgcolor='#434321' class="liner_top"><font size='2' color='#434321'></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>Операционная система Windows</b></font></td>
+				<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>32-разрядная</b></font></td>
+				<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>64-разрядная</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#FFFFFF' valign="top" width='250'><font color='#393536'>Windows 7 Начальная</font></td>
+				<td bgcolor='#FFFFFF' valign="top" width='75'><font color='#393536'>X</font></td>
+				<td bgcolor='#FFFFFF' valign="top" width='75'><font color='#393536'></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows 7 Домашняя расширенная</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>X</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>X</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Windows 7 Профессиональная</font></td>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>X</font></td>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>X</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows 7 Максимальная</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>X</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>X</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Windows Vista Home Basic</font></td>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>X</font></td>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>X</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows Vista Home Premium</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>X</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>X</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Windows Vista Business</font></td>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>X</font></td>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>X</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows Vista Ultimate</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>X</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>X</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Windows XP Professional</font></td>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>X</font></td>
+				<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>X</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Windows XP Home</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>X</font></td>
+				<td bgcolor='#F3F5E7' valign="top"><font color='#393536'></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#FFFFFF' valign="top" width='250'><font color='#393536'>Windows XP Media Center Edition</font></td>
+				<td bgcolor='#FFFFFF' valign="top" width='75'><font color='#393536'>X</font></td>
+				<td bgcolor='#FFFFFF' valign="top" width='75'><font color='#393536'></font></td>
+			</tr>
+		</table>]]></text>
+	</component>
+</textcomponents>

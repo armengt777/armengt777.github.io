@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.4.1.4 Сетевое хранилище (NAS)</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.4.1.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Физические компоненты сети</h1>
+        <h2>Сетевые устройства</h2>
+      </div>
+      <div id="content">
+          <p>Хранилище, подключенное к сети, или сетевое хранилище (Network-attached storage &mdash; NAS) &mdash; это устройство, состоящее из одного или более жестких дисков, подключения Ethernet и встроенной операционной системы вместо полнофункциональной сетевой операционной системы. Сетевое хранилище обеспечивает подключение к сети, позволяя ее пользователям осуществлять доступ к файлам и совместно использовать их, выполнять потоковую передачу мультимедиа и резервное копирование данных в централизованное местоположение. Сетевые хранилища с поддержкой нескольких жестких дисков могут обеспечивать защиту данных на уровне RAID.</p>
+          <p></p>
+          <p>Сетевое хранилище основано на клиент-серверной архитектуре. Одиночное устройство, часто называемое надстройкой сетевого хранилища, выполняет функции интерфейса между сетевым хранилищем и сетевыми клиентами. Клиенты всегда подключаются к надстройке сетевого хранилища, а не к отдельным устройствам хранения. Сетевому хранилищу не требуются монитор, клавиатура или мышь. </p>
+          <p></p>
+          <p>Системы сетевых хранилищ отличаются простотой администрирования. Они часто включают в себя встроенные функции, такие как дисковые квоты, безопасная аутентификация и автоматическая отправка уведомлений электронной почты при обнаружении ошибки оборудования. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

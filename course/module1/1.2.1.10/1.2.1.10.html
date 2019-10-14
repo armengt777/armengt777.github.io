@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>1.2.1.10 Выбор устройств ввода-вывода</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_1.2.1.10_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Выбор компонентов компьютера для замены</h1>
+        <h2>Выбор компонентов ПК</h2>
+      </div>
+      <div id="content">
+          <p>Для выбора устройств ввода и вывода следует сначала ознакомиться с потребностями заказчика. Затем выберите оборудование и программное обеспечение из вариантов решений, сведения о которых имеются в Интернете. Узнав, какие устройства ввода или вывода необходимы заказчику, необходимо определить, как подключать их к компьютеру. На рисунке 1 показаны распространенные разъемы ввода и вывода. </p>
+          <p>Инженеры должны иметь четкое представление о различных типах интерфейсов: </p>
+          <p>
+            <ul>
+              <li>
+                <b>FireWire (IEEE 1394)</b> &mdash; передача данных со скоростью 100, 200 или 400 Мбит/с, IEEE 1394b &mdash; со скоростью 800 Мбит/с.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Параллельный (IEEE 1284)</b> &mdash; передача данных с максимальной скоростью 3 МБ/с.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Последовательный (RS-232)</b> &mdash; скорость ранних версий не превышала 20 Кбит/с, скорость новых версий достигает 1,5 Мбит/с.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>SCSI (Ultra-320 SCSI)</b> &mdash; подключение до 15 устройств со скоростью передачи 320 МБ/с.</li>
+            </ul>
+          </p>
+          <p>Интерфейс USB широко распространен и используется во многих устройствах разных типов. На рисунке 2 показаны распространенные штекеры и гнезда для USB 1.1 и 2.0. На рисунке 3 показаны распространенных штекеры и гнезда для USB 3.0.</p>
+          <p>За последний годы широкое распространение получил интерфейс SATA. Он заменяет IDE и EIDE в качестве стандартного интерфейса для жестких дисков и твердотельных накопителей. Кабели SATA  более просты в подключении, поскольку имеют только два конца, для дисков не требуются перемычки, а диски eSATA поддерживают функцию &laquo;горячей&raquo; замены, если эту функцию поддерживает материнская плата. На рисунке 4 приведено сравнение скоростей PATA и SATA.</p>
+        </div>
+    </div>
+   <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

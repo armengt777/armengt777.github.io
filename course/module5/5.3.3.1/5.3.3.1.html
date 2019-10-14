@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.3.1 Управление компьютером</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.3.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Администрирование</h2>
+      </div>
+      <div id="content">
+          <p>ОС Windows содержит множество служебных программ управления правами доступа и пользователями, а также программ настройки компонентов и служб компьютера. Консоль управления компьютером, показанная на рисунке, позволяет управлять различными компонентами локального компьютера и удаленных компьютеров. </p>
+          <p>Консоль управления компьютером обеспечивает доступ к различным служебным программам, среди которых:</p>
+          <p>
+            <ul>
+              <li>Планировщик заданий</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Просмотр событий</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Общие папки</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Локальные пользователи и группы</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Производительность</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Диспетчер устройств</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Управление дисками</li>
+            </ul>
+          </p>
+          <p>Чтобы открыть консоль управления компьютером, перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Администрирование &gt; Управление компьютером</b>
+          </p>
+          <p>Чтобы открыть консоль управления компьютером для удаленного компьютера, выполните следующие действия: </p>
+          <p>
+            <b>Этап 1. </b>В дереве консоли щелкните правой кнопкой мыши элемент <b>Управление компьютером (локальным)</b> и выберите пункт <b>Подключиться к другому компьютеру</b>.</p>
+          <p>
+            <b>Этап 2. </b>В поле <b>Другой компьютер</b> введите имя компьютера или нажмите кнопку «Обзор», чтобы найти компьютер для осуществления управления.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

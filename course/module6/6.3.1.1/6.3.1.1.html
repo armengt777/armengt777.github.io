@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.3.1.1 Пропускная способность</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.3.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Основные понятия и технологии организации сетей</h1>
+        <h2>Поток данных</h2>
+      </div>
+      <div id="content">
+          <p>При передаче данных по компьютерной сети они разбиваются на небольшие фрагменты, которые называются пакетами. Каждый пакет содержит информацию об адресе источника и назначения. Пакет вместе с информацией об адресах называется кадром. Он также содержит информацию, описывающую порядок повторной сборки всех пакетов в точке назначения. Пропускная способность определяет количество пакетов, которые можно передать в течение фиксированного периода времени.</p>
+          <p></p>
+          <p>Пропускная способность измеряется в битах в секунду и, как правило, передается в одной из следующих единиц измерения:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>бит/с</b> <b>&mdash;</b> бит в секунду </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Кбит/с</b> <b>&mdash;</b> килобит в секунду </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Мбит/с</b> <b>&mdash;</b> мегабит в секунду </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Гбит/с &mdash;</b> гигабит в секунду</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>ПРИМЕЧАНИЕ.</b> 1 байт равен 8&nbsp;битам и обозначается как &laquo;байт&raquo;. 1&nbsp;Мбайт/с приблизительно равен 8&nbsp;Мбит/с. </p>
+          <p></p>
+          <p>На данном рисунке пропускная способность сети сравнивается с автотрассой. В этом примере автомобили и грузовики представляют собой данные. Количество полос автотрассы &mdash; это количество автомобилей, которые могут проходить по трассе в одно и то же время. Трасса с восемью полосами может пропустить в четыре раза больше автомобилей, чем двухполосная. </p>
+          <p></p>
+          <p>Продолжительность времени, затрачиваемая на передачу данных от источника в пункт назначения, называется задержкой. На пути автомобиля по городу встречаются красные сигналы светофора или объезды. Передача данных замедляется в зависимости от сетевых устройств и длины кабелей. Сетевые устройства увеличивают задержку при обработке и пересылке данных. При поиске в Интернете или загрузке файла задержка, как правило, не вызывает каких-либо проблем. Приложения, для которых важно быстродействие, например приложения для телефонных вызовов через Интернет, видеоприложения и видеоигры, могут сильно страдать от задержек.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,14 @@
+﻿<textcomponents>
+
+<component id="ID_label01">
+<text><![CDATA[<b>Включение передачи данных по сотовой сети на устройствах Android</b>]]></text>
+</component>
+<component id="ID_label02">
+  <text><![CDATA[<b>Включение передачи данных по сотовой сети на устройствах iOS</b>]]></text> 
+  </component>
+
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+  
+</textcomponents>

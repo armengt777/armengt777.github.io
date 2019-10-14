@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.9.1.3 Беспроводной доступ к Интернету прямой видимости</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.9.1.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Выбор типа подключения к поставщику услуг Интернета</h1>
+        <h2>Технологии подключения</h2>
+      </div>
+      <div id="content">
+          <p>Беспроводной доступ к Интернету прямой видимости &mdash; служба постоянного подключения, которая использует радиосигналы для доступа в Интернет. Радиосигналы передаются от вышки к приемнику, который пользователь подключает к компьютеру или сетевому устройству. В этом случае необходимо, чтобы между вышкой и приемником не было препятствий. Вышка может быть подключена к другим вышкам или иметь непосредственное подключение к магистральному каналу Интернета. Расстояние, на которое может передаваться радиосигнал, оставаясь достаточно мощным, чтобы обеспечить устойчивый прием, зависит от частоты сигнала. Сигнал низкой частоты (900&nbsp;МГц) может передаваться на расстояние до 65&nbsp;км (40&nbsp;миль), в то время как сигнал более высокой частоты (5,7&nbsp;ГГц) может преодолеть только 3&nbsp;км (2 мили). Плохие погодные условия, деревья и высокие здания могут повлиять на мощность и качество сигнала.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

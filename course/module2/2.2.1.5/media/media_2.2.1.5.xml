@@ -1,0 +1,37 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Цифровой мультиметр</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[С помощью цифрового мультиметра проверяют целостность цепей и качество электропитания в компонентах компьютера.]]></text>
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Петлевой адаптер</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Петлевой адаптер применяется для проверки базовой функциональности портов компьютера.]]></text>
+</component>
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>Генератор тона/пробник</b>]]></text>
+</component>
+
+<component id="ID_s3_txt01">
+<text><![CDATA[Генератор тона/пробник используется для трассировки кабелей.]]></text>
+</component>
+
+<component id="ID_s4_title">
+<text><![CDATA[<b>Внешний корпус</b>]]></text>
+</component>
+
+<component id="ID_s4_txt01">
+<text><![CDATA[Во внешний корпус помещается жесткий диск, который может использоваться для диагностики жесткого диска или компьютера заказчика, который не загружается. Также внешний корпус может применяться для создания резервных копий жесткого диска заказчика.]]></text>
+</component>
+
+
+
+</textcomponents>

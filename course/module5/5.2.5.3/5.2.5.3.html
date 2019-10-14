@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.2.5.3 Расширения и атрибуты файлов</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.2.5.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка операционной системы</h1>
+        <h2>Структура каталогов и атрибуты файлов</h2>
+      </div>
+      <div id="content">
+          <p>К файлам в структуре каталогов применяются общие правила создания имен Windows:</p>
+          <p>
+            <ul>
+              <li>Имя файла может содержать не более 255 знаков. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>В именах файлов недопустимо использовать косую черту или обратную косую черту (/ \). </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Для определения типа файла к имени файла добавляется расширение, содержащее три-четыре буквы. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Имена файлов не зависят от регистра символов. </li>
+            </ul>
+          </p>
+          <p>По умолчанию расширения файлов скрыты. Для отображения расширений файлов необходимо отключить настройку <b>Скрывать расширения для зарегистрированных типов файлов</b> в служебной программе панели управления «Параметры папок», как показано на рисунке.</p>
+          <p>Чтобы отобразить расширения файлов, перейдите по следующим пунктам: </p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Параметры папок &gt; Вид</b>, снимите флажок <b>Скрывать расширения для зарегистрированных типов файлов</b></p>
+          <p>Обычно для имен файлов используются следующие расширения:</p>
+          <p>
+            <ul>
+              <li>
+                <b>.docx</b> — документ Microsoft Word </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.txt</b> — текст ASCII без форматирования </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.jpg</b> — графический формат </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.pptx</b> — презентация Microsoft PowerPoint </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.zip</b> — сжатый формат </li>
+            </ul>
+          </p>
+          <p>В структуре каталогов содержится набор атрибутов для каждого файла, контролирующий способы просмотра файла или внесения в него изменений. Существуют следующие стандартные атрибуты файлов:</p>
+          <p>
+            <ul>
+              <li>
+                <b>R</b> — файл доступен только для чтения. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>A</b> — файл будет заархивирован во время следующего резервного копирования диска. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>S</b> — файл помечен как системный файл, и при попытке удалить или изменить его выводится предупреждение. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>H</b> — файл скрыт в представлении каталога. </li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

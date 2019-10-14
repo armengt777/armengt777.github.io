@@ -1,0 +1,22 @@
+﻿<textcomponents>  
+
+
+  
+<component id="ID_s1_title">
+  <text><![CDATA[<b>Флэш-накопитель</b>]]></text> 
+  </component>
+  
+<component id="ID_s2_title">
+  <text><![CDATA[<b>Цифровые карты флэш-памяти</b>]]></text> 
+  </component>
+<component id="ID_s2_txt01">
+	<text><![CDATA[<b>Карта флэш-памяти Secure Digital</b>]]></text>
+	</component>
+<component id="ID_s2_txt02">
+  <text><![CDATA[<b>Карта флэш-памяти SDHC</b>]]></text> 
+  </component>
+  
+<component id="ID_s3_title">
+  <text><![CDATA[<b>Устройство чтения карт флэш-памяти</b>]]></text> 
+  </component>
+</textcomponents>

@@ -1,0 +1,74 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Блок питания</b>]]></text>
+</component>
+
+<component id="ID_table">
+  <text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr>
+		<td colspan='6' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#a2aa23'  valign="top" width="55" rowspan='2' id="voltage"><font color='#ffffff' size="11"><b>Напряжение</b></font></td>
+		<td bgcolor='#a2aa23'  valign="top"  width="55" rowspan='2' id="Wire"><font color='#ffffff' size="11"><b>Цвет провода</b></font></td>
+		<td bgcolor='#a2aa23'  valign="top" rowspan='2' id="use"><font color='#ffffff' size="11"><b>Использование</b></font></td>
+		<td bgcolor='#a2aa23'  valign="top" class="border_left" colspan='3' ><font color='#ffffff' size="11" ><b>Стандарт блока питания</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#a2aa23'  valign="top" width="30" class="border_left"><font color='#ffffff' size="11"><b>AT</b></font></td>
+		<td bgcolor='#a2aa23'  valign="top" width="35" class="border_left"><font color='#ffffff' size="11"><b>ATX</b></font></td>
+		<td bgcolor='#a2aa23'  valign="top" width="55" class="border_left" id="ATXv12"><font color='#ffffff' size="11"><b>ATX12V</b></font></td>
+	</tr>
+	<tr>
+		<td height="30" bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">+12V</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">Желтый</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">Двигатели дисковых приводов, вентиляторы, охлаждающие устройства и гнезда системной шины</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">*</font></td>
+	</tr>
+	<tr>
+		<td height="30" bgcolor='#ffffff' valign="top"><font color='#393536' size="11">-12V</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">Синий</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">Некоторые виды схем последовательных портов и ранние типы программируемой памяти «только для чтения» (ЭППТЧ)</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">*</font></td>
+	</tr>
+	<tr>
+		<td height="30" bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">+3.3V</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">Оранжевый</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">Большинство современных ЦП, некоторые виды системной памяти и видеокарты AGP</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11"></font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">*</font></td>
+	</tr>
+	<tr>
+		<td height="30" bgcolor='#ffffff' valign="top"><font color='#393536' size="11">+5V</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">Красный</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">Материнская плата, Baby AT и ранние типы ЦП, а также многие компоненты материнской платы</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">*</font></td>
+	</tr>
+	<tr>
+		<td height="30" bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">-5V</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">Белый</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">Карты шины ISA и ранние типы программируемой памяти «только для чтения» (ЭППТЧ)</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536' size="11">*</font></td>
+	</tr>
+	<tr>
+		<td height="30" bgcolor='#ffffff' valign="top"><font color='#393536' size="11">0V</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">Черный</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">Земля — контакт для создания полной цепи.</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">*</font></td>
+		<td bgcolor='#ffffff' valign="top"><font color='#393536' size="11">*</font></td>
+	</tr>
+	
+</table>]]></text>
+  </component>
+</textcomponents>

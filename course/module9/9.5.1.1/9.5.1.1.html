@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>9.5.1.1 Инструкции от поставщика</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.5.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Методы профилактического обслуживания для принтеров</h1>
+        <h2>Профилактическое обслуживание принтеров</h2>
+      </div>
+      <div id="content">
+          <p>Профилактическое обслуживание сокращает период простоя и увеличивает срок службы компонентов. Чтобы принтеры работали правильно, очень важно проводить их обслуживание. Хорошая программа обслуживания гарантирует высокое качество печати и бесперебойную работу. В документации к принтеру содержится информация о том, как обслуживать и чистить оборудование.</p>
+          <p>Прочитайте руководства, которые поставляются с каждым новым элементом оборудования. Следуйте рекомендованным инструкциям по обслуживанию. Используйте материалы, указанные производителем. Вы можете сэкономить, используя более дешевые материалы, однако это может привести к ухудшению результатов работы, повреждению оборудования или прекращению гарантии.</p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Перед началом любых работ по обслуживанию убедитесь, что принтер отключен от источника питания.</p>
+          <p>По завершении сеанса обслуживания сбросьте счетчики, чтобы выполнить следующее обслуживание вовремя. На многих типах принтеров количество страниц выводится на ЖК-дисплей или счетчик, расположенный под главной крышкой. </p>
+          <p>Большинство производителей продает наборы инструментов для обслуживания своих принтеров. Набор для обслуживания лазерных принтеров может включать в себя сменные детали, которые часто ломаются или изнашиваются:</p>
+          <p>
+            <ul>
+              <li>блок термофиксатора; </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>валы переноса; </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>тормозная подложка; </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>дукторные валы. </li>
+            </ul>
+          </p>
+          <p>При установке новых деталей или замене тонеров или картриджей проведите визуальный осмотр внутренних компонентов и выполните следующие действия:</p>
+          <p>
+            <ul>
+              <li>удалите частицы бумаги и пыли;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>очистите пролитые чернила или тонер;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>поищите изношенные шестерни, треснувший пластик и сломанные детали.</li>
+            </ul>
+          </p>
+          <p>Если вы не знаете, как обслуживать оборудование для печати, обратитесь к инженеру, сертифицированному производителем. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

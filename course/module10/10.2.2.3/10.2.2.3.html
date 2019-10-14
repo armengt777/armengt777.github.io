@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>10.2.2.3 Резервное копирование данных</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_10.2.2.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедуры безопасности</h1>
+        <h2>Защита данных</h2>
+      </div>
+      <div id="content">
+          <p>При выполнении резервного копирования данных компьютера копия информации сохраняется на съемном носителе для резервных копий, который можно сохранить в надежном месте.? Резервное копирование данных &mdash; один из самых эффективных способов защиты данных от потери. Данные могут потеряны или повреждены в таких случаях, как кражи, сбои оборудования или аварии. В случае сбоя компьютерного оборудования данные могут быть восстановлены из резервной копии на работающем оборудовании.</p>
+          <p>Резервное копирование данных следует выполнять регулярно и включать в план безопасности. Последняя резервная копия данных обычно сохраняется автономно, чтобы защитить носителя с резервными копиями на случай, если что-либо произойдет в основном помещении. Носители с резервными копиями часто используются повторно для экономии затрат на носители. Всегда следуйте правилам организации по замене носителей.</p>
+          <p>Ниже приведены некоторые соображения по резервному копированию данных.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Частота </b>&mdash; резервное копирование может длиться очень долго. Иногда проще выполнять полное резервное копирование ежемесячно или еженедельно, а затем выполнять частые частичные резервные копирования данных, измененных с момента полного резервного копирования. Однако чем больше частичных копий, тем больше затрачивается времени на восстановление данных.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Хранение</b> &mdash; чтобы обеспечить дополнительную безопасность, необходимо переносить резервные копии в автономное хранилище ежедневно, еженедельно или ежемесячно в соответствии с политикой безопасности.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Безопасность</b> &mdash; резервные копии должны быть защищены паролями. Пароль вводится до того, как данные на резервном носителе могут быть восстановлены.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Проверка</b> &mdash; всегда проверяйте резервные копии для обеспечения целостности данных.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

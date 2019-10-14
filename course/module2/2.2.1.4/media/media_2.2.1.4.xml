@@ -1,0 +1,33 @@
+﻿<textcomponents> 
+ <component id="ID_btn01">
+  <text><![CDATA[<b>Мягкая безворсовая ткань</b>]]></text>
+  </component>
+<component id="ID_btn02">
+  <text><![CDATA[<b>Сжатый воздух</b>]]></text> 
+  </component>
+<component id="ID_btn03">
+  <text><![CDATA[<b>Хомуты для кабеля</b>]]></text> 
+  </component>
+<component id="ID_btn04">
+  <text><![CDATA[<b>Касса для деталей</b>]]></text>
+  </component>
+  
+<component id="ID_s1_caption">
+  <text><![CDATA[Мягкая безворсовая ткань используется для очистки различных компьютерных компонентов, не царапая их и не оставляя посторонних частиц.]]></text>
+  </component>
+<component id="ID_s2_caption">
+  <text><![CDATA[Сжатый воздух используется, чтобы сдувать пыль и инородные частицы с различных деталей компьютера, не касаясь компонентов.]]></text> 
+  </component>
+<component id="ID_s3_caption">
+  <text><![CDATA[Хомуты для кабеля используются, чтобы аккуратно объединять кабели внутри и снаружи компьютера.]]></text> 
+  </component>
+<component id="ID_s4_caption">
+  <text><![CDATA[Касса для деталей применяется для хранения винтов, перемычек, зажимов и других мелких деталей, а также предотвращает их смешивание.]]></text>
+  </component>
+  
+  
+  
+<component id="transcript">
+  <text><![CDATA[<b>вставка текста</b>]]></text> 
+  </component>
+</textcomponents>

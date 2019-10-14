@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE" >
+	<slide>
+		<element type="IMAGE" x="63.2" y="28" width="343.6" height="360" subType="STD" src="11_3_1_3.jpg" />
+		<element type="TEXT" subType="TITLE" compId="ID_title"/>
+		<element type="TEXT" compId="ID_txt01" x="151.8" y="40.85" width="125.7" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt02" x="151.8" y="49.35" width="125.7" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt03" x="151.8" y="55.85" width="155.35" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt04" x="151.8" y="62.85" width="155.35" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt05" x="117.8" y="99.85" width="46.85" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt07" x="295.3" y="99.85" width="58.35" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt08" x="117.8" y="108.85" width="46.85" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt06" x="211.8" y="108.35" width="46.35" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt09" x="117.8" y="117.35" width="46.35" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt10" x="118.3" y="134.35" width="205.15" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt11" x="117.8" y="153.85" width="45.85" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt12" x="275.4" y="151.85" width="75" expand="right" align="left" size="5"/>
+		<element type="TEXT" compId="ID_txt14" x="314.9" y="167.35" width="43.8" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt13" x="119.35" y="162.35" width="38.8" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt15" x="120.85" y="181.85" width="46.35" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt16" x="93.85" y="254.35" width="283.05" expand="right" align="left" size="6"/>
+		<element type="TEXT" compId="ID_txt17" x="93.35" y="310.85" width="283.6" expand="right" align="left" size="6"/>
+	</slide>
+</data>
+
+

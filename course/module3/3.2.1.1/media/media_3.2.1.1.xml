@@ -1,0 +1,81 @@
+﻿<textcomponents>
+
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>POST</b>]]></text>
+</component>
+<component id="ID_s2_title">
+<text><![CDATA[<b>Общие коды звуковых сигналов</b>]]></text>
+</component>
+
+<component id="ID_s2_table">
+		<text><![CDATA[
+				<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				<tr class="title">
+          				<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+        		</tr>				
+				<tr>
+					<td bgcolor='#A2AA23' width='100' valign="top"><font size='12' color='#ffffff'><b>Код звукового сигнала</b></font></td>
+					<td bgcolor='#A2AA23' width='150' valign="top"><font size='12' color='#ffffff'><b>Значение</b></font></td>
+					<td bgcolor='#A2AA23' valign="top"><font size='12' color='#ffffff'><b>Причина</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>1 сигнал (Нет<br /> видео)</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Ошибка обновления памяти</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Неисправная память</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>2 сигнала</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Ошибка контроля по четности при обращении к памяти</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Неисправная память</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>3 сигнала</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Ошибка памяти в первых 64 Кбайт</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Неисправная память</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>4 сигнала</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Не работает таймер</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Неисправная материнская плата</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>5 сигналов</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Ошибка процессора</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Неисправный процессор</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>6 сигналов</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Ошибка А20 порта 8042</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Неисправные ЦП или материнская плата</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>7 сигналов</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Исключение процессора</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Неисправный процессор</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>8 сигналов</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Ошибка видеопамяти</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Неисправная видеокарта или память</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>9 сигналов</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Ошибка контрольных сумм ПЗУ</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Неисправный BIOS</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>10 сигналов</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Ошибка контрольных сумм CMOS</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Неисправная материнская плата</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>11 сигналов</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Неисправная кэш-память</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Неисправные ЦП или материнская плата</font></td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+
+</textcomponents>

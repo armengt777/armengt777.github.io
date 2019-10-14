@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide>
+			<element type="IMAGE" subType="STD" src="6_3_1_1.jpg" x="63" y="33" width="345" height="345"/>
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+	
+			<element type="TEXT" compId="ID_txt01" x="66.35" y="36.85" width="205.05" expand="down" align="left" size="10" />
+			<element type="TEXT" compId="ID_txt02" x="66.35" y="132.85" width="327.45" expand="down" align="left" size="10" />
+			<element type="TEXT" compId="ID_txt03" x="66.35" y="261.85" width="216.15" expand="down" align="left" size="10" />
+		</slide>
+	</data>
+
+

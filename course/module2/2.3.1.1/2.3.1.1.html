@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>2.3.1.1 Обзор</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_2.3.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Лабораторные процедуры и использование инструментов</h1>
+        <h2>Обзор</h2>
+      </div>
+      <div id="content">
+          <p>В данной главе рассматривались безопасные лабораторные процедуры, правильное использование инструментов и надлежащая утилизация компьютерных компонентов и расходных материалов. В лаборатории вы познакомились со множеством инструментов, применяемых для сборки, обслуживания и очистки компьютера и электронных компонентов. Также вы узнали о том, как важны организационные средства и как они помогают выполнять работу с большей эффективностью.</p>
+          <p>Вот некоторые важные концепции из этой главы, которые нужно запомнить:</p>
+          <p>
+            <ul>
+              <li>Выполняйте работу безопасным образом, чтобы не причинить вреда пользователям и оборудованию. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Соблюдайте все рекомендуемые правила безопасности, чтобы не получить травм самому и не подвергнуть угрозе здоровье других людей. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Знайте, как нужно защищать оборудование от ЭСР. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Знайте и умейте предотвращать проблемы с питанием, которые могут привести к повреждению оборудования или потере данных. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Знайте, какие продукты и расходные материалы требуют соблюдения особых процедур утилизации. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Ознакомьтесь с ПБМ и узнайте правила безопасности и требования по утилизации, чтобы сохранить окружающую среду. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Умейте использовать соответствующие инструменты для решения задач. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Знайте, как производить безопасную очистку компьютера. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Пользуйтесь организационными средствами при ремонте компьютера. </li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

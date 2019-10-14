@@ -1,0 +1,42 @@
+﻿<textcomponents>
+<component id="ID_title">
+	 	 <text><![CDATA[<b>Стандарты управления питанием ACPI</b>]]></text> 
+	</component>
+	<component id="ID_table">
+		<text><![CDATA[
+			<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>	
+				<tr >
+					<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#A2AA23' width="100"><font size='12' color='#ffffff'><b>Стандарт</b></font></td>
+					<td bgcolor='#A2AA23'><font size='12' color='#ffffff'><b>Описание</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7'><font size='12' color='#393536'>S0</font></td>
+					<td bgcolor='#F3F5E7'><font size='12' color='#393536'>Компьютер включен, ЦП работает.</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF'><font size='12' color='#393536'>S1</font></td>
+					<td bgcolor='#FFFFFF'><font size='12' color='#393536'>ЦП и ОЗУ получают питание, питание неиспользуемых устройства отключено.</font></td>
+				</tr>	
+				<tr>
+					<td bgcolor='#F3F5E7'><font size='12' color='#393536'>S2</font></td>
+					<td bgcolor='#F3F5E7'><font size='12' color='#393536'>ЦП отключен, но ОЗУ обновляется. Система находится в более глубоком состоянии сна по сравнению с S1.</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF'><font size='12' color='#393536'>S3</font></td>
+					<td bgcolor='#FFFFFF'><font size='12' color='#393536'>ЦП отключен, частота обновления ОЗУ более низкая. Этот режим часто называется «сохранение в ОЗУ». В Windows XP этот режим назывался ждущим режимом.</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F3F5E7'><font size='12' color='#393536'>S4</font></td>
+					<td bgcolor='#F3F5E7'><font size='12' color='#393536'>ЦП и ОЗУ отключены. Содержимое ОЗУ сохранено во временном файле на жестком диске. Этот режим часто называется «сохранение на диск». В Windows 7, Windows Vista и Windows XP этот режим известен как режим гибернации, или спящий режим.</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF'><font size='12' color='#393536'>S5</font></td>
+					<td bgcolor='#FFFFFF'><font size='12' color='#393536'>Компьютер отключен.</font></td>
+				</tr>	
+			</table>]]>
+		</text>
+	</component>
+</textcomponents>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>1.2.1.1 Корпус и блок питания</title>
+    <!--  -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_1.2.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Выбор компонентов компьютера для замены</h1>
+        <h2>Выбор компонентов ПК</h2>
+      </div>
+      <div id="content">
+          <p>Перед покупкой или модернизацией необходимо сначала определить потребности пользователя. Спросите заказчика, какие внешние и внутренние устройства будут подключены к компьютеру. Корпус компьютера должен соответствовать габаритам блока питания.</p>
+          <p>В корпусе компьютера размещаются блок питания, материнская плата, память и другие компоненты. Если корпус и блок питания приобретаются по отдельности, следует проверить, все ли компоненты размещаются в новом корпусе и хватит ли мощности блока питания для их работы. Часто корпуса продаются с уже установленным блоком питания. В этом случае необходимо проверить, обеспечивает ли блок питания достаточную мощность для работы всех компонентов, которые будут установлены в корпусе.</p>
+          <p>Блок питания преобразует входящий переменный ток в выходящий постоянный ток. Как правило, блоки питания дают напряжение в 3,3, 5 и 12 вольт. Их мощность измеряется в ваттах. Рекомендуется выбирать блок питания, подающий на 25&nbsp;% мощности больше, чем требуется для установленных компонентов. Чтобы определить общую требуемую мощность, просуммируйте мощность, необходимую каждому из компонентов. Если для компонента не указана потребляемая мощность, подсчитайте ее, умножив напряжение на силу тока. Если для компонента необходим другой уровень мощности, выберите более высокие требования. Определив необходимую мощность, проверьте, имеет ли блок питания разъемы, необходимые для каждого компонента. </p>
+        </div>
+    </div>
+   <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

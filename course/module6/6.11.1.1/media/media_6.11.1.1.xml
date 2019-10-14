@@ -1,0 +1,39 @@
+﻿<textcomponents>
+
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	 
+	<tr class="title">
+	 <td colspan='2' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Этап 1. Определение проблемы</b></font></td>
+	 </tr>
+	
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	  
+	<tr>
+		<td bgcolor='#F3F5E7' width="120px" valign="top"><font size='12' color='#393536'>«Открытые» вопросы</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>
+		<ul>
+<textformat blockindent='-18'><li>Какие неполадки возникли с вашим компьютером или сетевым устройством?</li>
+		<li>Какое программное обеспечение вы недавно установили на свой компьютер?</li>
+		<li>Что вы делали, когда обнаружилась неполадка?</li>
+		<li>Какое сообщение об ошибке вы получили?</li>
+		<li>Какой тип сетевых подключений используется на этом компьютере?</li>
+</textformat>		</ul>
+		</font></td> 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>«Закрытые» вопросы</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>
+		<textformat blockindent='-18'><li>Пользовался ли вашим компьютером кто-либо еще за последнее время?</li>
+		<li>Видите ли вы какие-нибудь общие файлы или папки?</li>
+		<li>Не меняли ли вы свой пароль в последнее время?</li>
+		<li>Можете ли вы выйти в Интернет?</li>
+		<li> Находитесь ли вы сейчас в сети?</li></textformat>
+		</font></td> 
+	</tr>	
+</table>]]></text>
+</component>
+
+</textcomponents>

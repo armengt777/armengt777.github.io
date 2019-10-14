@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.2.1.2 Настройка BIOS</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.2.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Загрузка компьютера</h1>
+        <h2>POST и BIOS</h2>
+      </div>
+      <div id="content">
+          <p>В BIOS содержится программа настройки параметров для оборудования. Данные настройки сохраняются в специальной микросхеме памяти, изготовленной по технологии комплементарного металло-оксидного полупроводника (КМОП или CMOS), в ИТ обычно называемой CMOS, см. рис.1. Данные в CMOS сохраняются благодаря специальной батарее в компьютере. Если батарея разряжается, все данные настройки BIOS теряются. Если это произошло, замените батарею и выполните повторную настройку тех параметров BIOS, для которых не используются значения по умолчанию.</p>
+          <p>Во многих современных материнских платах для хранения параметров BIOS применяется энергонезависимая память. Для сохранения параметров данному типу памяти питание не требуется. В таких системах батарея используется только для поддержания правильного времени и даты на часах. При разрядке или удалении батареи параметры BIOS не теряются.</p>
+          <p>Для входа в программу настройки BIOS необходимо нажать соответствующую клавишу или комбинацию клавиш во время процедуры POST. Многие материнские платы во время выполнения процедуры POST выводят изображение, называемое окно-заставка. Из-за окна-заставки компьютер может не выводить информацию о том, какую клавишу или последовательность клавиш нужно нажать. В большинстве компьютеров для входа в программу настройки BIOS требуется нажать клавишу DEL или Function. Клавишу или сочетание клавиш для конкретного компьютера можно найти в документации к материнской плате.</p>
+          <p>На рисунке 2 представлен пример программы настройки BIOS. Ниже перечислены некоторые общие пункты меню настройки BIOS:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Main</b> &mdash; базовая настройка системы</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Advanced</b> &mdash; дополнительные параметры системы</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Boot</b> &mdash; варианты загрузочных устройств и порядок загрузки</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Security</b> &mdash; параметры безопасности</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Power</b> &mdash; дополнительные параметры управления питанием</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>JUSTw00t!</b> &mdash; дополнительные параметры напряжения и часов</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Exit</b> &mdash; варианты выхода из BIOS и загрузки значений по умолчанию</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

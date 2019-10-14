@@ -1,0 +1,8 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Температура и влажность</b>]]></text>
+</component>
+<component id="ID_txt01">
+<text><![CDATA[<textformat blockindent='18'><b>Подвигайте мышь вверх-вниз по изображению, чтобы изменить настройки.</b></textformat>]]></text>
+</component>
+</textcomponents>

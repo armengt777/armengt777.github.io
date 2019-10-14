@@ -1,0 +1,31 @@
+﻿<textcomponents>
+	
+	
+	<component id="ID_table">
+		<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			 <tr class="title">
+					<td colspan='2' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Этап 2. Формирование предположений о возможной причине</b></font></td>
+				</tr>
+			 <tr>
+          <td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+        </tr>
+		
+			 
+			<tr>
+			<td valign="top" bgcolor='#F3F5E7'><font size='12'color='#393536'>Распространенные причины неполадок операционных систем</font></td>
+				<td valign="top" bgcolor='#F3F5E7'><font size='12'color='#393536'>
+														<li>Неправильные значения параметров BIOS</li>
+														<li>Нажата клавиша Caps Lock</li>
+														<li>В приводе гибких дисков во время загрузки компьютера находится носитель, не являющийся загрузочным</li>
+														<li>Изменен пароль</li>
+														<li>Неправильные значения параметров монитора на панели управления</li>
+														<li>Сбой обновления операционной системы</li>
+														<li>Сбой обновления драйвера</li>
+														<li>Заражение вредоносным ПО</li>
+														<li>Сбой жесткого диска</li>
+														<li>Повреждение файлов операционной системы</li>
+													</font></td>
+			</tr>
+		</table>]]></text>
+	</component>
+</textcomponents>

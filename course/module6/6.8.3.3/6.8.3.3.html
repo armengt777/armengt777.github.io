@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.8.3.3 Вход в систему маршрутизатора</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.8.3.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Подключение компьютера к сети</h1>
+        <h2>Настройка беспроводного и проводного маршрутизатора</h2>
+      </div>
+      <div id="content">
+          <p>После того как будет установлена связь с модемом, необходимо настроить маршрутизатор для работы с устройствами в сети. Откройте веб-браузер. В поле адреса введите 192.168.1.1. Это частный IP-адрес по умолчанию для интерфейса настройки и управления маршрутизатора Linksys E2500. </p>
+          <p></p>
+          <p>При первом подключении к Linksys E2500 появится запрос на установку программного обеспечения Cisco Connect или на подключение к маршрутизатору вручную с использованием служебной программы с веб-интерфейсом. При подключении к маршрутизатору E2500 вручную в окне безопасности, как показано на рисунке, появится запрос на ввод учетных данных для доступа к экранам настройки маршрутизатора. Поле &laquo;имя пользователя&raquo; должно быть оставлено пустым. Введите пароль по умолчанию admin.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

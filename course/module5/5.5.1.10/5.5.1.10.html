@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.5.1.10 Точки восстановления</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.5.1.10_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Стандартные методы профилактического обслуживания операционных систем</h1>
+        <h2>План профилактического обслуживания операционной системы</h2>
+      </div>
+      <div id="content">
+          <p>Иногда установка приложения или драйвера устройства может привести к нестабильности системы или создать неожиданные проблемы. Удаление приложения или драйвера устройства обычно устраняет эту проблему. Если проблема не может быть решена удалением приложения или драйвера, рекомендуется использовать служебную программу восстановления системы, чтобы вернуть компьютер к предыдущему состоянию, в котором он работал исправно.</p>
+          <p>Точки восстановления содержат информацию о параметрах системы и реестра. В случае сбоя компьютера или возникновения проблемы, вызванной обновлением, можно восстановить предыдущую настройку с помощью точки восстановления.  Программа восстановления системы не создает резервных копий файлов с личными данными и не восстанавливает личные файлы, которые были повреждены или удалены. Всегда следует использовать специализированную систему резервного копирования: ленточный накопитель, оптический диск или USB-накопитель.</p>
+          <p>В перечисленных ниже ситуациях, прежде чем вносить изменения в систему, инженер должен создать точку восстановления:</p>
+          <p>
+            <ul>
+              <li>обновление ОС;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>установка или обновление оборудования;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>установка приложения;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>установка драйвера.</li>
+            </ul>
+          </p>
+          <p>Чтобы открыть служебную программу восстановления системы и создать точку восстановления, выполните следующие действия:</p>
+          <p>
+            <b>Пуск &gt; Все программы &gt; Стандартные &gt; Служебные &gt; Восстановление системы</b>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

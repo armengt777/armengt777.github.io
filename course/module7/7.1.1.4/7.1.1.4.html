@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.1.1.4 Особые функциональные клавиши</title>
+    <!--  -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.1.1.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Компоненты ноутбуков</h1>
+        <h2>Компоненты ноутбуков</h2>
+      </div>
+      <div id="content">
+          <p>Клавиша Function (Fn) предназначена для активации второй функции клавиши двойного назначения. Обозначение второй функции, доступ к которой можно получить, нажав клавишу Fn в сочетании с другой клавишей, напечатано на этой клавише более мелким шрифтом или шрифтом другого цвета. Можно получить доступ к следующим функциям:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Параметры монитора</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Яркость монитора</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Яркость подсветки клавиатуры</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Параметры громкости</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Спящий режим</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Беспроводные подключения</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Подключения через Bluetooth</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Состояние аккумулятора</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Некоторые ноутбуки могут иметь специализированные функциональные клавиши, которые работают без нажатия клавиши Fn.</p>
+          <p></p>
+          <p>Монитор ноутбука &mdash; это встроенный ЖК-монитор. Он похож на ЖК-монитор для настольного компьютера, за исключением того, что разрешение, яркость и контрастность регулируются с помощью ПО или кнопок. Нельзя изменить высоту монитора ноутбука или расстояние, на котором он находится, поскольку он интегрирован в крышку корпуса. Монитор для настольного компьютера можно подключить к ноутбуку. Нажмите клавишу Fn одновременно с соответствующей функциональной клавишей на клавиатуре ноутбука, чтобы переключиться на монитор для настольного компьютера, как показано на рисунке.</p>
+          <p></p>
+          <p>Не следует путать клавишу Fn с функциональными клавишами F1&ndash;F12. Эти клавиши, как правило, находится в верхнем ряду клавиатуры. Их функции зависят от операционной системы (ОС) и приложения, которое работает при их нажатии. С помощью каждой из этих клавиш можно выполнить до семи различных задач, если нажимать их в сочетании с клавишами Shift, Control и Alt.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

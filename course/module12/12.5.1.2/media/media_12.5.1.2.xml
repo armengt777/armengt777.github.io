@@ -1,0 +1,158 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Распространенные неполадки принтеров и способы их устранения</b>]]></text>
+</component>
+  <component id="ID_table">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="liner">
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Принтер печатает неизвестные символы.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Принтер может быть подключен к ИБП.</li>
+<li>Установлен неверный драйвер принтера. </li>
+<li>Плохо подключены кабели принтера. </li>
+<li>Принтер был поставлен на паузу.</li>
+<li>Принтер переключен в автономный режим.</li></textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Подключите принтер непосредственно в розетку сетевого питания. </li>
+<li>Удалите неправильный драйвер принтера и установите правильный. </li>
+<li>Надежно подключите кабели принтера. </li>
+<li>Переключите принтер в оперативный режим.</li></textformat></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>При печати возникает замятие бумаги.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Используется неправильный тип бумаги. </li>
+<li>Повышенный уровень влажности приводит к слипанию бумаги. </li></textformat></font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>
+<textformat blockindent='-18'><li>Замените бумагу на рекомендованную производителем.</li> 
+<li>Вставьте новую бумагу в лоток.</li></textformat></font>
+          </td>
+        </tr>
+
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Принтер не печатает большие или сложные изображения.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Недостаточный объем памяти принтера.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Добавьте память в принтер. </font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Лазерный принтер печатает вертикальные линии и полосы на всех страницах.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Поврежден барабан.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Замените барабан или картридж с тонером, если в нем находится барабан.</li>
+<li>Вытащите и встряхните картридж с тонером.</li></textformat></font>
+          </td>
+        </tr>
+		
+		
+		<tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Принтер печатает двоящиеся изображения.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Барабан поцарапан или загрязнен.</li><li>Ракель изношен.</li></textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Замените барабан или картридж с тонером, если в нем находится барабан.</font>
+          </td>
+        </tr>	
+
+
+        <tr>
+            <td bgcolor='#FFFFFF' valign="top">
+              <font color='#393536'>Тонер не закрепляется на бумаге.</font>
+            </td>
+          <td bgcolor='#FFFFFF' valign="top">
+             <font color='#393536'>Термофиксатор неисправен.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+              <font color='#393536'>Замените термофиксатор.</font>
+          </td>
+       </tr>
+
+      <tr>
+            <td bgcolor='#F3F5E7' valign="top">
+              <font color='#393536'>Бумага мнется при печати.</font>
+            </td>
+          <td bgcolor='#F3F5E7' valign="top">
+             <font color='#393536'>Дукторные валы блокируются, повреждены или загрязнены.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+              <font color='#393536'>Почистите или замените дукторные валы.</font>
+          </td>
+       </tr>
+
+       <tr>
+            <td bgcolor='#FFFFFF' valign="top">
+              <font color='#393536'>Бумага не поступает в принтер.</font>
+            </td>
+          <td bgcolor='#FFFFFF' valign="top">
+             <font color='#393536'>Дукторные валы блокируются, повреждены или загрязнены.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+              <font color='#393536'>Почистите или замените дукторные валы.</font>
+          </td>
+       </tr>
+
+
+        <tr>
+            <td bgcolor='#F3F5E7' valign="top">
+              <font color='#393536'>При каждом повторном запуске сетевого принтера пользователи получают сообщение «Document failed to print» (Не удалось напечатать документ).</font>
+            </td>
+          <td bgcolor='#F3F5E7' valign="top">
+             <font color='#393536'><textformat blockindent='-18'><li>Настройка IP принтера выполнена на протокол DHCP.</li>
+<li>В сети есть устройство с таким же IP-адресом, что и у сетевого принтера.</li></textformat></font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+              <font color='#393536'><textformat blockindent='-18'><li>Назначьте принтеру статический IP-адрес.</li>
+<li>Назначьте принтеру другой статический IP-адрес.</li></textformat></font>
+          </td>
+       </tr>
+ 
+      </table>]]>
+    </text>
+  </component>
+</textcomponents>
+

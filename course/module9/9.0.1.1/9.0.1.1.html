@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>9.0.1.1 Введение</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.0.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Принтеры</h1>
+        <h2>Введение</h2>
+      </div>
+      <div id="content">
+          <p>В этой главе приводится необходимая информация о принтерах. Вы узнаете о том, как они работают, что нужно иметь в виду при покупке принтера, как подключить принтер к отдельному компьютеру или к сети. </p>
+          <p>С помощью принтера можно получить копию электронного файла на бумаге. Многие нормативные акты требуют наличия физических записей, поэтому сегодня бумажные копии созданных на компьютере документов зачастую не менее важны, чем несколько лет назад, когда &laquo;безбумажная&raquo; революция только начиналась.</p>
+          <p>Чтобы уметь устанавливать и обслуживать принтеры различных типов, а также производить поиск и устранение неполадок, инженеру следует знать принципы их работы.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

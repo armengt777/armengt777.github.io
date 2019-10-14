@@ -1,0 +1,11 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Монтаж сетей</b>]]></text>
+</component>
+<component id="ID_txt01">
+  <text><![CDATA[<b>Рабочий участок</b>]]></text> 
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[<b>Стойка оборудования и коммутационная панель</b>]]></text> 
+  </component>
+</textcomponents>

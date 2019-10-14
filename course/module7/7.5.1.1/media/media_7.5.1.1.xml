@@ -1,0 +1,75 @@
+﻿<textcomponents> 
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Спецификации плат расширения для ноутбуков</b>]]></text>
+</component>
+
+<component id="ID_s1_table01">
+    <text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr>
+		<td colspan='5' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td width='70' bgcolor='#A2AA23'><font color='#ffffff'><b>Шина PC</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#ffffff'><b>Размер</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#ffffff'><b>Толщина</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#ffffff'><b>Интерфейс</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#ffffff'><b>Примеры</b></font></td>
+	</tr> 
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Type I</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>85,6 мм X 54 мм</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>3,3 мм</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Память, ввод-вывод, CardBus</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>SRAM, Flash</font></td>
+	</tr> 
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Type II</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>85,6 мм X 54 мм</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>5 мм</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Память, ввод-вывод, CardBus</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Модем, локальная сеть, <br/>беспроводная сеть </font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Type III</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>85,6 мм X 54 мм</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>10,5 мм</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Память, ввод-вывод,<br/> CardBus</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Жесткий диск</font></td>
+	</tr> 
+</table>]]></text>
+    </component>
+	
+<component id="ID_s1_table02">
+    <text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr>
+		<td colspan='5' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td width='70' bgcolor='#A2AA23'><font color='#ffffff'><b>Шина Express</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#ffffff'><b>Размер</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#ffffff'><b>Толщина</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#ffffff'><b>Интерфейс</b></font></td>
+		<td bgcolor='#A2AA23'><font color='#ffffff'><b>Примеры</b></font></td>
+	</tr> 
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Express Card/34</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>75 мм X 34 мм</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>5 мм</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PCI Express или USB 2.0 или USB 3.0</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Firewire, ТВ-тюнер, беспроводная сетевая плата</font></td>
+	</tr> 
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Express Card/54</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>75 мм X 54 мм</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>5 мм</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>PCI Express или USB 2.0 или USB 3.0</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Устройство чтения Smart Card, устройство чтения Compact Flash, 1,8-дюймовый жесткий диск</font></td>
+	</tr>
+</table>]]></text>
+    </component>
+
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Платы расширения для ноутбуков</b>]]></text>
+</component> 
+ 
+</textcomponents>

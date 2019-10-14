@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>9.2.1.1 Струйные принтеры</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.2.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Типы принтеров</h1>
+        <h2>Типы принтеров</h2>
+      </div>
+      <div id="content">
+          <p>Струйные принтеры обеспечивают высокое качество печати. Они просты в использовании и немного дешевле, чем лазерные принтеры. Качество печати струйных принтеров измеряется в точках на дюйм (dpi). Чем выше число dpi, тем лучше видны детали изображения. На рисунке 1 показано многофункциональное устройство, включающее в себя струйный принтер. На рисунке 2 показаны компоненты принтера.</p>
+          <p>В струйных принтерах используются чернильные картриджи, которые распыляют чернила на бумагу через мельчайшие отверстия. Эти отверстия называются соплами и располагаются в печатающей головке. Печатающая головка и чернильные картриджи располагаются в каретке, которая прикреплена к ремню и мотору принтера. Когда валы втягивают бумагу из лотка, ремень передвигает по ней каретку, и чернила нужным образом распыляются по странице.</p>
+          <p>Существует два типа сопел струйного принтера:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Пузырьковые</b> &mdash; импульс электрического тока поступает в камеры нагрева, расположенные вокруг сопел. Тепло создает пузырьки пара в камере. Этот пар и выталкивает чернила через сопла на бумагу.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Пьезоэлектрические</b> &mdash; пьезоэлектрические кристаллы располагаются в резервуаре для чернил в задней части каждого сопла. Поступающий на кристалл заряд заставляет его вибрировать. Вибрации кристалла контролируют подачу чернил на бумагу.</li>
+            </ul>
+          </p>
+          <p>Для экономичной печати на струйных принтерах используется обычная бумага. Для печати фотографий высокого качества может использоваться специальная бумага. Струйный принтер с дуплексным устройством может печатать на обеих сторонах листа. Сразу после того, как бумага выходит из принтера, чернила часто остаются влажными. Не трогайте распечатки в течение 10-15 секунд, чтобы не размазать чернила. Если качество печати струйного принтера ухудшилось, проверьте его калибровку с помощью поставляемого с принтером ПО.</p>
+          <p>Ниже представлены некоторые преимущества струйных принтеров:</p>
+          <p>
+            <ul>
+              <li>низкая закупочная цена;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>высокое разрешение;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>быстрый прогрев.</li>
+            </ul>
+          </p>
+          <p>Ниже представлены некоторые недостатки струйных принтеров:</p>
+          <p>
+            <ul>
+              <li>сопла могут засоряться;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>чернильные картриджи стоят дорого;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>после печати чернила остаются влажными.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

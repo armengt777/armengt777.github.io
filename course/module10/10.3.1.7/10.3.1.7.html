@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>10.3.1.7 Настройка типов межсетевого экрана</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_10.3.1.7_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Стандартные методы профилактического обслуживания для обеспечения безопасности</h1>
+        <h2>Обеспечение безопасности</h2>
+      </div>
+      <div id="content">
+          <p>Межсетевой экран выборочно отклоняет трафик, предназначенный компьютеру или сегменту сети. Межсетевые экраны работают путем открытия и закрытия портов, используемых различными приложениями. Запрещающая политика безопасности реализуется путем открытия только тех портов, которые необходимы. Отклоняются все пакеты, не имеющие явного разрешения. В отличие от этого разрешающая политика безопасности разрешает доступ к портам, за исключением явно закрытых портов. В прошлом программное обеспечение и оборудование поставлялись с разрешительными параметрами. Поскольку пользователи пренебрегали настройкой своего оборудования, разрешительные параметры, установленные по умолчанию, открывали злоумышленникам доступ к множеству устройств. Теперь большинство устройств по возможности поставляются с запрещающими параметрами и с возможностью простой настройки.</p>
+          <p>Настройка брандмауэра Windows 7 или Windows Vista может быть выполнена двумя способами:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Автоматически</b> &mdash; пользователю выдается предложение <b>Блокировать</b>, <b>Разблокировать</b> или <b>Отложить</b> несанкционированные запросы. Эти запросы могут исходить из допустимых приложений, которые не были настроены ранее, или от вирусов и червей, заразивших систему.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Управление параметрами безопасности</b> &mdash; пользователь вручную добавляет программу или порты, необходимые приложениям для использования в сети.</li>
+            </ul>
+          </p>
+          <p>Чтобы предоставить программам доступ через брандмауэр Windows в Windows 7, перейдите по следующему пути: </p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Брандмауэр Windows &gt; Разрешить запуск программы или компонента через брандмауэр Windows &gt; Разрешить другую программу</b>
+          </p>
+          <p>Чтобы предоставить программам доступ через брандмауэр Windows в Windows Vista, перейдите по следующему пути: </p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр безопасности &gt; Брандмауэр Windows &gt; Изменить параметры &gt; Продолжить &gt; Исключения &gt; Добавить программы</b>
+          </p>
+          <p>Чтобы предоставить программам доступ через брандмауэр Windows в Windows XP, перейдите по следующему пути:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр безопасности &gt; Брандмауэр Windows &gt; Исключения &gt; Добавить программы</b>
+          </p>
+          <p>Чтобы отключить брандмауэр Windows в Windows 7, перейдите по следующему пути:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Брандмауэр Windows &gt; Включение и отключение брандмауэра Windows &gt; Отключить брандмауэр Windows (не рекомендуется) &gt; OК</b>
+          </p>
+          <p>Чтобы отключить брандмауэр Windows в Windows Vista, перейдите по следующему пути:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр безопасности &gt; Брандмауэр Windows &gt; Включение и отключение брандмауэра Windows &gt; Продолжить &gt; Выключить (не рекомендуется) &gt; ОК</b>
+          </p>
+          <p>Чтобы отключить брандмауэр Windows в Windows XP, перейдите по следующему пути:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр обеспечения безопасности &gt; Брандмауэр</b>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

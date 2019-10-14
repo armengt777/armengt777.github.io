@@ -1,0 +1,43 @@
+﻿<textcomponents>
+<component id="ID_title">
+  <text><![CDATA[<b>Аварийный контрольный перечень в политике безопасности</b>]]></text>
+</component> 
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Политика <br>безопасности</b>]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[<b>Содержание аварийного контрольного перечня <br>(пример)</b>]]></text>
+</component>
+
+<component id="ID_txt07">
+  <text><![CDATA[<b>Потеря данных</b><br> — из-за кражи оборудования<br> — из-за перехвата<br> — из-за внутреннего персонала<br> — из-за внешнего персонала<br> — из-за временного персонала / подрядчиков  / &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textformat blockindent='15' >поставщиков</textformat>]]></text>
+</component> 
+
+<component id="ID_txt08">
+  <text><![CDATA[<b>Экстренные ситуации, связанные с питанием</b><br> — отключение электропитания на этаже или в &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textformat blockindent='15' >здании</textformat><br> — локальное отключение электропитания<br> — крупное или региональное отключение &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textformat blockindent='15' >электропитания</textformat>]]></text>
+</component> 
+
+<component id="ID_txt09">
+  <text><![CDATA[<b>Террористические атаки</b><br> — террористические атаки приводят к эвакуации<br> — террористические атаки приводят к блокировке]]></text>
+</component> 
+<component id="ID_txt10">
+  <text><![CDATA[<b>Кража</b><br> — физическая кража сетевого устройства<br> — физическая кража настольного компьютера<br> — физическая кража портативного компьютера]]></text>
+</component> 
+
+<component id="ID_txt11">
+  <text><![CDATA[<b>Конфиденциальность</b>]]></text>
+</component>
+<component id="ID_txt12">
+  <text><![CDATA[<b>Сеть</b>]]></text>
+</component>
+<component id="ID_txt13">
+  <text><![CDATA[<b>Пользователь</b>]]></text>
+</component>
+<component id="ID_txt14">
+  <text><![CDATA[<b>В случае пожара</b>]]></text>
+</component>
+
+
+</textcomponents>

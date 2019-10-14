@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.2.1.1 Локальные сети (LAN)</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.2.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Идентификация сетей</h1>
+        <h2>Типы сетей</h2>
+      </div>
+      <div id="content">
+          <p>Сети данных продолжают развиваться с точки зрения сложности, проектирования и областей их использования. Компьютерные сети отличаются следующими специфическими характеристиками:</p>
+          <p>
+            <ul>
+              <li>Областью обслуживания</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Способом хранения данных</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Способом управления ресурсами</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Способом организации сети</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Типами используемых сетевых устройств</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Типами носителей, используемых для подключения устройств</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Различным типам сетей назначаются различные описательные имена. Отдельно взятая сеть, как правило, покрывает один географический регион, предоставляя услуги и приложения пользователям, являющимся членами общей организационной структуры. Сеть такого типа называется локальной (LAN). Локальная сеть в свою очередь сама может состоять из нескольких локальных сетей. </p>
+          <p></p>
+          <p>Все локальные сети, входящие в состав LAN, находятся под управлением одной административной группы. Эта группа применяет к сети политики безопасности и контроля доступа. В данном контексте слово &laquo;локальная&raquo; обозначает скорее локальное согласованное управление, чем физическое размещение сетей близко друг к другу. Устройства в локальной сети могут размещаться физически близко друг к другу, но это условие не носит обязательный характер.</p>
+          <p>Локальная сеть (LAN) может представлять собой небольшую отдельную локальную сеть, развернутую дома или в офисе. С течением времени определение локальных сетей (LAN) стало распространяться на взаимно подключенные локальные сети, состоящие из нескольких сотен устройств, установленных в различных зданиях и местоположениях.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

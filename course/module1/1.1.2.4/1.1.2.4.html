@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>1.1.2.4 ПЗУ</title>
+    <!--  -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_1.1.2.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Системы персональных компьютеров</h1>
+        <h2>Внутренние компоненты ПК</h2>
+      </div>
+      <div id="content">
+          <p>Данные &mdash; буквы, цифры и символы, хранятся в интегральных схемах ЗУ в форме байтов. Байтами представляются данные - буквы, цифры и символы. Байт &mdash; это группа из восьми битов. Каждый бит хранится в интегральной схеме ЗУ в виде нуля или единицы.</p>
+          <p>Микросхемы ПЗУ находятся на материнской плате и других платах. Микросхемы ПЗУ содержат команды, к которым ЦП может получить непосредственный доступ. Основные команды для работы, например начальной загрузки компьютера и загрузки ОС, хранятся в микросхемах ПЗУ. Микросхемы ПЗУ сохраняют все данные, даже если компьютер отключен. Эти данные нельзя стереть или изменить обычным способом. </p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. ПЗУ иногда называют микропрограммным обеспечением, или прошивкой. Это название вводит в заблуждение, поскольку микропрограммное обеспечение &mdash; это ПО, которое хранится в микросхеме ПЗУ.</p>
+        </div>
+    </div>
+   <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

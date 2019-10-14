@@ -1,0 +1,182 @@
+﻿<textcomponents>
+
+	<component id="ID_table">
+		<text><![CDATA[
+			<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>	
+				
+				<tr>
+					<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения</b></font></td>
+				</tr>
+				<tr >
+					<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#A2AA23'><font size='12' color='#ffffff'><b>Определение проблемы</b></font></td>
+					<td bgcolor='#A2AA23'><font size='12' color='#ffffff'><b>Возможные причины</b></font></td>
+					<td bgcolor='#A2AA23'><font size='12' color='#ffffff'><b>Возможные решения</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Ноутбук не включается</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>
+						<textformat blockindent='-18'><li>Ноутбук не подключен к источнику питания</li>
+						<li>Аккумулятор не заряжен</li>
+						<li>Аккумулятор не удерживает заряд</li></textformat></font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>
+						<textformat blockindent='-18'><li>Подключите ноутбук к источнику переменного тока</li>
+						<li>Извлеките аккумулятор и установите его обратно</li>
+						<li>Замените аккумулятор, если он не заряжается</li></textformat></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>Время работы ноутбука от аккумулятора сократилось</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+						<textformat blockindent='-18'><li>Не выполнялись инструкции по правильной зарядке и разрядке аккумулятора</li>
+						<li>Лишние периферийные устройства потребляют заряд аккумулятора</li>
+						<li>Неверно настроен план питания</li>
+						<li>Аккумулятор быстро разряжается</li></textformat></font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+						<textformat blockindent='-18'><li>Выполните инструкции по зарядке аккумулятора, приведенные в руководстве пользователя</li>
+						<li>Отсоедините ненужные периферийные устройства и отключите беспроводную сетевую интерфейсную плату</li>
+						<li>Измените план питания, чтобы сократить использование заряда аккумулятора</li>
+						<li>Замените аккумулятор</li></textformat></font></td>
+				</tr>	
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Питание внешнего монитора включено, но на экране отсутствует изображение</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Видеокабель подключен неплотно или поврежден</li>
+												<li>Ноутбук не отправляет видеосигнал на внешний монитор</li></textformat>
+											</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Повторно подключите или замените видеокабель</li>
+												<li>Используйте сочетание клавиши Fn и многофункциональной клавиши, чтобы подключить внешний монитор</li></textformat>
+											</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>Портативный компьютер включен, но на ЖК-экране отсутствует изображение, если закрыть крышку и открыть ее снова</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Выключатель ЖК-монитора загрязнен или поврежден</li>
+												<li>Ноутбук перешел в спящий режим</li></textformat>
+											</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Ознакомьтесь с руководством по ремонту ноутбука, чтобы получить инструкции по очистке или замене ЖК-переключателя экрана</li>
+												<li>Нажмите клавишу на клавиатуре, чтобы вывести компьютер из спящего режима</li></textformat>
+											</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Изображение на экране ноутбука стало бледным и тусклым</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Задняя подсветка ЖК-экрана настроена неверно</font></td>								
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Ознакомьтесь с руководством по ремонту ноутбука, чтобы получить инструкции по регулировке подсветки</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>Изображение на экране ноутбука выводится разбитым на прямоугольники</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>Установлены неверные параметры ЖК-экрана</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>Измените разрешение ЖК-экрана на разрешение по умолчанию</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Экран ноутбука мигает</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Изображения на экране обновляются с недостаточной скоростью</li>
+												<li>Инвертор экрана поврежден или работает неисправно</li></textformat>
+											</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Отрегулируйте частоту обновления экрана</li>
+												<li>Разберите экран и замените инвертор</li></textformat>
+											</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>Пользователь видит, как курсор мыши перемещается самостоятельно</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+											<textformat blockindent='-18'><li>Сенсорная панель загрязнена</li>
+											<li>Сенсорная панель и мышь используются одновременно</li>
+											<li>При вводе текста пользователь задел рукой сенсорную панель</li></textformat>
+										</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+											<textformat blockindent='-18'><li>Очистите сенсорную панель</li>
+											<li>Отсоедините мышь</li>
+											<li>Постарайтесь не касаться сенсорной панели при вводе текста</li></textformat>
+										</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Пиксели на экране погасли или не имеют цвета</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>К пикселям не подается питание</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Обратитесь к изготовителю</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>В изображении на экране присутствуют мигающие линии или рисунки различных цветов и размера (артефакты)</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Монитор подключен неправильно</li>
+												<li>Графический процессор перегревается</li>
+												<li>Графический процессор работает неверно или поврежден</li></textformat>
+											</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Разберите ноутбук, чтобы проверить подключения экрана</li>
+												<li>Разберите и очистите компьютер, убрав пыль и мусор</li>
+												<li>Замените графический процессор</li></textformat>
+										</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Цветовая таблица на экране отображается неверно</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Монитор подключен неправильно</li>
+												<li>Графический процессор перегревается</li>
+												<li>Графический процессор работает неверно или поврежден</li></textformat>
+											</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Разберите ноутбук, чтобы проверить подключения экрана</li>
+												<li>Разберите и очистите компьютер, убрав пыль и мусор</li>
+												<li>Замените графический процессор</li></textformat>
+											</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>Изображения на экране искажены</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Изменены параметры экрана</li>
+												<li>Монитор подключен неправильно</li>
+												<li>Графический процессор перегревается</li>
+												<li>Графический процессор работает неверно или поврежден</li></textformat>
+											</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Измените настройки экрана на заводские</li>
+												<li>Разберите компьютер, чтобы проверить подключения экрана</li>
+												<li>Разберите и очистите компьютер, убрав пыль и мусор</li>
+												<li>Замените графический процессор</li></textformat>
+										</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Сеть работает и беспроводное подключение включено, однако ноутбук не может подключиться к сети</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Беспроводные функции ноутбука отключены</li>
+												<li>Внешняя беспроводная антенна установлена неправильно</li>
+												<li>Ноутбук находится вне зоны действия беспроводной сети</li></textformat>
+											</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Включите беспроводные функции ноутбука с помощью беспроводной сетевой интерфейсной платы или сочетания клавиши Fn и соответствующей многофункциональной клавиши</li>
+												<li>Измените положение беспроводной антенны, чтобы она улавливала беспроводной сигнал</li>
+												<li>Переместите ноутбук поближе к беспроводной точке доступа</li></textformat>
+											</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>Устройства ввода, подключенные через Bluetooth, работают неверно</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+											<textformat blockindent='-18'><li>Функция Bluetooth отключена</li>
+											<li>Батареи в устройствах ввода разряжены</li>
+											<li>Устройство ввода находится за пределами радиуса действия связи</li></textformat>
+										</font></td>
+					<td bgcolor='#FFFFFF' class="valign-top"><font size='12' color='#393536'>
+												<textformat blockindent='-18'><li>Включите функции Bluetooth ноутбука с помощью апплета параметров Bluetooth или сочетания клавиши Fn и соответствующей многофункциональной клавиши</li>
+												<li>Замените батареи</li>
+												<li>Переместите устройство ввода ближе к приемнику Bluetooth ноутбука</li>
+												<li>Проверьте, включен ли Bluetooth на ноутбуке</li></textformat>
+											</font></td>
+				</tr>	
+
+				
+				<tr>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>При вводе букв с клавиатуры на экране появляются цифры, индикатор Num Lock горит</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Нажата клавиша Num Lock
+											</font></td>
+					<td bgcolor='#F3F5E7' class="valign-top"><font size='12' color='#393536'>Отключите функцию Num Lock, нажав эту клавишу или сочетание клавиши Fn и соответствующей многофункциональной клавиши</font></td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+</textcomponents>

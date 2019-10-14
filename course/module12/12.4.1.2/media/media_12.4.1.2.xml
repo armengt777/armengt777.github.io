@@ -1,0 +1,434 @@
+﻿<textcomponents>
+   <component id="ID_table_01">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Распространенные неполадки и способы их устранения для мониторов портативных компьютеров</b></font></td></tr> 
+		<tr>
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+	  
+<tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+
+<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Монитор портативного компьютера черный или очень тусклый. Он может издавать жужжащий звук.</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Неисправны инвертор монитора портативного компьютера или лампа подсветки.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Замените инвертор монитора.</li>
+		  <li>Замените лампу подсветки.</li></textformat>
+		  </font>
+          </td>
+        </tr>
+	
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>На мониторе отображаются только вертикальные полосы, меняющие цвет.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Отказ экрана монитора портативного компьютера.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>Замените экран монитора.</font>
+          </td>
+        </tr>
+		
+		<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>На внешнем мониторе, подключенном к портативному компьютеру, отображается содержимое, но монитор самого портативного компьютера остается пустым.</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Монитор портативного компьютера не настроен для вывода данных.
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>Нажмите клавишу Fn и соответствующую многофункциональную клавишу, чтобы вывести данные на экран портативного компьютера.</font>
+          </td>
+        </tr>
+		
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Изображения отсутствуют как на мониторе портативного компьютера, так и на внешнем мониторе, при этом жесткий диск и вентиляторы портативного компьютера исправно работают.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Отказ материнской платы или видеокарты портативного компьютера.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Замените материнскую плату, если в нее интегрирована видеокарта.</li>
+<li>Замените видеокарту.</li></textformat>
+</font>
+          </td>
+        </tr>
+		
+		<tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Портативный компьютер не выходит из режима ожидания или гибернации.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Существует конфликт между параметрами BIOS и параметрами управления питанием Windows.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>Измените параметры BIOS и параметры питания Windows.</font>
+          </td>
+        </tr>
+		
+      </table>]]>
+    </text>
+  </component>
+   <component id="ID_table_02">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr>
+		<td bgcolor='#DAE17A' colspan='3'><font size='14' color='#393536'><b class="font_fourteen">Распространенные неполадки и способы их устранения для устройств хранения данных и ОЗУ портативных компьютеров</b></font></td></tr> 
+	<tr>
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Жесткий диск портативного компьютера выводит ошибки доступа к данным и издает необычные шумы.
+</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Отказ жесткого диска.
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>Замените жесткий диск.
+</font>
+          </td>
+        </tr>
+	
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Портативный компьютер не загружается или не обеспечивает доступ к только что установленному жесткому диску.
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Жесткий диск не подключен должным образом.</li>
+<li>BIOS не распознает новый жесткий диск.</li></textformat>
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Повторно подключите жесткий диск.</li>
+<li>Обновите BIOS портативного компьютера.</li></textformat>
+</font>
+          </td>
+        </tr>
+		
+		<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Портативный компьютер слишком часто обращается к жесткому диску.</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Виртуальная память настроена неправильно.</li>
+<li>Требуется дополнительное ОЗУ.</li>
+<li>Заканчивается свободное место на жестком диске.</li></textformat>
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Измените параметры виртуальной памяти.</li>
+<li>Установите дополнительное ОЗУ.</li>
+<li>Удалите ненужные файлы и приложения.</li></textformat>
+</font>
+          </td>
+        </tr>
+		
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>После установки ОЗУ портативный компьютер издает долгий писк.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Установлен неправильный тип ОЗУ.</li>
+<li>ОЗУ установлено неправильно.</li>
+<li>Установлен поврежденный модуль ОЗУ.</li></textformat>
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Установите правильный тип ОЗУ.</li>
+<li>Извлеките и повторно установите ОЗУ</li>
+<li>Замените поврежденный модуль ОЗУ.</li></textformat>
+</font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+  <component id="ID_table_03">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr>
+		<td bgcolor='#DAE17A' colspan='3' ><font size='14' color='#393536'><b class="font_fourteen">Распространенные неполадки и способы их устранения для устройств питания и ввода портативных компьютеров</b></font></td>
+	</tr> 
+	<tr>
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+	  
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Индикатор питания не горит, когда портативный компьютер подключен к розетке сети переменного тока.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Источник питания переменного тока не работает.</li>
+<li>Кабель питания неплотно подключен к портативному компьютеру.</li>
+<li>Адаптер переменного тока имеет дефект.</li></textformat>
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Подключите портативный компьютер к проверенному источнику питания.</li>
+<li>Вытащите и надежно подключите кабель питания к портативному компьютеру.</li>
+<li>Замените адаптер переменного тока.</li></textformat>
+</font>
+          </td>
+        </tr>
+		
+		<tr>
+<td bgcolor='#FFFFFF' valign="top">
+<font color='#393536'>Портативный компьютер не включается при питании только от аккумулятора.</font>
+         </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Аккумулятор подключен неправильно.</li>
+            <li>Аккумулятор портативного компьютера разряжен</li>
+<li>Дефект аккумулятора.</li></textformat>
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Извлеките и снова вставьте аккумулятор.</li>
+<li>Перезарядите аккумулятор.</li>
+<li>Замените аккумулятор.</li></textformat>
+</font>
+          </td>
+        </tr>
+		
+        <tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Время работы портативного компьютера при питании от аккумулятора очень короткое.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Срок службы аккумулятора заканчивается.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'>Замените аккумулятор.</font>
+          </td>
+        </tr>
+		
+		<tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>При включении портативного компьютера отображаются неправильные дата и время.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'>
+			<li>Батарея CMOS разрядилась.</li>
+			<li>Батарея CMOS плохо закреплена.</li></textformat></font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Замените батарею CMOS.</li>
+		  <li>Вытащите и снова вставьте батарею CMOS.</li></textformat>
+		  </font>
+          </td>
+        </tr>
+		
+		<tr>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'>Сенсорная панель или указующее устройство портативного компьютера не отвечает.</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Сенсорная панель или указующее устройство отключены.</li>
+<li>Сенсорная панель или указующее устройство неисправны.</li></textformat>
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Включите указующее устройство через панель управления.</li>
+		  <li>Замените указующее устройство .</li>
+		  <li>Используйте в качестве нового указующего устройства мышь.</li></textformat>
+		  </font>
+          </td>
+        </tr>
+		
+		<tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Не работает вся клавиатура портативного компьютера или отдельные клавиши.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Клавиатура повреждена жидкостью.</li>
+<li>Клавиатура портативного компьютера неплотно подключена.</li>
+<li>Клавиатура изношена или слишком срок ее службы заканчивается.</li></textformat>
+</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Почистите клавиатуру.</li>
+		  <li>Повторно подключите клавиатуру портативного компьютера.</li>
+		  <li>Замените клавиатуру портативного компьютера.</li>
+		  <li>Используйте внешнюю клавиатуру.</li></textformat>
+		  </font>                                
+          </td>
+        </tr>
+		
+      </table>]]>
+    </text>
+  </component>
+   <component id="ID_table_04">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='3' class="title"><font size='14' color='#393536'><b>Другие неполадки портативных компьютеров и способы их устранения</b></font></td>
+	</tr> 
+	<tr>
+          <td colspan='3' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+<tr>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Определение проблемы</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23'>
+            <font  color='#ffffff'>
+              <b>Возможные причины</b>
+            </font>
+          </td>
+          <td bgcolor='#a2aa23' >
+            <font  color='#ffffff'>
+              <b>Возможные решения</b>
+            </font>
+          </td>
+        </tr>
+	  <tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Портативный компьютер перегревается или самопроизвольно выключается.</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Недостаточная вентиляция портативного компьютера.</li>
+<li>Вентилятор портативного компьютера сломан.</li>
+<li>Радиатор ЦП установлен неплотно или загрязнен.</li></textformat>
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Прочистите отверстия для воздуха.</li>
+<li>Замените все сломанные вентиляторы.</li>
+<li>Почистите и повторно установите радиатор.</li></textformat>
+</font>
+          </td>
+        </tr>
+		
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Портативный компьютер не запускается, работают только вентиляторы и световые индикаторы.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Отказ ЦП.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'>Замените ЦП.</font>
+          </td>
+        </tr>
+		
+		<tr>
+<td bgcolor='#F3F5E7' valign="top">
+<font color='#393536'>Встроенные динамики портативного компьютера не издают никаких звуков.</font>
+         </td>
+          <td bgcolor='#F3F5E7' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Аудио отключено в BIOS.</li>
+<li>Установлен беззвучный режим.</li>
+<li>Повреждены встроенные динамики.</li></textformat>
+</font>
+          </td>
+          <td bgcolor='#F3F5E7' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Включите аудио в BIOS.</li>
+<li>Отключите беззвучный режим.</li>
+<li>Замените встроенные динамики.</li>
+<li>Используйте внешние динамики.</li></textformat>
+</font>
+          </td>
+        </tr>
+		
+        <tr>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'>Не удается вставить карту PC Card в портативный компьютер.</font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+            <font color='#393536'><textformat blockindent='-18'><li>Данный портативный компьютер не поддерживает PC Card.</li>
+<li>В гнездо для карты вставлена защитная пластиковая заглушка.</li>
+</textformat></font>
+          </td>
+          <td bgcolor='#FFFFFF' valign="top">
+          <font color='#393536'><textformat blockindent='-18'><li>Замените карту PC Card на ExpressCard.</li>
+<li>Вытащите пластиковую заглушку из гнезда.</li>
+<li>Приобретите адаптер для PC Card и ExpressCard.</li></textformat>
+</font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+  
+  
+</textcomponents>

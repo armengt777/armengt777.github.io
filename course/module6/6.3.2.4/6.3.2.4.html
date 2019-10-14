@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.3.2.4 Статическая адресация</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.3.2.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Основные понятия и технологии организации сетей</h1>
+        <h2>Адресация оборудования в сети</h2>
+      </div>
+      <div id="content">
+          <p>В сети с небольшим числом узлов можно легко настроить подходящие IP-адреса для каждого устройства вручную. Адреса должен назначать сетевой администратор, разбирающийся в методах IP-адресации и умеющий выбирать правильный адрес для каждого типа сети. Назначаемый IP-адрес должен быть уникален для каждого узла в одной сети или подсети. Этот метод называется статической адресацией IP. </p>
+          <p>Для настройки статического IP-адреса на узле перейдите в окно свойств TCP/IPv4 сетевого адаптера, как показано на рисунке&nbsp;1. Сетевой адаптер позволяет компьютеру подключаться к сети с помощью MAC-адреса. IP-адрес является логическим адресом, определяемым сетевым администратором. MAC-адрес, показанный на рисунке&nbsp;2, программируется (или записывается) на сетевом адаптере при его изготовлении. IP-адрес сетевого адаптера можно изменить, но MAC-адрес никогда не меняется. </p>
+          <p>Узлу можно назначить следующие сведения о настройке IP-адреса: </p>
+          <p>
+            <ul>
+              <li>
+                <b>IP-адрес</b> &mdash; идентифицирует компьютер в глобальной сети</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Маска подсети </b>&mdash; параметр, позволяющий определить сеть, к которой он подключен </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Основной шлюз </b>&mdash; устройство, через которое компьютер подключается к Интернету или к другой сети </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Дополнительные значения</b> &mdash; например, адрес предпочтительного сервера DNS и адрес дополнительного сервера DNS </li>
+            </ul>
+          </p>
+          <p>В ОС Windows 7 перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр управления сетями и общим доступом &gt; Изменение параметров адаптера &gt; </b>щелкните правой кнопкой мыши<b> Подключение по локальной сети &gt; Свойства &gt; Протокол Интернета версии 4 (TCP/IPv4) &gt; Свойства &gt; Использовать следующий IP-адрес &gt; Использовать следующие адреса DNS-серверов &gt; ОК &gt; ОК</b></p>
+          <p>В ОС Windows Vista перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Центр управления сетями и общим доступом &gt; Управление сетевыми подключениями &gt; </b>щелкните правой кнопкой мыши<b> Подключение по локальной сети &gt; Свойства &gt; Протокол Интернета версии 4 (TCP/IPv4) &gt; Свойства &gt; Использовать следующий IP-адрес &gt; Использовать следующие адреса DNS-серверов &gt; ОК &gt; ОК</b></p>
+          <p>В ОС Windows XP перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Сетевые подключения &gt; </b>щелкните правой кнопкой мыши<b> Подключение по локальной сети &gt; Свойства &gt; TCP/IPv4 &gt; Свойства &gt; Использовать следующий IP-адрес &gt; Использовать следующие адреса DNS-серверов &gt; ОК &gt; ОК</b></p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

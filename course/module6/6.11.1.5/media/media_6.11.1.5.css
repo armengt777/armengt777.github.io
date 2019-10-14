@@ -1,0 +1,15 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+html, body {
+    margin:0;
+    height:100%;
+}
+#flashContent {
+    height:98%;
+    width:98%;
+}
+.liner font {font-size:14px !important;}
+.mctable_rows font {font-size:12px !important;}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.1.5.6 Установка корпуса в сборе</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.1.5.6_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сборка компьютера</h1>
+        <h2>Установка кабелей</h2>
+      </div>
+      <div id="content">
+          <p>Прежде чем устанавливать на место боковые панели корпуса компьютера, убедитесь, что все компоненты должным образом выровнены и закреплены. К ним относятся ЦП, ОЗУ, платы адаптеров, кабели данных, кабели передней панели и кабели питания. </p>
+          <p></p>
+          <p>После установки крышки убедитесь, что она закреплена винтами во всех предусмотренных местах. В некоторых корпусах используются винты, которые вставляются с помощью отвертки. В других корпусах применяются винты с маховичками, которые можно затянуть вручную.</p>
+          <p>Если вы не уверены, как именно следует снимать или заменять корпус компьютера, сверьтесь с документацией или посетите веб-сайт производителя.</p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Обращайтесь с деталями корпуса аккуратно. На некоторых кожухах компьютерных корпусов встречаются острые или зазубренные грани.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

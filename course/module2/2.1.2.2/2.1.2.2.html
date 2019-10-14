@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>2.1.2.2 Типы колебаний напряжения электропитания</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_2.1.2.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедуры безопасной работы в лаборатории</h1>
+        <h2>Процедуры защиты оборудования и данных</h2>
+      </div>
+      <div id="content">
+          <p>Напряжение &mdash; это сила, которая перемещает электроны по электрической цепи. Движение электронов называется электрическим током. Компьютерным схемам для работы электронных компонентов требуется напряжение и электрический ток. Если напряжение в компьютере нестабильно или неправильно, компоненты компьютера могут работать некорректно. Нестабильность напряжения называется колебаниями напряжения электропитания.</p>
+          <p>Следующие типы колебаний напряжения питания переменного тока могут привести к потере данных или аппаратному сбою:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Отключение:</b> полная потеря питания переменного тока. Причиной отключения может стать перегоревший предохранитель, поломка трансформатора или повреждение линии электропередачи. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Понижение:</b> снижение уровня напряжения переменного тока, продолжающееся на протяжении определенного периода времени. Понижение происходит, когда напряжение на линии электропередачи составляет менее 80% от нормального уровня напряжения. Оно может быть вызвано перегрузкой электросетей. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Шум:</b> помехи от генераторов и молний. Шум снижает качество электропитания, что может вызвать ошибки в компьютерной системе. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Всплеск:</b> резкое повышение напряжения, которое длится в течение короткого периода и превышает 100% от нормального напряжения на линии. Всплески могут быть вызваны ударами молнии. Они также могут происходить при восстановлении электрической системы после отключения. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Скачок напряжения:</b> значительное повышение напряжения относительно нормального потока электричества. Скачок напряжения длится несколько наносекунд, или миллиардных долей секунды. </li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

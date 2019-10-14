@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>9.3.1.6 Обновление и установка драйверов принтеров</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.3.1.6_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Установка и настройка принтеров</h1>
+        <h2>Установка и обновление драйверов устройств, микропрограммы и ОЗУ</h2>
+      </div>
+      <div id="content">
+          <p>После подключения кабелей питания и данных к принтеру операционная система обнаруживает принтер и устанавливает его драйвер.  </p>
+          <p>Драйвер принтера &mdash; это программа, которая позволяет принтеру и компьютеру взаимодействовать между собой. Кроме того, драйвер обеспечивает интерфейс, благодаря которому пользователь может настраивать параметры и режимы принтера. Каждая модель принтера имеет свой уникальный драйвер. Производители принтеров часто обновляют драйверы с целью увеличить производительность принтера, добавить новые возможности или устранить проблемы. Обновления для драйверов можно загружать с веб-сайта производителя. </p>
+          <p>Для установки драйвера принтера выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. Определите, доступна ли новая версия драйвера</b>. На большинстве веб-сайтов производителей приводится ссылка на страницу с драйверами и поддержкой. Убедитесь, что драйвер совместим с компьютером и обновляемой вами операционной системой. </p>
+          <p>
+            <b>Этап 2. Загрузите </b> <b>файлы драйвера для принтера на ваш компьютер</b>. Большинство файлов драйверов сжаты или упакованы в архив zip. Загрузите файл в папку и распакуйте содержимое. Сохраните указания или документацию в отдельную папку. </p>
+          <p>
+            <b>Этап 3. Установите загруженный драйвер</b>. Установите загруженный драйвер автоматически или вручную. Большинство драйверов для принтеров имеют файл установки, который автоматически ищет в системе более ранние версии драйвера и заменяет их на новую. Если файла установки нет, следуйте указаниям производителя. </p>
+          <p>
+            <b>Этап 4. Проверьте новый драйвер принтера</b>. Проведите несколько тестов, чтобы убедиться, что принтер работает правильно. Используйте разнообразные приложения для печати разных типов документов. Измените и проверьте каждый из режимов и параметров принтера. </p>
+          <p>Текст на тестовой странице принтера должен быть легко читаемым. Если текст нечитаем, проблема может заключаться в некачественной программе драйвера или неподходящем используемом языке PDL.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

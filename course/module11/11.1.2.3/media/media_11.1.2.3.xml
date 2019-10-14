@@ -1,0 +1,126 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>Постановка вызова заказчика на удержание</b>]]></text>
+</component>
+<!--Instructions-->
+<component id="ID_continue_btn">
+	<text><![CDATA[Продолжить]]></text>
+</component>
+<component id="ID_DnD_inst_title">
+	<text><![CDATA[<b>Интерактивное задание «Постановка вызова заказчика на удержание»</b>]]></text>
+</component>
+
+<component id="ID_DnD_inst_body">
+	<text><![CDATA[<p>Перетащите элементы с надписями<b> Верное действие </b>и<b> Неверное действие </b>в поля слева от утверждений. После того, как все поля будут заполнены, нажмите<b> Проверить</b>.</p><br /><p>Чтобы начать проверку, нажмите кнопку<b> Продолжить</b>. Чтобы повторно просмотреть инструкции, нажмите кнопку<b> ? </b>.</p>]]></text>
+</component>
+
+<component id="ID_DnD_inst_body1">
+	<text><![CDATA[<p>Перетащите элементы с надписями<b> Верное действие </b>и<b> Неверное действие </b>в поля слева от утверждений. После того, как все поля будут заполнены, нажмите<b> Проверить</b>.</p><p>Чтобы начать проверку, нажмите кнопку<b> Продолжить</b>. Чтобы повторно просмотреть инструкции, нажмите кнопку<b> ? </b>.</p>]]></text>
+</component>
+
+<!--Drag Sources-->
+<component id="ID_ds_do">
+	<text><![CDATA[Верное действие]]></text> 
+</component>
+<component id="ID_ds_donot">
+	<text><![CDATA[Неверное действие]]></text> 
+</component>
+
+<!--Drop Targets-->
+<component id="ID_dt_01">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_02">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_03">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_04">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_05">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_06">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_07">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_08">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_09">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<!--Questions-->
+<component id="ID_q01">
+	<text><![CDATA[Объяснить заказчику причину постановки его вызова на удержание.]]></text><!--Do-->
+</component>
+
+<component id="ID_q02">
+	<text><![CDATA[Поставить вызов заказчика на удержание, не сообщая ему о своих намерениях.]]></text><!--Do Not-->
+</component>
+
+<component id="ID_q03">
+	<text><![CDATA[Попросить разрешения заказчика поставить его вызов на удержание.]]></text><!--Do-->
+</component>
+
+<component id="ID_q04">
+	<text><![CDATA[Разговаривать одновременно с заказчиком.]]></text><!--Do Not-->
+</component>
+
+<component id="ID_q05">
+	<text><![CDATA[Отвечать на вопрос заказчика до того, как он закончит говорить.]]></text><!--Do Not-->
+</component>
+
+<component id="ID_q06">
+	<text><![CDATA[Сообщить заказчику, сколько времени его вызов будет находиться на удержании.]]></text><!--Do-->
+</component>
+
+<component id="ID_q07">
+	<text><![CDATA[Объяснить заказчику необходимость постановки его вызова на удержание.]]></text><!--Do-->
+</component>
+
+<component id="ID_q08">
+	<text><![CDATA[Ставить вызов заказчика на удержание, не спрашивая разрешения заказчика.]]></text><!--Do Not-->
+</component>
+
+<component id="ID_q09">
+	<text><![CDATA[Дождаться, пока заказчик закончит говорить.]]></text><!--Do-->
+</component>
+
+<!--Feedback-->
+<component id="ID_CORRECT_TITLE">
+	<text><![CDATA[Верно]]></text> 
+</component>
+<component id="ID_CORRECT_BODY">
+	<text><![CDATA[Правильно.]]></text> 
+</component>
+<component id="ID_INCORRECT_TITLE">
+	<text><![CDATA[Неверно]]></text> 
+</component>
+<component id="ID_INCORRECT_BODY">
+	<text><![CDATA[Неправильно.]]></text> 
+</component>
+
+<!--Buttons-->
+<component id="ID_CHECK">
+	<text><![CDATA[Проверить]]></text> 
+</component>
+<component id="ID_RESET">
+	<text><![CDATA[Очистить]]></text> 
+</component>
+
+</textcomponents>

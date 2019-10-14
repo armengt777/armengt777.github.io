@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.1.2 Свойства рабочего стола</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Рабочий стол, инструменты и приложения Windows</h2>
+      </div>
+      <div id="content">
+          <p>Для настройки рабочего стола в Windows 7 и Windows Vista щелкните правой кнопкой мыши любую точку рабочего стола и выберите пункт <b>Персонализация</b>. В Windows 7 в окне персонализации, как показано на рис. 1, слева находятся три ссылки, позволяющие выбрать значки рабочего стола, указатели мыши и изображение для учетной записи. Темы выбираются из правой панели. Можно изменить фон, цвет, звук темы, а также экранную заставку с помощью четырех элементов, находящихся в нижней части этого окна. </p>
+          <p></p>
+          <p>В ОС Windows Vista окно персонализации содержит семь ссылок, как показано на рис. 2. Они позволяют настраивать цвет и вид окна, изменять фон рабочего стола, устанавливать параметры экрана и многое другое. Каждая ссылка служит для персонализации различных компонентов рабочего стола.</p>
+          <p></p>
+          <p>Для настройки рабочего стола в Windows XP щелкните правой кнопкой мыши любую точку рабочего стола и выберите пункт <b>Свойства</b>. В окне «Свойства экрана» отображаются различные вкладки, как показано на рис. 3. Каждая вкладка служит для персонализации различных параметров отображения.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

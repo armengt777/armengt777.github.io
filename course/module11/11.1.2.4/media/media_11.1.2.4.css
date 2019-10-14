@@ -1,0 +1,19 @@
+
+/*   load the main media CSS file   */
+
+@import url('../../../common/styles/media2.css');
+
+html, body {
+	margin:0;
+	height:100%;
+}
+#flashContent {
+   width:98%;
+   height:98%;
+}
+
+#ID_continue_btn{margin:1px 0 0 -10px;}
+p{margin: 0;}
+#ID_dt_01,#ID_dt_02,#ID_dt_03,#ID_dt_04,#ID_dt_05,#ID_dt_06,#ID_dt_07,#ID_dt_08,#ID_dt_09,#ID_dt_10,#ID_dt_11{
+	pointer-events: none;
+}

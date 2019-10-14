@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.11.1.1 Определение проблемы</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.11.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Основная процедура поиска и устранения неполадок сетей</h1>
+        <h2>Применение процедуры поиска и устранения неполадок к сетям</h2>
+      </div>
+      <div id="content">
+          <p>Неполадки сетей бывают простыми и сложными. Они могут возникать из-за проблем с оборудованием, программным обеспечением и подключениями. Компьютерные инженеры должны уметь проанализировать неполадку и определить причину ошибки, чтобы исправить её. Этот процесс называется поиском и устранением неполадок.</p>
+          <p>Для оценки неполадки необходимо определить количество компьютеров в сети, на которых она возникла. Если проблема только с одним компьютером в сети, начните процесс поиска и устранения неполадок на этом компьютере. Если проблема коснулась всех компьютеров в сети, начните процесс поиска и устранения неполадок в серверном помещении, где подключены все компьютеры. В качестве инженера вы должны разработать логический и последовательный метод диагностики сетевых неполадок, устраняя каждую из них по очереди.</p>
+          <p>Следуйте этапам, описанным в этом разделе, чтобы точно определить, устранить и задокументировать неполадку. Первым этапом процедуры поиска и устранения неполадок является определение проблемы. На рисунке изображен перечень &laquo;открытых&raquo; и &laquo;закрытых&raquo; вопросов, которые следует задать заказчику.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

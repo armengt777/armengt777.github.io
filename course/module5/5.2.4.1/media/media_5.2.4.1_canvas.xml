@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE" >
+	<slide type="MBAR">
+		<slide>
+			<element type="IMAGE" src="5_2_4_1A.jpg" x="0" y="0" width="470" height="400" />
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+			<element type="TEXT" id="ID_static_1" text="Windows XP" x="62.6" y="180.5" align="center" width="66.3" />			
+			<element type="TEXT" id="ID_static_2" text="Windows XP" x="60.6" y="178.5" align="left" width="66.3" size="10" color="#ffffff" />
+			<element type="TEXT" id="ID_static_2" text="Windows 7" x="60.6" y="163.5" align="left" width="316.2" size="10" />
+			<element type="TEXT" compId="ID_s1_txt01" x="32" y="85" width="376" expand="down" align="center" size="10" bgColor="#FFFFFF" />
+			<element type="TEXT" compId="ID_s1_txt02" x="29.85" y="100.85" width="381.8" expand="down" align="left" size="10" color="#ffffff" />
+			<element type="TEXT" compId="ID_s1_txt03" x="29.85" y="245" width="381.8" expand="up+down" align="left" size="10" color="#ffffff" />
+		</slide>
+
+
+		<slide>
+			<element type="IMAGE" src="5_2_4_1B.jpg" x="0" y="0" width="470" height="400" />
+			<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+			
+			<element type="TEXT" compId="ID_s2_txt01" x="33.3" y="48.85" width="104.5" expand="right" align="left" size="12" />
+			<element type="TEXT" compId="ID_s2_txt03" x="20" y="73" width="403" height="293" expand="down" align="left" color="#ffffff" />
+
+
+		</slide>
+
+		<element type="TEXT" compId="ID_inst" x="2" y="380" width="437.1" expand="up" align="left" size="12" />
+	</slide>
+</data>
+
+

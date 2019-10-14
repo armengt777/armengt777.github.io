@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide>
+			<element type="IMAGE" src="6_2_1_7.jpg" x="0" y="0" width="470" height="400"/>
+			<element type="TEXT" compId="ID_txt01" x="15.8" y="67.6" width="160.85" expand="up" align="left" size="12" />
+			<element type="TEXT" compId="ID_txt02" x="315.1" y="102.45" width="109.55" expand="up+down" align="left" size="12" />
+			<element type="TEXT" compId="ID_txt03" x="234.05" y="175.35" width="109.55" expand="up+down" align="left" size="12" />
+			<element type="TEXT" compId="ID_txt04" x="152.95" y="248.25" width="109.55" expand="up+down" align="left" size="12" />
+			<element type="TEXT" compId="ID_txt05" x="71.9" y="321.15" width="109.55" expand="up+down" align="left" size="12" />
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+		</slide>
+	</data>
+
+

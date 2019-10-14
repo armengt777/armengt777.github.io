@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.8.4.1 Домен и рабочая группа</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.8.4.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Подключение компьютера к сети</h1>
+        <h2>Настройка операционных систем</h2>
+      </div>
+      <div id="content">
+          <p>Домены и рабочие группы &mdash; способы упорядочения компьютеров в сети и управления ими. Все компьютеры в сети должны быть частью либо домена, либо рабочей группы. Если операционная система Windows впервые установлена на компьютере, она автоматически присваивает ему рабочую группу, как показано на рисунке. </p>
+          <p>
+            <b>Домен</b>
+          </p>
+          <p>Домен представляет собой группу компьютеров и электронных устройств как единое целое с общим набором правил и процедур. Домен не относится к определенному месту или конкретному типу структуры сети. Компьютеры в домене являются логической группировкой компьютеров, подключенных друг к другу, которые могут находиться в любом месте планеты. Специализированный сервер, который называется контроллером домена, управляет всем, что касается безопасности пользователей и сетевых ресурсов, централизованной безопасности и администрирования.</p>
+          <p>Для защиты данных администратор выполняет процедуру регулярного резервного копирования всех файлов на серверах. Если произойдет сбой компьютера или потеря данных, администратор сможет легко восстановить данные из последней резервной копии.</p>
+          <p>
+            <b>Рабочая группа</b>
+          </p>
+          <p>Рабочая группа представляет собой набор рабочих станций и серверов локальной сети и предназначена для обеспечения связи и обмена данных между ними. Каждая отдельная рабочая станция контролирует свои учетные записи пользователей, безопасность информации и доступ к данным и ресурсам. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

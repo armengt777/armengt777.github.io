@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.1.4.3 Տվյալների միգրացիա(տեղափոխում)</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.1.4.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Ժամանակակից օպերացիոն համակարգեր</h1>
+        <h2>ՕՀ-ների թարմացում</h2>
+      </div>
+      <div id="content">
+          <p>Երբ պահանջվում է ՕՀ-ի  նոր տեղադրում, հարկավոր է օգտագործողի տվյալները հին ՕՀ-ից տեղափոխել նոր ՕՀ: Գոյություն ունեն երեք հասանելի գործիքներ, որոնց միջոցով իրականացվում է տվյալների և կարգավորումների տեղափոխման գործընթացը:  Գործիքի ընտրությունը կախված է ձեր փորցից և պահանջներից:</p>
+          <p></p>
+          <p>
+            <b>Средство миграции пользовательской среды (User State Migration Tool(USMT)</b>
+          </p>
+          <p>USMT-ն  տեղափոխում է օգտագործողի ողջ տվյալները և կարգավորումները նոր ՕՀ, ինչպես ցույց է տրված նկար 1․-ում. Բեռնավորեք և տեղադրեք USMT-ն microsoft-ի կայքից: Այնուհետև օգտագործելով ծրագրային ապահովումը ստեղծեք օգտագործողի տվյալների և կարգավորումների  պահոց (store), որոնք պահվում են ՕՀ-ից տարբեր վայրում: Նոր Օհ-ի տեղադրումից հետո կրկին բեռնավորեք և տեղադրեք USMT-ն օգտագործողի տվյալները և կարգավորումները նոր Օհ-ի վրա բեռնավորելու համար:</p>
+          <p></p>
+          <p>
+            <b>Средство переноса данных Windows (Windows Easy Transfer)</b>
+          </p>
+          <p>Օգտագործողի ողջ տվյալները և կարգավորումները նոր ՕՀ տեղափոխելու համար կարող եք օգտագործոլ նաև Windows Easy Transfer  գործիքը նկ․-2։ Դուք կարող եք կատարել ֆայլերի տեղափոխում օգտագործոլով USB մալուխ, CD կամ DVD, USB Flash կրիչ, արտաքին կրիչ կամ ցանցային միացումը:</p>
+          <p></p>
+          <p>Windows Easy Transfer-ի աշխատանքից հետո կարող եք տեսնել տեղափոխված ֆայլերի մասին գրանցումները: Windows 7  կամ  Windows Vista ՕՀ-երում Windows Easy Transfer-ին դիմելու համար օգտագործեք հետևյալ ճանապարհը՝</p>
+          <p></p>
+          <p>
+            <b>Пуск &gt; Все программы &gt; Стандартные &gt; Служебные &gt; Средство переноса данных Windows</b>
+			<p><b>Start > All Programs > Accessories > System Tools > Windows Easy Transfer</b></p>
+          </p>
+          <p></p>
+          <p>Windows XP ՕՀ-ի դեպքում հարկավոր է նախ բեռնել Windows Easy Transfer ծրագիրը: Բեռնելուց հետո օգտվելու համար օգտագործեք հետևյալ ճանապարհը՝</p>
+          <p></p>
+          <p>
+            <b>Пуск &gt; Все программы &gt; Средство переноса данных Windows</b>
+          </p>
+		  <p>
+            <b>Start > All Programs > Windows Easy Transfer</b>
+          </p>
+          <p></p>
+          <p>Տվյալների և կարգավորումների տեղափոխման ծրագիր Windows XP -ի համար</p>
+          <p></p>
+          <p>
+            <b>Мастер переноса файлов и параметров для Windows XP</b>
+          </p>
+		  <p>
+            <b>(Files and Settings Transfer Wizard)</b>
+          </p>
+          <p>Windows XP-ի համար տվյալների և կարգավորումների տեղափոխման ծրագիրը պատկերված է նկ․-3։ Այն թույլ է տալիս ընտրել այն ֆայլերը և կարգավորումները, որոնք պետք է տեղափոխվեն:Դուք կարող եք ֆայլերը տեղափոխել օգտագործելով կրիչներ, մալուխային միացումը  կամ ցանցային միացումը: տվյալների և կարգավորումների տեղափոխման ծրագրից օգտվելու համար օգտագործեք հետևյալ ճանապարհը </p>
+          <p></p>
+          <p>
+            <b>Пуск &gt; Все программы &gt; Стандартные &gt; Служебные &gt; Мастер переноса файлов и параметров</b>
+          </p>
+		   <p>
+            <b>Start > All Programs > Accessories > System Tools > Files and Settings Transfer Wizard</b>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>

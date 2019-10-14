@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+	 	 <text><![CDATA[<b>Параметры управления питанием в BIOS</b>]]></text> 
+	</component>
+</textcomponents>

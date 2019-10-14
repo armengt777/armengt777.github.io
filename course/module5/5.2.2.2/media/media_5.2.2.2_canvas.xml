@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE" >
+	<slide>
+		<element type="IMAGE" x="15.85" y="45.9" width="409.45" height="307.9" subType="STD" src="5_2_2_2.jpg" />
+		<element type="TEXT" textId="ID_router_txt1" x="33" y="63.1" width="306" height="311.25" />
+		<!--<text id="ID_router_txt1"><![CDATA[<pre>[Data] AutoPartition=0 MsDosInitiated="0" UnattendedInstall="Yes" UseBIOSToBoot=1 [Unattended] UnattendMode=FullUnattended OemSkipEula=Yes OemPreinstall=No ExtendOemPartition=0 TargetPath=* Repartition=No [GuiUnattended] AdminPassword=* AutoLogon=Yes OEMSkipWelcome=1 TimeZone=20 [UserData] ComputerName=OEMComputerName FullName="Windows Storage Server 2003" OrgName="OEM Name" ProductID="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"</pre>]]></text>-->
+		<element type="TEXT" subType="TITLE" compId="ID_title"/>
+	</slide>
+</data>
+
+

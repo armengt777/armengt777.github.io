@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.3.2.6 Свойства обозревателя</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.3.2.6_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Графический интерфейс пользователя и панель управления Windows</h1>
+        <h2>Служебные программы панели управления</h2>
+      </div>
+      <div id="content">
+          <p>Для получения доступа к служебной программе «Свойства обозревателя» перейдите по следующим пунктам:</p>
+          <p>
+            <b>Пуск &gt; Панель управления &gt; Свойства браузера</b>
+          </p>
+          <p>В окне «Свойства: Интернет» отображаются следующие вкладки:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Общие</b> — настройка основных свойств обозревателя, например выбор домашней страницы обозревателя Internet Explorer (IE), просмотр и удаление истории обзора, настройка параметров поиска и настройка отображения веб-страниц.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Безопасность</b> — настройка параметров безопасности для Интернета, местной интрасети, надежных или опасных сайтов. Уровни безопасности для каждой зоны могут лежать в диапазоне от низкого (минимальная безопасность) до высокого (максимальная безопасность).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Конфиденциальность</b> — настройка параметров конфиденциальности для зоны Интернета, управление службами поиска местоположения и включение блокирования всплывающих окон.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Содержание</b> — доступ к функции «Родительский контроль», контроль за просмотром веб-содержимого, настройка параметров автозаполнения и настройка каналов и веб-фрагментов, которые можно просматривать с помощью Internet Explorer.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Подключения</b> — установка подключения к Интернету и настройка параметров сети.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Программы</b> — выбор веб-браузера по умолчанию, включение надстроек веб-браузера, выбор редактора HTML для Internet Explorer и выбор программ, используемых для служб Интернета.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Дополнительно</b> — настройка дополнительных параметров и возврат параметров Internet Explorer к значениям по умолчанию.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,76 @@
+﻿<textcomponents>
+
+    
+
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Материнские платы</b>]]></text>
+    </component>
+
+    <component id="ID_s2_table">
+        <text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan="3" class="title"><font size='14' color='#393536'><b>Форм-факторы</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' width='125'><font color='#393536'>AT</font></td>
+		<td bgcolor='#F3F5E7' ><font color='#393536'>Advanced Technology</font></td>
+		<td bgcolor='#F3F5E7' ><font color='#393536'>30,5 см X 35,1 см</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' ><font color='#393536'>ATX</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Advanced Technology Extended</font></td>
+		<td bgcolor='#FFFFFF' ><font color='#393536'>30,5 см X 24,4 см</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Мини-ATX</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Вариант ATX с меньшей занимаемой площадью</font></td>
+		<td bgcolor='#F3F5E7' ><font color='#393536'>15 см X 15 см</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' ><font color='#393536'>Микро-ATX</font></td>
+		<td bgcolor='#FFFFFF' ><font color='#393536'>Вариант ATX с меньшей занимаемой площадью</font></td>
+		<td bgcolor='#FFFFFF' ><font color='#393536'>24,4 см X 24,4 см</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'>LPX</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Low-Profile Extended</font></td>
+		<td bgcolor='#F3F5E7' ><font color='#393536'>33 см X 22,9 см</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' ><font color='#393536'>NLX</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>New Low-Profile Extended</font></td>
+		<td bgcolor='#FFFFFF' ><font color='#393536'>от 20,3 см X 25,4 см до 22,9 см X 34,5 см</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'>BTX</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Balanced Technology Extended</font></td>
+		<td bgcolor='#F3F5E7' ><font color='#393536'>32,5 см X 26,6 см</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Мини-ITX</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Формат компактнее, чем микро-ATX</font></td>
+		<td bgcolor='#FFFFFF' ><font color='#393536'>17 см X 17 см</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Нано-ITX</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Вариант мини-ITX с меньшей занимаемой площадью</font></td>
+		<td bgcolor='#F3F5E7' ><font color='#393536'>12 см X 12 см</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Пико-ITX</font></td>
+		<td bgcolor='#FFFFFF'><font color='#393536'>Половина размера нано-ITX</font></td>
+		<td bgcolor='#FFFFFF' ><font color='#393536'>9,9 см X 7,1 см</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Мобильный ITX</font></td>
+		<td bgcolor='#F3F5E7'><font color='#393536'>Самая маленькая материнская плата стандарта ITX </font></td>
+		<td bgcolor='#F3F5E7' ><font color='#393536'>6 см X 6 см</font></td>
+	</tr>
+</table>]]></text>
+    </component>
+
+
+</textcomponents>

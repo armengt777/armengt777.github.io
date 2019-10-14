@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Типы синхронизации данных<b>]]></text>
+	</component>	 
+</textcomponents>

@@ -1,0 +1,54 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Протоколы электронной почты</b>]]></text>
+</component>
+
+<component id="ID_drag01">
+<text><![CDATA[Используется для отправки сообщений электронной почты, содержащих только текст в кодировке ASCII.]]></text>
+</component>
+<component id="ID_drag02">
+<text><![CDATA[Используется для отправки сообщений электронной почты,<br> содержащих текст, изображения и документы.]]></text>
+</component>
+<component id="ID_drag03">
+<text><![CDATA[Использует протокол POP для загрузки электронной почты.]]></text>
+</component>
+<component id="ID_drag04">
+<text><![CDATA[Используется для загрузки электронной почты и синхронизации папок электронной почты.]]></text>
+</component>
+
+<component id="ID_def01">
+<text><![CDATA[<b>SMTP</b>]]></text>
+</component>
+<component id="ID_def02">
+<text><![CDATA[<b>MIME</b>]]></text>
+</component>
+<component id="ID_def03">
+<text><![CDATA[<b>POP3</b>]]></text>
+</component>
+<component id="ID_def04">
+<text><![CDATA[<b>IMAP</b>]]></text>
+</component>
+
+
+
+	<component id="ID_CORRECT_TITLE">
+		<text><![CDATA[Верно]]></text> 
+	</component>
+	<component id="ID_CORRECT_BODY">
+		<text><![CDATA[Правильно.]]></text> 
+	</component>
+	<component id="ID_INCORRECT_TITLE">
+		<text><![CDATA[Неверно]]></text> 
+	</component>
+	<component id="ID_INCORRECT_BODY">
+		<text><![CDATA[Неправильно.]]></text> 
+	</component>
+	<component id="ID_CHECK">
+		<text><![CDATA[Проверить]]></text> 
+	</component>
+	<component id="ID_RESET">
+		<text><![CDATA[Очистить]]></text> 
+	</component>
+  
+</textcomponents>

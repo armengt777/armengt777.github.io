@@ -1,0 +1,117 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Ручные инструменты</b>]]></text>
+</component>
+
+<component id="ID_btn01">
+	<text><![CDATA[<b>Отвертка с плоским шлицем</b>]]></text>
+</component>
+
+<component id="ID_btn02">
+	<text><![CDATA[<b>Крестовая отвертка</b>]]></text>
+</component>
+
+<component id="ID_btn03">
+	<text><![CDATA[<b>Отвертка с жалом звездообразной формы</b>]]></text>
+</component>
+
+<component id="ID_btn04">
+	<text><![CDATA[<b>Шестигранная отвертка</b>]]></text>
+</component>
+
+<component id="ID_btn05">
+	<text><![CDATA[<b>Острогубцы</b>]]></text>
+</component>
+
+<component id="ID_btn06">
+	<text><![CDATA[<b>Кусачки</b>]]></text>
+</component>
+
+<component id="ID_btn07">
+	<text><![CDATA[<b>Пинцет</b>]]></text>
+</component>
+
+<component id="ID_btn08">
+	<text><![CDATA[<b>Экстрактор</b>]]></text>
+</component>
+
+<component id="ID_btn09">
+	<text><![CDATA[<b>Фонарик</b>]]></text>
+</component>
+
+<component id="ID_btn10">
+	<text><![CDATA[<b>Клещи для снятия изоляции</b>]]></text>
+</component>
+
+<component id="ID_btn11">
+	<text><![CDATA[<b>Обжимной инструмент</b>]]></text>
+</component>
+
+<component id="ID_btn12">
+	<text><![CDATA[<b>Монтажный инструмент</b>]]></text>
+</component>
+
+<!--Slide 1-->
+<component id="ID_s1_caption">
+	<text><![CDATA[Отвертка с плоским шлицем используется, когда нужно открутить или затянуть винт с прямым шлицем.]]></text>
+</component>
+
+<!--Slide 2-->
+<component id="ID_s2_caption">
+	<text><![CDATA[Крестовая отвертка используется, когда нужно открутить или затянуть винт с крестообразным шлицем.]]></text>
+</component>
+
+<!--Slide 3-->
+<component id="ID_s3_caption">
+	<text><![CDATA[Отвертка с жалом звездообразной формы используется, чтобы затянуть или открутить винты, имеющие звездообразное углубление на головке. Чаще всего такие винты можно увидеть на ноутбуках.]]></text>
+</component>
+
+<!--Slide 4-->
+<component id="ID_s4_caption">
+	<text><![CDATA[Шестигранная отвертка, также называемая гаечным ключом, используется для затягивания гаек одновременно с применением отвертки для затягивания винтов.]]></text>
+</component>
+
+<!--Slide 5-->
+<component id="ID_s5_caption">
+	<text><![CDATA[Острогубцы используются, чтобы удерживать мелкие детали.]]></text>
+</component>
+
+<!--Slide 6-->
+<component id="ID_s6_caption">
+	<text><![CDATA[Кусачки используются для удаления и обрезки проводов.]]></text>
+</component>
+
+<!--Slide 7-->
+<component id="ID_s7_caption">
+	<text><![CDATA[Пинцет используют для работы с мелкими деталями.]]></text>
+</component>
+
+<!--Slide 8-->
+<component id="ID_s8_caption">
+	<text><![CDATA[Экстрактор применяется для извлечения деталей из тех мест, размер которых не позволяет достать деталь руками.]]></text>
+</component>
+
+<!--Slide 9-->
+<component id="ID_s9_caption">
+	<text><![CDATA[Фонарик нужен для освещения мест, которые трудно рассмотреть без дополнительного света.]]></text>
+</component>
+
+<!--Slide 10-->
+<component id="ID_s10_caption">
+	<text><![CDATA[Клещи для снятия изоляции нужны для удаления изоляции с проводов. Изоляцию следует удалять, когда нужно скрутить провод с другими проводами или прикрепить к разъему, чтобы получился кабель.]]></text>
+</component>
+
+<!--Slide 11-->
+<component id="ID_s11_caption">
+	<text><![CDATA[Обжимной инструмент используется для соединения разъемов и проводов.]]></text>
+</component>
+
+<!--Slide 12-->
+<component id="ID_s12_caption">
+	<text><![CDATA[Монтажный инструмент используется, чтобы подсоединять провод к месту его крепления на плате. Некоторые кабельные разъемы закрепляют на кабелях с помощью монтажного инструмента.]]></text>
+</component>
+
+ 
+
+</textcomponents>

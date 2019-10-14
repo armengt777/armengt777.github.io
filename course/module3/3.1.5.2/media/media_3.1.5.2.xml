@@ -1,0 +1,29 @@
+﻿<textcomponents>
+
+
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Разъем данных PATA на материнской плате</b>]]></text>
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Разъем данных PATA на оптическом приводе</b>]]></text>
+</component>
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>Разъем данных SATA на материнской плате</b>]]></text>
+</component>
+
+<component id="ID_s4_title">
+<text><![CDATA[<b>Разъем данных SATA на жестком диске</b>]]></text>
+</component>
+
+<component id="ID_s5_title">
+<text><![CDATA[<b>Разъем данных для приводов гибких дисков на материнской плате</b>]]></text>
+</component>
+
+<component id="ID_s6_title">
+<text><![CDATA[<b>Разъем данных для привода гибких дисков на приводе гибких дисков</b>]]></text>
+</component>
+
+</textcomponents>

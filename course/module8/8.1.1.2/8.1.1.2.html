@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.1.1.2 Оборудование, не допускающее модернизации</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.1.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Обзор оборудования мобильных устройств</h1>
+        <h2>Оборудование мобильных устройств</h2>
+      </div>
+      <div id="content">
+          <p>Обычно оборудование мобильных устройств не допускает модернизации. Конструкция и размеры внутренних компонентов не предусматривают замену модернизированным оборудованием. Многие компоненты мобильного устройства напрямую соединены с монтажными платами, как показано на рисунке, и их нельзя заменить модернизированными компонентами. Однако аккумуляторы и карты памяти часто можно заменить моделями с большей емкостью. Это не увеличит скорость и возможности мобильного устройства, но обеспечит более длительное время работы между подзарядками или повысит емкость системы хранения данных.</p>
+          <p>Можно расширить функции мобильных устройств посредством использования встроенных портов и док-станций. Подобные подключения позволяют наращивать возможности, например добавить вывод видео или аудио, подключение к док-станции или к радиочасам. Некоторые смартфоны можно даже подключить к устройству с клавиатурой, сенсорным планшетом и ЖК-монитором, собрав таким образом некую разновидность портативного компьютера. Существуют чехлы для планшетных ПК с клавиатурой на внутренней стороне. </p>
+          <p>Если мобильное устройство уже не отвечает требованиям пользователя по функциональности или скорости, его нужно заменить. При покупке нового мобильного устройства часто можно сдать старое устройство в счет частичной оплаты. Компоненты ремонтируют и затем перепродают или отдают бесплатно. Простое мобильное устройство можно бесплатно предоставить для повторного использования, если его нельзя поменять с доплатой на новое. Чтобы узнать, где принимают такие устройства, ознакомьтесь с условиями программ пожертвования в вашем регионе.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

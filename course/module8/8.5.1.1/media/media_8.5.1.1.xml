@@ -1,0 +1,50 @@
+﻿<textcomponents>
+     <component id="ID_table">
+      <text>
+        <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+          
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 1. Определение проблемы</b></font></td>
+	</tr>  
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+
+	
+          <tr>
+            <td width="150" valign="top" bgcolor='#F3F5E7'>
+              <font color='#393536'>«Открытые» вопросы </font>
+            </td>
+            <td  valign="top" bgcolor='#F3F5E7'>
+              <font color='#393536'>
+                <textformat blockindent='-18'><li>В чем заключается неполадка? </li>
+                <li>Каковы марка и модель вашего мобильного <span id="spacer">устройства?</span> </li>
+                <li>Кто ваш поставщик услуг? </li>
+                <li>Какие приложения вы недавно установили? </li></textformat>
+                </font>
+            </td>
+          </tr>
+		  
+		  
+		  <tr>
+            <td width="150" valign="top" bgcolor='#FFFFFF'>
+              <font color='#393536'>«Закрытые» вопросы </font>
+            </td>
+            <td  valign="top" bgcolor='#FFFFFF'>
+              <font color='#393536'>
+                <textformat blockindent='-18'><li>Возникала ли неполадка раньше? </li>
+                <li>Пользовался ли кто-либо еще мобильным устройством? </li>
+                <li>Действует ли гарантия на мобильное устройство? </li>
+                <li>Вносили ли вы изменения в операционную систему <span id="spacer">мобильного устройства?</span> </li>
+				  <li>Устанавливали ли вы какие-либо приложения из <span id="spacer">неодобренного источника?</span> </li>
+				    <li>Подключается ли мобильное устройство к <span id="spacer">Интернету?</span></li></textformat>
+                </font>
+            </td>
+          </tr>
+		  
+		  
+		  
+        </table>]]>
+      </text>
+    </component>
+  </textcomponents>

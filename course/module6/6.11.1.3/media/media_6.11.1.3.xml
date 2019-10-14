@@ -1,0 +1,28 @@
+﻿<textcomponents>
+	<component id="ID_table">
+		<text><![CDATA[
+				<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				<tr class="title">
+					<td colspan='2' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Этап 3. Проверка выводов, сделанных о причине неполадки</b></font></td>
+				</tr>
+				<tr>
+					<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+				</tr>
+				<tr>
+					<td width="120px" bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>Обычные этапы определения причины неполадки</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>
+						<textformat blockindent='-18'><li>Убедитесь, что все кабели подключены в правильных местах.</li>
+						<li>Отключите и снова подключите кабели и разъемы.</li>
+						<li>Перезагрузите компьютер или сетевое устройство.</li>
+						<li>Войдите в систему с учетными данными другого пользователя.</li>
+						<li>Восстановите или заново включите сетевое подключение.</li>
+						<li>Свяжитесь с администратором сети.</li>
+						<li>Отправьте эхо-запрос на шлюз по умолчанию.</li>
+						<li>Зайдите на удаленную веб-страницу, например на http://www.cisco.com.</li></textformat></font>
+					</td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+	
+</textcomponents>

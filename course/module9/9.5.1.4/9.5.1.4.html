@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>9.5.1.4 Эксплуатационная среда</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.5.1.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Методы профилактического обслуживания для принтеров</h1>
+        <h2>Профилактическое обслуживание принтеров</h2>
+      </div>
+      <div id="content">
+          <p>Принтеры, как и все прочие электрические устройства, страдают от температуры, влажности и электрических помех. Лазерные принтеры при работе производят тепло, поэтому для предотвращения перегрева их нужно использовать только в хорошо проветриваемых помещениях.</p>
+          <p>Храните бумагу и картриджи с тонером в их оригинальной упаковке. Для хранения этих расходных материалов также требуется прохладная, сухая и защищенная от пыли среда. При повышенной влажности бумага впитывает влагу из воздуха. От этого бумага идет волнами и может слипаться или застревать в принтере в процессе печати. Кроме того, из-за повышенной влажности тонер может неправильно закрепляться на бумаге. Если бумага и принтер покрылись пылью, используйте сжатый воздух, чтобы удалить с них пыль.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

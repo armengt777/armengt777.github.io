@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.3.1.2 Управление параметрами ACPI в BIOS</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.3.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Питание ноутбука</h1>
+        <h2>Параметры питания</h2>
+      </div>
+      <div id="content">
+          <p>Инженерам часто требуется настроить параметры питания, изменив их в программе настройки BIOS. На рисунке приведен пример параметров питания в программе настройки BIOS. Настройка параметров питания в BIOS оказывает влияние на следующие аспекты: </p>
+          <p>
+            <ul>
+              <li>Состояния системы</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Режимы работы аккумулятора и подачи переменного тока</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Управление температурой</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Управление питанием шины PCI ЦП</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Пробуждение от сети (WOL)</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Для пробуждения от сети может потребоваться кабельное подключения в корпусе компьютера между сетевым адаптером и материнской платой.</p>
+          <p></p>
+          <p>В Windows режим управления питанием ACPI должен быть включен в программе настройки BIOS, чтобы можно было настроить режимы управления питанием.</p>
+          <p></p>
+          <p>Чтобы включить режим ACPI в программе настройки BIOS, выполните следующие действия:</p>
+          <p></p>
+          <p>
+            <b>Этап 1. </b>Войдите в программу настройки BIOS. </p>
+          <p>
+            <b>Этап 2. </b>Найдите и выберите меню параметров управления питанием. </p>
+          <p>
+            <b>Этап 3. </b>Используя необходимые клавиши, включите режим ACPI. </p>
+          <p>
+            <b>Этап 4. </b>Сохраните изменения и выйдите из программы настройки BIOS. </p>
+          <p></p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Приведенные выше действия являются общими для большинства ноутбуков. Однако ознакомьтесь с документацией, поставленной вместе с ноутбуком, чтобы найти конкретные параметры настройки. Единого стандарта именования состояний управления питанием не существует. Одно и то же состояние может называться по-разному в зависимости от производителя ноутбука.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,35 @@
+﻿<textcomponents>
+<component id="ID_title">
+	<text><![CDATA[<b>Средства управления дисками</b>]]></text>
+</component>
+<component id="ID_btn01">
+	<text><![CDATA[<font align="center"><b>FDISK</b></font>]]></text>
+</component>
+
+<component id="ID_btn02">
+	<text><![CDATA[<font align="center"><b>Управление<br>дисками</b</font>]]></text>
+</component>
+
+<component id="ID_btn03">
+	<text><![CDATA[<font align="center"><b>Форматирование</b></font>]]></text>
+</component>
+
+<component id="ID_btn04">
+	<text><![CDATA[<font align="center"><b>Scandisk<br>или Chkdsk</b></font>]]></text>
+</component>
+
+<component id="ID_btn05">
+	<text><![CDATA[<font align="center"><b>Дефрагментация</b></font>]]></text>
+</component>
+
+<component id="ID_btn06">
+	<text><![CDATA[<font align="center"><b>Очистка диска</b></font>]]></text>
+</component>
+
+<component id="ID_btn07">
+	<text><![CDATA[<font align="center"><b>Проверка <br>системных файлов</b></font>]]></text>
+</component>
+
+ 
+
+</textcomponents>

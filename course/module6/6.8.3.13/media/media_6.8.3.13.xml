@@ -1,0 +1,263 @@
+﻿<textcomponents> 
+<component id="ID_s1_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b class="font-fourteen">Параметры команды "ipconfig"</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23' width='150px' valign="top" style="width:154px  !important;"><font color='#FFFFFF'><b>Параметры команды "ipconfig":</b></font></td>
+		<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>Назначение</b></font></td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">/all</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'>Отображает полную информацию о настройке всех сетевых плат.</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">/release</td>
+		<td bgcolor='#FFFFFF' valign="top">Освобождает IP-адрес сетевой платы.</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">/renew</td>
+		<td bgcolor='#F3F5E7' valign="top">Обновляет IP-адрес сетевой платы.</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">/flushdns</td>
+		<td bgcolor='#FFFFFF' valign="top">Очищает кэш, который хранит информацию службы доменных имен (DNS).</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">/registerdns</td>
+		<td bgcolor='#F3F5E7' valign="top">Обновляет аренду адреса у сервера DHCP и повторно регистрирует плату в службе доменных имен (DNS).</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">/displaydns</td>
+		<td bgcolor='#FFFFFF' valign="top">Отображает кэшированную информацию о DNS.</td>		 
+	</tr>
+</table>]]></text>
+</component>
+
+
+
+<component id="ID_s2_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true'  glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b class="font- fourteen">Параметры команды "ping"</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span  style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23' width="150px" valign="top"><font color='#FFFFFF'><b>Параметры команды "ping"</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top"><font color='#FFFFFF'><b>Назначение</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">-t</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'>Отправлять эхо-запросы на указанный узел, пока команда не будет прервана</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">-a</td>
+		<td bgcolor='#FFFFFF' valign="top">Разрешить адрес по имени узла</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">-n число</td>
+		<td bgcolor='#F3F5E7' valign="top">Число отправляемых эхо-запросов</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">-l размер</td>
+		<td bgcolor='#FFFFFF' valign="top">Размер буфера отправляемых запросов</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">-f</td>
+		<td bgcolor='#F3F5E7' valign="top">Установить в отправляемом пакете флаг "Don't Fragment" (не фрагментировать)</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">-i TTL</td>
+		<td bgcolor='#FFFFFF' valign="top">Время существования (time to live)</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">-v TOS</td>
+		<td bgcolor='#F3F5E7' valign="top">Тип службы (Type Of Services)</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">-r число</td>
+		<td bgcolor='#FFFFFF' valign="top">Запись маршрута для указанного числа переходов</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">-s число</td>
+		<td bgcolor='#F3F5E7' valign="top">Вид записываемой метки времени при каждом переходе</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">-j список_узлов</td>
+		<td bgcolor='#FFFFFF' valign="top">Свободная маршрутизация через узлы из списка</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">-k список_узлов</td>
+		<td bgcolor='#F3F5E7' valign="top">Жесткая маршрутизация через узлы из списка</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">-w время_ожидания</td>
+		<td bgcolor='#FFFFFF' valign="top">Время ожидания каждого эхо-ответа (в миллисекундах)</td>		 
+	</tr>
+	
+</table>]]></text>
+</component>
+
+
+
+
+
+
+<component id="ID_s3_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b class="font-fourteen">Команды группы net</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23' width="150px" valign="top"><font color='#FFFFFF'><b>Команды группы net</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top"><font color='#FFFFFF'><b>Назначение</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">"net /?" или "net help"</td>
+		<td bgcolor='#F3F5E7' valign="top"><textformat blockindent='-18'>Отобразить команды группы net</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">nbtstat</td>
+		<td bgcolor='#FFFFFF' valign="top">Отображает статистику протокола и текущие подключения TCP/IP с использованием NetBIOS через TCP/IP (NBT)</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">netstat</td>
+		<td bgcolor='#F3F5E7' valign="top">Отображает активные подключения по протоколу TCP</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net accounts</td>
+		<td bgcolor='#FFFFFF' valign="top">Обновляет базы данных учётных записей пользователей и изменяет пароль и требования для входа в систему</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net computer</td>
+		<td bgcolor='#F3F5E7' valign="top">Добавляет или удаляет компьютеры</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net config [workstation | server]</td>
+		<td bgcolor='#FFFFFF' valign="top">Отображает информацию о настройке рабочей станции (workstation) или сервера (server)</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net continue</td>
+		<td bgcolor='#F3F5E7' valign="top">Возобновляет работу службы, которая была приостановлена командой "net pause"</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net file</td>
+		<td bgcolor='#FFFFFF' valign="top">Отображает имена всех открытых на сервере общих файлов</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net group</td>
+		<td bgcolor='#F3F5E7' valign="top">Добавляет, отображает или изменяет глобальные группы</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net help [команда]</td>
+		<td bgcolor='#FFFFFF' valign="top">Отображает информацию об указанной команде сетевой службы</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net helpmsg</td>
+		<td bgcolor='#F3F5E7' valign="top">Дает информацию об ошибках и решении проблем </td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net localgroup</td>
+		<td bgcolor='#FFFFFF' valign="top">Добавляет, отображает или изменяет локальные группы</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net name</td>
+		<td bgcolor='#F3F5E7' valign="top">Добавляет или удаляет псевдонимы для приема сообщений</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net pause</td>
+		<td bgcolor='#FFFFFF' valign="top">Приостанавливает работающие в данный момент службы</td>		 
+	</tr>
+ 
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net print</td>
+		<td bgcolor='#F3F5E7' valign="top">Отображает очередь печати или сведения о задании на печать, управляет указанным заданием на печать</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net send</td>
+		<td bgcolor='#FFFFFF' valign="top">Отправляет сообщения</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net session</td>
+		<td bgcolor='#F3F5E7' valign="top">Отображает или закрывает сеансы между компьютерами</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net share</td>
+		<td bgcolor='#FFFFFF' valign="top">Отображает общие принтеры или каталоги и управляет ими</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net start</td>
+		<td bgcolor='#F3F5E7' valign="top">Отображает запущенные службы</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net statistics [workstation | server] </td>
+		<td bgcolor='#FFFFFF' valign="top">Отображает статистику рабочих станций и серверов</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net stop [служба]</td>
+		<td bgcolor='#F3F5E7' valign="top">Останавливает указанную сетевую службу</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net time</td>
+		<td bgcolor='#FFFFFF' valign="top">Отображает сетевое время или синхронизирует его</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net use</td>
+		<td bgcolor='#F3F5E7' valign="top">Отображает удаленные подключения или управляет ими</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top">net user</td>
+		<td bgcolor='#FFFFFF' valign="top">Создает, изменяет или отображает список учетных записей пользователей</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top">net view</td>
+		<td bgcolor='#F3F5E7' valign="top">Отображает сетевые ресурсы или компьютеры</td>
+		 
+	</tr>
+
+</table>]]></text>
+</component>
+
+    
+
+</textcomponents>

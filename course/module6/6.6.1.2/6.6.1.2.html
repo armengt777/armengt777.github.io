@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.6.1.2 IEEE 802.3</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.6.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Стандарты Ethernet</h1>
+        <h2>Кабельные и беспроводные</h2>
+      </div>
+      <div id="content">
+          <p>Протокол Ethernet описывает правила управления связью в сети Ethernet. Чтобы обеспечить совместимость всех устройств Ethernet друг с другом, IEEE разработала стандарты для производителей и программистов по разработке устройств Ethernet.</p>
+          <p></p>
+          <p>Архитектура Ethernet основана на стандарте IEEE 802.3. Стандарт IEEE 802.3 определяет, что в сети реализуется способ контроля доступа &laquo;множественный доступ с контролем несущей и обнаружением конфликтов&raquo; (CSMA/CD). </p>
+          <p></p>
+          <p>В CSMA/CD все конечные станции прослушивают сетевой провод и ждут, когда он будет свободен для отправки данных. Этот процесс сходен с ожиданием сигнала готовности линии на телефоне перед набором номера. Когда конечная станция определяет, что никакие другие узлы не передают данные, она пытается отправить данные. Если никакая другая станция в это же время не отправляет данные, эта передача без проблем поступает на компьютер назначения. Если другая станция определяет этот же сигнал свободной сети и одновременно передает данные, на сетевом носителе происходит конфликт, как показано на рисунке. </p>
+          <p></p>
+          <p>Первая станция, которая обнаруживает конфликт или удвоение напряжения, отправляет сигнал наличия коллизии, указывающий всем станциям на остановку передачи и выполнение алгоритма задержки. Алгоритм задержки вычисляет случайное время, по истечении которого конечная станция пытается повторить передачу. Обычно это случайное время равняется 1 или 2 миллисекундам (мс). Описанная процедура выполняется каждый раз при наличии конфликта в сети и может снизить скорость передачи Ethernet на 40 процентов.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

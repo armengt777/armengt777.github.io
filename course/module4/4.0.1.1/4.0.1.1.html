@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>4.0.1.1 Введение</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_4.0.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Обзор процедур профилактического обслуживания</h1>
+        <h2>Введение</h2>
+      </div>
+      <div id="content">
+          <p>Профилактическое обслуживание включает в себя регулярный и систематический осмотр, очистку и замену изношенных деталей, материалов и систем. Благодаря эффективному профилактическому обслуживанию сокращается число сбоев, вызванных дефектами деталей, материалов и систем. Оно позволяет поддерживать оборудование и программное обеспечение в хорошем рабочем состоянии. </p>
+          <p>Поиск и устранение неисправностей &mdash; это систематический процесс, используемый для выявления причины сбоя в компьютерной системе и исправления соответствующих проблем с оборудованием и программным обеспечением.</p>
+          <p>В этой главе представлены общие рекомендации по созданию программ профилактического обслуживания и процедур поиска и устранения неисправностей. Эти рекомендации являются отправной точкой для развития ваших собственных навыков профилактического обслуживания, а также поиска и устранения неисправностей.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

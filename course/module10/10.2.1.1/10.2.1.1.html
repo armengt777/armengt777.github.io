@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>10.2.1.1 Что такое политика безопасности?</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_10.2.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедуры безопасности</h1>
+        <h2>Политики безопасности</h2>
+      </div>
+      <div id="content">
+          <p>Политика безопасности &mdash; это набор правил, руководств и контрольных перечней. Инженеры по сетям и руководители организации совместно разрабатывают правила и руководства для безопасности компьютерного оборудования. В политику безопасности входят следующие элементы:</p>
+          <p>
+            <ul>
+              <li>Заявление о допустимом использовании компьютеров организации.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Списки сотрудников, которым разрешено использовать компьютерное оборудование.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Списки устройств, установка которых в сети разрешена, а также условия установки. Примеры оборудования, которое может использоваться для атак сети &mdash; модемы и беспроводные точки доступа.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Требования, необходимые для обеспечения конфиденциальности данных в сети.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Процесс получения сотрудниками доступа к оборудованию и данным. Этот процесс может требовать от сотрудника подписания соглашения, связанного с правилами компании. В нем также перечислены последствия несоблюдения правил.</li>
+            </ul>
+          </p>
+          <p>В политике безопасности должно описываться решение проблем безопасности в компании. Локальные политики безопасности в различных организациях могут различаться, однако есть вопросы, которые должны задать все организации.</p>
+          <p>
+            <ul>
+              <li>Какие ресурсы требуют защиты?</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Каковы возможные угрозы?</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Каковы действия в случае нарушения безопасности?</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Какое обучение будут проходить конечные пользователи?</li>
+            </ul>
+          </p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Для обеспечения эффективности политика безопасности должна применяться и соблюдаться всеми сотрудниками.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

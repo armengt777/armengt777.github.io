@@ -1,0 +1,22 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Платы адаптеров</b>]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[<b>Звуковой адаптер</b>]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[<b>Сетевой адаптер</b>]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[<b>Адаптер RAID</b>]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Видеоадаптер</b>]]></text>
+	</component>
+
+</textcomponents>

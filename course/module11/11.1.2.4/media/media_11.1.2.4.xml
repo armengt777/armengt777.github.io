@@ -1,0 +1,140 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>Перевод вызова</b>]]></text>
+</component>
+<!--Instructions-->
+<component id="ID_continue_btn">
+	<text><![CDATA[Продолжить]]></text>
+</component>
+<component id="ID_DnD_inst_title">
+	<text><![CDATA[<b>Упражнение «Перевод вызова»</b>]]></text>
+</component>
+
+<component id="ID_DnD_inst_body">
+	<text><![CDATA[<p>Перетащите элементы с надписями<b> Верное действие </b>и<b> Неверное действие </b>в поля слева от утверждений. После того, как все поля будут заполнены, нажмите<b> Проверить</b>.</p><br /><p>Чтобы начать проверку, нажмите кнопку<b> Продолжить</b>. Чтобы повторно просмотреть инструкции, нажмите кнопку<b> ? </b>.</p>]]></text>
+</component>
+
+<component id="ID_DnD_inst_body1">
+	<text><![CDATA[<p>Перетащите элементы с надписями<b> Верное действие </b>и<b> Неверное действие </b>в поля слева от утверждений. После того, как все поля будут заполнены, нажмите<b> Проверить</b>.</p><p>Чтобы начать проверку, нажмите кнопку<b> Продолжить</b>. Чтобы повторно просмотреть инструкции, нажмите кнопку<b> ? </b>.</p>]]></text>
+</component>
+
+<!--Drag Sources-->
+<component id="ID_ds_do">
+	<text><![CDATA[Верное действие]]></text> 
+</component>
+<component id="ID_ds_donot">
+	<text><![CDATA[Неверное действие]]></text> 
+</component>
+
+<!--Drop Targets-->
+<component id="ID_dt_01">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_02">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_03">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_04">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_05">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_06">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_07">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_08">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<component id="ID_dt_09">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+<component id="ID_dt_10">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+<component id="ID_dt_11">
+	<text><![CDATA[Верное или неверное действие?]]></text> 
+</component>
+
+<!--Questions-->
+<component id="ID_q01">
+	<text><![CDATA[Получить от заказчика разрешение на перевод вызова.]]></text><!--Do-->
+</component>
+
+<component id="ID_q02">
+	<text><![CDATA[Объяснить заказчику причину перевода его вызова.]]></text><!--Do Not-->
+</component>
+
+<component id="ID_q03">
+	<text><![CDATA[Отвечать на вопрос заказчика до того, как он закончит говорить.]]></text><!--Do-->
+</component>
+
+<component id="ID_q04">
+	<text><![CDATA[Сообщить новому инженеру, которому переводится вызов, имя заказчика и номер заявки.]]></text><!--Do Not-->
+</component>
+
+<component id="ID_q05">
+	<text><![CDATA[Переводить вызов заказчика без его разрешения.]]></text><!--Do Not-->
+</component>
+
+<component id="ID_q06">
+	<text><![CDATA[Переводить вызов заказчика, не сообщая ему о своих намерениях.]]></text><!--Do-->
+</component>
+
+<component id="ID_q07">
+	<text><![CDATA[Разговаривать одновременно с заказчиком. ]]></text><!--Do-->
+</component>
+
+<component id="ID_q08">
+	<text><![CDATA[Сообщить заказчику номер телефона или добавочный номер специалиста, которому вы переводите вызов.]]></text><!--Do Not-->
+</component>
+
+<component id="ID_q09">
+	<text><![CDATA[Сообщить заказчику имя специалиста, которому вы переводите вызов.]]></text><!--Do-->
+</component>
+
+<component id="ID_q10">
+	<text><![CDATA[Переводить вызов без разрешения инженера, который будет принимать этот вызов.]]></text><!--Do-->
+</component>
+
+<component id="ID_q11">
+	<text><![CDATA[Дождаться, пока заказчик закончит говорить.]]></text><!--Do-->
+</component>
+
+<!--Feedback-->
+<component id="ID_CORRECT_TITLE">
+	<text><![CDATA[Верно]]></text> 
+</component>
+<component id="ID_CORRECT_BODY">
+	<text><![CDATA[Правильно.]]></text> 
+</component>
+<component id="ID_INCORRECT_TITLE">
+	<text><![CDATA[Неверно]]></text> 
+</component>
+<component id="ID_INCORRECT_BODY">
+	<text><![CDATA[Неправильно.]]></text> 
+</component>
+
+<!--Buttons-->
+<component id="ID_CHECK">
+	<text><![CDATA[Проверить]]></text> 
+</component>
+<component id="ID_RESET">
+	<text><![CDATA[Очистить]]></text> 
+</component>
+
+</textcomponents>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.3.1.4 Обновление ОЗУ</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.3.1.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Обновление и настройка ПК</h1>
+        <h2>Материнская плата и связанные с ней компоненты</h2>
+      </div>
+      <div id="content">
+          <p>Увеличение объема системного ОЗУ практически всегда приводит к повышению общей производительности системы. Прежде чем обновлять или заменять ОЗУ, ответьте на следующие вопросы:</p>
+          <p>
+            <ul>
+              <li>Какой тип ОЗУ используется материнской платой в настоящий момент?</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Можно ли устанавливать ОЗУ по одному модулю, или их нужно объединять в подходящие банки?</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Имеются ли свободные разъемы для ОЗУ?</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Подходит ли микросхема нового ОЗУ под скорость, задержку, тип и напряжение нынешнего ОЗУ?</li>
+            </ul>
+          </p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Работайте с системным ОЗУ только на антистатическом коврике и в антистатическом браслете. Держите модули ОЗУ на коврике, пока не придет время их использовать. Храните модули ОЗУ в антистатической упаковке.</p>
+          <p>Чтобы удалить модуль ОЗУ, откройте фиксирующие его защелки. Вытащите его из разъема. Современные модули DIMM вытаскиваются снизу вверх и вставляются сверху вниз. Более ранние модули SIMM вставлялись под углом.</p>
+          <p>Вставляя новый модуль ОЗУ, убедитесь, что выемки на модуле ОЗУ и разъем ОЗУ на материнской плате полностью совпадают. Аккуратно надавите, чтобы модуль ОЗУ встал на место, и зафиксируйте его защелками.</p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Убедитесь, что модуль памяти вставлен в разъем полностью. Если модуль ОЗУ вставлен неправильно и закорачивает главную системную шину, он может серьезно повредить материнскую плату.</p>
+          <p>Система определит новый модуль ОЗУ, если он совместим с ней и установлен правильно. Если BIOS не отображает наличие верного объема ОЗУ, убедитесь, что модули ОЗУ совместимы с материнской платой и установлены правильно.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

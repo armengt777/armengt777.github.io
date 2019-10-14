@@ -1,0 +1,145 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Разъемы жестких дисков</b>]]></text>
+</component>
+
+<component id="ID_s1_title01">
+<text><![CDATA[<b>SATA</b>]]></text> 
+</component>
+
+<component id="ID_s1_title02">
+<text><![CDATA[<b>PATA</b>]]></text> 
+</component>
+
+<component id="ID_s1_title03">
+<text><![CDATA[<b>SCSI </b>]]></text> 
+</component>
+
+<component id="ID_s1_title04">
+<text><![CDATA[<b>eSATA</b>]]></text> 
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Подключение SCSI в виде гирлянды</b>]]></text> 
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Терминировать</b>]]></text> 
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>Не</br> терминировать</b>]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>Не </br>терминировать</b>]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[<b>Терминировать</b>]]></text> 
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>Терминировать</b>]]></text> 
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[<b>Не</br> терминировать</b>]]></text> 
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[<b>Не</br> терминировать</b>]]></text> 
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[<b>Не</br> терминировать</b>]]></text> 
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[<b>Терминировать</b>]]></text> 
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[<b>Внутреннее подключение в виде гирлянды</b>]]></text> 
+</component>
+
+<component id="ID_txt11">
+<text><![CDATA[<b>Внешнее подключение в виде гирлянды</b>]]></text> 
+</component>
+
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>Типы SCSI</b>]]></text> 
+</component>
+
+<component id="ID_table">
+<text><![CDATA[
+	<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="title">
+			<td colspan='4' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#A2AA23' valign="top" width="110px"><font  color='#FFFFFF'><b>Тип SCSI</b></font></td>
+			<td bgcolor='#A2AA23' valign="top" width="80px"><font  color='#FFFFFF'><b>Также называемый</b></font></td>
+			<td bgcolor='#A2AA23' valign="top"><font color='#FFFFFF'><b>Разъем</b></font></td>
+			<td bgcolor='#A2AA23' valign="top" width="100px"><font  color='#FFFFFF'><b>Максимальная пропускная способность</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>SCSI-1</font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font color='#393536'></font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>50-контактный<br/>Centronics 50-контактный</font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>5 МБ/с</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Fast SCSI</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Plain SCSI</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>50-контактный<br/>Centronics 50-контактный</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>10 МБ/с</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>Fast Wide SCSI</font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'></font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>50-контактный<br/>68-контактный</font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>20 МБ/с</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Ultra SCSI</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Fast-20</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>50-контактный</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>20 МБ/с</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>Ultra Wide SCSI</font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font color='#393536'></font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>68-контактный</font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>40 МБ/с</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Ultra2 SCSI</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Fast-40</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>50-контактный</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>40 МБ/с</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>Ultra2 Wide SCSI</font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'></font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>68-контактный<br/>80-контактный</font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>80 МБ/с</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Ultra3 SCSI</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>Ultra-160</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>68-контактный<br/>80-контактный</font></td>
+			<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>160 МБ/с</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Ultra320 SCSI</font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'></font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>68-контактный<br/>80-контактный</font></td>
+			<td bgcolor='#F3F5E7' valign="top"><font  color='#393536'>320 МБ/с</font></td>
+		</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

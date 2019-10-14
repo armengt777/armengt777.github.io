@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.0.1.1 Введение</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.0.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Мобильные устройства</h1>
+        <h2>Введение</h2>
+      </div>
+      <div id="content">
+          <p>С увеличением спроса на мобильные возможности популярность мобильных устройств продолжает расти. Мобильным называют любое портативное устройство небольшого веса, обычно с сенсорным экраном для ввода информации. Подобно настольному и портативному компьютеру, на мобильных устройствах используется операционная система для запуска приложений, игр, воспроизведения фильмов и музыки. Среди примеров мобильных устройств можно назвать устройства на платформе Android (такие как планшетный компьютер Samsung Galaxy и смартфон Galaxy Nexus) и устройства Apple iPad и iPhone.</p>
+          <p>Чтобы поддерживать мобильные возможности, мобильные устройства используют множество беспроводных технологий. Многие компоненты, операционные системы и программное обеспечение мобильных устройств являются закрытыми разработками производителей. Чем больше разнообразных мобильных устройств будет вам знакомо, тем лучше. </p>
+          <p>Возможно, вам потребуется освоить настройку параметров, техническое обслуживание и ремонт различных мобильных устройств. Знания в области настольных и портативных компьютеров вам помогут, но есть и важные различия между этими технологиями. </p>
+          <p>Освоение навыков, необходимых для работы с мобильными устройствами, имеет большое значение для успеха вашей карьеры. Эта глава посвящена различным функциям и возможностям мобильных устройств, включая настройку, синхронизацию и резервное копирование данных.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

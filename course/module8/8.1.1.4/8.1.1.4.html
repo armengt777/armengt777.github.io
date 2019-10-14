@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>8.1.1.4 Твердотельные накопители</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_8.1.1.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Обзор оборудования мобильных устройств</h1>
+        <h2>Оборудование мобильных устройств</h2>
+      </div>
+      <div id="content">
+          <p>Для хранения данных в мобильных устройствах используются те же компоненты, что и в твердотельных накопителях. Чтобы уменьшить требования к размерам, эти компоненты не заключены в корпус. Монтажная плата, микросхемы флэш-памяти и контроллер памяти в твердотельных накопителях установлены непосредственно внутри мобильного устройства. Использование флэш-памяти в мобильных устройствах имеет ряд преимуществ:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Энергосбережение</b> &mdash; флэш-память потребляет крайне мало энергии для сохранения и извлечения данных. Это позволяет снизить частоту подзарядки мобильного устройства.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Надежность</b> &mdash; флэш-память может без отказов выдерживать сильные удары и воздействие вибрации. Флэш-память также обладает высокой устойчивостью к высоким и низким температурам.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Малый вес</b> &mdash; емкость установленной флэш-памяти не оказывает существенного влияния на вес мобильных устройств.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Компактность</b> &mdash; благодаря компактности флэш-памяти размеры мобильных устройств не зависят от емкости установленной памяти. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Производительность</b> &mdash; флэш-память не имеет движущихся компонентов, поэтому ей не требуется времени на раскручивание, как пластинам обычного жесткого диска. Флэш-память также не имеет движущейся головки диска, что сокращает время поиска данных.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Шум</b> &mdash; флэш-память работает бесшумно.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

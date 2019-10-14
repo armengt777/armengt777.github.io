@@ -1,0 +1,29 @@
+﻿<textcomponents>
+
+
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Разъемы передней панели</b>]]></text>
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Разъем системной панели</b>]]></text>
+</component>
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>Стрелка-индикатор контакта 1</b>]]></text>
+</component>
+
+<component id="ID_s4_title">
+<text><![CDATA[<b>Индикатор контакта 1 разъема системной панели</b>]]></text>
+</component>
+
+<component id="ID_s5_title">
+<text><![CDATA[<b>Разъемы USB материнской платы</b>]]></text>
+</component>
+
+<component id="ID_s6_title">
+<text><![CDATA[<b>Внутренний разъем USB</b>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,35 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Совместное использование ресурсов</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<b>Рабочая станция</b>]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[<b>Рабочая станция</b>]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[<b>Рабочая станция</b>]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Сервер</b>]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[<b>Сетевые компьютеры совместно используют ресурсы</b>]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[<b>Файлы</b>]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[<b>Приложения</b>]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[<b>Модемы</b>]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[<b>Сканеры</b>]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[<b>Принтеры</b>]]></text>
+	</component>
+</textcomponents>

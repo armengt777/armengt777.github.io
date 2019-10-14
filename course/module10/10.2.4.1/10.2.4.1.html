@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>10.2.4.1 Распространенные типы шифрования связи</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_10.2.4.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Процедуры безопасности</h1>
+        <h2>Методы безопасности</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Использование хэш-кода (контрольной суммы) </b>
+          </p>
+          <p>Использование хэш-кода, или хэширование гарантирует отсутствие повреждения или фальсификации сообщений во время передачи. Хэширование использует математическую функцию для подсчета  числового значения, которое является уникальным для передаваемых данных. Если изменить даже один символ, то результат функции, называемый контрольной суммой, будет другим. Однако это односторонняя функция. Знание контрольной суммы не позволяет злоумышленнику получить сообщение, что затрудняет перехват и изменение сообщений. Использование хэширования показано на рис. 1. Наиболее популярные алгоритмы хэширования &mdash; Secure Hash Algorithm (SHA), Message Digest 5 (MD5) и Data Encryption Standard (DES).</p>
+          <p>
+            <b>Симметричное шифрование</b>
+          </p>
+          <p>Для симметричного шифрования необходимо, чтобы на обеих сторонах зашифрованной связи использовался ключ для шифрования и расшифровки данных. Отправитель и получатель должны использовать одинаковые ключи. Симметричное шифрование показано на рис. 2. Примеры симметричного шифрования &mdash; DES и 3DES.</p>
+          <p>
+            <b>Асимметричное шифрование</b>
+          </p>
+          <p>Для асимметричного шифрования требуются два ключа, секретный и открытый. Открытый ключ может свободно распространяться, включая отправку по электронной почте в незашифрованном виде или размещение в Интернете. Секретный ключ сохраняется пользователем и не должен раскрываться другим лицам. Эти ключи могут использоваться двумя способами. </p>
+          <p>Шифрование открытым ключом используется, если одной организации необходимо получить зашифрованный текст из нескольких источников. Открытый ключ может широко распространяться и использоваться для шифрования сообщений. Предполагаемый получатель &mdash; это единственная сторона, имеющая секретный ключ, используемый для расшифровки сообщений.</p>
+          <p>При использовании цифровых подписей для шифрования сообщений требуется секретный ключ, а открытый ключ требуется для расшифровки сообщения. Этот подход позволяет получателю быть уверенным в источнике сообщения, поскольку с помощью открытого ключа может быть расшифровано только сообщение, зашифрованное с помощью исходного секретного ключа. В асимметричном шифровании используются цифровые подписи, как показано на рис. 3. RSA &mdash; наиболее популярный пример асимметричного шифрования.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

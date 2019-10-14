@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>5.4.1.2 Гипервизор: диспетчер виртуальных машин</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_5.4.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Клиентская виртуализация</h1>
+        <h2>Назначение и требования виртуализации</h2>
+      </div>
+      <div id="content">
+          <p>Программа для создания виртуальной машины и управления ею на главном компьютере называется гипервизором, или диспетчером виртуальных машин (Virtual Machine Manager, VMM). Гипервизор может запускать несколько виртуальных машин на одном главном компьютере. Каждая виртуальная машина работает под управлением собственной операционной системы. Количество доступных виртуальных машин зависит от аппаратных ресурсов главного компьютера. Гипервизор назначает необходимые физические системные ресурсы (ЦП, ОЗУ и жесткий диск) для каждой виртуальной машины. Это предотвращает возникновение конфликтов при работе различных виртуальных машин.  </p>
+          <p></p>
+          <p>Существует два типа гипервизоров: тип 1 (автономный) и тип 2 (на основе базовой ОС). Гипервизор типа 1 запускается непосредственно на оборудовании главного компьютера и управляет системными ресурсами гостевых операционных систем. Гипервизор типа 2 запускается в ОС главного компьютера. Windows Virtual PC является примером гипервизора типа 2.</p>
+          <p></p>
+          <p>
+            <b>Windows Virtual PC</b>
+          </p>
+          <p>Windows Virtual PC представляет собой платформу виртуализации для ОС Windows 7. Он позволяет распределять системные ресурсы, предназначенные для ОС Windows, среди виртуальных машин, работающих с лицензированными копиями ОС Windows 7, Windows Vista или Windows XP. Virtual PC можно загрузить с веб-сайта Microsoft Windows. На рисунке раздела 5.4.1.3 приведены требования к оборудованию для запуска Virtual PC. Virtual PC требуется для запуска программы «Режим Windows XP» в Windows 7.</p>
+          <p>
+            <b>Режим Windows XP</b>
+          </p>
+          <p>Режим Windows XP — это программа, доступная для версий ОС Windows 7 Профессиональная, Корпоративная и Максимальная. В режиме Windows XP используется технология виртуализации, позволяющая пользователям запускать программы Windows XP из Windows 7. С его помощью на Рабочем столе Windows 7 открывается виртуальная машина, предоставляющая полнофункциональную версию ОС Windows XP, включая доступ ко всем системным ресурсам. После установки программы в режиме Windows XP можно запускать эту программу в режиме  XP и получать к ней доступ из меню «Пуск» ОС Windows 7.</p>
+          <p>
+            <b>ПРИМЕЧАНИЕ</b>. Прежде чем использовать режим Windows XP, загрузите и установите Windows Virtual PC.</p>
+          <p>Для получения доступа к режиму XP в Windows 7 выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Выберите пункты <b>Пуск &gt; Все программы</b>.</p>
+          <p>
+            <b>Этап 2. </b>Выберите <b>Windows Virtual PC</b> &gt; <b>Режим Windows XP</b>.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

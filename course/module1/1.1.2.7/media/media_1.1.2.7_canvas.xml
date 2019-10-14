@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE">
+	<slide type="MBAR">
+		<slide>
+			<element type="TEXT" subType="TITLE" compId="ID_s1_title"/>
+			<element type="IMAGE" x="18" y="41" width="188" height="125" subType="STD" src="1_1_2_7_s1_a.jpg" />
+			<element type="IMAGE" x="230" y="41" width="188" height="125" subType="STD" src="1_1_2_7_s1_b.jpg" />
+			<element type="IMAGE" x="18" y="211" width="188" height="125" subType="STD" src="1_1_2_7_s1_c.jpg" />
+			<element type="IMAGE" x="230" y="211" width="188" height="125" subType="STD" src="1_1_2_7_s1_d.jpg" />
+			
+			<element type="TEXT" compId="ID_s1_txt01" x="18" y="175" width="188.9" expand="down" align="center" size="12" />
+			<element type="TEXT" compId="ID_s1_txt03" x="18" y="345" width="188.9" expand="down" align="center" size="12" />
+			<element type="TEXT" compId="ID_s1_txt04" x="230" y="345" width="188.9" expand="down" align="center" size="12" />
+			<element type="TEXT" compId="ID_s1_txt02" x="230" y="175" width="188.9" expand="down" align="center" size="12" />
+		</slide>
+
+
+
+
+			<slide type="MBUTTON">
+				<element type="TEXT" subType="TITLE" compId="ID_s2_title"/>
+				
+				<slide buttonType="BLUE" buttonX="10" buttonY="40" buttonWidth="120" buttonHeight="21" compId="ID_s2_btn01">
+					<element type="IMAGE" src="1_1_2_7_s2_a.jpg" x="188" y="41" width="196" height="200" subType="STD" />
+					<element type="TEXT" compId="ID_s2_txt01" x="145" y="260" width="270" height="100" align="left" expand="down"  class="height100" size="12" />
+				</slide>
+				<slide buttonType="BLUE" buttonX="10" buttonY="80" buttonWidth="120" buttonHeight="21" compId="ID_s2_btn02">
+					<element type="IMAGE" src="1_1_2_7_s2_b.jpg" x="235" y="41" width="102.7" height="200" subType="STD" />
+					<element type="TEXT" compId="ID_s2_txt02" x="145" y="260" width="270" height="100" align="left" expand="down"  class="height100" size="12" />
+				</slide>
+				<slide buttonType="BLUE" buttonX="10" buttonY="120" buttonWidth="120" buttonHeight="21" compId="ID_s2_btn03">
+					<element type="IMAGE" src="1_1_2_7_s2_c.jpg" x="266" y="41" width="40" height="200" subType="STD" />
+					<element type="TEXT" compId="ID_s2_txt03" x="145" y="260" width="270" height="100" align="left" expand="down"  class="height100" size="12" />
+				</slide>
+				<slide buttonType="BLUE" buttonX="10" buttonY="160" buttonWidth="120" buttonHeight="21" compId="ID_s2_btn04">
+					<element type="IMAGE" src="1_1_2_7_s2_d.jpg" x="203" y="41" width="167.2" height="200" subType="STD" />
+					<element type="TEXT" compId="ID_s2_txt04" x="145" y="260" width="270" height="100" align="left" expand="down"  class="height100" size="12" />
+				</slide>
+				<slide buttonType="BLUE" buttonX="10" buttonY="200" buttonWidth="120" buttonHeight="21" compId="ID_s2_btn05">
+					<element type="IMAGE" src="1_1_2_7_s2_e.jpg" x="199.5" y="41" width="173.25" height="200" subType="STD" />
+					<element type="TEXT" compId="ID_s2_txt05" x="145" y="260" width="270" height="100" align="left" expand="down"  class="height100" size="12" />
+				</slide>
+				<slide buttonType="BLUE" buttonX="10" buttonY="240" buttonWidth="120" buttonHeight="21" compId="ID_s2_btn06">
+					<element type="IMAGE" src="1_1_2_7_s2_f.jpg" x="196" y="72" width="180" height="135" subType="STD" />
+					<element type="TEXT" compId="ID_s2_txt06" x="145" y="260" width="270" height="100" align="left" expand="down"  class="height100" size="12" />
+				</slide>
+				<slide buttonType="BLUE" buttonX="10" buttonY="280" buttonWidth="120" buttonHeight="21" compId="ID_s2_btn07">
+					<element type="IMAGE" src="1_1_2_7_s2_g.jpg" x="146" y="47.5" width="280" height="186" subType="STD" />
+					<element type="TEXT" compId="ID_s2_txt07" x="145" y="260" width="270" height="100" align="left" expand="down"  class="height100" size="12" />
+				</slide>
+				<slide buttonType="BLUE" buttonX="10" buttonY="320" buttonWidth="120" buttonHeight="21" compId="ID_s2_btn08">
+					<element type="IMAGE" src="1_1_2_7_s2_h.jpg" x="146" y="47.5" width="277" height="186" subType="STD" />
+					<element type="TEXT" compId="ID_s2_txt08" x="145" y="260" width="270" height="100" align="left" expand="down"  class="height100" size="12" />
+				</slide>
+				
+							
+			</slide>	
+			<element type="TEXT" compId="ID_inst" x="5" y="380" width="432.1" expand="up" align="left" size="12" />		
+	</slide>	
+</data>

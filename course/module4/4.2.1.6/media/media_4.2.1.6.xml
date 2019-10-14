@@ -1,0 +1,29 @@
+﻿<textcomponents>
+
+
+
+ <component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+		<td bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Этап 5. Полная проверка функционального состояния системы и принятие профилактических мер в случае необходимости.</b></font></td>
+	</tr> 
+	<tr>
+		<td bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	<tr>  
+		<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>
+			<textformat blockindent='-18'><li>Перезагрузите компьютер.</li>
+			<li>Проверьте, правильно ли работают приложения.</li>
+			<li>Проверьте сеть и подключения к Интернету.</li>
+			<li>Распечатайте документ из любого приложения.</li>
+			<li>Убедитесь, что все подключенные устройства работают исправно.</li>
+			<li>Убедитесь в отсутствии сообщений об ошибках.</li></textformat>
+		</font></td>		 
+	</tr>
+	 
+</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

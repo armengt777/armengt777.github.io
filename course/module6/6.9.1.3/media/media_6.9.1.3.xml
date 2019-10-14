@@ -1,0 +1,9 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Беспроводной доступ к Интернету прямой видимости</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[<b>Передача в прямой видимости</b>]]></text> 
+  </component>
+</textcomponents>

@@ -1,0 +1,9 @@
+﻿<textcomponents>
+<component id="ID_title_01">
+<text><![CDATA[<b>Руководство по эксплуатационной среде</b>]]></text>
+</component>
+<component id="ID_body01">
+  <text><![CDATA[<textformat blockindent='-16'><LI>Берегите бумагу от влаги.</LI><LI>Держите принтер в прохладной, защищенной от пыли среде.</LI><LI>Храните тонер в чистой, сухой среде.</LI><LI>Очищайте стекло в сканерах.</LI></textformat>]]></text> 
+  </component>
+
+</textcomponents>

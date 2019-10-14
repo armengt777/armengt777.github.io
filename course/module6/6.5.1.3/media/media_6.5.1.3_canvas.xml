@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide>
+			<element type="IMAGE" src="6_5_1_3.jpg" x="10" y="30" width="470" height="400"/>
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+			<element type="TEXT" compId="ID_internet1" x="18.9" y="46.7" width="56.3" expand="up+down" align="center" size="10" />
+			<element type="TEXT" compId="ID_C1" x="272.85" y="352.25" width="70.3" expand="down" align="left" size="10" />
+			<element type="TEXT" compId="ID_C2" x="343.85" y="308.25" width="70.3" expand="down" align="left" size="10" />
+			<element type="TEXT" compId="ID_C3" x="402.9" y="270.95" width="70.3" expand="down" align="left" size="10" />
+			<element type="TEXT" compId="ID_AO" x="163" y="129.7" width="111.55" expand="up+down" align="center" size="10" />
+			<element type="TEXT" compId="ID_CH" x="285" y="207.25" width="70.3" expand="down" align="center" size="10" class="glow" />
+			<element type="TEXT" compId="ID_CH2" x="220" y="244.7" width="70.3" expand="down" align="center" size="10" class="glow" />
+			<element type="TEXT" compId="ID_CH3" x="157" y="285.95" width="70.3" expand="down" align="center" size="10" class="glow" />
+			<element type="TEXT" compId="ID_AH" x="226" y="161" width="85.4" expand="down" align="left" size="10" class="glow" />
+			<element type="TEXT" compId="ID_ES" x="154.95" y="78.75" width="85.4" expand="down" align="left" size="10" class="glow" />
+			<element type="TEXT" compId="ID_RTR" x="11.45" y="155.6" width="56.3" expand="down" align="center" size="10" />
+			<element type="TEXT" compId="ID_MS" x="5.25" y="219.8" width="62.3" expand="down" align="center" size="10" />
+			<element type="TEXT" compId="ID_WS" x="39.2" y="246.05" width="62.3" expand="down" align="center" size="10" />
+			<element type="TEXT" compId="ID_FS" x="80.15" y="270.8" width="62.3" expand="down" align="center" size="10" />
+			<element type="TEXT" compId="ID_SWT" x="147.6" y="234.35" width="37.2" expand="right" align="left" size="10" class="glow" />
+		</slide>
+	</data>

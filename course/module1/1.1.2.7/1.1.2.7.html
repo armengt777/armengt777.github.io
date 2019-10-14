@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>1.1.2.7 Платы адаптеров и гнезда расширения</title>
+    <!--  -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+	<script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_1.1.2.7_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script>
+  </head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Системы персональных компьютеров</h1>
+        <h2>Внутренние компоненты ПК</h2>
+      </div>
+      <div id="content">
+          <p>Платы адаптеров повышают функциональные возможности компьютера путем добавления контроллеров определенных устройств или замены неисправных портов. На рисунке 1 показано несколько типов карт адаптеров, многие их которых могут быть интегрированы в материнскую плату. Ниже приведены распространенные типы плат адаптеров, используемых для расширения и выполнения индивидуальной настройки возможностей компьютера:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Сетевой адаптер (NIC) </b> &mdash; подключает компьютер к сети с помощью сетевого кабеля.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Беспроводная сетевая карта </b> &mdash; подключает компьютер к сети с помощью радиосвязи.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Звуковой адаптер</b> &mdash; отвечает за функции звука.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Видеоадаптер</b> &mdash; отвечает за функции графики.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Карта захвата</b> &mdash; отправляет видеосигнал компьютеру для записи на жесткий диск с помощью ПО захвата видеосигнала.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Плата ТВ-тюнера </b>&mdash; предоставляет возможность просмотра и записи телевизионных сигналов на ПК при условии, что тюнер карты подключен к эфирной антенне, кабельному или спутниковому ТВ.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Модемный адаптер</b> &mdash; подключает компьютер к Интернету через телефонную линию.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Адаптер SCSI</b> &mdash; подключает к компьютеру устройства SCSI, такие как жесткие диски или ленточные накопители.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Адаптер RAID</b> &mdash; подключает несколько жестких дисков к компьютеру для обеспечения избыточности и улучшения производительности.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Порт USB</b> &mdash; подключает к компьютеру периферийные устройства.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Параллельный порт </b>&mdash; подключает к компьютеру периферийные устройства.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Порт последовательного ввода-вывода </b>&mdash; подключает к компьютеру периферийные устройства.</li>
+            </ul>
+          </p>
+          <p>На материнской плате компьютера имеются гнезда расширения, предназначенные для установки плат адаптера. Тип разъема используемой карты адаптера должен соответствовать гнезду расширения. Типы гнезд расширения приведены на рисунке 2.</p>
+          <p></p>
+          <p>Ранее в компьютерных системах форм-фактора LPX использовалась плата переходника, позволявшая устанавливать карты адаптеров горизонтально. Плата переходника использовалась в основном на малогабаритных настольных компьютерах.</p>
+          <p></p>
+          <p>CNR &mdash; это специальное гнездо, используемое для ряда сетевых или аудиокарт. CNR больше не используется, поскольку множество его функций теперь перемещены на материнскую плату.</p>
+        </div>
+    </div>
+   <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

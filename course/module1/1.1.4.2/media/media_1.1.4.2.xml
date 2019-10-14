@@ -1,0 +1,22 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Типы мониторов</b>]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[<b>Жидкокристаллический, светодиодный и на органических светодиодах</b>]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[<b>Электронно-лучевой монитор</b>]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[<b>Проектор</b>]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Многофункциональный принтер</b>]]></text>
+	</component>
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Динамики и наушники</b>]]></text>
+	</component>
+	
+	
+</textcomponents>

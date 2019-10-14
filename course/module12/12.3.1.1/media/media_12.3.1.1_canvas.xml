@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<data course="ITE" >
+		<slide type="MBAR">
+			<slide>
+				<element type="TEXT" subType="TABLE" compId="ID_table_01" x="14" y="40" width="404" height="320" class="mtable" />
+			</slide>
+
+
+			<slide>
+				<element type="TEXT" subType="TABLE" compId="ID_table_02" x="14" y="40" width="404" height="320" class="mtable" />
+			</slide>
+
+
+			<slide>
+				<element type="TEXT" subType="TABLE" compId="ID_table_03" x="14" y="40" width="404"  height="320" class="mtable" />
+			</slide>
+
+
+			<slide>
+				<element type="TEXT" subType="TABLE" compId="ID_table_04" x="14" y="40" width="404"  height="320" class="mtable" />
+			</slide>
+
+
+			<slide>
+				<element type="TEXT" subType="TABLE" compId="ID_table_05" x="14" y="40" width="404"  height="320" class="mtable" />
+			</slide>
+
+
+			<slide>
+				<element type="TEXT" subType="TABLE" compId="ID_table_06" x="14" y="40" width="404"  height="320" class="mtable"/>
+			</slide>
+
+
+
+			<element type="TEXT" compId="ID_inst" x="5" y="380" width="432.1" expand="up" align="left" size="12" />
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+		</slide>
+	</data>
+
+

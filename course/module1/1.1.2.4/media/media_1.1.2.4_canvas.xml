@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data course="ITE">
+
+		<slide type="MBUTTON">
+			<element type="TEXT" subType="TITLE" compId="ID_title"/>
+			<slide buttonType="BLUE" buttonX="8.85" buttonY="44.85" buttonWidth="160" buttonHeight="16.5" compId="ID_btn01">
+				<element type="TEXTBOX"  bodyId="ID_txt01" x="198" y="40" width="237" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="8.85" buttonY="83.6" buttonWidth="160" buttonHeight="16.5" compId="ID_btn02">
+				<element type="TEXTBOX"  bodyId="ID_txt02" x="198" y="40" width="237" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="8.85" buttonY="122.35" buttonWidth="160" buttonHeight="16.5" compId="ID_btn03">
+				<element type="TEXTBOX"  bodyId="ID_txt03" x="198" y="40" width="237" height="337" />
+			</slide>
+			<slide buttonType="BLUE" buttonX="8.85" buttonY="161.1" buttonWidth="160" buttonHeight="16.5" compId="ID_btn04">
+				<element type="TEXTBOX"  bodyId="ID_txt04" x="198" y="40" width="237" height="337" />
+			</slide>
+		</slide>	
+
+</data>

@@ -1,0 +1,21 @@
+﻿<textcomponents>
+
+
+
+<component id="ID_s1_caption">
+<text><![CDATA[Антистатический браслет применяется для предотвращения повреждения компьютерного оборудования электростатическим разрядом.]]></text>
+</component>
+
+<component id="ID_s2_caption">
+<text><![CDATA[Антистатический коврик препятствует накоплению статического электричества, когда инженер становится на него сам или ставит оборудование во время работы.]]></text>
+</component>
+
+<component id="ID_btn01">
+	<text><![CDATA[<b>Антистатический браслет</b>]]></text>
+</component>
+
+<component id="ID_btn02">
+	<text><![CDATA[<b>Антистатический коврик</b>]]></text>
+</component>
+
+</textcomponents>

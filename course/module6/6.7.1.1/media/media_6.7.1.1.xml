@@ -1,0 +1,37 @@
+﻿<textcomponents>
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	 
+	 <tr class="title">
+	 <td colspan='2' bgcolor='#DAE17A' class="title"><font size='14' color='#393536'><b>Уровень TCP/IP</b></font></td>				
+	 </tr>
+	
+	<tr>
+		<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td valign="top" bgcolor='#A2AA23' width="90" valign="top"><font size='12' color='#ffffff'><b>Уровень TCP/IP</b></font></td>
+		<td valign="top" bgcolor='#A2AA23' valign="top"><font size='12' color='#ffffff'><b>Описание</b></font></td>
+	</tr>
+	 
+	<tr>
+		<td valign="top" bgcolor='#F3F5E7'><font size='12' color='#393536'>Уровень приложений</font></td>
+		<td valign="top" bgcolor='#F3F5E7'><font size='12' color='#393536'>На данном уровне работают протоколы верхнего уровня, такие как SMTP и FTP</font></td> 
+	</tr>
+	<tr>
+		<td valign="top" bgcolor='#FFFFFF'><font size='12' color='#393536'>Транспортный</font></td>
+		<td valign="top" bgcolor='#FFFFFF'><font size='12' color='#393536'>Описывает взаимодействие приложений через отправку ими запросов на указанные порты</font></td> 
+	</tr>
+	<tr>
+		<td valign="top" bgcolor='#F3F5E7'><font size='12' color='#393536'>Уровень межсетевого взаимодействия</font></td>
+		<td valign="top" bgcolor='#F3F5E7'><font size='12' color='#393536'>Уровень обеспечивает IP-адресацию и маршрутизацию</font></td>
+	</tr>
+	
+	<tr>
+		<td valign="top" bgcolor='#FFFFFF'><font size='12' color='#393536'>Сетевой доступ</font></td>
+		<td valign="top" bgcolor='#FFFFFF'><font size='12' color='#393536'>Уровень описывает MAC-адресацию и физические компоненты сети</font></td> 
+	</tr> 
+</table>]]></text>
+</component>
+
+</textcomponents>

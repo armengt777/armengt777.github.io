@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.3.2.6 Протокол ICMP</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.3.2.6_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Основные понятия и технологии организации сетей</h1>
+        <h2>Адресация оборудования в сети</h2>
+      </div>
+      <div id="content">
+          <p>Протокол ICMP используется устройствами в сети для отправки на компьютеры и серверы управляющих сообщений и сообщений об ошибках. Существует несколько способов использования ICMP, например объявление об ошибках сети, объявление о перегрузке сети и устранение неисправностей.</p>
+          <p></p>
+          <p>
+            Для проверки подключений между компьютерами обычно используется команда <b>Ping</b>. <b>Ping</b> &mdash; это простая, но очень полезная служебная программа командной строки, используемая для определения доступности отдельных IP-адресов. Для просмотра списка параметров, которые можно использовать с командой <b>ping</b>, введите C:\&gt;<b>ping /?</b> в окне командной строки.</p>
+          <p></p>
+          <p>Команда<b> ipconfig </b>&mdash; это еще одна полезная служебная программа командной строки, используемая для проверки наличия допустимого IP-адреса у сетевой платы. Для вывода всех сведений о настройке всех сетевых адаптеров введите C:\&gt; <b>ipconfig /all</b> в окне командной строки. Для проверки подключения по IP-адресу можно применить команду <b>ping</b> к IP-адресу, полученному с помощью команды <b>ipconfig /all</b>. </p>
+          <p></p>
+          <p>
+            <b>Ping</b> отправляет эхо-запрос по протоколу ICMP на целевой компьютер или другое сетевое устройство. После этого получающее устройство отправляет ответное сообщение на эхо-запрос по ICMP для подтверждения подключения. Эхо-запросы и ответы на них являются тестовыми сообщениями, определяющими, могут ли устройства обмениваться пакетами. На компьютер назначения отправляются четыре эхо-запроса по протоколу ICMP. Если компьютер назначения доступен, он отправляет четыре ответа на эхо-запрос по протоколу ICMP. Процент успешных ответов помогает определить надежность и доступность компьютера назначения. Другие сообщения ICMP содержат сведения о недоставленных пакетах, а также о том, что устройство слишком занято для обработки пакета. </p>
+          <p></p>
+          <p>Можно также использовать команду <b>ping</b> для поиска IP-адреса узла, если известно имя этого узла. Если выдать команду <b>ping</b> с именем веб-сайта, например cisco.com, как показано на рисунке, отобразится IP-адрес соответствующего сервера.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

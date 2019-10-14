@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.1.5.1 Установка внутренних кабелей питания</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.1.5.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Сборка компьютера</h1>
+        <h2>Установка кабелей</h2>
+      </div>
+      <div id="content">
+          <p>
+            <b>Подключения питания материнской платы</b>
+          </p>
+          <p>Для работы материнской платы требуется электропитание. Основной разъем питания форм-фактора Advanced Technology Extended (ATX) имеет 20 или 24 контакта. Блок питания может также иметь 4-контактный или 6-контактный дополнительный разъем (AUX) для подключения к материнской плате. 20-контактный разъем подойдет для материнской платы с 24-контактным гнездом.</p>
+          <p>Для установки разъема питания материнской платы выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Совместите 20-контактный разъем питания с разъемом на материнской плате (рис. 1).</p>
+          <p>
+            <b>Этап 2. </b>Аккуратно надавите на разъем, пока защелка не встанет на место.</p>
+          <p>
+            <b>Этап 3. </b>Совместите 4-контактный разъем питания AUX с разъемом на материнской плате (рис. 2).</p>
+          <p>
+            <b>Этап 4. </b>Аккуратно надавите на разъем, пока защелка не встанет на место.</p>
+          <p>
+            <b>Разъемы питания SATA</b>
+          </p>
+          <p>Разъемы питания SATA используют 15-контактный разъем. Разъемы питания SATA используются для подключения жестких дисков, оптических приводов и любых других устройств, имеющих разъем питания SATA.</p>
+          <p>
+            <b>Разъемы питания Molex</b>
+          </p>
+          <p>Жесткие диски и оптические приводы, на которых нет разъемов питания SATA, используют разъем Molex.</p>
+          <p>
+            <b>ВНИМАНИЕ</b>! Не используйте одновременно на одном и том же приводе разъемы Molex и SATA.</p>
+          <p>
+            <b>Разъемы питания Berg</b>
+          </p>
+          <p>С помощью 4-контактного разъема питания Berg электропитание подается на привод гибких дисков.</p>
+          <p>Для установки разъемов питания SATA, Molex и Berg выполните следующие действия:</p>
+          <p>
+            <b>Этап 1. </b>Подключите разъем питания SATA к жесткому диску (рис. 3).</p>
+          <p>
+            <b>Этап 2. </b>Подключите разъем питания Molex к оптическому приводу (рис. 4).</p>
+          <p>
+            <b>Этап 3. </b>Подключите 4-контактный разъем питания Berg к приводу гибких дисков (рис. 5).</p>
+          <p>
+            <b>Этап 4. </b>Подключите 3-контактный разъем питания вентилятора к подходящему разъему на материнской плате, руководствуясь инструкциями к материнской плате (рис. 6).</p>
+          <p>
+            <b>Этап 5. </b>Подключите дополнительные кабели корпуса в соответствующие разъемы, руководствуясь инструкциями к материнской плате.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

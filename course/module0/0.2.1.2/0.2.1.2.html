@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>0.2.1.2 Сертификат CompTIA&nbsp;A+</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_0.2.1.2_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Отрасль ИТ</h1>
+        <h2>Сертификаты в отрасли ИТ</h2>
+      </div>
+      <div id="content">
+          <p>Отраслевая ассоциация производителей вычислительной техники (CompTIA) разработала программу сертификации A+. Сертификат CompTIA&nbsp;A+, показанный на рисунке, подтверждает, что кандидат является квалифицированным специалистом по компьютерному оборудованию и программному обеспечению. Сертификаты CompTIA известны в ИТ-сообществе как один из лучших способов войти в сферу ИТ и построить успешную карьеру.</p>
+          <p>Последняя версия CompTIA&nbsp;A+ &mdash; CompTIA&nbsp;A+ в редакции 2012 года. Для получения сертификата необходимо сдать два экзамена: CompTIA&nbsp;A+ 220-801 и CompTIA&nbsp;A+ 220-802.</p>
+          <p>Экзамены CompTIA&nbsp;A+ оценивают умения, необходимые ИТ-специалистам начального уровня, сравнивая их с соответствующими знаниями, получаемыми в результате не менее чем 12 месяцев практического опыта работы или практических занятий на курсах. Кандидаты, сдавшие экзамены, обладают знаниями, необходимыми для сборки компонентов на основе требований заказчика. Кроме того, они умеют устанавливать, настраивать и обслуживать персональные компьютеры, периферийные устройства и программное обеспечение. Для участия в программе они должны быть знакомыми с основами построения сетей и безопасности. Кандидаты должны уметь правильно и уверенно диагностировать, решать и документировать распространенные аппаратные и программные проблемы, оказывать соответствующую поддержку клиентам, понимать основы виртуализации, работы с образами и развертывания.</p>
+          <p>Сертификаты CompTIA до 2011 года являлись бессрочными. Начиная с 2011 года инженеры должны продлевать сертификаты A+ каждые три года с момента получения. Чтобы подтвердить сертификат, необходимо сдать текущий экзамен A+ или пройти программу непрерывного обучения (CE, Continuing Education) CompTIA. Программа непрерывного обучения позволяет получать единицы непрерывного образования (CEU) посредством участия в специальных мероприятиях, которые отражают наличие знаний в соответствующей отрасли. Для продления сертификата A+ необходимо получить двадцать единиц CEU и внести годовую плату за программу непрерывного образования &mdash; 25&nbsp;$ США.</p>
+          <p>Многие сертификаты более высокого уровня (такие как Cisco CCNA, CompTIA Network+ и Microsoft MCSE), полученные или продленные после получения сертификата A+, засчитываются как необходимое количество единиц CEU. Дополнительную информацию о программе непрерывного обучения можно найти веб-сайте CompTIA.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

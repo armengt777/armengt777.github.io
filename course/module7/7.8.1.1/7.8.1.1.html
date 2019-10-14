@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.8.1.1 Обзор</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.8.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Ноутбуки</h1>
+        <h2>Обзор</h2>
+      </div>
+      <div id="content">
+          <p>Данная глава посвящена функциям и возможностям ноутбуков, а также вопросам снятия и установки внутренних и внешних компонентов. Вот основные понятия этой главы, которые необходимо запомнить:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>ноутбуки уникальны благодаря компактности и возможности работать от аккумулятора.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>В настольных компьютерах и ноутбуках используются одинаковые типы портов, поэтому их периферийные устройства являются взаимозаменяемыми.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Важные устройства ввода, такие как клавиатура и сенсорная панель, встроены в ноутбуки. Их функции те же, что и на настольных компьютерах.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Как правило, внутренние компоненты ноутбуков имеют меньший размер, чем компоненты настольных компьютеров, поскольку разработаны таким образом, чтобы умещаться в ограниченном пространстве и экономить электроэнергию.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Ноутбуки оснащены функциональными клавишами, которые можно нажимать в сочетании с клавишей Fn. Функции, выполняемые при нажатии таких клавиш, зависят от модели ноутбука.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Функциональные возможности ноутбука можно увеличить с помощью док-станций и репликаторов портов, поскольку они обеспечивают те же порты, которые имеются на настольных компьютерах.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>На ноутбуках, как правило, установлены ЖК- или светодиодные мониторы.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Для подсветки мониторов используются задняя подсветка и инверторы.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Параметры питания аккумуляторов ноутбука можно настроить таким образом, чтобы его заряд использовался эффективно.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Ноутбуки могут быть оснащены рядом беспроводных технологий, включая Bluetooth, ИК-технологии, Wi-Fi и возможность доступа к сотовым беспроводным сетям.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Существует ряд возможностей по расширению функциональности ноутбуков. Для повышения производительности можно добавлять память, для повышения объема хранения данных можно использовать флэш-память. Кроме того, функциональность можно добавить с помощью плат расширения.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Компоненты ноутбука подразделяются на заменяемые пользователем или заменяемые техническим специалистом.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Чтобы продлить срок службы ноутбука, необходимо регулярно выполнять очистку его компонентов.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

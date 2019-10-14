@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.2.2.3 Настройки безопасности BIOS</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.2.2.3_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Загрузка компьютера</h1>
+        <h2>Настройка BIOS</h2>
+      </div>
+      <div id="content">
+          <p>BIOS может поддерживать множество различных функций безопасности для защиты параметров BIOS и данных на жестком диске, а также для того, чтобы помочь восстановить компьютер в случае кражи. В BIOS существует несколько общих функций безопасности.</p>
+          <p></p>
+          <p>
+            <b>BIOS passwords</b> &mdash; как показано на рисунке, пароли предоставляют различные уровни доступа к параметрам BIOS.</p>
+          <p>
+            <ul>
+              <li>Supervisor Password (Пароль администратора) &mdash; этот пароль предоставляет доступ ко всем пользовательским паролям и всем экранам и параметрам BIOS.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>User Password (Пользовательский пароль) &mdash; этот пароль становится доступным после включения пароля администратора. Используйте этот пароль для определения уровня доступа для пользователей. </li>
+            </ul>
+          </p>
+          <p>Ниже приводятся некоторые общие уровни доступа пользователей:</p>
+          <p>
+            <ul>
+              <li>Full Access (Полный доступ) &mdash; доступны все экраны и параметры, кроме параметра пароля администратора.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Limited (Ограниченный) &mdash; дает право на изменение только некоторых параметров, например времени и даты.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>View Only (Только просмотр) &mdash; доступны все экраны, но нет прав на изменение параметров.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>No Access (Нет доступа) &mdash; доступ к программе настройки BIOS отсутствует.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Drive encryption</b> &mdash; для предотвращения кражи данных жесткий диск может быть зашифрован. Шифрование преобразует данные в код, недоступный для понимания. Без правильного пароля компьютер не загружается и не может выполнить расшифровку данных. Даже если поместить жесткий диск в другой компьютер, зашифрованные данные таковыми и останутся. </p>
+          <p>
+            <b>Trusted Platform Module</b> &mdash; модуль TPM содержит такие элементы безопасности, как ключи шифрования и пароли. </p>
+          <p>
+            <b>Lojack</b> &mdash; двухкомпонентная система от Absolute Software для защиты компьютеров. Первый компонент &mdash; модуль сохранения данных &mdash; устанавливается в BIOS изготовителем. Второй компонент &mdash; агент приложений &mdash; устанавливается пользователем. При установке агента приложений активируется модуль сохранения данных. Если агент приложений удаляется с компьютера, модуль сохранения данных производит его установку. Модуль сохранения данных нельзя отключить после активации. Агент приложений через Интернет отправляет в Центр мониторинга компании Absolute информацию об устройстве и его местонахождении по расписанию. В случае кражи компьютера владелец может связаться с Absolute Software и выполнить следующие действия:</p>
+          <p>
+            <ul>
+              <li>Удаленно заблокировать компьютер.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Вывести на его экран сообщение о потере компьютера и просьбу вернуть его владельцу.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Удалить из компьютера все конфиденциальные данные.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Найти компьютер с помощью технологии определения географических координат.</li>
+            </ul>
+          </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

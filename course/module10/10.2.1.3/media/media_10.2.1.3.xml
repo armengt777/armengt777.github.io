@@ -1,0 +1,8 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Политика безопасности</b>]]></text>
+</component>
+<component id="ID_text01">
+<text><![CDATA[<b>Политика<br>безопасности</b>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,41 @@
+﻿<textcomponents> 
+	<component id="ID_table">
+		<text><![CDATA[
+				<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				
+				<tr class="title">
+					<td colspan='3' bgcolor='#DAE17A' class="title" ><font size='14' color='#393536'><b>Стандарты Ethernet</b></font></td>
+				</tr>
+				<tr>
+					<td colspan='3' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+				</tr> 
+				
+				<tr>
+					<td bgcolor='#A2AA23' width='115' valign="top"><font  color='#ffffff'><b>Стандарты Ethernet</b></font></td>
+					<td bgcolor='#A2AA23' valign="top"><font color='#ffffff'><b>Носители</b></font></td>
+					<td bgcolor='#A2AA23' valign="top"><font color='#ffffff'><b>Скорости передачи</b></font></td>
+				</tr>  
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12'color='#393536'>10BASE-T</font></td>
+					<td bgcolor='#F3F5E7' width="100px"><font size='12' color='#393536' >Категории 3</font></td> 
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Передача данных со скоростью 10 Мбит/с.</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>100BASE-TX</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Категории 5</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>На скорости 100 Мбит/с скорости передачи 100BASE-TX в десять раз выше скоростей 10BASE-T.</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>1000BASE-T</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Категория 5e, 6</font></td>
+					<td bgcolor='#F3F5E7' valign="top"><font size='12' color='#393536'>Архитектура 1000BASE-T поддерживает скорости передачи данных до 1 Гб/с.</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>10GBASE-T</font></td>			
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Категория 6a, 7</font></td>
+					<td bgcolor='#FFFFFF' valign="top"><font size='12' color='#393536'>Архитектура 10GBASE-T поддерживает скорости передачи данных до 10 Гб/с.</font></td>
+				</tr>	 
+			</table>]]>
+		</text>
+	</component> 
+</textcomponents>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>6.3.3.1 Протоколы TCP и UDP</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_6.3.3.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Основные понятия и технологии организации сетей</h1>
+        <h2>Стандартные порты и протоколы</h2>
+      </div>
+      <div id="content">
+          <p>Протокол представляет собой набор правил. Протоколы Интернета &mdash; это наборы правил, регулирующие обмен данными внутри компьютера и между компьютерами в сети. Спецификации протокола определяют формат сообщений, участвующих в обмене. При отправке письма по почте также используется протокол. Часть протокола определяет, где на конверте следует писать адрес получателя. Если адрес получателя написан в неправильном месте, письмо не будет доставлено.</p>
+          <p>Для надежной доставки пакетов важны сроки. Согласно протоколам, сообщения должны поступать в течение определенных промежутков времени, чтобы компьютерам не приходилось неопределенный период времени ждать сообщения, которые могли быть потеряны. При передаче данных системы используют один или несколько таймеров. Протоколы также инициируют дополнительные действия, если сеть не укладывается во время, определенное правилами. </p>
+          <p>Ниже перечислены основные функции протоколов:</p>
+          <p>
+            <ul>
+              <li>Идентификация и обработка ошибок</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Сжатие данных </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Определение порядка разделения данных и формирования пакетов</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Назначение адресов пакетам данных</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Определение порядка объявления отправки и получения пакетов данных</li>
+            </ul>
+          </p>
+          <p>Устройства и компьютеры, подключенные к Интернету, используют пакет протоколов TCP/IP для обмена данными друг с другом. Информация чаще всего передается по двум протоколам &mdash; TCP и UDP, &mdash; как показано на рисунке.</p>
+          <p>При проектировании сети необходимо определить протоколы, которые будут использоваться. Некоторые протоколы являются закрытыми и работают только на конкретном оборудовании, другие соответствуют открытым стандартам и работают на различном оборудовании.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

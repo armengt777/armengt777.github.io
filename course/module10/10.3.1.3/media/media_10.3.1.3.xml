@@ -1,0 +1,40 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Типы резервного копирования</b>]]></text>
+</component>
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>	
+	<tr class="liner">
+		<td colspan='2' bgcolor='#434321' class="liner"><font size='1' color='#434321' class="liner"><span style="color:#DAE17A">.</span></font></td>
+	</tr> 
+	<tr>
+    <td bgcolor='#A2AA23' width='130' valign="top" class="width"><font  color='#FFFFFF'><b class="subHeaderFont">Тип резервного копирования</b></font></td>
+	<td bgcolor='#A2AA23' valign="top" class="width1"><font  color='#FFFFFF'><b class="subHeaderFont">Описание</b></font></td>		
+	</tr>
+	
+	<tr><td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Полное или обычное </font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Этот тип резервного копирования используется для того, чтобы скопировать все выбранные файлы и пометить их как имеющих резервные копии.</font></td>	
+	</tr>
+    <tr><td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Последовательное резервное копирование</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Этот тип резервного копирования используется для резервного копирования только тех файлов, которые были созданы или изменены с момента последнего полного или последовательного резервного копирования. Для восстановления файлов необходим набор последнего полного резервного копирования и все наборы последовательных резервных копирований.</font></td>	
+	</tr>
+    
+     <tr><td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Разностное резервное копирование </font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Этот тип резервного копирования используется для копирования только тех файлов, которые были созданы или изменены с момента последнего полного копирования. Для восстановления файлов необходимо последнее полное резервное копирование и одно разностное резервное копирование.
+</font></td>	
+	</tr>
+	
+    
+     <tr><td bgcolor='#FFFFFF' valign="top"><font color='#393536'>Ежедневное </font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>При использовании этого типа резервного копирования копируются все выбранные файлы, измененные в день выполнения этого ежедневного резервного копирования.</font></td>	
+	</tr>
+	
+     <tr><td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Копирование </font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>Этот тип резервного копирования используется для копирования всех выбранных файлов, но они не отмечаются как имеющие резервные копии.</font></td>	
+	</tr>
+</table>
+]]>
+</text>
+</component>
+
+</textcomponents>

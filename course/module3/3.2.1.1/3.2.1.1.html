@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>3.2.1.1 Коды звуковых сигналов и настройка BIOS</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_3.2.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Загрузка компьютера</h1>
+        <h2>POST и BIOS</h2>
+      </div>
+      <div id="content">
+          <p>Во время загрузки компьютера базовая система ввода-вывода (BIOS) выполняет базовую проверку оборудования. Эта проверка называется самотестированием при включении питания (Power-On Self Test, POST).</p>
+          <p>Как показано на рисунке 1, во время POST проверяется, правильно ли работает оборудование компьютера. При обнаружении неправильной работы какого-либо устройства инженер узнает о проблеме, получая уведомление об ошибке или звуковой сигнал. Как правило, одиночный звуковой сигнал означает, что компьютер работает нормально. В случае обнаружения проблем с оборудованием компьютер может вывести чистый экран при загрузке и подать серию звуковых сигналов. Каждый производитель BIOS использует собственные коды для обозначения проблем с оборудованием. На рисунке 2 приведена таблица кодов звуковых сигналов. Коды для конкретного компьютера может быть другими. Коды звуковых сигналов для конкретного компьютера приведены в документации к материнской плате.</p>
+          <p></p>
+          <p>
+            <b>Карта POST</b>
+          </p>
+          <p>При устранении неисправности компьютера в условиях, когда невозможно вывести изображение на экран, можно использовать карту POST. Карта POST вставляется в разъём на материнской плате, например в PCI или PCIe. Если при запуске компьютера обнаруживаются ошибки, компьютер выдает код, отображающийся на карте POST. Этот код используется для диагностики неполадки с помощью данных от производителя материнской платы, BIOS или карты POST.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

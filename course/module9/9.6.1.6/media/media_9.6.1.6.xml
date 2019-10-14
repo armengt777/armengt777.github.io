@@ -1,0 +1,31 @@
+﻿<textcomponents>
+ <component id="ID_table">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 6: Документирование полученных данных, принятых мер и результатов</b></font></td>
+	</tr> 
+          <tr>
+          <td colspan='2' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td width="150" valign="top" bgcolor='#F3F5E7'>
+            <font color='#393536'>Задокументируйте полученные данные, принятые меры и результаты</font>
+          </td>
+          <td  valign="top" bgcolor='#F3F5E7'><font color='#393536'>
+        <textformat blockindent='-18'><li>Обсудите примененное решение <span id="spacer">с заказчиком.</span></li>
+			  <li>Попросите заказчика убедиться, что неполадка <span id="spacer">устранена.</span></li>
+			  <li>Предоставьте заказчику все <span id="spacer">бумаги.</span></li>
+			  <li>Задокументируйте действия, предпринятые <span id="spacer">для устранения неполадки, в заказе на обслуживание и </span> <span id="spacer">в журнале инженера.</span></li>
+			  <li>Задокументируйте компоненты, использованные <span id="spacer">при ремонте.</span></li>
+			  <li>Задокументируйте время, ушедшее на разрешение <span id="spacer">проблемы.</span></li></textformat></font></td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+</textcomponents>
+

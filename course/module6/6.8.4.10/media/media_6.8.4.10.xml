@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Подключение через программный клиент VPN</b>]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>9.2.1.4 Принтеры ударного действия</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_9.2.1.4_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Типы принтеров</h1>
+        <h2>Типы принтеров</h2>
+      </div>
+      <div id="content">
+          <p>Печатающие головки принтеров ударного действия бьют по красящей ленте, и таким образом символы отпечатываются на бумаге. Примерами принтеров ударного действия являются точечно-матричные и лепестковые принтеры.</p>
+          <p>Ниже представлены некоторые преимущества принтеров ударного действия:</p>
+          <p>
+            <ul>
+              <li>в них используются более дешевые чернила, чем в струйных и лазерных принтерах;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>используется фальцованная бумага; </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>имеется возможность получения копий под копирку. </li>
+            </ul>
+          </p>
+          <p>Ниже представлены некоторые недостатки принтеров ударного действия:</p>
+          <p>
+            <ul>
+              <li>высокий уровень шума; </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>низкое разрешение изображений; </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ограниченные цветовые возможности. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Типы принтеров ударного действия</b>
+          </p>
+          <p>В лепестковом принтере используется колесо, содержащее буквы, цифры и специальные символы. Колесо вращается до тех пор, пока нужный символ не попадает на свое место, а затем электромеханический молоток прижимает символ к красящей ленте. Затем символ ударяется о бумагу, оставляя на ней отпечаток.</p>
+          <p>Принцип работы точечно-матричного принтера схож с лепестковым. Отличие состоит в том, что вместо колеса в нем используется печатающая головка, в которой содержатся иголочки, окруженные электромагнитами. При подаче энергии иголочки нажимают на красящую ленту и оставляют оттиск символа на бумаге. В печатающей головке может быть 9 или 24 иголочки, в зависимости от качества печати. Максимальное качество печати на точечно-матричном принтере достигается в режиме печати с типографским качеством (near letter quality &mdash; NLQ). </p>
+          <p>В большинстве точечно-матричных принтеров используется фальцованная бумага, также известная как бумага тракторной подачи. Эта бумага имеет перфорацию между каждой страницей, а полосы перфорации сбоку используются для подачи бумаги и предотвращения смещений. Устройства подачи листов, которые печатают по одной странице за раз, используются в некоторых принтерах более высокого качества. Большой вал, называемый опорным валом, прижимает бумагу, чтобы она не проскальзывала. Если используется фальцованная самокопирующая бумага, то можно подстроить зазор опорного вала под толщину бумаги. </p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

@@ -1,0 +1,31 @@
+﻿<textcomponents>
+	
+	
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Диспетчер устройств</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[<font  color='#FFFFFF'><b>Значок диспетчера устройств</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[<font  color='#FFFFFF'><b>Пояснение</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[В устройстве обнаружена ошибка. Для пояснения проблемы отображен код проблемы.]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Устройство отключено. Устройство установлено на компьютер, но для него не загружен драйвер.]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Устройство выбрано вручную. Для устройства не выбран вариант «Автоматическая настройка».]]></text>
+	</component>
+	
+	<component id="ID_s2_txt06">
+		<text><![CDATA[Драйвер для данного устройства недоступен. Установлен совместимый драйвер.]]></text>
+	</component>
+
+</textcomponents>

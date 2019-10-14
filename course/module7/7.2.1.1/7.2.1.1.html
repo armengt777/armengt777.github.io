@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+
+
+    <meta charset="UTF-8"/>
+    <title>7.2.1.1 ЖК-мониторы, светодиодные мониторы, мониторы на органических светодиодах и плазменные</title>
+    <!-- Content -->
+    <link type="text/css" rel="stylesheet" href="../../common/styles/course.css"/>
+	<script type="text/javascript" src="../../common/scripts/jquery_bundle.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script> <script>
+      var myLayout; 
+      $(document).ready(function () {
+        var frame = document.getElementById('mainFrame');
+        if (isTextOnly(window)) {
+          frame.setAttribute('src', 'media_7.2.1.1_longdesc.txt');
+        } else {
+          frame.setAttribute('src', 'media/index.html');
+        }
+    	myLayout = $('body').layout({
+          west__size: 300,
+          west__minSize: 300,
+          center__minWidth: 100,
+          stateManagement__enabled: true,
+          maskIframesOnResize: true,
+          livePaneResizing: true,
+          onresize_end: resizeTextDiv,
+          stateManagement__cookie__name: "ui_pane_ru",
+          stateManagement__cookie__expires: 1,
+          stateManagement__cookie__path: "/"
+        });
+      });
+      function resizeTextDiv() {
+        var DivHeight = document.getElementById("header").offsetHeight;
+        document.getElementById("content").style.top = String(DivHeight) + 'px';
+      }
+    </script></head>
+  <body class="onecolumn" onLoad="resizeTextDiv()">
+    <div class="ui-layout-west">
+      <div id="header">
+        <h1>Компоненты монитора ноутбука</h1>
+        <h2>Сравнение типов мониторов</h2>
+      </div>
+      <div id="content">
+          <p>Мониторы ноутбуков являются встроенными. Они похожи на мониторы для настольных компьютеров, за исключением того, что разрешение, яркость и контрастность регулируются с использованием ПО или кнопок. Нельзя изменить высоту монитора ноутбука или расстояние, на котором он находится, поскольку он интегрирован в крышку корпуса. Монитор для настольного компьютера можно подключить к ноутбуку, чтобы пользователю было удобнее работать с несколькими мониторами, как показано на рисунке.</p>
+          <p></p>
+          <p>Существует четыре типа экранов ноутбуков:</p>
+          <p>
+            <ul>
+              <li>ЖК</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Светодиодные</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Мониторы на органических светодиодах</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Плазменные</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Светодиодные мониторы потребляют меньше электроэнергии и являются более долговечными по сравнению с ЖК-мониторами. В мобильных устройствах и цифровых фотоаппаратах широко используются мониторы на органических светодиодах. Кроме того, они используются в перспективных моделях ноутбуков. По мере развития технологий этот тип мониторов получит более широкое распространение. Плазменные мониторы редко используются в ноутбуках, поскольку потребляют большую мощность.</p>
+          <p></p>
+          <p>На крышке многих ноутбуков находится небольшой контакт с переключателем, который срабатывает при закрытии крышки. Он называется выключателем ЖК-панели. Выключатель ЖК-панели помогает сохранить заряд аккумулятора, отключая заднюю подсветку и монитор. Если выключатель сломан или загрязнен, ЖК-монитор остается темным даже после того, как крышка открыта. Тщательно очистите его, чтобы ноутбук вернулся к обычному режиму работы.</p>
+        </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" frameborder="0" class="ui-layout-center" alt="interactive graphic"></iframe>
+  </body>
+</html>
+

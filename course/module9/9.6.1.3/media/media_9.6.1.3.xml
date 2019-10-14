@@ -1,0 +1,35 @@
+﻿<textcomponents>
+<component id="ID_table">
+    <text>
+      <![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	  <tr class="title">
+		<td bgcolor='#DAE17A' colspan='2' class="title"><font size='14' color='#393536'><b>Этап 3: Проверка выводов, сделанных о причине неполадки</b></font></td>
+	</tr> 
+               <tr>
+          <td colspan='2' bgcolor='#434321' class="liner_top">
+            <font size='1' color='#434321'>
+              <span style="color:#DAE17A">.</span>
+            </font>
+          </td>
+        </tr>
+        <tr>
+          <td width="150" valign="top" bgcolor='#F3F5E7'>
+            <font color='#393536'>Стандартные действия для определения причины</font>
+          </td>
+          <td  valign="top" bgcolor='#F3F5E7'>
+            <font color='#393536'>
+							<textformat blockindent='-18'><li>Перезапустите принтер или сканер.</li>
+							<li>Отключите и снова подключите <span id="spacer">кабели.</span></li>
+							<li>Перезагрузите компьютер.</li>
+							<li>Проверьте, нет ли застревания бумаги в принтере.</li>
+							<li>Извлеките из лотков бумагу и вставьте ее обратно.</li>
+							<li>Откройте и закройте лотки принтера.</li>
+							<li>Убедитесь, что дверцы принтера закрыты.</li>
+							<li>Установите новый картридж с чернилами или тонером.</li></textformat></font>
+          </td>
+        </tr>
+      </table>]]>
+    </text>
+  </component>
+</textcomponents>
+
